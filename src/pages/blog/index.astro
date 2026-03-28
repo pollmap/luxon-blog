@@ -3,16 +3,12 @@ import { getCollection } from 'astro:content';
 const allPosts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-// 카테고리 목록
-const CATEGORIES = [
-  { tag: '지정학', label: '지정학', emoji: '🌍' },
-  { tag: '게임이론', label: '게임이론', emoji: '♟️' },
-  { tag: '퀀트', label: '퀀트', emoji: '📊' },
-  { tag: '매크로경제', label: '매크로경제', emoji: '📈' },
-  { tag: 'AI', label: 'AI·기술', emoji: '🤖' },
-  { tag: '크립토', label: '크립토', emoji: '₿' },
-  { tag: 'ORACLE리서치', label: 'ORACLE 리서치', emoji: '🔬' },
-];
+// 태그 자동 집계 (하드코딩 없음)
+const tagCounts = allPosts.flatMap(p => p.data.tags || []).reduce((acc, tag) => {
+  acc[tag] = (acc[tag] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
 
 const selectedTag = Astro.url.searchParams.get('tag') || '';
 const posts = selectedTag
@@ -69,15 +65,11 @@ const posts = selectedTag
 
     <div class="cats">
       <a href={`${base}/blog`} class={`cat cat-all ${!selectedTag ? 'active' : ''}`}>ALL ({allPosts.length})</a>
-      {CATEGORIES.map(c => {
-        const count = allPosts.filter(p => (p.data.tags || []).includes(c.tag)).length;
-        if (count === 0) return null;
-        return (
-          <a href={`${base}/blog?tag=${c.tag}`} class={`cat ${selectedTag === c.tag ? 'active' : ''}`}>
-            {c.emoji} {c.label} ({count})
-          </a>
-        );
-      })}
+      {sortedTags.map(([tag, count]) => (
+        <a href={`${base}/blog?tag=${tag}`} class={`cat ${selectedTag === tag ? 'active' : ''}`}>
+          {tag} ({count})
+        </a>
+      ))}
     </div>
 
     {posts.length === 0 ? (
