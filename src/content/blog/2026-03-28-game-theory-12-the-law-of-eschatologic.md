@@ -3,7 +3,7 @@ title: "Game Theory #12: The Law of Eschatological Convergence"
 date: 2026-03-28
 description: "PredictiveHistory 장 교수 강의 분석 — Game Theory 시리즈"
 heroImage: "https://images.pexels.com/photos/11816424/pexels-photo-11816424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "게임이론", "역사분석", "PredictiveHistory"]
+tags: [지정학, 게임이론, 역사분석, PredictiveHistory]
 youtubeId: "spg58Glfz68"
 series: "Game Theory"
 ---

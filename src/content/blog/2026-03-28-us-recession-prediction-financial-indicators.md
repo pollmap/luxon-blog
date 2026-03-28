@@ -3,7 +3,7 @@ title: "미국 경기침체 예측의 재발견: 금융변수의 시간지평별
 date: 2026-03-28
 description: "Luxon AI ORACLE/DOGE 리서치팀 분석 — 미국 경기침체 예측의 재발견: 금융변수의 시간지평별 선행성 분석"
 heroImage: "https://images.pexels.com/photos/6289066/pexels-photo-6289066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [퀀트, 금융수학, 매크로경제, ORACLE리서치]
+tags: [퀀트, 금융수학, 매크로경제, 퀀트리서치]
 ---
 
 # 미국 경기침체 예측의 재발견: 금융변수의 시간지평별 선행성 분석

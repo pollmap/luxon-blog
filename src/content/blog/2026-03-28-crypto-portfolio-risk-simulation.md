@@ -3,7 +3,7 @@ title: "암호화폐 포트폴리오 리스크: 모듈형 시뮬레이션 프레
 date: 2026-03-28
 description: "Luxon AI ORACLE/DOGE 리서치팀 분석 — 암호화폐 포트폴리오 리스크: 모듈형 시뮬레이션 프레임워크의 이해"
 heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [크립토, 퀀트, 온체인, ORACLE리서치]
+tags: [크립토, 퀀트, 온체인, 퀀트리서치]
 ---
 
 # 암호화폐 포트폴리오 리스크: 모듈형 시뮬레이션 프레임워크의 이해

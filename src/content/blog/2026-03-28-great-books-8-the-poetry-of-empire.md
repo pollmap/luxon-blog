@@ -3,7 +3,7 @@ title: "Great Books #8: The Poetry of Empire"
 date: 2026-03-28
 description: "PredictiveHistory 장 교수 강의 분석 — Great Books 시리즈"
 heroImage: "https://images.pexels.com/photos/3224223/pexels-photo-3224223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["신화", "고전", "철학", "역사", "PredictiveHistory"]
+tags: [신화, 고전, 철학, 역사, PredictiveHistory]
 youtubeId: "YXTRlvFIRt8"
 series: "Great Books"
 ---
