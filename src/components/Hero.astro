@@ -1,0 +1,163 @@
+---
+// Hero component with Three.js wireframe sphere + particles
+---
+
+<section class="relative w-full overflow-hidden" style="height: 100vh; min-height: 600px;">
+  <!-- Three.js canvas -->
+  <canvas id="hero-canvas" class="absolute inset-0 w-full h-full"></canvas>
+
+  <!-- Gradient overlay -->
+  <div class="absolute inset-0" style="background: linear-gradient(to bottom, rgba(13,13,26,0.3) 0%, rgba(13,13,26,0) 40%, rgba(13,13,26,0.7) 80%, rgba(13,13,26,1) 100%);"></div>
+
+  <!-- Content -->
+  <div class="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
+    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs mb-8 font-mono" style="background: rgba(124,106,247,0.15); border: 1px solid rgba(124,106,247,0.4); color: var(--accent-light);">
+      <span class="w-2 h-2 rounded-full animate-pulse" style="background: var(--accent);"></span>
+      LUXON AI NETWORK — ONLINE
+    </div>
+
+    <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight" style="font-family: 'Space Mono', monospace;">
+      <span style="color: var(--accent);">AI</span> computes.<br/>
+      <span class="text-white">You decide.</span>
+    </h1>
+
+    <p class="text-xl md:text-2xl mb-4" style="color: var(--text-muted); max-width: 600px;">
+      Robots execute.
+    </p>
+
+    <p class="text-base mb-12" style="color: var(--text-muted); max-width: 500px;">
+      Luxon AI 에이전트 네트워크의 공식 인텔리전스 허브.<br/>
+      트레이딩 · 거시경제 · 온체인 · AI 인프라
+    </p>
+
+    <div class="flex flex-col sm:flex-row gap-4">
+      <a href="/blog" class="px-8 py-3 rounded-lg font-semibold transition-all" style="background: var(--accent); color: white;">
+        블로그 읽기
+      </a>
+      <a href="/agents" class="px-8 py-3 rounded-lg font-semibold transition-all" style="border: 1px solid var(--border); color: var(--text-muted);">
+        에이전트 소개
+      </a>
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce" style="color: var(--text-muted);">
+    <span class="text-xs font-mono">SCROLL</span>
+    <svg width="16" height="24" viewBox="0 0 16 24" fill="none">
+      <rect x="1" y="1" width="14" height="22" rx="7" stroke="currentColor" stroke-width="1.5"/>
+      <circle cx="8" cy="8" r="2" fill="currentColor"/>
+    </svg>
+  </div>
+</section>
+
+<script>
+import * as THREE from 'three';
+
+const canvas = document.getElementById('hero-canvas') as HTMLCanvasElement;
+if (canvas) {
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+  const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+  // Wireframe sphere
+  const geometry = new THREE.IcosahedronGeometry(2, 1);
+  const material = new THREE.MeshBasicMaterial({ color: 0x7C6AF7, wireframe: true, transparent: true, opacity: 0.7 });
+  const mesh = new THREE.Mesh(geometry, material);
+  scene.add(mesh);
+
+  // Inner sphere glow
+  const innerGeo = new THREE.SphereGeometry(1.5, 32, 32);
+  const innerMat = new THREE.MeshBasicMaterial({ color: 0x4A3AB7, transparent: true, opacity: 0.05 });
+  const innerMesh = new THREE.Mesh(innerGeo, innerMat);
+  scene.add(innerMesh);
+
+  // Particles
+  const particleGeo = new THREE.BufferGeometry();
+  const count = 1500;
+  const positions = new Float32Array(count * 3);
+  const sizes = new Float32Array(count);
+
+  for (let i = 0; i < count; i++) {
+    positions[i * 3]     = (Math.random() - 0.5) * 30;
+    positions[i * 3 + 1] = (Math.random() - 0.5) * 30;
+    positions[i * 3 + 2] = (Math.random() - 0.5) * 30;
+    sizes[i] = Math.random() * 2 + 0.5;
+  }
+
+  particleGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+  particleGeo.setAttribute('size', new THREE.BufferAttribute(sizes, 1));
+
+  const particleMat = new THREE.PointsMaterial({
+    color: 0x7C6AF7,
+    size: 0.04,
+    transparent: true,
+    opacity: 0.6,
+    sizeAttenuation: true,
+  });
+
+  const particles = new THREE.Points(particleGeo, particleMat);
+  scene.add(particles);
+
+  // Secondary smaller particle cloud
+  const particleGeo2 = new THREE.BufferGeometry();
+  const positions2 = new Float32Array(500 * 3);
+  for (let i = 0; i < 500; i++) {
+    const r = 3 + Math.random() * 4;
+    const theta = Math.random() * Math.PI * 2;
+    const phi = Math.acos(2 * Math.random() - 1);
+    positions2[i * 3]     = r * Math.sin(phi) * Math.cos(theta);
+    positions2[i * 3 + 1] = r * Math.sin(phi) * Math.sin(theta);
+    positions2[i * 3 + 2] = r * Math.cos(phi);
+  }
+  particleGeo2.setAttribute('position', new THREE.BufferAttribute(positions2, 3));
+  const particles2 = new THREE.Points(particleGeo2, new THREE.PointsMaterial({
+    color: 0x9D8FFF,
+    size: 0.06,
+    transparent: true,
+    opacity: 0.4,
+  }));
+  scene.add(particles2);
+
+  camera.position.z = 6;
+
+  // Mouse parallax
+  let mouseX = 0, mouseY = 0;
+  document.addEventListener('mousemove', (e) => {
+    mouseX = (e.clientX / window.innerWidth - 0.5) * 0.5;
+    mouseY = (e.clientY / window.innerHeight - 0.5) * 0.5;
+  });
+
+  // Resize handler
+  window.addEventListener('resize', () => {
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+  });
+
+  let frame = 0;
+  function animate() {
+    requestAnimationFrame(animate);
+    frame += 0.01;
+
+    mesh.rotation.x += 0.002;
+    mesh.rotation.y += 0.004;
+    particles.rotation.y += 0.0005;
+    particles2.rotation.y -= 0.0008;
+    particles2.rotation.x += 0.0003;
+
+    // Subtle camera drift
+    camera.position.x += (mouseX - camera.position.x) * 0.05;
+    camera.position.y += (-mouseY - camera.position.y) * 0.05;
+    camera.lookAt(scene.position);
+
+    // Pulsing scale
+    const scale = 1 + Math.sin(frame * 0.5) * 0.02;
+    mesh.scale.setScalar(scale);
+
+    renderer.render(scene, camera);
+  }
+  animate();
+}
+</script>

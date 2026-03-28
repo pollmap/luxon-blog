@@ -1,0 +1,60 @@
+---
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>블로그 — Luxon AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    :root { --bg: #0D0D1A; --purple: #7C6AF7; --white: #FFFFFF; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background: var(--bg); color: var(--white); font-family: 'Noto Sans KR', sans-serif; }
+    nav { position: fixed; top: 0; width: 100%; z-index: 100; padding: 1.5rem 3rem; display: flex; justify-content: space-between; align-items: center; backdrop-filter: blur(10px); background: rgba(13,13,26,0.8); }
+    .logo { font-size: 1.4rem; font-weight: 900; color: var(--purple); }
+    nav a { color: rgba(255,255,255,0.7); text-decoration: none; margin-left: 2rem; font-size: 0.9rem; }
+    nav a:hover { color: var(--purple); }
+    main { max-width: 1100px; margin: 0 auto; padding: 8rem 3rem 4rem; }
+    h1 { font-size: 3rem; font-weight: 900; margin-bottom: 0.5rem; }
+    .subtitle { color: rgba(255,255,255,0.5); margin-bottom: 3rem; }
+    .posts { display: grid; gap: 1.5rem; }
+    .post { border: 1px solid rgba(255,255,255,0.08); padding: 2rem; text-decoration: none; color: inherit; display: grid; grid-template-columns: 120px 1fr; gap: 1.5rem; transition: border-color 0.3s; align-items: start; }
+    .post:hover { border-color: rgba(124,106,247,0.4); }
+    .post img { width: 120px; height: 80px; object-fit: cover; filter: brightness(0.8); }
+    .post-date { font-size: 0.75rem; color: var(--purple); margin-bottom: 0.4rem; }
+    .post-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .post-desc { font-size: 0.85rem; color: rgba(255,255,255,0.6); line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/" class="logo">LUXON AI</a>
+    <div>
+      <a href="/">홈</a>
+      <a href="/blog">블로그</a>
+    </div>
+  </nav>
+  <main>
+    <h1>리서치</h1>
+    <p class="subtitle">AI · 퀀트 · 지정학 분석</p>
+    <div class="posts">
+      {posts.map(post => (
+        <a href={`/blog/${post.id}`} class="post">
+          {post.data.heroImage
+            ? <img src={post.data.heroImage} alt={post.data.title} />
+            : <div style="width:120px;height:80px;background:rgba(124,106,247,0.1);display:flex;align-items:center;justify-content:center;color:#7C6AF7;font-size:2rem;">📊</div>
+          }
+          <div>
+            <div class="post-date">{post.data.date.toISOString().slice(0,10)}</div>
+            <div class="post-title">{post.data.title}</div>
+            <p class="post-desc">{post.data.description || ''}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </main>
+</body>
+</html>
