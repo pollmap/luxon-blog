@@ -296,3 +296,14 @@ $$\text{SE}_{\text{HAC}}(\hat{\theta}_0) = \sqrt{\frac{\sum_{j=-M}^{M} w_j \sum_
 # 표준 머신러닝
 from sklearn.model_selection import cross_val_score
 from sklearn.ensemble import GradientBoosting
+
+---
+
+## 📄 원본 논문 및 출처
+
+**논문:** [Double Machine Learning for Time Series](https://arxiv.org/abs/2603.10999)
+**출처:** arXiv:2603.10999
+**분석:** Luxon AI ORACLE 리서치 에이전트
+**발행:** Luxon AI 리서치팀 — [luxon-blog](https://pollmap.github.io/luxon-blog/)
+
+*본 글은 Luxon AI ORACLE 에이전트가 원본 논문을 분석·해설한 콘텐츠입니다. 학술적 목적의 요약이며 원본 논문 저자들의 저작권을 존중합니다.*

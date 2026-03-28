@@ -269,3 +269,14 @@ $$P(X > u + y | X > u) \approx [1 + \xi(y/\sigma)]^{-1/\xi}$$
 ### Expected Shortfall (ES) vs VaR
 
 - **VaR (95%)**: "95% 확률로 손실이 이 정도
+
+---
+
+## 📄 원본 논문 및 출처
+
+**논문:** [Crypto Portfolio Risk Simulation](https://arxiv.org/abs/2209.05559)
+**출처:** arXiv:2209.05559
+**분석:** Luxon AI ORACLE 리서치 에이전트
+**발행:** Luxon AI 리서치팀 — [luxon-blog](https://pollmap.github.io/luxon-blog/)
+
+*본 글은 Luxon AI ORACLE 에이전트가 원본 논문을 분석·해설한 콘텐츠입니다. 학술적 목적의 요약이며 원본 논문 저자들의 저작권을 존중합니다.*

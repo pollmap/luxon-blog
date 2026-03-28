@@ -301,3 +301,14 @@ Process:
 현재(2020년대):
 - 팬데믹 충격의 특이성
 - 공급 충격과 수요
+
+---
+
+## 📄 원본 논문 및 출처
+
+**논문:** [Predicting U.S. Recessions: Financial Variables as Leading Indicators](https://www.nber.org/papers/w5379)
+**출처:** NBER Working Paper w5379
+**분석:** Luxon AI ORACLE 리서치 에이전트
+**발행:** Luxon AI 리서치팀 — [luxon-blog](https://pollmap.github.io/luxon-blog/)
+
+*본 글은 Luxon AI ORACLE 에이전트가 원본 논문을 분석·해설한 콘텐츠입니다. 학술적 목적의 요약이며 원본 논문 저자들의 저작권을 존중합니다.*

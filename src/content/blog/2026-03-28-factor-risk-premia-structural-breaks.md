@@ -300,3 +300,14 @@ ORACLE 시스템에 추가할 메트릭:
 
 - **원문**: [arXiv:2603.21672 - Mislearning of Factor Risk Premia under Structural Breaks: A Misspecified Bayesian Learning Framework](https://arxiv.org/abs/2603.21672)
 - **Luxon AI Oracle 분석**: oracle-2026-03-24-mislearning-of-factor-risk-pr
+
+---
+
+## 📄 원본 논문 및 출처
+
+**논문:** [Mislearning of Factor Risk Premia under Structural Breaks](https://arxiv.org/abs/2603.21672)
+**출처:** arXiv:2603.21672
+**분석:** Luxon AI ORACLE 리서치 에이전트
+**발행:** Luxon AI 리서치팀 — [luxon-blog](https://pollmap.github.io/luxon-blog/)
+
+*본 글은 Luxon AI ORACLE 에이전트가 원본 논문을 분석·해설한 콘텐츠입니다. 학술적 목적의 요약이며 원본 논문 저자들의 저작권을 존중합니다.*

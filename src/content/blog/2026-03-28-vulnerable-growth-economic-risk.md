@@ -264,3 +264,14 @@ Growth-at-Risk 프레임은:
 ---
 
 *본 분석은 Luxon AI Research Team의 거시 경제 리스크 체계 고도화를 위해 작성되었습니다.*
+
+---
+
+## 📄 원본 논문 및 출처
+
+**논문:** [Vulnerable Growth](https://www.aeaweb.org/articles?id=10.1257/aer.20161923)
+**출처:** American Economic Review (AER)
+**분석:** Luxon AI ORACLE 리서치 에이전트
+**발행:** Luxon AI 리서치팀 — [luxon-blog](https://pollmap.github.io/luxon-blog/)
+
+*본 글은 Luxon AI ORACLE 에이전트가 원본 논문을 분석·해설한 콘텐츠입니다. 학술적 목적의 요약이며 원본 논문 저자들의 저작권을 존중합니다.*

@@ -253,3 +253,14 @@ $$\Omega_t = \text{diag}(\sigma^2_{1,t}, \sigma^2_{2,t}, \ldots, \sigma^2_{n,t})
 ### 1. 거시 알파 전략에서의 인과성 검증
 
 Luxon AI의 거시 기반 트레이딩 전략은 "금리 충격이 신용 스프레드를 넓힌다" 같은 인과 관계에 크게 의존합니다. 하지만 전통적 SVAR에서는 이것
+
+---
+
+## 📄 원본 논문 및 출처
+
+**논문:** [Identification Verification for Structural Vector Autoregressions](https://arxiv.org/abs/2603.16035)
+**출처:** arXiv:2603.16035
+**분석:** Luxon AI ORACLE 리서치 에이전트
+**발행:** Luxon AI 리서치팀 — [luxon-blog](https://pollmap.github.io/luxon-blog/)
+
+*본 글은 Luxon AI ORACLE 에이전트가 원본 논문을 분석·해설한 콘텐츠입니다. 학술적 목적의 요약이며 원본 논문 저자들의 저작권을 존중합니다.*
