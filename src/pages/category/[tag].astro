@@ -12,6 +12,14 @@ export async function getStaticPaths() {
 
 const { tag, posts } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// 사이드바용 전체 태그 목록
+const allPosts = await getCollection('blog');
+const tagCounts = allPosts.flatMap(p => p.data.tags || []).reduce((acc, t) => {
+  acc[t] = (acc[t] || 0) + 1;
+  return acc;
+}, {} as Record<string, number>);
+const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
 ---
 <!DOCTYPE html>
 <html lang="ko">
@@ -25,25 +33,39 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
   <style>
-    :root{--bg:#0D0D1A;--purple:#7C6AF7;--white:#FFFFFF;}
+    :root{--bg:#0D0D1A;--bg2:#111122;--purple:#7C6AF7;--white:#FFFFFF;--border:rgba(255,255,255,0.07);}
     *{margin:0;padding:0;box-sizing:border-box;}
     body{background:var(--bg);color:var(--white);font-family:'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Noto Sans KR',sans-serif;}
-    nav{position:fixed;top:0;width:100%;z-index:100;padding:1.5rem 3rem;display:flex;justify-content:space-between;align-items:center;backdrop-filter:blur(10px);background:rgba(13,13,26,0.85);}
-    .logo{font-family:'JetBrains Mono',monospace;font-size:1.2rem;font-weight:700;color:var(--purple);text-decoration:none;}
-    nav a{color:rgba(255,255,255,0.6);text-decoration:none;margin-left:2rem;font-size:0.85rem;}
+    /* NAV */
+    nav{position:fixed;top:0;width:100%;z-index:100;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;background:rgba(13,13,26,0.95);border-bottom:1px solid var(--border);}
+    .logo{font-family:'JetBrains Mono',monospace;font-size:1.1rem;font-weight:700;color:var(--purple);text-decoration:none;}
+    nav a{color:rgba(255,255,255,0.55);text-decoration:none;margin-left:1.5rem;font-size:0.82rem;font-family:'JetBrains Mono',monospace;letter-spacing:0.05em;}
     nav a:hover{color:var(--purple);}
-    main{max-width:1100px;margin:0 auto;padding:8rem 3rem 4rem;}
-    .tag-label{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--purple);letter-spacing:0.3em;margin-bottom:0.8rem;}
-    h1{font-size:2.5rem;font-weight:700;margin-bottom:0.5rem;}
-    .count{color:rgba(255,255,255,0.4);font-size:0.9rem;margin-bottom:3rem;}
-    .posts{display:grid;gap:1px;background:rgba(255,255,255,0.05);}
-    .post{background:var(--bg);padding:2rem;text-decoration:none;color:inherit;display:grid;grid-template-columns:120px 1fr;gap:1.5rem;align-items:start;border:1px solid transparent;transition:border-color 0.3s;}
-    .post:hover{border-color:rgba(124,106,247,0.3);}
-    .post img{width:120px;height:80px;object-fit:cover;filter:brightness(0.7);}
-    .post-date{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--purple);margin-bottom:0.4rem;}
-    .post-title{font-size:1.05rem;font-weight:700;margin-bottom:0.5rem;line-height:1.4;}
-    .post-desc{font-size:0.83rem;color:rgba(255,255,255,0.55);line-height:1.5;}
-    .back{display:inline-block;margin-top:3rem;color:var(--purple);text-decoration:none;font-family:'JetBrains Mono',monospace;font-size:0.8rem;}
+    /* LAYOUT */
+    .layout{max-width:1200px;margin:0 auto;padding:5rem 1.5rem 4rem;display:grid;grid-template-columns:220px 1fr;gap:2rem;align-items:start;}
+    @media(max-width:768px){.layout{grid-template-columns:1fr;}}
+    /* SIDEBAR */
+    .sidebar{position:sticky;top:5rem;}
+    .sidebar-block{background:var(--bg2);border:1px solid var(--border);margin-bottom:1rem;}
+    .sb-title{font-family:'JetBrains Mono',monospace;font-size:0.68rem;letter-spacing:0.2em;color:rgba(255,255,255,0.35);padding:0.7rem 1rem;border-bottom:1px solid var(--border);}
+    .sb-item{display:flex;justify-content:space-between;align-items:center;padding:0.55rem 1rem;text-decoration:none;color:rgba(255,255,255,0.6);font-size:0.82rem;border-bottom:1px solid rgba(255,255,255,0.03);transition:all 0.15s;}
+    .sb-item:hover{background:rgba(124,106,247,0.06);color:#fff;}
+    .sb-item.active{color:var(--purple);background:rgba(124,106,247,0.06);}
+    .sb-cnt{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:rgba(124,106,247,0.5);}
+    /* MAIN */
+    .main-header{margin-bottom:1.5rem;}
+    .tag-label{font-family:'JetBrains Mono',monospace;font-size:0.68rem;letter-spacing:0.2em;color:var(--purple);margin-bottom:0.4rem;}
+    .main-header h1{font-size:1.6rem;font-weight:700;margin-bottom:0.3rem;}
+    .count{font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:rgba(255,255,255,0.3);margin-bottom:1rem;}
+    /* POST LIST */
+    .post-list{display:grid;gap:1px;background:var(--border);}
+    .post-item{background:var(--bg);display:grid;grid-template-columns:100px 1fr;gap:1rem;padding:1.2rem;text-decoration:none;color:inherit;border:1px solid transparent;transition:border-color 0.2s;}
+    .post-item:hover{border-color:rgba(124,106,247,0.25);background:rgba(124,106,247,0.02);}
+    .post-thumb{width:100px;height:68px;object-fit:cover;filter:brightness(0.75);}
+    .post-thumb-ph{width:100px;height:68px;background:rgba(124,106,247,0.06);display:flex;align-items:center;justify-content:center;font-size:1.4rem;color:rgba(124,106,247,0.4);}
+    .post-date{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:rgba(124,106,247,0.7);margin-bottom:0.3rem;}
+    .post-title{font-size:0.95rem;font-weight:700;line-height:1.45;margin-bottom:0.4rem;}
+    .post-desc{font-size:0.78rem;color:rgba(255,255,255,0.45);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
   </style>
 </head>
 <body>
@@ -55,26 +77,55 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <a href="https://github.com/pollmap" target="_blank">GITHUB</a>
     </div>
   </nav>
-  <main>
-    <p class="tag-label">// CATEGORY</p>
-    <h1>{tag}</h1>
-    <p class="count">{posts.length}개의 글</p>
-    <div class="posts">
-      {posts.map(post => (
-        <a href={`${base}/blog/${post.id}`} class="post">
-          {post.data.heroImage
-            ? <img src={post.data.heroImage} alt={post.data.title} />
-            : <div style="width:120px;height:80px;background:rgba(124,106,247,0.08);display:flex;align-items:center;justify-content:center;color:#7C6AF7;font-size:1.5rem;">📊</div>
-          }
-          <div>
-            <div class="post-date">{post.data.date.toISOString().slice(0,10)}</div>
-            <div class="post-title">{post.data.title}</div>
-            <p class="post-desc">{post.data.description || ''}</p>
-          </div>
+
+  <div class="layout">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-block">
+        <div class="sb-title">CATEGORY</div>
+        <a href={`${base}/blog`} class="sb-item">
+          ALL <span class="sb-cnt">{allPosts.length}</span>
         </a>
-      ))}
-    </div>
-    <a href={`${base}/blog`} class="back">← 전체 글 보기</a>
-  </main>
+        {sortedTags.slice(0, 8).map(([t, count]) => (
+          <a
+            href={`${base}/category/${t.toLowerCase().replace(/\s+/g, '-')}`}
+            class={`sb-item ${t === tag ? 'active' : ''}`}
+          >
+            {t} <span class="sb-cnt">{count}</span>
+          </a>
+        ))}
+        {sortedTags.length > 8 && (
+          <a href={`${base}/blog`} class="sb-item" style="color:rgba(124,106,247,0.5);font-size:0.75rem;">
+            +{sortedTags.length - 8}개 더 보기
+          </a>
+        )}
+      </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main>
+      <div class="main-header">
+        <p class="tag-label">// CATEGORY</p>
+        <h1>{tag}</h1>
+        <p class="count">// {posts.length}개의 글</p>
+      </div>
+
+      <div class="post-list">
+        {posts.map(post => (
+          <a href={`${base}/blog/${post.id}`} class="post-item">
+            {post.data.heroImage
+              ? <img class="post-thumb" src={post.data.heroImage} alt={post.data.title} />
+              : <div class="post-thumb-ph">📊</div>
+            }
+            <div>
+              <div class="post-date">{post.data.date.toISOString().slice(0,10)}</div>
+              <div class="post-title">{post.data.title}</div>
+              <p class="post-desc">{post.data.description || ''}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </main>
+  </div>
 </body>
 </html>

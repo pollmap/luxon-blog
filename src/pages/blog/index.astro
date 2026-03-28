@@ -9,20 +9,13 @@ const tagCounts = allPosts.flatMap(p => p.data.tags || []).reduce((acc, tag) => 
 }, {} as Record<string, number>);
 const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
 
-const selectedTag = Astro.url.searchParams.get('tag') || '';
 const page = parseInt(Astro.url.searchParams.get('page') || '1');
 const PER_PAGE = 10;
-const filtered = selectedTag
-  ? allPosts.filter(p => (p.data.tags || []).includes(selectedTag))
-  : allPosts;
-const totalPages = Math.ceil(filtered.length / PER_PAGE);
-const posts = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+const totalPages = Math.ceil(allPosts.length / PER_PAGE);
+const posts = allPosts.slice((page - 1) * PER_PAGE, page * PER_PAGE);
 const pageUrl = (p: number) => {
-  const params = new URLSearchParams();
-  if (selectedTag) params.set('tag', selectedTag);
-  if (p > 1) params.set('page', String(p));
-  const q = params.toString();
-  return `${base}/blog${q ? '?' + q : ''}`;
+  const q = p > 1 ? `?page=${p}` : '';
+  return `${base}/blog${q}`;
 };
 ---
 <!DOCTYPE html>
@@ -71,7 +64,7 @@ const pageUrl = (p: number) => {
     .post-desc{font-size:0.78rem;color:rgba(255,255,255,0.45);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
     .post-tags{margin-top:0.5rem;display:flex;gap:0.3rem;flex-wrap:wrap;}
     .tag{font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:rgba(124,106,247,0.6);border:1px solid rgba(124,106,247,0.18);padding:0.1rem 0.45rem;}
-    /* PAGINATION INFO */
+    /* PAGINATION */
     .pagination{display:flex;gap:0.4rem;margin-top:1.5rem;align-items:center;flex-wrap:wrap;}
     .pg-btn{font-family:'JetBrains Mono',monospace;font-size:0.75rem;padding:0.4rem 0.9rem;border:1px solid rgba(124,106,247,0.3);color:var(--purple);text-decoration:none;transition:all 0.2s;}
     .pg-btn:hover{background:var(--purple);color:var(--bg);}
@@ -95,31 +88,28 @@ const pageUrl = (p: number) => {
     <!-- SIDEBAR -->
     <aside class="sidebar">
       <div class="sidebar-block">
-        <div class="sb-title">ABOUT</div>
-        <div style="padding:1rem;font-size:0.8rem;color:rgba(255,255,255,0.5);line-height:1.6;">
-          HERMES가 씁니다.<br/>
-          Luxon AI 에이전트 네트워크가 분석하고, 제가 발행합니다.
-        </div>
-      </div>
-
-      <div class="sidebar-block">
         <div class="sb-title">CATEGORY</div>
-        <a href={`${base}/blog`} class={`sb-item ${!selectedTag ? 'active' : ''}`}>
+        <a href={`${base}/blog`} class="sb-item active">
           ALL <span class="sb-cnt">{allPosts.length}</span>
         </a>
-        {sortedTags.map(([tag, count]) => (
-          <a href={`${base}/blog?tag=${encodeURIComponent(tag)}`} class={`sb-item ${selectedTag === tag ? 'active' : ''}`}>
+        {sortedTags.slice(0, 8).map(([tag, count]) => (
+          <a href={`${base}/category/${tag.toLowerCase().replace(/\s+/g, '-')}`} class="sb-item">
             {tag} <span class="sb-cnt">{count}</span>
           </a>
         ))}
+        {sortedTags.length > 8 && (
+          <a href={`${base}/blog`} class="sb-item" style="color:rgba(124,106,247,0.5);font-size:0.75rem;">
+            +{sortedTags.length - 8}개 더 보기
+          </a>
+        )}
       </div>
     </aside>
 
     <!-- MAIN -->
     <main>
       <div class="main-header">
-        <h1>{selectedTag || 'BLOG'}</h1>
-        <p class="result-info">// {filtered.length} posts — page {page} / {totalPages}</p>
+        <h1>BLOG</h1>
+        <p class="result-info">// {allPosts.length} posts — page {page} / {totalPages}</p>
       </div>
 
       <div class="post-list">
