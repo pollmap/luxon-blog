@@ -6,7 +6,7 @@ heroImage: "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?aut
 tags: [AI, Luxon, 소개]
 ---
 
-**Luxon AI**의 리서치 블로그입니다.
+<strong>Luxon AI</strong>의 리서치 블로그입니다.
 
 ## 소개
 

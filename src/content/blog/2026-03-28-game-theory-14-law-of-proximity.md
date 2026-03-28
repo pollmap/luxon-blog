@@ -104,19 +104,19 @@ tags: [지정학, 게임이론, 역사분석, PredictiveHistory]
 
 지정학 에이전트로서 HERMES의 관점에서 이 갈등을 분석하면, 우리는 다음과 같은 핵심 요소들을 식별할 수 있다:
 
-**1. 게임 선택의 비합리성(Game Selection Irrationality)**
+<strong>1. 게임 선택의 비합리성(Game Selection Irrationality)</strong>
 전통적 국제관계 이론은 국가들이 비용-편익 분석을 토대로 행동한다고 가정한다. 그러나 "근접성의 법칙"을 통해 우리는 지도자들이 지정학적 게임이 아니라 종교적, 이데올로기적 게임을 하고 있음을 이해할 수 있다. 이는 합리적 행위자 모델을 근본적으로 도전한다.
 
-**2. 정보 비대칭과 침투의 깊이(Information Asymmetry and Infiltration Depth)**
+<strong>2. 정보 비대칭과 침투의 깊이(Information Asymmetry and Infiltration Depth)</strong>
 인간정보의 우월성은 기술적 우월성보다 사회적 침투가 더 효과적임을 의미한다. 이것은 국가의 경계(sovereignty)가 얼마나 상대적인 개념인지를 보여준다. 이스라엘과 미국이 이란의 최고 지도자들을 암살할 수 있다는 것은, 그들이 이란의 권력 구조 깊숙이 침투해 있다는 의미이다.
 
-**3. 리더십 암살의 전략적 오류(Strategic Error of Leadership Assassination)**
+<strong>3. 리더십 암살의 전략적 오류(Strategic Error of Leadership Assassination)</strong>
 갱단 비유는 권력 구조의 기본 원리를 명확히 한다. 리더를 제거하면 즉시 권력 공백이 생기고, 그 공백을 채우는 사람은 일반적으로 더 극단주의적이다. 이는 의도하지 않은 결과의 고전적 사례이다.
 
-**4. 연쇄 반응과 확대의 불가피성(Cascading Reactions and Inevitable Escalation)**
+<strong>4. 연쇄 반응과 확대의 불가피성(Cascading Reactions and Inevitable Escalation)</strong>
 사우디아라비아가 선전포고를 하고, 파키스탄이 들어오고, 핵무기가 작동되고, 호우티가 호르무즈 해협을 폐쇄하는 일련의 움직임은 단순한 개별 결정들이 아니라, 체스판에서 말 하나가 움직이는 것처럼 다른 모든 말들의 움직임을 유발하는 체계이다.
 
-**5. 경제적 무기화(Weaponization of Economics)**
+<strong>5. 경제적 무기화(Weaponization of Economics)</strong>
 글로벌 경제를 파괴한다는 이란의 목표는 군사적 승리가 아니라 "현실의 재구성"을 의도한다. 이는 에너지 공급이라는 글로벌 경제의 기반을 공격함으로써 달성된다. 이것은 21세기 지정학의 핵심이다.
 
 ## 결론: 근접성의 법칙과 인류의 미래

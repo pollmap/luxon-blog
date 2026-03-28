@@ -24,17 +24,17 @@ tags: [지정학, 게임이론, 역사분석, PredictiveHistory]
 
 > "You cannot perceive this game as just one between A and B who's physically stronger there are other players involved as well. For example there are spectators or friends, there's a crowd watching you. This is important because there's also the police, right? Eventually the police will come."
 
-여기서 핵심은 **게임이 격리되지 않는다**는 것이다. 단순히 두 개체 간의 물리적 우위 게임이 아니라, 관찰자들, 국가기구, 그리고 도덕적 판관(심지어 신까지)이 모두 포함된 다층적 게임이다. 이는 개인 간 싸움뿐 아니라 국제전쟁의 맥락에서도 동일하게 적용된다.
+여기서 핵심은 <strong>게임이 격리되지 않는다</strong>는 것이다. 단순히 두 개체 간의 물리적 우위 게임이 아니라, 관찰자들, 국가기구, 그리고 도덕적 판관(심지어 신까지)이 모두 포함된 다층적 게임이다. 이는 개인 간 싸움뿐 아니라 국제전쟁의 맥락에서도 동일하게 적용된다.
 
 ## 세 가지 핵심 요소와 아드레날린의 역설
 
 장 교수는 에스컬레이션 사다리를 타고 올라가는 과정에서 세 가지 요소가 작동한다고 지적한다:
 
-1. **감정(Emotions)**
-2. **힘(Power)**
-3. **이성과 논리(Reason and Logic)**
+1. <strong>감정(Emotions)</strong>
+2. <strong>힘(Power)</strong>
+3. <strong>이성과 논리(Reason and Logic)</strong>
 
-이들을 움직이는 힘은 **아드레날린**이다. 그런데 여기서 주목할 점은 아드레날린이 단지 부정적 결과만을 초래하지 않는다는 것이다:
+이들을 움직이는 힘은 <strong>아드레날린</strong>이다. 그런데 여기서 주목할 점은 아드레날린이 단지 부정적 결과만을 초래하지 않는다는 것이다:
 
 > "Adrenaline is rushing in your system. And this adrenaline, it's making you more angry, but it's also making you stronger and more resolved. And it's also telling you how to fight this battle."
 
@@ -50,7 +50,7 @@ tags: [지정학, 게임이론, 역사분석, PredictiveHistory]
 
 ## 통제력(Control)과 보정(Calibration)의 전략적 의미
 
-장 교수가 강조하는 "통제력이 지배력보다 중요하다"는 명제의 실제 의미는 **보정(Calibration)**이다:
+장 교수가 강조하는 "통제력이 지배력보다 중요하다"는 명제의 실제 의미는 <strong>보정(Calibration)</strong>이다:
 
 > "Control is the idea of calibration. Calibration means that you time or you structure or you strategize your response in a way that helps you achieve your strategic objective."
 
@@ -120,33 +120,33 @@ tags: [지정학, 게임이론, 역사분석, PredictiveHistory]
 
 HERMES(Hierarchical Entity-Relation Mapping in Evolutionary Systems) 프레임워크에서 본다면, 현재의 미국-이란 갈등은 다음과 같은 특징을 보인다:
 
-**계층적 권력 관계:**
+<strong>계층적 권력 관계:</strong>
 - 미국-이스라엘 연합: 핵 보유, 군사 우월성, 기술 우위
 - 이란: 지역 저항력, 종교적 정당성, 점증하는 국제적 지지
 
-**진화적 동역학:**
+<strong>진화적 동역학:</strong>
 장 교수의 모델에서 중요한 것은 이 게임이 정적이지 않다는 것이다. 매 단계마다 행위자들은 다음을 재계산한다:
 - 물리적 손실/이득
 - 도덕적·법적 정당성
 - 국제사회의 평가
 - 국내 정치적 대가
 
-**성공의 정의 변화:**
+<strong>성공의 정의 변화:</strong>
 전쟁 초기 미국의 성공 기준은 "이란의 군사 시설 파괴"일 수 있지만, 에스컬레이션이 진행되면서 성공의 정의는 "국제사회의 지지 유지"로 변모한다. 이때 통제력을 가진 세력(상황에 맞춰 유연하게 대응하는 세력)이 장기적 승자가 된다.
 
 ## 한국이 주목해야 할 교훈
 
 이 강의가 한국 독자에게 갖는 의미는 무엇인가? 한반도는 강대국들 사이의 '학교 같은' 지정학적 환경에 놓여 있다. 장 교수의 핵심 통찰을 적용하면:
 
-1. **물리적 힘의 우월성만으로는 부족하다:** 한국이 경제적·기술적으로 강하더라도, 국제적 정당성과 미국, 중국, 일본, 러시아 등 강대국들의 신뢰를 잃으면 장기적 생존을 보장할 수 없다.
+1. <strong>물리적 힘의 우월성만으로는 부족하다:</strong> 한국이 경제적·기술적으로 강하더라도, 국제적 정당성과 미국, 중국, 일본, 러시아 등 강대국들의 신뢰를 잃으면 장기적 생존을 보장할 수 없다.
 
-2. **에스컬레이션을 관리하는 능력이 핵심이다:** 한반도 문제도 "한 번의 작은 도발이 전쟁으로 확대되는 경로"를 가지고 있다. 통제력 있는 외교와 안보 정책이 군사력보다 더 중요하다.
+2. <strong>에스컬레이션을 관리하는 능력이 핵심이다:</strong> 한반도 문제도 "한 번의 작은 도발이 전쟁으로 확대되는 경로"를 가지고 있다. 통제력 있는 외교와 안보 정책이 군사력보다 더 중요하다.
 
-3. **관찰자들을 의식하라:** 한국이 벌이는 모든 외교적·군사적 행동은 미국, 중국, 국제사회에 의해 관찰되고 평가된다. "왜 했는가"를 설명할 수 있는 정당성 없이는 승리도 없다.
+3. <strong>관찰자들을 의식하라:</strong> 한국이 벌이는 모든 외교적·군사적 행동은 미국, 중국, 국제사회에 의해 관찰되고 평가된다. "왜 했는가"를 설명할 수 있는 정당성 없이는 승리도 없다.
 
 ## 결론: 통제의 시대로의 전환
 
-장 교수의 "Game Theory #11: The Law of Escalation"은 21세기 국제정치가 단순한 힘의 논리에서 벗어났음을 보여준다. 핵무기 시대라는 것이 오히려 **통제의 중요성을 극대화했다**. 왜냐하면:
+장 교수의 "Game Theory #11: The Law of Escalation"은 21세기 국제정치가 단순한 힘의 논리에서 벗어났음을 보여준다. 핵무기 시대라는 것이 오히려 <strong>통제의 중요성을 극대화했다</strong>. 왜냐하면:
 
 > "It's impossible to skip the escalation ladder. You have to go step by step because adrenaline is rushing in your system."
 

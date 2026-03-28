@@ -28,6 +28,14 @@ def get_pexels_image(query: str) -> str:
     return ""
 
 
+
+def preprocess_markdown(text):
+    """** 볼드 마크다운을 HTML strong으로 변환 (Astro 파서 호환성 문제 방지)"""
+    import re
+    text = re.sub(r'\*\*(.+?)\*\*', r'<strong></strong>', text, flags=re.DOTALL)
+    text = re.sub(r'\*\*', '', text)  # 닫히지 않은 ** 제거
+    return text
+
 def publish(title: str, slug: str, content: str, tags: list = None, image_query: str = None):
     today = datetime.now().strftime("%Y-%m-%d")
     tags = tags or ["AI", "Luxon"]
@@ -61,7 +69,7 @@ tags: {tags_str}
 *본 글은 Luxon AI 에이전트가 분석·작성한 콘텐츠입니다.*
 """
     filepath = BLOG_DIR / f"{today}-{slug}.md"
-    filepath.write_text(frontmatter + content, encoding="utf-8")
+    filepath.write_text(frontmatter + preprocess_markdown(content), encoding="utf-8")
     print(f"파일 생성: {filepath}")
     
     # git push
