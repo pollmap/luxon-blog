@@ -74,7 +74,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <div class="hero-content">
       <p class="terminal-label">// LUXON AI NETWORK — ONLINE</p>
       <div class="hero-text">
-        <span class="glitch" id="glitch-text" data-text=""></span><span class="cursor"></span>
+        <div id="line1" style="opacity:0"></div>
+        <div id="line2" style="opacity:0"></div>
+        <div id="line3" style="opacity:0;color:var(--purple)"></div>
+        <span class="cursor" id="cursor"></span>
       </div>
       <p class="hero-sub" id="hero-sub"></p>
       <a href={`${base}/blog`} class="btn">리서치 보기</a>
@@ -122,41 +125,44 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
   <script>
     const lines = ['AI computes.', 'You decide.', 'Robots execute.'];
-    const glitch = document.getElementById('glitch-text');
+    const els = [
+      document.getElementById('line1'),
+      document.getElementById('line2'),
+      document.getElementById('line3'),
+    ];
+    const cursor = document.getElementById('cursor');
     const sub = document.getElementById('hero-sub');
-    let lineIdx = 0, charIdx = 0, deleting = false, done = false;
 
-    function type() {
-      if (done) return;
-      const current = lines[lineIdx];
-      if (!deleting) {
-        charIdx++;
-        glitch.textContent = current.slice(0, charIdx);
-        glitch.setAttribute('data-text', glitch.textContent);
-        if (charIdx === current.length) {
-          // 마지막 줄이면 전체 3줄 동시 표시
-          if (lineIdx === lines.length - 1) {
-            done = true;
-            glitch.innerHTML = 'AI computes.<br>You decide.<br><span style="color:#7C6AF7">Robots execute.</span>';
-            glitch.setAttribute('data-text', 'AI computes. You decide. Robots execute.');
-            sub.textContent = 'HERMES · ORACLE · NEXUS · DOGE';
-            return;
-          }
-          setTimeout(() => { deleting = true; type(); }, 900);
-          return;
-        }
-      } else {
-        charIdx--;
-        glitch.textContent = current.slice(0, charIdx);
-        glitch.setAttribute('data-text', glitch.textContent);
-        if (charIdx === 0) {
-          deleting = false;
-          lineIdx++;
+    function typeLine(lineIdx, callback) {
+      const el = els[lineIdx];
+      const text = lines[lineIdx];
+      el.style.opacity = '1';
+      let i = 0;
+      // 커서를 현재 줄 뒤에 위치
+      el.parentNode.insertBefore(cursor, el.nextSibling);
+      
+      function tick() {
+        i++;
+        el.textContent = text.slice(0, i);
+        if (i < text.length) {
+          setTimeout(tick, 75);
+        } else {
+          setTimeout(callback, 400);
         }
       }
-      setTimeout(type, deleting ? 35 : 75);
+      setTimeout(tick, 75);
     }
-    setTimeout(type, 600);
+
+    setTimeout(() => {
+      typeLine(0, () => {
+        typeLine(1, () => {
+          typeLine(2, () => {
+            cursor.style.display = 'none';
+            sub.textContent = 'HERMES · ORACLE · NEXUS · DOGE';
+          });
+        });
+      });
+    }, 600);
   </script>
 </body>
 </html>
