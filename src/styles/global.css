@@ -23,7 +23,7 @@ html {
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, 'Noto Sans KR', sans-serif;
   line-height: 1.6;
 }
 
@@ -74,6 +74,11 @@ a:hover {
   padding: 0.15rem 0.4rem;
   font-size: 0.9em;
   color: var(--accent-light);
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+pre, code {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
 }
 
 .prose pre {
