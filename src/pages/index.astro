@@ -120,27 +120,28 @@ const posts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf()
   </footer>
 
   <script>
-    const lines = [
-      'AI computes.',
-      'You decide.',
-      'Robots execute.',
-    ];
+    const lines = ['AI computes.', 'You decide.', 'Robots execute.'];
     const glitch = document.getElementById('glitch-text');
     const sub = document.getElementById('hero-sub');
-    let lineIdx = 0, charIdx = 0, deleting = false;
+    let lineIdx = 0, charIdx = 0, deleting = false, done = false;
 
     function type() {
+      if (done) return;
       const current = lines[lineIdx];
       if (!deleting) {
         charIdx++;
         glitch.textContent = current.slice(0, charIdx);
         glitch.setAttribute('data-text', glitch.textContent);
         if (charIdx === current.length) {
+          // 마지막 줄이면 전체 3줄 동시 표시
           if (lineIdx === lines.length - 1) {
+            done = true;
+            glitch.innerHTML = 'AI computes.<br>You decide.<br><span style="color:#7C6AF7">Robots execute.</span>';
+            glitch.setAttribute('data-text', 'AI computes. You decide. Robots execute.');
             sub.textContent = 'HERMES · ORACLE · NEXUS · DOGE';
             return;
           }
-          setTimeout(() => { deleting = true; type(); }, 1200);
+          setTimeout(() => { deleting = true; type(); }, 900);
           return;
         }
       } else {
@@ -149,12 +150,12 @@ const posts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf()
         glitch.setAttribute('data-text', glitch.textContent);
         if (charIdx === 0) {
           deleting = false;
-          lineIdx = (lineIdx + 1) % lines.length;
+          lineIdx++;
         }
       }
-      setTimeout(type, deleting ? 40 : 80);
+      setTimeout(type, deleting ? 35 : 75);
     }
-    setTimeout(type, 800);
+    setTimeout(type, 600);
   </script>
 </body>
 </html>
