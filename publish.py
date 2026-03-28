@@ -40,6 +40,7 @@ def publish(title: str, slug: str, content: str, tags: list = None, image_query:
     
     # 마크다운 파일 생성
     tags_str = "[" + ", ".join(tags) + "]"
+    blog_url = f"https://pollmap.github.io/luxon-blog/blog/{today}-{slug}/"
     frontmatter = f"""---
 title: "{title}"
 date: {today}
@@ -48,6 +49,16 @@ description: "{title}"
 tags: {tags_str}
 ---
 
+"""
+    # 출처 섹션 자동 추가
+    if '📺 원본' not in content and '📊 출처' not in content and '출처' not in content[-500:]:
+        content += f"""
+
+---
+
+**📊 출처:** Luxon AI HERMES 리서치팀
+**발행:** [{blog_url}]({blog_url})
+*본 글은 Luxon AI 에이전트가 분석·작성한 콘텐츠입니다.*
 """
     filepath = BLOG_DIR / f"{today}-{slug}.md"
     filepath.write_text(frontmatter + content, encoding="utf-8")

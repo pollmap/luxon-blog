@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 const posts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 <!DOCTYPE html>
 <html lang="ko">
@@ -31,10 +32,10 @@ const posts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf()
 </head>
 <body>
   <nav>
-    <a href="/" class="logo">LUXON AI</a>
+    <a href={`${base}/`} class="logo">LUXON AI</a>
     <div>
-      <a href="/">홈</a>
-      <a href="/blog">블로그</a>
+      <a href={`${base}/`}>홈</a>
+      <a href={`${base}/blog`}>블로그</a>
     </div>
   </nav>
   <main>
@@ -42,7 +43,7 @@ const posts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf()
     <p class="subtitle">AI · 퀀트 · 지정학 분석</p>
     <div class="posts">
       {posts.map(post => (
-        <a href={`/blog/${post.id}`} class="post">
+        <a href={`${base}/blog/${post.id}`} class="post">
           {post.data.heroImage
             ? <img src={post.data.heroImage} alt={post.data.title} />
             : <div style="width:120px;height:80px;background:rgba(124,106,247,0.1);display:flex;align-items:center;justify-content:center;color:#7C6AF7;font-size:2rem;">📊</div>
