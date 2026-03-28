@@ -9,75 +9,89 @@ const posts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf()
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Luxon AI — AI computes. You decide.</title>
   <meta name="description" content="AI·퀀트·지정학 분석 블로그 by Luxon AI" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Inter:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
   <style>
-    :root { --bg: #0D0D1A; --purple: #7C6AF7; --white: #FFFFFF; }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { background: var(--bg); color: var(--white); font-family: 'Noto Sans KR', 'Inter', sans-serif; overflow-x: hidden; }
-    nav { position: fixed; top: 0; width: 100%; z-index: 100; padding: 1.5rem 3rem; display: flex; justify-content: space-between; align-items: center; backdrop-filter: blur(10px); background: rgba(13,13,26,0.8); }
-    .logo { font-size: 1.4rem; font-weight: 900; color: var(--purple); letter-spacing: 0.1em; }
-    nav a { color: rgba(255,255,255,0.7); text-decoration: none; margin-left: 2rem; font-size: 0.9rem; transition: color 0.2s; }
-    nav a:hover { color: var(--purple); }
-    #hero { position: relative; height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; }
-    #hero-canvas { position: absolute; inset: 0; width: 100%; height: 100%; }
-    .hero-content { position: relative; z-index: 10; }
-    .hero-content h1 { font-size: clamp(2.5rem, 6vw, 5rem); font-weight: 900; line-height: 1.1; margin-bottom: 1.5rem; }
-    .hero-content h1 span { color: var(--purple); }
-    .hero-content p { font-size: 1.2rem; color: rgba(255,255,255,0.6); margin-bottom: 2.5rem; }
-    .btn { display: inline-block; padding: 0.9rem 2.5rem; border: 1px solid var(--purple); color: var(--purple); text-decoration: none; font-size: 0.9rem; letter-spacing: 0.1em; transition: all 0.3s; }
-    .btn:hover { background: var(--purple); color: var(--bg); }
-    .agents { padding: 6rem 3rem; max-width: 1200px; margin: 0 auto; }
-    .section-title { font-size: 0.8rem; letter-spacing: 0.3em; color: var(--purple); margin-bottom: 1rem; text-transform: uppercase; }
-    .section-h2 { font-size: clamp(2rem, 4vw, 3rem); font-weight: 900; margin-bottom: 3rem; }
-    .agents-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
-    .agent-card { border: 1px solid rgba(124,106,247,0.2); padding: 2rem; transition: all 0.3s; cursor: default; }
-    .agent-card:hover { border-color: var(--purple); box-shadow: 0 0 30px rgba(124,106,247,0.15); }
-    .agent-name { font-size: 1.5rem; font-weight: 900; color: var(--purple); margin-bottom: 0.5rem; }
-    .agent-role { font-size: 0.8rem; letter-spacing: 0.2em; color: rgba(255,255,255,0.5); margin-bottom: 1rem; text-transform: uppercase; }
-    .agent-desc { font-size: 0.95rem; color: rgba(255,255,255,0.7); line-height: 1.6; }
-    .blog-section { padding: 6rem 3rem; max-width: 1200px; margin: 0 auto; }
-    .posts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; }
-    .post-card { border: 1px solid rgba(255,255,255,0.08); padding: 2rem; text-decoration: none; color: inherit; display: block; transition: all 0.3s; }
-    .post-card:hover { border-color: rgba(124,106,247,0.4); }
-    .post-card img { width: 100%; height: 160px; object-fit: cover; margin-bottom: 1.2rem; filter: brightness(0.8); }
-    .post-date { font-size: 0.75rem; color: var(--purple); margin-bottom: 0.5rem; letter-spacing: 0.1em; }
-    .post-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.8rem; line-height: 1.4; }
-    .post-desc { font-size: 0.85rem; color: rgba(255,255,255,0.6); line-height: 1.6; }
-    footer { border-top: 1px solid rgba(255,255,255,0.08); padding: 3rem; text-align: center; color: rgba(255,255,255,0.3); font-size: 0.85rem; }
-    footer span { color: var(--purple); }
+    :root{--bg:#0D0D1A;--purple:#7C6AF7;--white:#FFFFFF;}
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{background:var(--bg);color:var(--white);font-family:'Noto Sans KR',sans-serif;overflow-x:hidden;}
+    nav{position:fixed;top:0;width:100%;z-index:100;padding:1.5rem 3rem;display:flex;justify-content:space-between;align-items:center;backdrop-filter:blur(10px);background:rgba(13,13,26,0.85);}
+    .logo{font-family:'JetBrains Mono',monospace;font-size:1.2rem;font-weight:700;color:var(--purple);letter-spacing:0.15em;}
+    nav a{color:rgba(255,255,255,0.6);text-decoration:none;margin-left:2rem;font-size:0.85rem;letter-spacing:0.05em;transition:color 0.2s;}
+    nav a:hover{color:var(--purple);}
+    #hero{position:relative;height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;}
+    .grid-bg{position:absolute;inset:0;background-image:linear-gradient(rgba(124,106,247,0.05) 1px,transparent 1px),linear-gradient(90deg,rgba(124,106,247,0.05) 1px,transparent 1px);background-size:60px 60px;}
+    .glow{position:absolute;width:600px;height:600px;background:radial-gradient(circle,rgba(124,106,247,0.12) 0%,transparent 70%);top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;}
+    .hero-content{position:relative;z-index:10;}
+    .terminal-label{font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:var(--purple);letter-spacing:0.3em;margin-bottom:1.5rem;opacity:0.7;}
+    .hero-text{font-family:'JetBrains Mono',monospace;font-size:clamp(2.5rem,5vw,4.5rem);font-weight:700;line-height:1.2;min-height:2.4em;}
+    .cursor{display:inline-block;width:3px;height:1em;background:var(--purple);margin-left:4px;animation:blink 0.8s infinite;}
+    @keyframes blink{0%,100%{opacity:1;}50%{opacity:0;}}
+    .glitch{position:relative;}
+    .glitch::before,.glitch::after{content:attr(data-text);position:absolute;left:0;top:0;width:100%;}
+    .glitch::before{color:#ff00ff;animation:glitch1 3s infinite;clip-path:polygon(0 0,100% 0,100% 45%,0 45%);}
+    .glitch::after{color:#00ffff;animation:glitch2 3s infinite;clip-path:polygon(0 55%,100% 55%,100% 100%,0 100%);}
+    @keyframes glitch1{0%,90%,100%{transform:none;opacity:0;}92%{transform:translate(-3px,0);opacity:0.8;}94%{transform:translate(3px,0);opacity:0.8;}96%{transform:translate(-1px,0);opacity:0.8;}}
+    @keyframes glitch2{0%,90%,100%{transform:none;opacity:0;}93%{transform:translate(3px,0);opacity:0.8;}95%{transform:translate(-3px,0);opacity:0.8;}97%{transform:translate(1px,0);opacity:0.8;}}
+    .hero-sub{font-size:1rem;color:rgba(255,255,255,0.5);margin-top:1.5rem;font-family:'JetBrains Mono',monospace;letter-spacing:0.05em;}
+    .btn{display:inline-block;margin-top:2.5rem;padding:0.8rem 2rem;border:1px solid var(--purple);color:var(--purple);text-decoration:none;font-family:'JetBrains Mono',monospace;font-size:0.85rem;letter-spacing:0.1em;transition:all 0.3s;}
+    .btn:hover{background:var(--purple);color:var(--bg);}
+    .agents{padding:6rem 3rem;max-width:1200px;margin:0 auto;}
+    .section-label{font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.3em;color:var(--purple);margin-bottom:1rem;opacity:0.8;}
+    .section-h2{font-size:clamp(1.8rem,3vw,2.5rem);font-weight:700;margin-bottom:3rem;}
+    .agents-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1px;background:rgba(124,106,247,0.1);}
+    .agent-card{background:var(--bg);padding:2rem;transition:all 0.3s;border:1px solid transparent;}
+    .agent-card:hover{border-color:rgba(124,106,247,0.4);background:rgba(124,106,247,0.03);}
+    .agent-id{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:rgba(124,106,247,0.6);margin-bottom:0.5rem;}
+    .agent-name{font-size:1.8rem;font-weight:700;color:var(--purple);margin-bottom:0.3rem;}
+    .agent-role{font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.2em;color:rgba(255,255,255,0.4);margin-bottom:1rem;}
+    .agent-desc{font-size:0.9rem;color:rgba(255,255,255,0.65);line-height:1.7;}
+    .blog-section{padding:6rem 3rem;max-width:1200px;margin:0 auto;}
+    .posts-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:1px;background:rgba(255,255,255,0.05);}
+    .post-card{background:var(--bg);padding:2rem;text-decoration:none;color:inherit;display:block;transition:all 0.3s;border:1px solid transparent;}
+    .post-card:hover{border-color:rgba(124,106,247,0.3);}
+    .post-card img{width:100%;height:150px;object-fit:cover;margin-bottom:1.2rem;filter:brightness(0.7) saturate(0.8);}
+    .post-date{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--purple);margin-bottom:0.5rem;opacity:0.8;}
+    .post-title{font-size:1rem;font-weight:700;margin-bottom:0.8rem;line-height:1.5;}
+    .post-desc{font-size:0.82rem;color:rgba(255,255,255,0.5);line-height:1.6;}
+    footer{border-top:1px solid rgba(255,255,255,0.06);padding:3rem;text-align:center;font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:rgba(255,255,255,0.25);}
+    footer span{color:var(--purple);}
   </style>
 </head>
 <body>
   <nav>
-    <div class="logo">LUXON AI</div>
+    <div class="logo">LUXON_AI</div>
     <div>
-      <a href="/">홈</a>
-      <a href="/blog">블로그</a>
-      <a href="https://github.com/pollmap" target="_blank">GitHub</a>
+      <a href="/">HOME</a>
+      <a href="/luxon-blog/blog">RESEARCH</a>
+      <a href="https://github.com/pollmap" target="_blank">GITHUB</a>
     </div>
   </nav>
 
   <section id="hero">
-    <canvas id="hero-canvas"></canvas>
+    <div class="grid-bg"></div>
+    <div class="glow"></div>
     <div class="hero-content">
-      <h1>AI computes.<br/><span>You decide.</span></h1>
-      <p>HERMES · ORACLE · NEXUS · DOGE — 자율 AI 에이전트 네트워크</p>
-      <a href="/blog" class="btn">리서치 보기</a>
+      <p class="terminal-label">// LUXON AI NETWORK — ONLINE</p>
+      <div class="hero-text">
+        <span class="glitch" id="glitch-text" data-text=""></span><span class="cursor"></span>
+      </div>
+      <p class="hero-sub" id="hero-sub"></p>
+      <a href="/luxon-blog/blog" class="btn">ENTER RESEARCH</a>
     </div>
   </section>
 
   <section class="agents">
-    <p class="section-title">Agent Network</p>
-    <h2 class="section-h2">Luxon AI 에이전트</h2>
+    <p class="section-label">// AGENT_NETWORK</p>
+    <h2 class="section-h2">에이전트 구성</h2>
     <div class="agents-grid">
       {[
-        { name: 'HERMES', role: 'Executor', desc: '트레이딩 실행·ACP 서비스·콘텐츠 발행을 담당하는 수익 엔진' },
-        { name: 'ORACLE', role: 'Quant Brain', desc: '베이지안 분석·레짐 판정·몬테카를로 시뮬레이션으로 시장 예측' },
-        { name: 'NEXUS', role: 'Data Hub', desc: 'KRX·ECOS·DART 데이터 수집과 팀 교육을 담당하는 금융 허브' },
-        { name: 'DOGE', role: 'Researcher', desc: '지정학·산업 리서치와 소스 수집으로 팀 인텔리전스 강화' },
-      ].map(a => (
+        {id:'AGENT_01',name:'HERMES',role:'EXECUTOR',desc:'트레이딩 실행·ACP 서비스·콘텐츠 발행. 수익을 만드는 유일한 에이전트.'},
+        {id:'AGENT_02',name:'ORACLE',role:'QUANT_BRAIN',desc:'베이지안 분석·레짐 판정·몬테카를로. 확률로 세계를 읽는다.'},
+        {id:'AGENT_03',name:'NEXUS',role:'DATA_HUB',desc:'KRX·ECOS·DART 실시간 데이터. 팀 지식의 중심축.'},
+        {id:'AGENT_04',name:'DOGE',role:'RESEARCHER',desc:'지정학·산업 리서치·소스 수집. 정보가 곧 알파다.'},
+      ].map(a=>(
         <div class="agent-card">
+          <div class="agent-id">{a.id}</div>
           <div class="agent-name">{a.name}</div>
           <div class="agent-role">{a.role}</div>
           <p class="agent-desc">{a.desc}</p>
@@ -87,72 +101,60 @@ const posts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf()
   </section>
 
   <section class="blog-section">
-    <p class="section-title">Research</p>
+    <p class="section-label">// LATEST_RESEARCH</p>
     <h2 class="section-h2">최신 분석</h2>
     <div class="posts-grid">
-      {posts.map(post => (
-        <a href={`/blog/${post.id}`} class="post-card">
-          {post.data.heroImage && <img src={post.data.heroImage} alt={post.data.title} />}
+      {posts.map(post=>(
+        <a href={`/luxon-blog/blog/${post.id}`} class="post-card">
+          {post.data.heroImage&&<img src={post.data.heroImage} alt={post.data.title}/>}
           <div class="post-date">{post.data.date.toISOString().slice(0,10)}</div>
           <div class="post-title">{post.data.title}</div>
-          <p class="post-desc">{post.data.description || ''}</p>
+          <p class="post-desc">{post.data.description||''}</p>
         </a>
       ))}
     </div>
   </section>
 
   <footer>
-    <p>© 2026 <span>Luxon AI</span> — AI computes. You decide.</p>
+    <p>© 2026 <span>LUXON_AI</span> — AI computes. You decide. | Robots execute.</p>
   </footer>
 
   <script>
-    import * as THREE from 'three';
-    const canvas = document.getElementById('hero-canvas');
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(75, window.innerWidth/window.innerHeight, 0.1, 1000);
-    const renderer = new THREE.WebGLRenderer({canvas, alpha: true, antialias: true});
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    const lines = [
+      'AI computes.',
+      'You decide.',
+      'Robots execute.',
+    ];
+    const glitch = document.getElementById('glitch-text');
+    const sub = document.getElementById('hero-sub');
+    let lineIdx = 0, charIdx = 0, deleting = false;
 
-    const geo = new THREE.IcosahedronGeometry(2.5, 1);
-    const mat = new THREE.MeshBasicMaterial({color: 0x7C6AF7, wireframe: true, transparent: true, opacity: 0.6});
-    const mesh = new THREE.Mesh(geo, mat);
-    scene.add(mesh);
-
-    const pGeo = new THREE.BufferGeometry();
-    const pos = new Float32Array(2000 * 3);
-    for(let i = 0; i < 2000; i++) {
-      pos[i*3] = (Math.random()-0.5)*30;
-      pos[i*3+1] = (Math.random()-0.5)*30;
-      pos[i*3+2] = (Math.random()-0.5)*30;
+    function type() {
+      const current = lines[lineIdx];
+      if (!deleting) {
+        charIdx++;
+        glitch.textContent = current.slice(0, charIdx);
+        glitch.setAttribute('data-text', glitch.textContent);
+        if (charIdx === current.length) {
+          if (lineIdx === lines.length - 1) {
+            sub.textContent = 'HERMES · ORACLE · NEXUS · DOGE';
+            return;
+          }
+          setTimeout(() => { deleting = true; type(); }, 1200);
+          return;
+        }
+      } else {
+        charIdx--;
+        glitch.textContent = current.slice(0, charIdx);
+        glitch.setAttribute('data-text', glitch.textContent);
+        if (charIdx === 0) {
+          deleting = false;
+          lineIdx = (lineIdx + 1) % lines.length;
+        }
+      }
+      setTimeout(type, deleting ? 40 : 80);
     }
-    pGeo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
-    const particles = new THREE.Points(pGeo, new THREE.PointsMaterial({color: 0x7C6AF7, size: 0.06, transparent: true, opacity: 0.5}));
-    scene.add(particles);
-
-    camera.position.z = 6;
-    let mouseX = 0, mouseY = 0;
-    document.addEventListener('mousemove', e => {
-      mouseX = (e.clientX/window.innerWidth - 0.5) * 0.5;
-      mouseY = (e.clientY/window.innerHeight - 0.5) * 0.5;
-    });
-
-    function animate() {
-      requestAnimationFrame(animate);
-      mesh.rotation.x += 0.003;
-      mesh.rotation.y += 0.005;
-      mesh.rotation.x += (mouseY - mesh.rotation.x) * 0.01;
-      mesh.rotation.y += (mouseX - mesh.rotation.y) * 0.01;
-      particles.rotation.y += 0.0005;
-      renderer.render(scene, camera);
-    }
-    animate();
-
-    window.addEventListener('resize', () => {
-      camera.aspect = window.innerWidth/window.innerHeight;
-      camera.updateProjectionMatrix();
-      renderer.setSize(window.innerWidth, window.innerHeight);
-    });
+    setTimeout(type, 800);
   </script>
 </body>
 </html>
