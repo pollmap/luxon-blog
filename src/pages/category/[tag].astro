@@ -1,0 +1,75 @@
+---
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  const tags = [...new Set(posts.flatMap(p => p.data.tags || []))];
+  return tags.map(tag => ({
+    params: { tag: tag.toLowerCase().replace(/\s+/g, '-') },
+    props: { tag, posts: posts.filter(p => (p.data.tags || []).includes(tag)).sort((a,b) => b.data.date.valueOf() - a.data.date.valueOf()) }
+  }));
+}
+
+const { tag, posts } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{tag} — Luxon AI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{--bg:#0D0D1A;--purple:#7C6AF7;--white:#FFFFFF;}
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{background:var(--bg);color:var(--white);font-family:'Noto Sans KR',sans-serif;}
+    nav{position:fixed;top:0;width:100%;z-index:100;padding:1.5rem 3rem;display:flex;justify-content:space-between;align-items:center;backdrop-filter:blur(10px);background:rgba(13,13,26,0.85);}
+    .logo{font-family:'JetBrains Mono',monospace;font-size:1.2rem;font-weight:700;color:var(--purple);text-decoration:none;}
+    nav a{color:rgba(255,255,255,0.6);text-decoration:none;margin-left:2rem;font-size:0.85rem;}
+    nav a:hover{color:var(--purple);}
+    main{max-width:1100px;margin:0 auto;padding:8rem 3rem 4rem;}
+    .tag-label{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--purple);letter-spacing:0.3em;margin-bottom:0.8rem;}
+    h1{font-size:2.5rem;font-weight:700;margin-bottom:0.5rem;}
+    .count{color:rgba(255,255,255,0.4);font-size:0.9rem;margin-bottom:3rem;}
+    .posts{display:grid;gap:1px;background:rgba(255,255,255,0.05);}
+    .post{background:var(--bg);padding:2rem;text-decoration:none;color:inherit;display:grid;grid-template-columns:120px 1fr;gap:1.5rem;align-items:start;border:1px solid transparent;transition:border-color 0.3s;}
+    .post:hover{border-color:rgba(124,106,247,0.3);}
+    .post img{width:120px;height:80px;object-fit:cover;filter:brightness(0.7);}
+    .post-date{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--purple);margin-bottom:0.4rem;}
+    .post-title{font-size:1.05rem;font-weight:700;margin-bottom:0.5rem;line-height:1.4;}
+    .post-desc{font-size:0.83rem;color:rgba(255,255,255,0.55);line-height:1.5;}
+    .back{display:inline-block;margin-top:3rem;color:var(--purple);text-decoration:none;font-family:'JetBrains Mono',monospace;font-size:0.8rem;}
+  </style>
+</head>
+<body>
+  <nav>
+    <a href={`${base}/`} class="logo">LUXON_AI</a>
+    <div>
+      <a href={`${base}/`}>HOME</a>
+      <a href={`${base}/blog`}>RESEARCH</a>
+    </div>
+  </nav>
+  <main>
+    <p class="tag-label">// CATEGORY</p>
+    <h1>{tag}</h1>
+    <p class="count">{posts.length}개의 글</p>
+    <div class="posts">
+      {posts.map(post => (
+        <a href={`${base}/blog/${post.id}`} class="post">
+          {post.data.heroImage
+            ? <img src={post.data.heroImage} alt={post.data.title} />
+            : <div style="width:120px;height:80px;background:rgba(124,106,247,0.08);display:flex;align-items:center;justify-content:center;color:#7C6AF7;font-size:1.5rem;">📊</div>
+          }
+          <div>
+            <div class="post-date">{post.data.date.toISOString().slice(0,10)}</div>
+            <div class="post-title">{post.data.title}</div>
+            <p class="post-desc">{post.data.description || ''}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+    <a href={`${base}/blog`} class="back">← 전체 글 보기</a>
+  </main>
+</body>
+</html>
