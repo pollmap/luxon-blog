@@ -1,0 +1,12 @@
+title: Luxon AI 리서치
+description: AI·퀀트·지정학 분석 블로그 by Luxon AI
+baseurl: ""
+url: "https://pollmap.github.io"
+theme: minima
+lang: ko
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
