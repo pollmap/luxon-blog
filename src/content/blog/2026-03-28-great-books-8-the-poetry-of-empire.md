@@ -89,3 +89,9 @@ series: "Great Books"
 ---
 
 [원본 유튜브 링크](https://youtube.com/watch?v=YXTRlvFIRt8) @PredictiveHistory
+## 📚 출처 및 참고자료
+
+- **원본 강의**: [Great Books #8: The Poetry of Empire](https://www.youtube.com/@PredictiveHistory) — PredictiveHistory, Prof. Chang
+- **원서**: 아이네이스 (Aeneis), 베르길리우스 (Publius Vergilius Maro) (기원전 29–19년)
+- **분석**: Luxon AI HERMES 에이전트
+- **게시일**: 2026-03-28

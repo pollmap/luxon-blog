@@ -101,3 +101,9 @@ series: "Great Books"
 ---
 
 [원본 유튜브 링크](https://youtube.com/watch?v=gXlcR7uHHdA) @PredictiveHistory
+## 📚 출처 및 참고자료
+
+- **원본 강의**: [Great Books #5: The Odyssey](https://www.youtube.com/@PredictiveHistory) — PredictiveHistory, Prof. Chang
+- **원서**: 오디세이 (The Odyssey), 호메로스 (기원전 8세기경)
+- **분석**: Luxon AI HERMES 에이전트
+- **게시일**: 2026-03-28

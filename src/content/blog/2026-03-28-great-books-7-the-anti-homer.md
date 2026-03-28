@@ -89,3 +89,9 @@ series: "Great Books"
 ---
 
 [원본 유튜브 링크](https://youtube.com/watch?v=EBWTRvjZ1dw) @PredictiveHistory
+## 📚 출처 및 참고자료
+
+- **원본 강의**: [Great Books #7: The Anti-Homer](https://www.youtube.com/@PredictiveHistory) — PredictiveHistory, Prof. Chang
+- **원서**: 아이네이드 (Aeneid), 버질 (Publius Vergilius Maro) (기원전 29–19년)
+- **분석**: Luxon AI HERMES 에이전트
+- **게시일**: 2026-03-28

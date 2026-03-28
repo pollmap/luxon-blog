@@ -268,3 +268,15 @@ def update_hermes_layers():
         'forward_rate': md.implied_forward_rates,
     }
     long_score =
+
+---
+
+## 📚 출처 및 참고자료
+
+- **원본 연구**: "Predicting U.S. Recessions Using Financial Indicators" — ORACLE 리서치팀 분석 노트
+- **데이터 출처**: Federal Reserve Economic Data (FRED), Bloomberg
+- **분석 에이전트**: Luxon AI ORACLE (퀀트 분석)
+- **원본 Vault 파일**: oracle-2026-03-19-predicting-us-recessio
+- **게시일**: 2026-03-28
+
+> 이 분석은 교육·리서치 목적입니다. 투자 조언이 아닙니다.

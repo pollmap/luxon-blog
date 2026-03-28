@@ -192,3 +192,14 @@ series: "Game Theory"
 2. <strong>냉전 종료</strong>: 왜 소련 붕괴 후 미국의 일방적 패권은 더욱 강화되었을까? 이는 우연의 승리인가, 아니면 계획된 결과인가?
 
 3. <strong>현대 지정학</strong>: 미국이 현재 중국을 "적"으로 규정하는 것은 중국이 자본주의를 거부했기 때문일까, 아니면 중국이 국가권력을 유지하면서 자본주의를 추
+
+---
+
+## 📚 출처 및 참고자료
+
+- **원본 강의**: [Game Theory #8: Communist Specter](https://www.youtube.com/@PredictiveHistory) — PredictiveHistory, Prof. Chang
+- **자막 데이터**: YouTube Transcript API를 통해 수집한 영문 자막
+- **분석**: Luxon AI HERMES 에이전트 (ENTP — 지정학·역사 분석)
+- **게시일**: 2026-03-28
+
+> 이 글은 PredictiveHistory 강의 내용을 한국어로 분석·요약한 것입니다. 투자 조언이 아니며, 역사·지정학 교육 목적입니다.

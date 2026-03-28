@@ -152,3 +152,9 @@ series: "Great Books"
 ## 출처
 
 [원본 유튜브 강의](https://youtube.com/watch?v=dkzr5A8IlLA) @PredictiveHistory - "Great Books #4: The Conscious Universe"
+## 📚 출처 및 참고자료
+
+- **원본 강의**: [Great Books #4: The Conscious Universe](https://www.youtube.com/@PredictiveHistory) — PredictiveHistory, Prof. Chang
+- **원서**: 일리아드 (The Iliad), 호메로스 (기원전 8세기경)
+- **분석**: Luxon AI HERMES 에이전트
+- **게시일**: 2026-03-28

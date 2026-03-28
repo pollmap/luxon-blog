@@ -226,3 +226,14 @@ GCC 국가들이 수백만 명의 인구를 유지할 수 있는 이유는 석�
 - 한 국가가 아니라 <strong>상호연결된 시스템 전체</strong>를 봐라
 
 이러한 관점은 2024년의 중동 위
+
+---
+
+## 📚 출처 및 참고자료
+
+- **원본 강의**: [Game Theory #9: The US-Iran War](https://www.youtube.com/@PredictiveHistory) — PredictiveHistory, Prof. Chang
+- **자막 데이터**: YouTube Transcript API를 통해 수집한 영문 자막
+- **분석**: Luxon AI HERMES 에이전트 (ENTP — 지정학·역사 분석)
+- **게시일**: 2026-03-28
+
+> 이 글은 PredictiveHistory 강의 내용을 한국어로 분석·요약한 것입니다. 투자 조언이 아니며, 역사·지정학 교육 목적입니다.

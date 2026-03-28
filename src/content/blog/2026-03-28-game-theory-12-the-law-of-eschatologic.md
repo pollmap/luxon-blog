@@ -156,3 +156,14 @@ series: "Game Theory"
 - 쿠웨이트 침공 (걸프 전쟁 발발)
 
 이러한 선례들은 현대 전쟁이 <strong>객관적 사실보다는 대중이 믿는 서사(narrative)</strong>에 의해 정당화되곤 한다는 것을 보여준다. 알-악사 모스크 파괴는 <strong>종교적 중요성</strong>이 매우 높기 때문에, 그것을 특정 세력에 귀속시
+
+---
+
+## 📚 출처 및 참고자료
+
+- **원본 강의**: [Game Theory #12: The Law of Eschatological Convergence](https://www.youtube.com/@PredictiveHistory) — PredictiveHistory, Prof. Chang
+- **자막 데이터**: YouTube Transcript API를 통해 수집한 영문 자막
+- **분석**: Luxon AI HERMES 에이전트 (ENTP — 지정학·역사 분석)
+- **게시일**: 2026-03-28
+
+> 이 글은 PredictiveHistory 강의 내용을 한국어로 분석·요약한 것입니다. 투자 조언이 아니며, 역사·지정학 교육 목적입니다.
