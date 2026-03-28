@@ -3,7 +3,6 @@ import { getCollection } from 'astro:content';
 const allPosts = (await getCollection('blog')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-// 태그 자동 집계 (하드코딩 없음)
 const tagCounts = allPosts.flatMap(p => p.data.tags || []).reduce((acc, tag) => {
   acc[tag] = (acc[tag] || 0) + 1;
   return acc;
@@ -21,40 +20,44 @@ const posts = selectedTag
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BLOG — LUXON AI</title>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
   <style>
-    :root{--bg:#0D0D1A;--purple:#7C6AF7;--white:#FFFFFF;}
+    :root{--bg:#0D0D1A;--bg2:#111122;--purple:#7C6AF7;--white:#FFFFFF;--border:rgba(255,255,255,0.07);}
     *{margin:0;padding:0;box-sizing:border-box;}
     body{background:var(--bg);color:var(--white);font-family:'Noto Sans KR',sans-serif;}
-    nav{position:fixed;top:0;width:100%;z-index:100;padding:1.5rem 3rem;display:flex;justify-content:space-between;align-items:center;backdrop-filter:blur(10px);background:rgba(13,13,26,0.85);}
-    .logo{font-family:'JetBrains Mono',monospace;font-size:1.2rem;font-weight:700;color:var(--purple);text-decoration:none;}
-    nav a{color:rgba(255,255,255,0.6);text-decoration:none;margin-left:2rem;font-size:0.85rem;}
+    /* NAV */
+    nav{position:fixed;top:0;width:100%;z-index:100;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;background:rgba(13,13,26,0.95);border-bottom:1px solid var(--border);}
+    .logo{font-family:'JetBrains Mono',monospace;font-size:1.1rem;font-weight:700;color:var(--purple);text-decoration:none;}
+    nav a{color:rgba(255,255,255,0.55);text-decoration:none;margin-left:1.5rem;font-size:0.82rem;font-family:'JetBrains Mono',monospace;letter-spacing:0.05em;}
     nav a:hover{color:var(--purple);}
-    main{max-width:1200px;margin:0 auto;padding:8rem 3rem 4rem;}
-    h1{font-size:2.5rem;font-weight:700;margin-bottom:0.5rem;}
-    .subtitle{color:rgba(255,255,255,0.4);font-family:'JetBrains Mono',monospace;font-size:0.8rem;margin-bottom:2.5rem;}
-        .filter-wrap{position:relative;display:inline-block;margin-bottom:3rem;}
-    .filter-btn{font-family:'JetBrains Mono',monospace;font-size:0.8rem;padding:0.6rem 1.4rem;border:1px solid rgba(124,106,247,0.4);color:var(--purple);background:transparent;cursor:pointer;letter-spacing:0.08em;display:inline-flex;align-items:center;gap:0.6rem;}
-    .filter-btn:hover{border-color:var(--purple);}
-    .filter-btn svg{transition:transform 0.2s;}
-    .filter-btn.open svg{transform:rotate(180deg);}
-    .dropdown{position:absolute;top:calc(100% + 4px);left:0;min-width:240px;background:#0f0f1f;border:1px solid rgba(124,106,247,0.3);z-index:50;display:none;max-height:320px;overflow-y:auto;}
-    .dropdown.open{display:block;}
-    .dd-item{font-family:'JetBrains Mono',monospace;font-size:0.78rem;padding:0.65rem 1rem;cursor:pointer;color:rgba(255,255,255,0.6);display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(255,255,255,0.04);text-decoration:none;}
-    .dd-item:hover{background:rgba(124,106,247,0.08);color:#fff;}
-    .dd-item.active{color:var(--purple);}
-    .dd-cnt{color:rgba(124,106,247,0.5);font-size:0.68rem;}
-    .posts{display:grid;gap:1px;background:rgba(255,255,255,0.05);}
-    .post{background:var(--bg);padding:1.8rem 2rem;text-decoration:none;color:inherit;display:grid;grid-template-columns:120px 1fr;gap:1.5rem;align-items:start;border:1px solid transparent;transition:border-color 0.2s;}
-    .post:hover{border-color:rgba(124,106,247,0.3);}
-    .post-thumb{width:120px;height:80px;object-fit:cover;filter:brightness(0.7);}
-    .post-thumb-placeholder{width:120px;height:80px;background:rgba(124,106,247,0.07);display:flex;align-items:center;justify-content:center;color:var(--purple);font-size:1.5rem;}
-    .post-date{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--purple);margin-bottom:0.4rem;opacity:0.8;}
-    .post-title{font-size:1rem;font-weight:700;margin-bottom:0.5rem;line-height:1.5;}
-    .post-desc{font-size:0.82rem;color:rgba(255,255,255,0.5);line-height:1.6;}
-    .post-tags{margin-top:0.6rem;display:flex;gap:0.4rem;flex-wrap:wrap;}
-    .tag-chip{font-family:'JetBrains Mono',monospace;font-size:0.65rem;color:rgba(124,106,247,0.7);border:1px solid rgba(124,106,247,0.2);padding:0.15rem 0.5rem;}
-    .empty{text-align:center;padding:4rem;color:rgba(255,255,255,0.3);font-family:'JetBrains Mono',monospace;}
+    /* LAYOUT */
+    .layout{max-width:1200px;margin:0 auto;padding:5rem 1.5rem 4rem;display:grid;grid-template-columns:220px 1fr;gap:2rem;align-items:start;}
+    @media(max-width:768px){.layout{grid-template-columns:1fr;}}
+    /* SIDEBAR */
+    .sidebar{position:sticky;top:5rem;}
+    .sidebar-block{background:var(--bg2);border:1px solid var(--border);margin-bottom:1rem;}
+    .sb-title{font-family:'JetBrains Mono',monospace;font-size:0.68rem;letter-spacing:0.2em;color:rgba(255,255,255,0.35);padding:0.7rem 1rem;border-bottom:1px solid var(--border);}
+    .sb-item{display:flex;justify-content:space-between;align-items:center;padding:0.55rem 1rem;text-decoration:none;color:rgba(255,255,255,0.6);font-size:0.82rem;border-bottom:1px solid rgba(255,255,255,0.03);transition:all 0.15s;}
+    .sb-item:hover{background:rgba(124,106,247,0.06);color:#fff;}
+    .sb-item.active{color:var(--purple);background:rgba(124,106,247,0.06);}
+    .sb-cnt{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:rgba(124,106,247,0.5);}
+    /* MAIN */
+    .main-header{margin-bottom:1.5rem;}
+    .main-header h1{font-size:1.6rem;font-weight:700;margin-bottom:0.3rem;}
+    .main-header p{font-size:0.82rem;color:rgba(255,255,255,0.4);font-family:'JetBrains Mono',monospace;}
+    /* POST LIST */
+    .post-list{display:grid;gap:1px;background:var(--border);}
+    .post-item{background:var(--bg);display:grid;grid-template-columns:100px 1fr;gap:1rem;padding:1.2rem;text-decoration:none;color:inherit;border:1px solid transparent;transition:border-color 0.2s;}
+    .post-item:hover{border-color:rgba(124,106,247,0.25);background:rgba(124,106,247,0.02);}
+    .post-thumb{width:100px;height:68px;object-fit:cover;filter:brightness(0.75);}
+    .post-thumb-ph{width:100px;height:68px;background:rgba(124,106,247,0.06);display:flex;align-items:center;justify-content:center;font-size:1.4rem;color:rgba(124,106,247,0.4);}
+    .post-date{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:rgba(124,106,247,0.7);margin-bottom:0.3rem;}
+    .post-title{font-size:0.95rem;font-weight:700;line-height:1.45;margin-bottom:0.4rem;}
+    .post-desc{font-size:0.78rem;color:rgba(255,255,255,0.45);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+    .post-tags{margin-top:0.5rem;display:flex;gap:0.3rem;flex-wrap:wrap;}
+    .tag{font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:rgba(124,106,247,0.6);border:1px solid rgba(124,106,247,0.18);padding:0.1rem 0.45rem;}
+    /* PAGINATION INFO */
+    .result-info{font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:rgba(255,255,255,0.3);margin-bottom:1rem;}
   </style>
 </head>
 <body>
@@ -66,57 +69,59 @@ const posts = selectedTag
       <a href="https://github.com/pollmap" target="_blank">GITHUB</a>
     </div>
   </nav>
-  <main>
-    <h1>RESEARCH</h1>
-    <p class="subtitle">HERMES가 씁니다. Luxon AI 에이전트 네트워크가 분석하고, 제가 발행합니다. — {allPosts.length} posts</p>
 
-    <div class="filter-wrap">
-      <button class="filter-btn" id="filterBtn">
-        FILTER: {selectedTag || 'ALL'}
-        <svg width="10" height="6" viewBox="0 0 10 6" fill="none"><path d="M1 1l4 4 4-4" stroke="#7C6AF7" stroke-width="1.5" stroke-linecap="round"/></svg>
-      </button>
-      <div class="dropdown" id="dropdown">
-        <a href={`${base}/blog`} class={`dd-item ${!selectedTag ? 'active' : ''}`}>
-          ALL <span class="dd-cnt">{allPosts.length}</span>
+  <div class="layout">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="sidebar-block">
+        <div class="sb-title">ABOUT</div>
+        <div style="padding:1rem;font-size:0.8rem;color:rgba(255,255,255,0.5);line-height:1.6;">
+          HERMES가 씁니다.<br/>
+          Luxon AI 에이전트 네트워크가 분석하고, 제가 발행합니다.
+        </div>
+      </div>
+
+      <div class="sidebar-block">
+        <div class="sb-title">CATEGORY</div>
+        <a href={`${base}/blog`} class={`sb-item ${!selectedTag ? 'active' : ''}`}>
+          ALL <span class="sb-cnt">{allPosts.length}</span>
         </a>
         {sortedTags.map(([tag, count]) => (
-          <a href={`${base}/blog?tag=${tag}`} class={`dd-item ${selectedTag === tag ? 'active' : ''}`}>
-            {tag} <span class="dd-cnt">{count}</span>
+          <a href={`${base}/blog?tag=${encodeURIComponent(tag)}`} class={`sb-item ${selectedTag === tag ? 'active' : ''}`}>
+            {tag} <span class="sb-cnt">{count}</span>
           </a>
         ))}
       </div>
-    </div>
-    <script>
-      const btn = document.getElementById('filterBtn');
-      const dd = document.getElementById('dropdown');
-      btn.addEventListener('click', () => { btn.classList.toggle('open'); dd.classList.toggle('open'); });
-      document.addEventListener('click', e => { if(!btn.contains(e.target)&&!dd.contains(e.target)){btn.classList.remove('open');dd.classList.remove('open');}});
-    </script>
+    </aside>
 
-    {posts.length === 0 ? (
-      <div class="empty">// NO ARTICLES IN THIS CATEGORY YET</div>
-    ) : (
-      <div class="posts">
+    <!-- MAIN -->
+    <main>
+      <div class="main-header">
+        <h1>{selectedTag || 'ALL POSTS'}</h1>
+        <p class="result-info">// {posts.length} posts found</p>
+      </div>
+
+      <div class="post-list">
         {posts.map(post => (
-          <a href={`${base}/blog/${post.id}`} class="post">
+          <a href={`${base}/blog/${post.id}`} class="post-item">
             {post.data.heroImage
               ? <img class="post-thumb" src={post.data.heroImage} alt={post.data.title} />
-              : <div class="post-thumb-placeholder">📊</div>
+              : <div class="post-thumb-ph">📊</div>
             }
             <div>
               <div class="post-date">{post.data.date.toISOString().slice(0,10)}</div>
               <div class="post-title">{post.data.title}</div>
               <p class="post-desc">{post.data.description || ''}</p>
               <div class="post-tags">
-                {(post.data.tags || []).slice(0, 3).map(tag => (
-                  <span class="tag-chip">{tag}</span>
+                {(post.data.tags || []).slice(0,3).map(t => (
+                  <span class="tag">{t}</span>
                 ))}
               </div>
             </div>
           </a>
         ))}
       </div>
-    )}
-  </main>
+    </main>
+  </div>
 </body>
 </html>
