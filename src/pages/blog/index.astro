@@ -10,9 +10,20 @@ const tagCounts = allPosts.flatMap(p => p.data.tags || []).reduce((acc, tag) => 
 const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
 
 const selectedTag = Astro.url.searchParams.get('tag') || '';
-const posts = selectedTag
+const page = parseInt(Astro.url.searchParams.get('page') || '1');
+const PER_PAGE = 10;
+const filtered = selectedTag
   ? allPosts.filter(p => (p.data.tags || []).includes(selectedTag))
   : allPosts;
+const totalPages = Math.ceil(filtered.length / PER_PAGE);
+const posts = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+const pageUrl = (p: number) => {
+  const params = new URLSearchParams();
+  if (selectedTag) params.set('tag', selectedTag);
+  if (p > 1) params.set('page', String(p));
+  const q = params.toString();
+  return `${base}/blog${q ? '?' + q : ''}`;
+};
 ---
 <!DOCTYPE html>
 <html lang="ko">
@@ -57,6 +68,12 @@ const posts = selectedTag
     .post-tags{margin-top:0.5rem;display:flex;gap:0.3rem;flex-wrap:wrap;}
     .tag{font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:rgba(124,106,247,0.6);border:1px solid rgba(124,106,247,0.18);padding:0.1rem 0.45rem;}
     /* PAGINATION INFO */
+    .pagination{display:flex;gap:0.4rem;margin-top:1.5rem;align-items:center;flex-wrap:wrap;}
+    .pg-btn{font-family:'JetBrains Mono',monospace;font-size:0.75rem;padding:0.4rem 0.9rem;border:1px solid rgba(124,106,247,0.3);color:var(--purple);text-decoration:none;transition:all 0.2s;}
+    .pg-btn:hover{background:var(--purple);color:var(--bg);}
+    .pg-num{font-family:'JetBrains Mono',monospace;font-size:0.75rem;padding:0.4rem 0.7rem;border:1px solid rgba(255,255,255,0.08);color:rgba(255,255,255,0.4);text-decoration:none;transition:all 0.2s;}
+    .pg-num:hover{border-color:var(--purple);color:var(--purple);}
+    .pg-num.active{border-color:var(--purple);color:var(--purple);background:rgba(124,106,247,0.1);}
     .result-info{font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:rgba(255,255,255,0.3);margin-bottom:1rem;}
   </style>
 </head>
@@ -98,7 +115,7 @@ const posts = selectedTag
     <main>
       <div class="main-header">
         <h1>{selectedTag || 'BLOG'}</h1>
-        <p class="result-info">// {posts.length} posts found</p>
+        <p class="result-info">// {filtered.length} posts — page {page} / {totalPages}</p>
       </div>
 
       <div class="post-list">
@@ -121,6 +138,16 @@ const posts = selectedTag
           </a>
         ))}
       </div>
+
+      {totalPages > 1 && (
+        <div class="pagination">
+          {page > 1 && <a href={pageUrl(page - 1)} class="pg-btn">← PREV</a>}
+          {Array.from({length: totalPages}, (_, i) => i + 1).map(p => (
+            <a href={pageUrl(p)} class={`pg-num ${p === page ? 'active' : ''}`}>{p}</a>
+          ))}
+          {page < totalPages && <a href={pageUrl(page + 1)} class="pg-btn">NEXT →</a>}
+        </div>
+      )}
     </main>
   </div>
 </body>
