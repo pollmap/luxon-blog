@@ -17,7 +17,7 @@
     </div>
 
     <h1 class="font-bold mb-6 leading-tight" style="font-family: 'Space Mono', monospace; font-size: clamp(1.8rem, 5vw, 3.5rem);">
-      <span id="hero-typewriter" style="color: #9D8FFF;"></span>
+      <span id="hero-typewriter" style="color: #9D8FFF;"></span><span id="hero-cursor" style="color:#9D8FFF;margin-left:2px;">▌</span>
     </h1>
 
     <p class="text-base mb-12" style="color: var(--text-muted); max-width: 500px;">
@@ -156,23 +156,76 @@ if (canvas) {
   animate();
 }
 
-// Typewriter
+// Typewriter with glitch effect
 const lines = ['AI computes.', 'You decide.', 'Robots execute.'];
-const el = document.getElementById('hero-typewriter');
+const GLITCH_CHARS = '!<>-_\\/[]{}—=+*^?#@$%&';
+const el = document.getElementById('hero-typewriter') as HTMLElement | null;
+const cursor = document.getElementById('hero-cursor') as HTMLElement | null;
+
 if (el) {
   let li = 0, ci = 0, deleting = false;
+  let glitching = false;
+
+  function glitch(finalText: string, cb: () => void) {
+    if (glitching) return;
+    glitching = true;
+    let count = 0;
+    const total = 12; // 글리치 프레임 수
+    function frame() {
+      count++;
+      // 일부 글자를 랜덤 문자로 치환
+      const arr = finalText.split('').map((ch, i) => {
+        if (ch === ' ') return ' ';
+        return Math.random() > (count / total)
+          ? GLITCH_CHARS[Math.floor(Math.random() * GLITCH_CHARS.length)]
+          : ch;
+      });
+      el.textContent = arr.join('');
+      if (count < total) {
+        setTimeout(frame, 30);
+      } else {
+        el.textContent = finalText;
+        glitching = false;
+        cb();
+      }
+    }
+    frame();
+  }
+
   function type() {
+    if (glitching) return;
     const cur = lines[li];
     if (!deleting) {
-      el.textContent = cur.slice(0, ++ci);
-      if (ci === cur.length) { deleting = true; setTimeout(type, 1200); return; }
-      setTimeout(type, 40);
+      ci++;
+      el.textContent = cur.slice(0, ci);
+      if (ci === cur.length) {
+        // 완성 → 글리치 → 대기
+        setTimeout(() => {
+          glitch(cur, () => {
+            deleting = true;
+            setTimeout(type, 900);
+          });
+        }, 400);
+        return;
+      }
+      setTimeout(type, 35);
     } else {
-      el.textContent = cur.slice(0, --ci);
-      if (ci === 0) { deleting = false; li = (li + 1) % lines.length; setTimeout(type, 200); return; }
-      setTimeout(type, 20);
+      ci--;
+      el.textContent = cur.slice(0, ci);
+      if (ci === 0) {
+        deleting = false;
+        li = (li + 1) % lines.length;
+        setTimeout(type, 180);
+        return;
+      }
+      setTimeout(type, 18);
     }
   }
   type();
+
+  // 커서 깜박임
+  if (cursor) {
+    setInterval(() => { cursor.style.opacity = cursor.style.opacity === '0' ? '1' : '0'; }, 530);
+  }
 }
 </script>

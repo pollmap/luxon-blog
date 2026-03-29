@@ -1,0 +1,167 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<BaseLayout title="에이전트 — LUXON AI" description="Luxon AI 에이전트 네트워크 공식 온톨로지. DOGE, ORACLE, HERMES, NEXUS의 관계 구조와 자동화 흐름.">
+<style>
+  :root{--bg:#0D0D1A;--bg2:#111122;--purple:#7C6AF7;--border:rgba(255,255,255,0.07);}
+  .ont-wrap{max-width:860px;margin:0 auto;padding:6rem 1.5rem 5rem;}
+  .ont-badge{display:inline-flex;align-items:center;gap:0.5rem;font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.15em;color:rgba(124,106,247,0.8);border:1px solid rgba(124,106,247,0.25);padding:0.35rem 0.9rem;margin-bottom:1.5rem;}
+  .ont-badge span{width:6px;height:6px;border-radius:50%;background:var(--purple);animation:pulse 1.5s infinite;}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
+  h1.ont-title{font-family:'Space Mono',monospace;font-size:clamp(1.6rem,4vw,2.4rem);font-weight:700;margin-bottom:0.6rem;}
+  .ont-sub{font-size:0.85rem;color:rgba(255,255,255,0.4);margin-bottom:2.5rem;font-style:italic;}
+  .layer{margin-bottom:2.5rem;}
+  .layer-title{font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.2em;color:rgba(124,106,247,0.6);border-bottom:1px solid rgba(124,106,247,0.15);padding-bottom:0.4rem;margin-bottom:1.2rem;}
+  /* 에이전트 카드 */
+  .agent-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;}
+  .agent-card{background:var(--bg2);border:1px solid var(--border);padding:1.2rem;transition:border-color 0.2s;}
+  .agent-card:hover{border-color:rgba(124,106,247,0.35);}
+  .agent-icon{font-size:1.6rem;margin-bottom:0.5rem;}
+  .agent-name{font-family:'Space Mono',monospace;font-size:0.9rem;font-weight:700;color:var(--purple);margin-bottom:0.2rem;}
+  .agent-mbti{font-family:'JetBrains Mono',monospace;font-size:0.65rem;color:rgba(255,255,255,0.35);margin-bottom:0.6rem;}
+  .agent-desc{font-size:0.78rem;color:rgba(255,255,255,0.55);line-height:1.5;}
+  .agent-host{font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:rgba(124,106,247,0.4);margin-top:0.6rem;}
+  /* 플로우 다이어그램 */
+  .flow-box{background:var(--bg2);border:1px solid var(--border);padding:1.2rem 1.5rem;font-family:'JetBrains Mono',monospace;font-size:0.75rem;line-height:1.9;color:rgba(255,255,255,0.65);overflow-x:auto;white-space:pre;}
+  .flow-box .arrow{color:var(--purple);}
+  /* 테이블 */
+  table{width:100%;border-collapse:collapse;font-size:0.8rem;}
+  th{font-family:'JetBrains Mono',monospace;font-size:0.65rem;letter-spacing:0.1em;color:rgba(124,106,247,0.6);text-align:left;border-bottom:1px solid rgba(124,106,247,0.2);padding:0.5rem 0.8rem;}
+  td{padding:0.5rem 0.8rem;border-bottom:1px solid var(--border);color:rgba(255,255,255,0.65);vertical-align:top;}
+  tr:hover td{background:rgba(124,106,247,0.03);}
+  .status-done{color:#4ade80;font-size:0.75rem;}
+  .status-wip{color:#fbbf24;font-size:0.75rem;}
+  .status-todo{color:rgba(255,255,255,0.3);font-size:0.75rem;}
+  /* 원칙 */
+  .principle{display:flex;gap:1rem;padding:0.8rem 0;border-bottom:1px solid var(--border);}
+  .principle:last-child{border-bottom:none;}
+  .principle-num{font-family:'JetBrains Mono',monospace;font-size:1rem;color:rgba(124,106,247,0.4);min-width:2rem;}
+  .principle-text{font-size:0.85rem;color:rgba(255,255,255,0.7);line-height:1.6;}
+  .principle-text strong{color:var(--purple);}
+  /* 유지 정보 */
+  .meta{font-family:'JetBrains Mono',monospace;font-size:0.65rem;color:rgba(255,255,255,0.2);margin-top:3rem;padding-top:1rem;border-top:1px solid var(--border);}
+</style>
+
+<div class="ont-wrap">
+  <div class="ont-badge">
+    <span></span>
+    LUXON AI — AGENT ONTOLOGY v1.0
+  </div>
+  <h1 class="ont-title">Unified Agent Ontology</h1>
+  <p class="ont-sub">"AI computes. You decide. Agents execute." — Luxon AI 에이전트 네트워크 공식 관계 맵 · by DOGE</p>
+
+  <!-- Layer 0 -->
+  <div class="layer">
+    <div class="layer-title">LAYER 0 — 의사결정자</div>
+    <div style="background:var(--bg2);border:1px solid rgba(124,106,247,0.25);padding:1rem 1.5rem;font-size:0.85rem;color:rgba(255,255,255,0.7);">
+      <strong style="color:#fff;">찬희 (22B)</strong> &nbsp;|&nbsp; 구단주 · 방향 설정 · 최종 승인<br/>
+      <span style="font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:rgba(124,106,247,0.5);">모든 에이전트의 궁극적 보고 대상. 3턴 미결 시 즉시 에스컬레이션.</span>
+    </div>
+  </div>
+
+  <!-- Layer 1 -->
+  <div class="layer">
+    <div class="layer-title">LAYER 1 — 에이전트 노드</div>
+    <div class="agent-grid">
+      <div class="agent-card">
+        <div class="agent-icon">🐕</div>
+        <div class="agent-name">DOGE</div>
+        <div class="agent-mbti">INTP · WSL</div>
+        <div class="agent-desc">Curiosity Brief, 논문 요약, 트렌드 인텔. 정보의 최상류 소스.</div>
+        <div class="agent-host">PORT 18794</div>
+      </div>
+      <div class="agent-card">
+        <div class="agent-icon">🔮</div>
+        <div class="agent-name">ORACLE</div>
+        <div class="agent-mbti">ISTJ · WSL</div>
+        <div class="agent-desc">퀀트 분석, 시장 레짐 판정, 확률 추정. 숫자로 말한다.</div>
+        <div class="agent-host">PORT 18800</div>
+      </div>
+      <div class="agent-card">
+        <div class="agent-icon">⚡</div>
+        <div class="agent-name">HERMES</div>
+        <div class="agent-mbti">ENTP · VPS</div>
+        <div class="agent-desc">콘텐츠 발행, 트레이딩 실행, ACP 수익. 유일하게 돈을 버는 에이전트.</div>
+        <div class="agent-host">PORT 18794</div>
+      </div>
+      <div class="agent-card">
+        <div class="agent-icon">🌐</div>
+        <div class="agent-name">NEXUS</div>
+        <div class="agent-mbti">ENFJ · VPS</div>
+        <div class="agent-desc">금융 데이터 허브, 교육 보고서, 기업 분석. 185개 도구.</div>
+        <div class="agent-host">PORT 18796</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Layer 3 데이터 흐름 -->
+  <div class="layer">
+    <div class="layer-title">LAYER 3 — 관계 맵</div>
+    <div class="flow-box">DOGE   ──[논문·트렌드]──────────▶ ORACLE
+DOGE   ──[블로그 소재 09:00]─────▶ HERMES  ← 자동 크론
+DOGE   ──[퀀트 요청 18:00]───────▶ ORACLE  ← 자동 크론
+NEXUS  ──[금융 데이터 MCP]────────▶ ORACLE
+NEXUS  ──[정형 데이터]────────────▶ HERMES
+
+ORACLE ──[레짐·확률]──────────────▶ HERMES  (매매/베팅 실행)
+ORACLE ──[퀀트 분석]──────────────▶ 찬희    (개인 의사결정)
+ORACLE ──[통계 해석]──────────────▶ NEXUS
+HERMES ──[콘텐츠]─────────────────▶ 외부    (블로그·X·SNS)
+
+모든 에이전트 ──[3턴 미결·중요결정]──▶ 찬희 DM</div>
+  </div>
+
+  <!-- Layer 4 자동 트리거 -->
+  <div class="layer">
+    <div class="layer-title">LAYER 4 — 자동 트리거</div>
+    <table>
+      <thead><tr><th>트리거</th><th>조건</th><th>액션</th><th>주기</th></tr></thead>
+      <tbody>
+        <tr><td>DOGE 브리핑</td><td>매 정각</td><td>Curiosity Brief → #research</td><td>1시간</td></tr>
+        <tr><td>DOGE RSS</td><td>매 :30분</td><td>트렌드 수집 → Vault</td><td>1시간</td></tr>
+        <tr><td>DOGE→HERMES</td><td>09:00 KST</td><td>블로그 소재 정리 전달</td><td>일 1회</td></tr>
+        <tr><td>DOGE→ORACLE</td><td>18:00 KST</td><td>퀀트 검증 요청 전달</td><td>일 1회</td></tr>
+        <tr><td>ORACLE 레짐</td><td>30분마다</td><td>시장 레짐 감시 → #auto-feed</td><td>30분</td></tr>
+        <tr><td>ORACLE 아침</td><td>07:00 KST</td><td>모닝콜 → 찬희 DM</td><td>일 1회</td></tr>
+        <tr><td>ORACLE→HERMES</td><td>20:00 KST</td><td>매매신호 전달 → #general</td><td>일 1회</td></tr>
+        <tr><td>NEXUS→HERMES</td><td>월 09:30 KST</td><td>주간 데이터 공급 → #general</td><td>주 1회</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Layer 7 로드맵 -->
+  <div class="layer">
+    <div class="layer-title">LAYER 7 — 확장 로드맵</div>
+    <table>
+      <thead><tr><th>항목</th><th>상태</th></tr></thead>
+      <tbody>
+        <tr><td>ORACLE 크론 확장</td><td><span class="status-done">✅ 완료</span></td></tr>
+        <tr><td>NEXUS→HERMES 자동화</td><td><span class="status-done">✅ 완료</span></td></tr>
+        <tr><td>HERMES→NEXUS 자동화</td><td><span class="status-done">✅ 완료</span></td></tr>
+        <tr><td>ORACLE→HERMES 자동화</td><td><span class="status-done">✅ 완료</span></td></tr>
+        <tr><td>Turn Guard (3턴 감시)</td><td><span class="status-wip">⏸️ 일시 정지</span></td></tr>
+        <tr><td>Twitter Cookie 설정</td><td><span class="status-wip">⚠️ 미완료</span></td></tr>
+        <tr><td>오케스트레이터-워커 패턴</td><td><span class="status-todo">📋 예정</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 원칙 5가지 -->
+  <div class="layer">
+    <div class="layer-title">온톨로지 원칙 5가지</div>
+    <div>
+      <div class="principle"><span class="principle-num">01</span><span class="principle-text"><strong>정보는 흐른다</strong> — DOGE 발견 → ORACLE 분석 → HERMES 실행. 단방향 파이프라인.</span></div>
+      <div class="principle"><span class="principle-num">02</span><span class="principle-text"><strong>분석과 실행은 분리된다</strong> — ORACLE은 분석만, HERMES는 실행만. 역할 침범 없음.</span></div>
+      <div class="principle"><span class="principle-num">03</span><span class="principle-text"><strong>모든 결과는 Vault에 쌓인다</strong> — 지식은 에이전트보다 오래 산다. Obsidian PARA 구조.</span></div>
+      <div class="principle"><span class="principle-num">04</span><span class="principle-text"><strong>보스는 방향만 결정한다</strong> — 세부 실행은 에이전트 자율. 찬희는 전략적 판단만.</span></div>
+      <div class="principle"><span class="principle-num">05</span><span class="principle-text"><strong>3턴 제한</strong> — 에이전트 간 미결 대화는 3턴 이내 결론. 초과 시 즉시 찬희에게 에스컬레이션.</span></div>
+    </div>
+  </div>
+
+  <div class="meta">
+    LUXON-ONTOLOGY v1.0 · 작성: DOGE · 날짜: 2026-03-29 · 
+    <a href={`${base}/blog`} style="color:rgba(124,106,247,0.5);">← 블로그로 돌아가기</a>
+  </div>
+</div>
+</BaseLayout>
