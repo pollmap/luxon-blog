@@ -17,6 +17,17 @@ const pageUrl = (p: number) => {
   const q = p > 1 ? `?page=${p}` : '';
   return `${base}/blog${q}`;
 };
+
+// 검색용 JSON 데이터 (클라이언트에서 RAG-style 검색)
+const searchIndex = allPosts.map(p => ({
+  id: p.id,
+  title: p.data.title,
+  description: p.data.description || '',
+  tags: p.data.tags || [],
+  date: p.data.date.toISOString().slice(0,10),
+  url: `${base}/blog/${p.id}`,
+  heroImage: p.data.heroImage || '',
+}));
 ---
 <!DOCTYPE html>
 <html lang="ko">
@@ -24,7 +35,6 @@ const pageUrl = (p: number) => {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>BLOG — LUXON AI</title>
-  <!-- 폰트: Pretendard (한국어) + JetBrains Mono (코드/UI) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
@@ -33,116 +43,240 @@ const pageUrl = (p: number) => {
     :root{--bg:#0D0D1A;--bg2:#111122;--purple:#7C6AF7;--white:#FFFFFF;--border:rgba(255,255,255,0.07);}
     *{margin:0;padding:0;box-sizing:border-box;}
     body{background:var(--bg);color:var(--white);font-family:'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Noto Sans KR',sans-serif;}
+
     /* NAV */
-    nav{position:fixed;top:0;width:100%;z-index:100;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;background:rgba(13,13,26,0.95);border-bottom:1px solid var(--border);}
-    .logo{font-family:'JetBrains Mono',monospace;font-size:1.1rem;font-weight:700;color:var(--purple);text-decoration:none;}
-    nav a{color:rgba(255,255,255,0.55);text-decoration:none;margin-left:1.5rem;font-size:0.82rem;font-family:'JetBrains Mono',monospace;letter-spacing:0.05em;}
+    nav{position:fixed;top:0;width:100%;z-index:100;padding:0.9rem 1.5rem;display:flex;justify-content:space-between;align-items:center;background:rgba(13,13,26,0.95);border-bottom:1px solid var(--border);}
+    .logo{font-family:'JetBrains Mono',monospace;font-size:1rem;font-weight:700;color:var(--purple);text-decoration:none;}
+    .nav-links{display:flex;gap:1.2rem;}
+    nav a{color:rgba(255,255,255,0.55);text-decoration:none;font-size:0.8rem;font-family:'JetBrains Mono',monospace;letter-spacing:0.05em;}
     nav a:hover{color:var(--purple);}
+
+    /* SEARCH BAR (상단 nav 아래 고정) */
+    .search-bar-wrap{position:sticky;top:53px;z-index:90;background:var(--bg);border-bottom:1px solid var(--border);padding:0.7rem 1.5rem;}
+    .search-inner{max-width:1200px;margin:0 auto;position:relative;}
+    .search-input{width:100%;background:var(--bg2);border:1px solid rgba(124,106,247,0.3);color:var(--white);padding:0.6rem 0.9rem 0.6rem 2.4rem;font-size:0.85rem;font-family:'JetBrains Mono',monospace;outline:none;transition:border-color 0.2s;}
+    .search-input:focus{border-color:var(--purple);}
+    .search-input::placeholder{color:rgba(255,255,255,0.25);}
+    .search-icon{position:absolute;left:0.75rem;top:50%;transform:translateY(-50%);color:rgba(124,106,247,0.5);font-size:0.9rem;pointer-events:none;}
+
     /* LAYOUT */
-    .layout{max-width:1200px;margin:0 auto;padding:5rem 1.5rem 4rem;display:grid;grid-template-columns:220px 1fr;gap:2rem;align-items:start;}
-    @media(max-width:768px){.layout{grid-template-columns:1fr;}}
-    /* SIDEBAR */
-    .sidebar{position:sticky;top:5rem;}
-    .sidebar-block{background:var(--bg2);border:1px solid var(--border);margin-bottom:1rem;}
-    .sb-title{font-family:'JetBrains Mono',monospace;font-size:0.68rem;letter-spacing:0.2em;color:rgba(255,255,255,0.35);padding:0.7rem 1rem;border-bottom:1px solid var(--border);}
-    .sb-item{display:flex;justify-content:space-between;align-items:center;padding:0.55rem 1rem;text-decoration:none;color:rgba(255,255,255,0.6);font-size:0.82rem;border-bottom:1px solid rgba(255,255,255,0.03);transition:all 0.15s;}
-    .sb-item:hover{background:rgba(124,106,247,0.06);color:#fff;}
-    .sb-item.active{color:var(--purple);background:rgba(124,106,247,0.06);}
-    .sb-cnt{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:rgba(124,106,247,0.5);}
-    /* MAIN */
-    .main-header{margin-bottom:1.5rem;}
-    .main-header h1{font-size:1.6rem;font-weight:700;margin-bottom:0.3rem;}
-    .main-header p{font-size:0.82rem;color:rgba(255,255,255,0.4);font-family:'JetBrains Mono',monospace;}
+    .layout{max-width:1200px;margin:0 auto;padding:1rem 1.5rem 4rem;}
+
+    /* CATEGORY CHIPS (스크롤형 — sticky 제거) */
+    .cat-wrap{margin-bottom:1.2rem;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;}
+    .cat-wrap::-webkit-scrollbar{display:none;}
+    .cat-chips{display:flex;gap:0.5rem;flex-wrap:nowrap;padding-bottom:0.3rem;}
+    .cat-chip{flex-shrink:0;font-family:'JetBrains Mono',monospace;font-size:0.72rem;padding:0.35rem 0.8rem;border:1px solid rgba(124,106,247,0.25);color:rgba(255,255,255,0.55);background:var(--bg2);cursor:pointer;white-space:nowrap;transition:all 0.15s;text-decoration:none;}
+    .cat-chip:hover,.cat-chip.active{border-color:var(--purple);color:var(--purple);background:rgba(124,106,247,0.08);}
+    .cat-chip.all{border-color:rgba(124,106,247,0.4);color:var(--purple);}
+
+    /* MAIN HEADER */
+    .main-header{margin-bottom:1rem;display:flex;align-items:baseline;gap:0.8rem;flex-wrap:wrap;}
+    .main-header h1{font-size:1.4rem;font-weight:700;}
+    .result-info{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:rgba(255,255,255,0.3);}
+
     /* POST LIST */
     .post-list{display:grid;gap:1px;background:var(--border);}
-    .post-item{background:var(--bg);display:grid;grid-template-columns:100px 1fr;gap:1rem;padding:1.2rem;text-decoration:none;color:inherit;border:1px solid transparent;transition:border-color 0.2s;}
+    .post-item{background:var(--bg);display:grid;grid-template-columns:90px 1fr;gap:0.9rem;padding:1rem;text-decoration:none;color:inherit;border:1px solid transparent;transition:border-color 0.2s;}
     .post-item:hover{border-color:rgba(124,106,247,0.25);background:rgba(124,106,247,0.02);}
-    .post-thumb{width:100px;height:68px;object-fit:cover;filter:brightness(0.75);}
-    .post-thumb-ph{width:100px;height:68px;background:rgba(124,106,247,0.06);display:flex;align-items:center;justify-content:center;font-size:1.4rem;color:rgba(124,106,247,0.4);}
-    .post-date{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:rgba(124,106,247,0.7);margin-bottom:0.3rem;}
-    .post-title{font-size:0.95rem;font-weight:700;line-height:1.45;margin-bottom:0.4rem;}
-    .post-desc{font-size:0.78rem;color:rgba(255,255,255,0.45);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
-    .post-tags{margin-top:0.5rem;display:flex;gap:0.3rem;flex-wrap:wrap;}
-    .tag{font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:rgba(124,106,247,0.6);border:1px solid rgba(124,106,247,0.18);padding:0.1rem 0.45rem;}
+    @media(max-width:480px){
+      .post-item{grid-template-columns:70px 1fr;gap:0.6rem;padding:0.8rem;}
+    }
+    .post-thumb{width:90px;height:62px;object-fit:cover;filter:brightness(0.75);}
+    @media(max-width:480px){.post-thumb{width:70px;height:50px;}}
+    .post-thumb-ph{width:90px;height:62px;background:rgba(124,106,247,0.06);display:flex;align-items:center;justify-content:center;font-size:1.3rem;color:rgba(124,106,247,0.4);}
+    @media(max-width:480px){.post-thumb-ph{width:70px;height:50px;}}
+    .post-date{font-family:'JetBrains Mono',monospace;font-size:0.65rem;color:rgba(124,106,247,0.7);margin-bottom:0.25rem;}
+    .post-title{font-size:0.9rem;font-weight:700;line-height:1.4;margin-bottom:0.3rem;}
+    .post-desc{font-size:0.75rem;color:rgba(255,255,255,0.4);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+    .post-tags{margin-top:0.4rem;display:flex;gap:0.25rem;flex-wrap:wrap;}
+    .tag{font-family:'JetBrains Mono',monospace;font-size:0.6rem;color:rgba(124,106,247,0.6);border:1px solid rgba(124,106,247,0.18);padding:0.08rem 0.4rem;}
+
     /* PAGINATION */
-    .pagination{display:flex;gap:0.4rem;margin-top:1.5rem;align-items:center;flex-wrap:wrap;}
-    .pg-btn{font-family:'JetBrains Mono',monospace;font-size:0.75rem;padding:0.4rem 0.9rem;border:1px solid rgba(124,106,247,0.3);color:var(--purple);text-decoration:none;transition:all 0.2s;}
+    .pagination{display:flex;gap:0.35rem;margin-top:1.5rem;align-items:center;flex-wrap:wrap;}
+    .pg-btn{font-family:'JetBrains Mono',monospace;font-size:0.72rem;padding:0.38rem 0.8rem;border:1px solid rgba(124,106,247,0.3);color:var(--purple);text-decoration:none;transition:all 0.2s;}
     .pg-btn:hover{background:var(--purple);color:var(--bg);}
-    .pg-num{font-family:'JetBrains Mono',monospace;font-size:0.75rem;padding:0.4rem 0.7rem;border:1px solid rgba(255,255,255,0.08);color:rgba(255,255,255,0.4);text-decoration:none;transition:all 0.2s;}
+    .pg-num{font-family:'JetBrains Mono',monospace;font-size:0.72rem;padding:0.38rem 0.65rem;border:1px solid rgba(255,255,255,0.08);color:rgba(255,255,255,0.4);text-decoration:none;transition:all 0.2s;}
     .pg-num:hover{border-color:var(--purple);color:var(--purple);}
     .pg-num.active{border-color:var(--purple);color:var(--purple);background:rgba(124,106,247,0.1);}
-    .result-info{font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:rgba(255,255,255,0.3);margin-bottom:1rem;}
+
+    /* SEARCH RESULTS */
+    #search-results{display:none;}
+    #search-results.visible{display:grid;gap:1px;background:var(--border);}
+    .no-result{padding:2rem;text-align:center;font-family:'JetBrains Mono',monospace;font-size:0.8rem;color:rgba(255,255,255,0.3);}
+
+    /* HIGHLIGHT */
+    mark{background:rgba(124,106,247,0.3);color:var(--white);padding:0 2px;}
   </style>
 </head>
 <body>
   <nav>
     <a href={`${base}/`} class="logo">LUXON_AI</a>
-    <div>
+    <div class="nav-links">
       <a href={`${base}/`}>HOME</a>
       <a href={`${base}/blog`}>BLOG</a>
       <a href="https://github.com/pollmap" target="_blank">GITHUB</a>
     </div>
   </nav>
 
-  <div class="layout">
-    <!-- SIDEBAR -->
-    <aside class="sidebar">
-      <div class="sidebar-block">
-        <div class="sb-title">CATEGORY</div>
-        <a href={`${base}/blog`} class="sb-item active">
-          ALL <span class="sb-cnt">{allPosts.length}</span>
-        </a>
-        {sortedTags.slice(0, 8).map(([tag, count]) => (
-          <a href={`${base}/category/${tag.toLowerCase().replace(/\s+/g, '-')}`} class="sb-item">
-            {tag} <span class="sb-cnt">{count}</span>
-          </a>
-        ))}
-        {sortedTags.length > 8 && (
-          <a href={`${base}/blog`} class="sb-item" style="color:rgba(124,106,247,0.5);font-size:0.75rem;">
-            +{sortedTags.length - 8}개 더 보기
-          </a>
-        )}
-      </div>
-    </aside>
-
-    <!-- MAIN -->
-    <main>
-      <div class="main-header">
-        <h1>BLOG</h1>
-        <p class="result-info">// {allPosts.length} posts — page {page} / {totalPages}</p>
-      </div>
-
-      <div class="post-list">
-        {posts.map(post => (
-          <a href={`${base}/blog/${post.id}`} class="post-item">
-            {post.data.heroImage
-              ? <img class="post-thumb" src={post.data.heroImage} alt={post.data.title} />
-              : <div class="post-thumb-ph">📊</div>
-            }
-            <div>
-              <div class="post-date">{post.data.date.toISOString().slice(0,10)}</div>
-              <div class="post-title">{post.data.title}</div>
-              <p class="post-desc">{post.data.description || ''}</p>
-              <div class="post-tags">
-                {(post.data.tags || []).slice(0,3).map(t => (
-                  <span class="tag">{t}</span>
-                ))}
-              </div>
-            </div>
-          </a>
-        ))}
-      </div>
-
-      {totalPages > 1 && (
-        <div class="pagination">
-          {page > 1 && <a href={pageUrl(page - 1)} class="pg-btn">← PREV</a>}
-          {Array.from({length: totalPages}, (_, i) => i + 1).map(p => (
-            <a href={pageUrl(p)} class={`pg-num ${p === page ? 'active' : ''}`}>{p}</a>
-          ))}
-          {page < totalPages && <a href={pageUrl(page + 1)} class="pg-btn">NEXT →</a>}
-        </div>
-      )}
-    </main>
+  <!-- SEARCH BAR — nav 바로 아래 sticky -->
+  <div class="search-bar-wrap">
+    <div class="search-inner">
+      <span class="search-icon">🔍</span>
+      <input
+        id="search-input"
+        class="search-input"
+        type="text"
+        placeholder="제목, 태그, 내용 검색..."
+        autocomplete="off"
+      />
+    </div>
   </div>
+
+  <div class="layout" style="padding-top:1.2rem;">
+
+    <!-- CATEGORY CHIPS — 스크롤형, sticky 없음 -->
+    <div class="cat-wrap" id="cat-wrap">
+      <div class="cat-chips">
+        <a href={`${base}/blog`} class="cat-chip all" data-tag="all">ALL <span style="opacity:0.5">{allPosts.length}</span></a>
+        {sortedTags.map(([tag, count]) => (
+          <a href={`${base}/category/${tag.toLowerCase().replace(/\s+/g, '-')}`} class="cat-chip" data-tag={tag}>
+            {tag} <span style="opacity:0.5">{count}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+
+    <!-- MAIN HEADER -->
+    <div class="main-header">
+      <h1>BLOG</h1>
+      <span class="result-info" id="result-info">// {allPosts.length} posts — page {page} / {totalPages}</span>
+    </div>
+
+    <!-- 기본 포스트 목록 -->
+    <div class="post-list" id="post-list">
+      {posts.map(post => (
+        <a href={`${base}/blog/${post.id}`} class="post-item">
+          {post.data.heroImage
+            ? <img class="post-thumb" src={post.data.heroImage} alt={post.data.title} loading="lazy" />
+            : <div class="post-thumb-ph">📊</div>
+          }
+          <div>
+            <div class="post-date">{post.data.date.toISOString().slice(0,10)}</div>
+            <div class="post-title">{post.data.title}</div>
+            <p class="post-desc">{post.data.description || ''}</p>
+            <div class="post-tags">
+              {(post.data.tags || []).slice(0,3).map(t => (
+                <span class="tag">{t}</span>
+              ))}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <!-- 검색 결과 (JS 렌더) -->
+    <div id="search-results"></div>
+
+    <!-- PAGINATION -->
+    {totalPages > 1 && (
+      <div class="pagination" id="pagination">
+        {page > 1 && <a href={pageUrl(page - 1)} class="pg-btn">← PREV</a>}
+        {Array.from({length: totalPages}, (_, i) => i + 1).map(p => (
+          <a href={pageUrl(p)} class={`pg-num ${p === page ? 'active' : ''}`}>{p}</a>
+        ))}
+        {page < totalPages && <a href={pageUrl(page + 1)} class="pg-btn">NEXT →</a>}
+      </div>
+    )}
+  </div>
+
+  <!-- 검색 인덱스 데이터 -->
+  <script id="search-data" type="application/json" set:html={JSON.stringify(searchIndex)}></script>
+
+  <script>
+    // ── 검색 인덱스 로드 ──────────────────────────────────────
+    const raw = document.getElementById('search-data')?.textContent || '[]';
+    const INDEX: Array<{id:string;title:string;description:string;tags:string[];date:string;url:string;heroImage:string}> = JSON.parse(raw);
+
+    const searchInput  = document.getElementById('search-input') as HTMLInputElement;
+    const postList     = document.getElementById('post-list') as HTMLElement;
+    const searchResults = document.getElementById('search-results') as HTMLElement;
+    const pagination   = document.getElementById('pagination') as HTMLElement | null;
+    const resultInfo   = document.getElementById('result-info') as HTMLElement;
+
+    // ── RAG-style 키워드 검색 ─────────────────────────────────
+    function scorePost(post: typeof INDEX[0], query: string): number {
+      const q = query.toLowerCase();
+      const terms = q.split(/\s+/).filter(Boolean);
+      let score = 0;
+      for (const term of terms) {
+        if (post.title.toLowerCase().includes(term))       score += 10;
+        if (post.description.toLowerCase().includes(term)) score += 5;
+        if (post.tags.some(t => t.toLowerCase().includes(term))) score += 8;
+      }
+      return score;
+    }
+
+    function highlight(text: string, query: string): string {
+      if (!query.trim()) return text;
+      const terms = query.trim().split(/\s+/).map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+      const re = new RegExp(`(${terms.join('|')})`, 'gi');
+      return text.replace(re, '<mark>$1</mark>');
+    }
+
+    function renderResults(query: string) {
+      if (!query.trim()) {
+        postList.style.display = '';
+        if (pagination) pagination.style.display = '';
+        searchResults.className = '';
+        searchResults.innerHTML = '';
+        resultInfo.textContent = `// ${INDEX.length} posts`;
+        return;
+      }
+
+      const scored = INDEX
+        .map(p => ({ post: p, score: scorePost(p, query) }))
+        .filter(r => r.score > 0)
+        .sort((a, b) => b.score - a.score);
+
+      postList.style.display = 'none';
+      if (pagination) pagination.style.display = 'none';
+      searchResults.className = scored.length ? 'visible' : '';
+      resultInfo.textContent = `// 검색 결과 ${scored.length}건`;
+
+      if (!scored.length) {
+        searchResults.innerHTML = `<div class="no-result">검색 결과 없음 — "${query}"</div>`;
+        return;
+      }
+
+      searchResults.innerHTML = scored.map(({ post }) => `
+        <a href="${post.url}" class="post-item">
+          ${post.heroImage
+            ? `<img class="post-thumb" src="${post.heroImage}" alt="${post.title}" loading="lazy" />`
+            : `<div class="post-thumb-ph">📊</div>`}
+          <div>
+            <div class="post-date">${post.date}</div>
+            <div class="post-title">${highlight(post.title, query)}</div>
+            <p class="post-desc">${highlight(post.description, query)}</p>
+            <div class="post-tags">${post.tags.slice(0,3).map(t => `<span class="tag">${t}</span>`).join('')}</div>
+          </div>
+        </a>
+      `).join('');
+    }
+
+    // ── 검색 이벤트 ───────────────────────────────────────────
+    let debounce: ReturnType<typeof setTimeout>;
+    searchInput.addEventListener('input', () => {
+      clearTimeout(debounce);
+      debounce = setTimeout(() => renderResults(searchInput.value), 180);
+    });
+
+    // URL 쿼리로 검색어 전달 지원 (?q=키워드)
+    const urlQ = new URLSearchParams(location.search).get('q');
+    if (urlQ) {
+      searchInput.value = urlQ;
+      renderResults(urlQ);
+    }
+  </script>
 </body>
 </html>

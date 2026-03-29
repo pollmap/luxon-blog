@@ -16,14 +16,9 @@
       LUXON AI NETWORK — ONLINE
     </div>
 
-    <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight" style="font-family: 'Space Mono', monospace;">
-      <span style="color: var(--accent);">AI</span> computes.<br/>
-      <span class="text-white">You decide.</span>
+    <h1 class="font-bold mb-6 leading-tight" style="font-family: 'Space Mono', monospace; font-size: clamp(1.8rem, 5vw, 3.5rem);">
+      <span id="hero-typewriter" style="color: #9D8FFF;"></span>
     </h1>
-
-    <p class="text-xl md:text-2xl mb-4" style="color: var(--text-muted); max-width: 600px;">
-      Robots execute.
-    </p>
 
     <p class="text-base mb-12" style="color: var(--text-muted); max-width: 500px;">
       Luxon AI 에이전트 네트워크의 공식 인텔리전스 허브.<br/>
@@ -159,5 +154,25 @@ if (canvas) {
     renderer.render(scene, camera);
   }
   animate();
+}
+
+// Typewriter
+const lines = ['AI computes.', 'You decide.', 'Robots execute.'];
+const el = document.getElementById('hero-typewriter');
+if (el) {
+  let li = 0, ci = 0, deleting = false;
+  function type() {
+    const cur = lines[li];
+    if (!deleting) {
+      el.textContent = cur.slice(0, ++ci);
+      if (ci === cur.length) { deleting = true; setTimeout(type, 1200); return; }
+      setTimeout(type, 40);
+    } else {
+      el.textContent = cur.slice(0, --ci);
+      if (ci === 0) { deleting = false; li = (li + 1) % lines.length; setTimeout(type, 200); return; }
+      setTimeout(type, 20);
+    }
+  }
+  type();
 }
 </script>
