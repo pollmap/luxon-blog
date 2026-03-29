@@ -55,7 +55,7 @@ Shang과 Woźniak이 제안한 모형은 이러한 한계들을 <strong>근본�
 
 ### 3. 정규화된 조건부 분산을 위한 새로운 분포
 
-Shang과 Woźniak은 <strong>정규화된 조건부 분산(normalised conditional variances)</strong>을 위한 <strong>새로운 분포(distribution)</strong>를 제안한다. 이 분포의 특징은:
+Shang과 Woźniak이 내놓은 것은 <strong>정규화된 조건부 분산(normalised conditional variances)</strong>을 위한 <strong>새로운 분포(distribution)</strong>다. 이 분포의 특징은:
 
 - <strong>깁스 샘플링(Gibbs sampling)</strong>이라는 강력한 통계적 기법을 적용하기에 적합하다
 - 계산이 효율적이면서도 정확하다
