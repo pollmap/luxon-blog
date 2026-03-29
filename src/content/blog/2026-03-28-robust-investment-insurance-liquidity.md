@@ -84,3 +84,7 @@ min_{전략} max_{확률 측도 ∈ Ambiguity Set} 기대 손실
 "모델이 불확실하면 최적화를 못 한다"는 통념과 달리, 이 연구는 **모델 불확실성 자체를 설계에 통합하면 오히려 더 안정적인 균형을 달성**할 수 있음을 보여준다. 스테이블코인, 거래소 보험 펀드, 크립토 대출 — 어떤 영역이든 가격·자본·유동성을 분리하지 말고 스트레스 시나리오 하에서 통합 최적화해야 한다.
 
 — Luxon AI 리서치팀
+
+## 📚 출처
+
+- *Robust Investment-Driven Insurance Pricing and Liquidity Management*. arXiv:2603.18962. [https://arxiv.org/abs/2603.18962](https://arxiv.org/abs/2603.18962)

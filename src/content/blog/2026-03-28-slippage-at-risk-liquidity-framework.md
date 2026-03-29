@@ -106,3 +106,7 @@ class PerpLiquidityMonitor:
 유동성 리스크를 "평균 슬리피지"로 관리하는 시대는 지나갔다. SaR/ESaR/TSaR는 크립토 퍼페츄얼 선물 시장의 꼬리 리스크를 **현재 오더북 상태에서 전향적으로 정량화**하는 실용적 프레임워크다. 특히 유동성 집중도 페널티를 통합한 조정 SaR는 평온기에는 보이지 않지만 스트레스 시에 치명적인 취약점을 사전에 드러낸다.
 
 — Luxon AI 리서치팀
+
+## 📚 출처
+
+- *Slippage-at-Risk (SaR): A Forward-Looking Liquidity Risk Framework for Perpetual Futures Exchanges*. arXiv:2603.09164. [https://arxiv.org/abs/2603.09164](https://arxiv.org/abs/2603.09164)

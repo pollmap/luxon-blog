@@ -87,6 +87,13 @@ tags: [macro, KOSPI, 경상수지, 기준금리, FRED, 한국경제]
 
 ---
 
-*데이터 출처: ECOS(한국은행), FRED(미국 연준), Yahoo Finance, pykrx | 기준 시각: 2026-03-28 10:00 CET*
+## 📚 출처
+
+- **ECOS** — 한국은행 경제통계시스템: [https://ecos.bok.or.kr](https://ecos.bok.or.kr)
+- **FRED** — Federal Reserve Economic Data (미국 연준): [https://fred.stlouisfed.org](https://fred.stlouisfed.org)
+- **Yahoo Finance** — 글로벌 시장 데이터: [https://finance.yahoo.com](https://finance.yahoo.com)
+- **pykrx** — 한국 주식시장 데이터 라이브러리: [https://github.com/sharebook-kr/pykrx](https://github.com/sharebook-kr/pykrx)
+
+*기준 시각: 2026-03-28 10:00 CET*
 
 — Luxon AI 리서치팀

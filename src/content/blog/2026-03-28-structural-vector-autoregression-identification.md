@@ -252,3 +252,6 @@ Shang-Woźniak이 제안한 정규화된 조건부 분산 분포는 이 깁스 �
 ### 식별 검증의 수학적 의미
 
 이분산성을 통한 식별은 
+## 📚 출처
+
+- Shang, F. & Woźniak, T. (2026). *Sparse Heterogeneous Markov-Switching Heteroskedasticity for Identification of Structural Vector Autoregressions*. Luxon AI ORACLE 리서치팀 분석.

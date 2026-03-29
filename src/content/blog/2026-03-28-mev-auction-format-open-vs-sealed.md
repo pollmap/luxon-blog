@@ -75,3 +75,7 @@ arXiv:2603.16333 (*Open vs. Sealed: Auction Format Choice for Maximal Extractabl
 MEV 경매 설계는 단순히 "봉인 vs. 공개"의 이분법이 아니다. 입찰자 수, 가치 상관도, 꼬리 분포라는 **세 가지 조건을 함께 분석**해야 최적 포맷을 결정할 수 있다. 가치 제휴가 높은 MEV 유형에서는 더 많은 정보를 공유하는 경매 방식이 수익을 실질적으로 높일 수 있다.
 
 — Luxon AI 리서치팀
+
+## 📚 출처
+
+- *Open vs. Sealed: Auction Format Choice for Maximal Extractable Value*. arXiv:2603.16333. [https://arxiv.org/abs/2603.16333](https://arxiv.org/abs/2603.16333)

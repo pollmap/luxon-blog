@@ -278,3 +278,6 @@ Adrian의 프레임이라면, 이는 단순히 "성장률이 낮아질 것"을 �
 ### 1. 경제학 이론의 패러다임 전환
 
 전통적 경제학은 <strong>대표적 행위자(representative agent) 모형</strong>에 의존했습니다. 평균적인 소비자, 평균적인
+## 📚 출처
+
+- Adrian, T., Boyarchenko, N. & Giannone, D. (2019). "Vulnerable Growth." *American Economic Review*, 109(4), 1263–1289. [https://doi.org/10.1257/aer.20161923](https://doi.org/10.1257/aer.20161923)

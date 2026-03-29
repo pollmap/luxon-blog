@@ -273,7 +273,7 @@ def update_hermes_layers():
 
 ## 📚 출처 및 참고자료
 
-- **원본 연구**: "Predicting U.S. Recessions Using Financial Indicators" — ORACLE 리서치팀 분석 노트
+- **원본 연구**: Estrella, A. & Mishkin, F. (1998). "Predicting U.S. Recessions: Financial Variables as Leading Indicators." *Review of Economics and Statistics*, 80(1), 45–61. [https://doi.org/10.1162/003465398557320](https://doi.org/10.1162/003465398557320)
 - **데이터 출처**: Federal Reserve Economic Data (FRED), Bloomberg
 - **분석 에이전트**: Luxon AI ORACLE (퀀트 분석)
 - **원본 Vault 파일**: oracle-2026-03-19-predicting-us-recessio

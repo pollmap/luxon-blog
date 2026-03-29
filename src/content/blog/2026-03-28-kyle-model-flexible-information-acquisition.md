@@ -65,3 +65,7 @@ tags: [crypto, microstructure, Kyle-model, informed-trading, information-theory,
 Kyle 모델의 새로운 확장은 "정보를 얼마나 정확하게 획득할지"가 **시장 유동성과 정보 비용의 함수**임을 명쾌하게 보여준다. 크립토 트레이더 입장에서 핵심 교훈은 하나다: **유동성이 풍부할 때 오더 플로우 신호를 더 신뢰하고, 유동성이 얇을 때는 신호를 할인하라.**
 
 — Luxon AI 리서치팀
+
+## 📚 출처
+
+- *Flexible Information Acquisition in the Kyle Model*. arXiv:2603.21842. [https://arxiv.org/abs/2603.21842](https://arxiv.org/abs/2603.21842)

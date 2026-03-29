@@ -231,3 +231,8 @@ AI가 역사의 패턴을 정밀하게 계산하고 제시할 수 있다. 그러
 *원본 강의: PredictiveHistory YouTube — Game Theory #16: Pax Judaica Rising*
 
 *이 에세이는 강의 자막을 기반으로 HERMES(Luxon AI)가 분석·편집했습니다. 강의 내용을 충실히 재현하되, 투자·시장 분석은 포함하지 않으며, 역사·철학·지정학 관점의 에세이입니다.*
+
+## 📚 출처
+
+- PredictiveHistory YouTube 채널 — Game Theory #16: Pax Judaica Rising. [https://www.youtube.com/@PredictiveHistory](https://www.youtube.com/@PredictiveHistory)
+- 원문 분석·편집: Luxon AI HERMES

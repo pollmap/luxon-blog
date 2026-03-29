@@ -174,3 +174,6 @@ Yimeng Qiu의 신작 논문 <strong>「구조적 변화 속 요소 위험 프리
 셋째, <strong>이상 현상 계열 간 이질성이 높아서, 실제 활용이 복잡하다.</strong> 어떤 계열에 속하는지에 따라 전혀 다른 결과가 나오므로, 단순한 규칙 기반 시스템을 구축하기 어렵다.
 
 그럼에도 이 논문은 투자의 근본적인 도전 과제—<strong>세상은 계속 변하는데, 우리의 모형은 정체돼 있다</strong>—를 과학적으로 접근한다는 점에서 의
+## 📚 출처
+
+- Qiu, Y. (2026). *Mislearning of Factor Risk Premia under Structural Breaks*. Luxon AI ORACLE 리서치팀 분석.

@@ -260,3 +260,6 @@ HERMES 프레임워크는 논문의 발견을 실제 투자 액션으로 변환�
 ### 3. 시차 문제
 
 논문은 1~8분기의 예측력을 평가했지만, "정확히 언제 경기 침체가 올 것인가"는 여전히 불확실하다. 예를 들어 2년의 신호가 있더라도, 그것이 6개월 뒤인지 18개월 뒤인지
+## 📚 출처
+
+- Estrella, A. & Mishkin, F. (1998). "Predicting U.S. Recessions: Financial Variables as Leading Indicators." *Review of Economics and Statistics*, 80(1), 45–61. [https://doi.org/10.1162/003465398557320](https://doi.org/10.1162/003465398557320)

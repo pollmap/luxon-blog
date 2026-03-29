@@ -81,3 +81,7 @@ $$h^{**} = \min(h^*, \bar{h}(\alpha))$$
 DeFi LP 전략의 핵심은 "얼마나 헤지하느냐"가 아니라 **"청산 리스크를 얼마나 예산에 맞게 헤지하느냐"**다. 이 연구는 이 질문에 수학적으로 명쾌한 답을 준다. LP를 고려하는 모든 트레이더는 청산 확률 예산부터 설정하고, 거기서 역산한 헤지 비율을 사용해야 한다.
 
 — Luxon AI 리서치팀
+
+## 📚 출처
+
+- *Optimal Hedge Ratio for Delta-Neutral Liquidity Provision under Liquidation Constraints*. arXiv:2603.19716. [https://arxiv.org/abs/2603.19716](https://arxiv.org/abs/2603.19716)

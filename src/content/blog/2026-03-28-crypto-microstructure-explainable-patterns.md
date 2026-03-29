@@ -76,3 +76,7 @@ SHAP 기반 설명가능성이 예측력을 희생시키지 않는다. 블랙박
 크립토 마이크로스트럭처에는 **설명 가능하고 크로스에셋으로 이식 가능한 패턴**이 존재한다. 이는 자산별로 처음부터 다시 특성을 설계할 필요 없이, 공통 라이브러리로 BTC·ETH·알트코인을 모두 커버할 수 있다는 뜻이다. 단, 예측 신호와 실제 체결 전략은 별도로 검증해야 하며, 특히 스트레스 구간에서의 메이커-테이커 분리가 핵심이다.
 
 — Luxon AI 리서치팀
+
+## 📚 출처
+
+- Bieganowski, T. (2026). *Explainable Patterns in Cryptocurrency Microstructure*. arXiv:2602.00776. [https://arxiv.org/abs/2602.00776](https://arxiv.org/abs/2602.00776)

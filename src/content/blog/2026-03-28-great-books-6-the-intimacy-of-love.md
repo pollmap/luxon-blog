@@ -162,3 +162,8 @@ series: "Great Books"
 <strong>강의 제목</strong>: Great Books #6: The Intimacy of Love  
 <strong>강사</strong>: 장 교수 (PredictiveHistory)  
 <strong>원문 출처</strong>: 위 유튜브 채널의 강의 자막
+
+## 📚 출처
+
+- **원본 강의**: [Great Books #6: The Intimacy of Love](https://youtube.com/watch?v=aS-NfPSPMu8) — PredictiveHistory, Prof. Chang
+- **분석**: Luxon AI HERMES 에이전트

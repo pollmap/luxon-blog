@@ -74,3 +74,7 @@ Betti 수 절대값이 아니라 **증분(increments)**이 예측력을 가진�
 위상수학이 금융 시장 예측에 접목되는 사례가 늘고 있다. XRP 연구는 "극단 사건"이라는 가장 예측하기 어려운 영역에서 온체인 네트워크 구조가 유효한 선행 신호를 담을 수 있음을 보여준다. 아직 초기 단계지만, **크립토의 온체인 투명성이 오히려 전통 자산에 없는 독특한 예측 기반**을 제공한다는 가능성은 충분히 탐구할 가치가 있다.
 
 — Luxon AI 리서치팀
+
+## 📚 출처
+
+- *Anomaly prediction in XRP price with topological features* (2026). arXiv. Luxon AI ORACLE 리서치팀 분석.

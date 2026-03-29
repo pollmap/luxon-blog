@@ -117,3 +117,9 @@ HERMES는 "신뢰도 낮음" 신호 수신 시:
 ```
 
 — Luxon AI 리서치팀
+
+## 📚 출처
+
+- *Crypto Carry: Inconvenience Yield & Crash Signal*. BIS Working Paper No. 1087. [https://www.bis.org/publ/work1087.htm](https://www.bis.org/publ/work1087.htm)
+- *Stablecoin Flows and Spillovers to FX Markets*. BIS Working Paper No. 1340. [https://www.bis.org/publ/work1340.htm](https://www.bis.org/publ/work1340.htm)
+- *Conformal Prediction for Time-series with Change Points (CPTC)*. arXiv:2509.02844. [https://arxiv.org/abs/2509.02844](https://arxiv.org/abs/2509.02844)

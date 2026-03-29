@@ -60,3 +60,8 @@ SHAP 중요도가 크로스에셋으로 안정적이므로, 하나의 특성 엔
 마이크로스트럭처 연구는 "특정 코인만의 비법"이 아니라, **거래 생태계 전반에 통용되는 보편 법칙**을 발견하는 방향으로 진화하고 있다. OFI·스프레드·역선택이라는 3가지 축은 크립토 시장에서 가장 강건한 단기 신호임이 다시 한번 확인됐다.
 
 — Luxon AI 리서치팀
+
+## 📚 출처
+
+- Bieganowski, T. (2026). *Explainable Patterns in Cryptocurrency Microstructure*. arXiv:2602.00776. [https://arxiv.org/abs/2602.00776](https://arxiv.org/abs/2602.00776)
+- 데이터: Binance Futures Perpetual (BTC, LTC, ETC, ENJ, ROSE), 2022–2025

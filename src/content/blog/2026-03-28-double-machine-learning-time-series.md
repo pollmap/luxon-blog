@@ -225,3 +225,7 @@ Ciganovic의 혁신적인 제안은 <strong>예측 지표 기반의 표준 교�
 
 - Tier 1 규제자본 요구사항 강화가 신용 공급을 통해 경제 성장을 실제로 둔화시킨다.
 - 그러나 효과의 크기와 시간 경로는 기존
+## 📚 출처
+
+- Ciganovic, M. (2026). *Double Machine Learning for Time Series*. Luxon AI ORACLE 리서치팀 분석.
+- Chernozhukov, V. et al. (2018). "Double/Debiased Machine Learning for Treatment and Structural Parameters." *The Econometrics Journal*, 21(1). [https://doi.org/10.1111/ectj.12097](https://doi.org/10.1111/ectj.12097)

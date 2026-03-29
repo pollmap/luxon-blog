@@ -71,3 +71,7 @@ BTC/ETH 대형 주문 체결 시:
 체결 전략에서 "유동성이 변한다"는 현실을 모델에 넣는 것만으로는 충분하지 않다. 그 모델이 **수학적으로 안정적이고 경제적으로 조작을 유발하지 않는지** 별도로 검증해야 한다. 이 연구는 바로 그 검증 프레임워크를 제공한다.
 
 — Luxon AI 리서치팀
+
+## 📚 출처
+
+- *Optimal Execution with Deterministically Time-Varying Liquidity*. arXiv:2410.04867. [https://arxiv.org/abs/2410.04867](https://arxiv.org/abs/2410.04867)

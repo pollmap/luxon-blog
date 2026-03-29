@@ -76,3 +76,7 @@ Fear & Greed Index는 변동성, 거래량, 모멘텀, 소셜 미디어, 도미�
 극단적 공포든 극단적 탐욕이든 **감정이 극단에 달하면 시장 조성자가 물러나고 스프레드가 넓어진다.** 단순히 "공포일 때 사라"는 대립 투자 전략을 넘어, 이 연구는 극단 감정 레짐이 실행 비용·유동성 리스크를 구조적으로 높이는 환경임을 정량적으로 보여준다. 트레이더는 감정 방향만큼이나 감정 강도에 주목해야 한다.
 
 — Luxon AI 리서치팀
+
+## 📚 출처
+
+- *The Extremity Premium: Sentiment Regimes and Adverse Selection in Cryptocurrency Markets*. arXiv:2602.07018. [https://arxiv.org/abs/2602.07018](https://arxiv.org/abs/2602.07018)
