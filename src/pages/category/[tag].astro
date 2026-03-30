@@ -1,5 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -12,8 +13,6 @@ export async function getStaticPaths() {
 
 const { tag, posts } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-
-// 사이드바용 전체 태그 목록
 const allPosts = await getCollection('blog');
 const tagCounts = allPosts.flatMap(p => p.data.tags || []).reduce((acc, t) => {
   acc[t] = (acc[t] || 0) + 1;
@@ -21,111 +20,45 @@ const tagCounts = allPosts.flatMap(p => p.data.tags || []).reduce((acc, t) => {
 }, {} as Record<string, number>);
 const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
 ---
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{tag} — Luxon AI</title>
-  <!-- 폰트: Pretendard (한국어) + JetBrains Mono (코드/UI) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+<BaseLayout title={`${tag} — Luxon AI`} description={`${tag} 카테고리 글 목록`}>
   <style>
-    :root{--bg:#0D0D1A;--bg2:#111122;--purple:#7C6AF7;--white:#FFFFFF;--border:rgba(255,255,255,0.07);}
-    *{margin:0;padding:0;box-sizing:border-box;}
-    body{background:var(--bg);color:var(--white);font-family:'Pretendard Variable',Pretendard,-apple-system,BlinkMacSystemFont,'Noto Sans KR',sans-serif;}
-    /* NAV */
-    nav{position:fixed;top:0;width:100%;z-index:100;padding:1rem 2rem;display:flex;justify-content:space-between;align-items:center;background:rgba(13,13,26,0.95);border-bottom:1px solid var(--border);}
-    .logo{font-family:'JetBrains Mono',monospace;font-size:1.1rem;font-weight:700;color:var(--purple);text-decoration:none;}
-    nav a{color:rgba(255,255,255,0.55);text-decoration:none;margin-left:1.5rem;font-size:0.82rem;font-family:'JetBrains Mono',monospace;letter-spacing:0.05em;}
-    nav a:hover{color:var(--purple);}
-    /* LAYOUT */
-    .layout{max-width:1200px;margin:0 auto;padding:5rem 1.5rem 4rem;display:grid;grid-template-columns:220px 1fr;gap:2rem;align-items:start;}
-    @media(max-width:768px){.layout{grid-template-columns:1fr;}}
-    /* SIDEBAR */
-    .sidebar{position:sticky;top:5rem;}
-    .sidebar-block{background:var(--bg2);border:1px solid var(--border);margin-bottom:1rem;}
-    .sb-title{font-family:'JetBrains Mono',monospace;font-size:0.68rem;letter-spacing:0.2em;color:rgba(255,255,255,0.35);padding:0.7rem 1rem;border-bottom:1px solid var(--border);}
-    .sb-item{display:flex;justify-content:space-between;align-items:center;padding:0.55rem 1rem;text-decoration:none;color:rgba(255,255,255,0.6);font-size:0.82rem;border-bottom:1px solid rgba(255,255,255,0.03);transition:all 0.15s;}
-    .sb-item:hover{background:rgba(124,106,247,0.06);color:#fff;}
-    .sb-item.active{color:var(--purple);background:rgba(124,106,247,0.06);}
-    .sb-cnt{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:rgba(124,106,247,0.5);}
-    /* MAIN */
-    .main-header{margin-bottom:1.5rem;}
-    .tag-label{font-family:'JetBrains Mono',monospace;font-size:0.68rem;letter-spacing:0.2em;color:var(--purple);margin-bottom:0.4rem;}
-    .main-header h1{font-size:1.6rem;font-weight:700;margin-bottom:0.3rem;}
-    .count{font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:rgba(255,255,255,0.3);margin-bottom:1rem;}
-    /* POST LIST */
-    .post-list{display:grid;gap:1px;background:var(--border);}
-    .post-item{background:var(--bg);display:grid;grid-template-columns:100px 1fr;gap:1rem;padding:1.2rem;text-decoration:none;color:inherit;border:1px solid transparent;transition:border-color 0.2s;}
-    .post-item:hover{border-color:rgba(124,106,247,0.25);background:rgba(124,106,247,0.02);}
-    .post-thumb{width:100px;height:68px;object-fit:cover;filter:brightness(0.75);}
-    .post-thumb-ph{width:100px;height:68px;background:rgba(124,106,247,0.06);display:flex;align-items:center;justify-content:center;font-size:1.4rem;color:rgba(124,106,247,0.4);}
-    .post-date{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:rgba(124,106,247,0.7);margin-bottom:0.3rem;}
-    .post-title{font-size:0.95rem;font-weight:700;line-height:1.45;margin-bottom:0.4rem;}
-    .post-desc{font-size:0.78rem;color:rgba(255,255,255,0.45);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+    .wrap{max-width:860px;margin:0 auto;padding:5.7rem 1rem 0;}
+    .cat-wrap{margin-bottom:1rem;overflow-x:auto;scrollbar-width:none;}
+    .cat-wrap::-webkit-scrollbar{display:none;}
+    .cat-chips{display:flex;gap:0.4rem;width:max-content;padding-bottom:2px;}
+    .cat-chip{display:inline-block;padding:0.3rem 0.7rem;background:var(--bg-secondary);border:1px solid var(--border);font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--text-muted);text-decoration:none;white-space:nowrap;}
+    .cat-chip.active,.cat-chip:hover{color:var(--accent-light);border-color:rgba(124,106,247,0.35);background:rgba(124,106,247,0.06);}
+    .head{display:flex;flex-wrap:wrap;gap:0.6rem;align-items:baseline;margin-bottom:1rem;}
+    .label{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--accent-light);letter-spacing:0.12em;}
+    .title{font-size:1.35rem;font-weight:800;color:#fff;word-break:break-word;}
+    .count{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--text-muted);}
+    .post-list{display:flex;flex-direction:column;gap:1px;background:var(--border);}
+    .post-card{background:var(--bg-primary);display:grid;grid-template-columns:80px 1fr;gap:0.8rem;padding:0.9rem;text-decoration:none;color:inherit;border:1px solid transparent;}
+    .post-card:hover{border-color:rgba(124,106,247,0.25);background:rgba(124,106,247,0.02);}
+    .thumb,.thumb-ph{width:80px;height:56px;display:block;object-fit:cover;}
+    .thumb-ph{background:rgba(124,106,247,0.06);display:flex;align-items:center;justify-content:center;color:rgba(124,106,247,0.4)}
+    .body{min-width:0;overflow:hidden;}
+    .date{font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:var(--accent-light);margin-bottom:0.2rem;}
+    .ptitle{font-size:0.88rem;font-weight:700;line-height:1.38;margin-bottom:0.28rem;word-break:break-word;}
+    .pdesc{font-size:0.73rem;line-height:1.5;color:var(--text-muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
   </style>
-</head>
-<body>
-  <nav>
-    <a href={`${base}/`} class="logo">LUXON_AI</a>
-    <div>
-      <a href={`${base}/`}>HOME</a>
-      <a href={`${base}/blog`}>BLOG</a>
-      <a href="https://github.com/pollmap" target="_blank">GITHUB</a>
-    </div>
-  </nav>
-
-  <div class="layout">
-    <!-- SIDEBAR -->
-    <aside class="sidebar">
-      <div class="sidebar-block">
-        <div class="sb-title">CATEGORY</div>
-        <a href={`${base}/blog`} class="sb-item">
-          ALL <span class="sb-cnt">{allPosts.length}</span>
+  <div class="wrap">
+    <div class="cat-wrap"><div class="cat-chips">
+      <a href={`${base}/blog`} class="cat-chip">ALL {allPosts.length}</a>
+      {sortedTags.map(([t,count]) => <a href={`${base}/category/${t.toLowerCase().replace(/\s+/g,'-')}`} class={`cat-chip ${t===tag?'active':''}`}>{t} {count}</a>)}
+    </div></div>
+    <div class="head"><div class="label">CATEGORY</div><div class="title">{tag}</div><div class="count">{posts.length} POSTS</div></div>
+    <div class="post-list">
+      {posts.map(post => (
+        <a href={`${base}/blog/${post.id}`} class="post-card">
+          {post.data.heroImage ? <img class="thumb" src={post.data.heroImage} alt="" /> : <div class="thumb-ph">📊</div>}
+          <div class="body">
+            <div class="date">{post.data.date.toISOString().slice(0,10)}</div>
+            <div class="ptitle">{post.data.title}</div>
+            <div class="pdesc">{post.data.description || ''}</div>
+          </div>
         </a>
-        {sortedTags.slice(0, 8).map(([t, count]) => (
-          <a
-            href={`${base}/category/${t.toLowerCase().replace(/\s+/g, '-')}`}
-            class={`sb-item ${t === tag ? 'active' : ''}`}
-          >
-            {t} <span class="sb-cnt">{count}</span>
-          </a>
-        ))}
-        {sortedTags.length > 8 && (
-          <a href={`${base}/blog`} class="sb-item" style="color:rgba(124,106,247,0.5);font-size:0.75rem;">
-            +{sortedTags.length - 8}개 더 보기
-          </a>
-        )}
-      </div>
-    </aside>
-
-    <!-- MAIN -->
-    <main>
-      <div class="main-header">
-        <p class="tag-label">// CATEGORY</p>
-        <h1>{tag}</h1>
-        <p class="count">// {posts.length}개의 글</p>
-      </div>
-
-      <div class="post-list">
-        {posts.map(post => (
-          <a href={`${base}/blog/${post.id}`} class="post-item">
-            {post.data.heroImage
-              ? <img class="post-thumb" src={post.data.heroImage} alt={post.data.title} />
-              : <div class="post-thumb-ph">📊</div>
-            }
-            <div>
-              <div class="post-date">{post.data.date.toISOString().slice(0,10)}</div>
-              <div class="post-title">{post.data.title}</div>
-              <p class="post-desc">{post.data.description || ''}</p>
-            </div>
-          </a>
-        ))}
-      </div>
-    </main>
+      ))}
+    </div>
   </div>
-</body>
-</html>
+</BaseLayout>

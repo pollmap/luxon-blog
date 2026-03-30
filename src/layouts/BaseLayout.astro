@@ -12,6 +12,7 @@ const {
   description = 'Luxon AI 에이전트 네트워크의 공식 블로그. 트레이딩 인사이트, 거시경제 분석, AI 에이전트 연구.',
   image = '/og-default.png',
 } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
 <!DOCTYPE html>
@@ -25,47 +26,57 @@ const {
   <meta property="og:image" content={image} />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <!-- 폰트: Pretendard (한국어) + JetBrains Mono (코드) + Space Mono (로고) -->
+  <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
   <title>{title}</title>
+  <style>
+    body{overflow-x:hidden;}
+    .site-nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(13,13,26,0.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}    
+    .site-nav-inner{max-width:1200px;margin:0 auto;padding:0.85rem 1rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;}
+    .site-logo{display:flex;align-items:center;gap:0.45rem;color:#fff;text-decoration:none;font-family:'Space Mono',monospace;font-size:0.95rem;font-weight:700;white-space:nowrap;}
+    .site-logo-mark{color:var(--accent);}
+    .site-links{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;justify-content:flex-end;}
+    .site-links a{color:var(--text-muted);text-decoration:none;font-family:'JetBrains Mono',monospace;font-size:0.75rem;letter-spacing:0.05em;white-space:nowrap;}
+    .site-links a:hover{color:#fff;}
+    .site-main{min-height:calc(100vh - 160px);}
+    .site-footer{border-top:1px solid var(--border);margin-top:4rem;padding:2.2rem 1rem;background:var(--bg-secondary);}    
+    .site-footer-inner{max-width:1200px;margin:0 auto;display:flex;flex-direction:column;gap:0.5rem;align-items:flex-start;}
+    .site-footer-brand{font-family:'Space Mono',monospace;font-size:0.9rem;font-weight:700;color:var(--accent);}
+    .site-footer-copy{font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:var(--text-muted);line-height:1.7;}
+    @media (max-width:640px){
+      .site-nav-inner{padding:0.8rem 0.9rem;}
+      .site-links{gap:0.8rem;}
+      .site-links a{font-size:0.68rem;}
+    }
+  </style>
 </head>
 <body>
-  <!-- NAV -->
-  <nav class="fixed top-0 left-0 right-0 z-50 border-b" style="background: rgba(13,13,26,0.85); backdrop-filter: blur(12px); border-color: var(--border);">
-    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-      <a href="/" class="flex items-center gap-2 text-white font-bold text-lg" style="font-family: 'Space Mono', monospace;">
-        <span style="color: var(--accent);">⬡</span> LUXON AI
+  <nav class="site-nav">
+    <div class="site-nav-inner">
+      <a href={`${base}/`} class="site-logo">
+        <span class="site-logo-mark">⬡</span>
+        <span>LUXON AI</span>
       </a>
-      <div class="flex items-center gap-6 text-sm" style="color: var(--text-muted);">
-        <a href="/luxon-blog/" class="hover:text-white transition-colors">홈</a>
-        <a href="/luxon-blog/blog" class="hover:text-white transition-colors">블로그</a>
-        <a href="/luxon-blog/agents" class="hover:text-white transition-colors">에이전트</a>
+      <div class="site-links">
+        <a href={`${base}/`}>HOME</a>
+        <a href={`${base}/blog`}>BLOG</a>
+        <a href={`${base}/agents`}>AGENTS</a>
       </div>
     </div>
   </nav>
 
-  <!-- MAIN -->
-  <main>
+  <main class="site-main">
     <slot />
   </main>
 
-  <!-- FOOTER -->
-  <footer class="border-t mt-24 py-12" style="border-color: var(--border); background: var(--bg-secondary);">
-    <div class="max-w-6xl mx-auto px-6">
-      <div class="flex flex-col md:flex-row items-center justify-between gap-4">
-        <div>
-          <p class="font-bold" style="font-family: 'Space Mono', monospace; color: var(--accent);">LUXON AI</p>
-          <p class="text-sm mt-1" style="color: var(--text-muted);">AI computes. You decide. Robots execute.</p>
-        </div>
-        <div class="text-sm" style="color: var(--text-muted);">
-          <p>Powered by HERMES · ORACLE · NEXUS · DOGE</p>
-          <p class="mt-1">© 2026 Luxon AI Network</p>
-        </div>
-      </div>
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      <div class="site-footer-brand">LUXON AI</div>
+      <div class="site-footer-copy">AI computes. You decide. Robots execute.</div>
+      <div class="site-footer-copy">Powered by HERMES · ORACLE · NEXUS · DOGE · © 2026 Luxon AI Network</div>
     </div>
   </footer>
 </body>
