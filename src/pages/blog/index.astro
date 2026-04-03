@@ -5,11 +5,6 @@ const allPosts = (await getCollection('blog')).sort((a, b) => b.data.date.valueO
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const tagCounts = allPosts.flatMap(p => p.data.tags || []).reduce((acc, tag) => { acc[tag] = (acc[tag] || 0) + 1; return acc; }, {} as Record<string, number>);
 const sortedTags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
-const page = parseInt(Astro.url.searchParams.get('page') || '1');
-const PER_PAGE = 10;
-const totalPages = Math.ceil(allPosts.length / PER_PAGE);
-const posts = allPosts.slice((page - 1) * PER_PAGE, page * PER_PAGE);
-const pageUrl = (p: number) => `${base}/blog${p > 1 ? `?page=${p}` : ''}`;
 const searchIndex = allPosts.map(p => ({ id:p.id,title:p.data.title,description:p.data.description || '',tags:p.data.tags || [],date:p.data.date.toISOString().slice(0,10),url:`${base}/blog/${p.id}`,heroImage:p.data.heroImage || '' }));
 ---
 <BaseLayout title="BLOG — LUXON AI" description="Luxon AI 블로그 목록">
@@ -21,30 +16,120 @@ const searchIndex = allPosts.map(p => ({ id:p.id,title:p.data.title,description:
     .search-icon{position:absolute;left:0.65rem;top:50%;transform:translateY(-50%);color:rgba(124,106,247,0.5);font-size:0.85rem;}
     .cat-wrap{margin-bottom:1rem;overflow-x:auto;scrollbar-width:none;}.cat-wrap::-webkit-scrollbar{display:none}.cat-chips{display:flex;gap:0.4rem;width:max-content;padding-bottom:2px;}.cat-chip{display:inline-block;padding:0.3rem 0.7rem;background:var(--bg-secondary);border:1px solid var(--border);font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--text-muted);text-decoration:none;white-space:nowrap}.cat-chip:hover{color:var(--accent-light);border-color:rgba(124,106,247,0.35);background:rgba(124,106,247,0.06)}
     .head{display:flex;align-items:baseline;gap:0.6rem;flex-wrap:wrap;margin-bottom:0.9rem}.head h1{font-size:1.28rem;font-weight:800;font-family:'JetBrains Mono',monospace}.result-info{font-family:'JetBrains Mono',monospace;font-size:0.66rem;color:var(--text-muted)}
-    .post-list,.search-result-list{display:flex;flex-direction:column;gap:1px;background:var(--border)}
+    .post-list{display:flex;flex-direction:column;gap:1px;background:var(--border)}
     .post-card{background:var(--bg-primary);display:grid;grid-template-columns:80px 1fr;gap:0.8rem;padding:0.9rem;text-decoration:none;color:inherit;border:1px solid transparent}.post-card:hover{border-color:rgba(124,106,247,0.25);background:rgba(124,106,247,0.02)}
     .thumb,.thumb-ph{width:80px;height:56px;display:block;object-fit:cover}.thumb-ph{background:rgba(124,106,247,0.06);display:flex;align-items:center;justify-content:center;color:rgba(124,106,247,0.4)}
     .body{min-width:0;overflow:hidden}.date{font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:var(--accent-light);margin-bottom:0.2rem}.ptitle{font-size:0.88rem;font-weight:700;line-height:1.38;margin-bottom:0.28rem;word-break:break-word}.pdesc{font-size:0.73rem;line-height:1.5;color:var(--text-muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.tags{margin-top:0.38rem;display:flex;gap:0.22rem;flex-wrap:wrap}.tag{font-family:'JetBrains Mono',monospace;font-size:0.58rem;color:rgba(124,106,247,0.6);border:1px solid rgba(124,106,247,0.18);padding:0.06rem 0.35rem;white-space:nowrap}
-    .pagination{display:flex;gap:0.3rem;margin-top:1.4rem;align-items:center;flex-wrap:wrap}.pg-btn,.pg-num{font-family:'JetBrains Mono',monospace;font-size:0.7rem;text-decoration:none;padding:0.35rem 0.6rem;border:1px solid var(--border)}.pg-btn{color:var(--accent-light);border-color:rgba(124,106,247,0.3)}.pg-num{color:var(--text-muted)}.pg-num.active,.pg-num:hover,.pg-btn:hover{border-color:rgba(124,106,247,0.4);color:var(--accent-light);background:rgba(124,106,247,0.06)}
+    .pagination{display:flex;gap:0.3rem;margin-top:1.4rem;align-items:center;flex-wrap:wrap;padding-bottom:2rem}.pg-btn,.pg-num{font-family:'JetBrains Mono',monospace;font-size:0.7rem;cursor:pointer;padding:0.35rem 0.6rem;border:1px solid var(--border);background:transparent;color:var(--text-muted);text-decoration:none;}.pg-btn{color:var(--accent-light);border-color:rgba(124,106,247,0.3);}.pg-num.active,.pg-num:hover,.pg-btn:hover{border-color:rgba(124,106,247,0.4);color:var(--accent-light);background:rgba(124,106,247,0.06)}
     .no-result{padding:2rem;text-align:center;font-family:'JetBrains Mono',monospace;font-size:0.78rem;color:var(--text-muted)} mark{background:rgba(124,106,247,0.28);color:#fff;padding:0 1px;border-radius:1px}
   </style>
   <div class="wrap">
     <div class="search-bar-wrap"><div class="search-inner"><span class="search-icon">🔍</span><input id="search-input" class="search-input" type="search" placeholder="제목·태그·설명 검색..." autocomplete="off" /></div></div>
     <div class="cat-wrap"><div class="cat-chips"><a href={`${base}/blog`} class="cat-chip">ALL {allPosts.length}</a>{sortedTags.map(([tag,count]) => <a href={`${base}/category/${tag.toLowerCase().replace(/\s+/g,'-')}`} class="cat-chip">{tag} {count}</a>)}</div></div>
-    <div class="head"><h1>BLOG</h1><span class="result-info" id="result-info">{allPosts.length} POSTS — {page}/{totalPages}</span></div>
-    <div class="post-list" id="post-list">{posts.map(post => <a href={`${base}/blog/${post.id}`} class="post-card">{post.data.heroImage ? <img class="thumb" src={post.data.heroImage} alt="" /> : <div class="thumb-ph">📊</div>}<div class="body"><div class="date">{post.data.date.toISOString().slice(0,10)}</div><div class="ptitle">{post.data.title}</div><div class="pdesc">{post.data.description||''}</div><div class="tags">{(post.data.tags||[]).slice(0,3).map(t => <span class="tag">{t}</span>)}</div></div></a>)}</div>
-    <div class="search-result-list" id="search-results" style="display:none"></div>
-    <div class="pagination" id="pagination">{page > 1 && <a href={pageUrl(page-1)} class="pg-btn">← PREV</a>}{Array.from({length:totalPages},(_,i)=>i+1).map(p => <a href={pageUrl(p)} class={`pg-num${p===page?' active':''}`}>{p}</a>)}{page < totalPages && <a href={pageUrl(page+1)} class="pg-btn">NEXT →</a>}</div>
+    <div class="head"><h1>BLOG</h1><span class="result-info" id="result-info"></span></div>
+    <div class="post-list" id="post-list"></div>
+    <div class="pagination" id="pagination"></div>
   </div>
   <script id="search-data" type="application/json" set:html={JSON.stringify(searchIndex)}></script>
   <script>
     const INDEX = JSON.parse(document.getElementById('search-data').textContent);
-    const inp=document.getElementById('search-input'), list=document.getElementById('post-list'), srch=document.getElementById('search-results'), pagi=document.getElementById('pagination'), info=document.getElementById('result-info');
-    function esc(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-    function hl(text,q){ if(!q.trim()) return esc(text); const terms=q.trim().split(/\s+/).map(t=>t.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')); return esc(text).replace(new RegExp(`(${terms.join('|')})`, 'gi'),'<mark>$1</mark>'); }
-    function score(p,q){ const terms=q.toLowerCase().split(/\s+/).filter(Boolean); let s=0; for(const t of terms){ if(p.title.toLowerCase().includes(t)) s+=10; if(p.description.toLowerCase().includes(t)) s+=5; if(p.tags.some(x=>x.toLowerCase().includes(t))) s+=8; } return s; }
-    function cardHTML(p,q){ const thumb=p.heroImage?`<img class="thumb" src="${esc(p.heroImage)}" alt="" />`:`<div class="thumb-ph">📊</div>`; const tags=(p.tags||[]).slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join(''); return `<a href="${esc(p.url)}" class="post-card">${thumb}<div class="body"><div class="date">${esc(p.date)}</div><div class="ptitle">${hl(p.title,q)}</div><div class="pdesc">${hl(p.description,q)}</div><div class="tags">${tags}</div></div></a>`; }
-    function render(q){ const trim=q.trim(); if(!trim){ list.style.display=''; srch.style.display='none'; pagi.style.display=''; info.textContent=`${INDEX.length} POSTS`; return;} const hits=INDEX.map(p=>({p,s:score(p,trim)})).filter(r=>r.s>0).sort((a,b)=>b.s-a.s); list.style.display='none'; pagi.style.display='none'; srch.style.display=''; info.textContent=`검색 ${hits.length}건`; srch.innerHTML=hits.length?hits.map(({p})=>cardHTML(p,trim)).join(''):`<div class="no-result">결과 없음 — "${esc(trim)}"</div>`; }
-    let t; inp.addEventListener('input',()=>{clearTimeout(t); t=setTimeout(()=>render(inp.value),160);});
+    const PER_PAGE = 10;
+    let currentPage = 1;
+    let currentQuery = '';
+
+    const inp = document.getElementById('search-input');
+    const list = document.getElementById('post-list');
+    const pagi = document.getElementById('pagination');
+    const info = document.getElementById('result-info');
+
+    function esc(s) { return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+    function hl(text, q) {
+      if (!q.trim()) return esc(text);
+      const terms = q.trim().split(/\s+/).map(t => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+      return esc(text).replace(new RegExp(`(${terms.join('|')})`, 'gi'), '<mark>$1</mark>');
+    }
+    function score(p, q) {
+      const terms = q.toLowerCase().split(/\s+/).filter(Boolean);
+      let s = 0;
+      for (const t of terms) {
+        if (p.title.toLowerCase().includes(t)) s += 10;
+        if (p.description.toLowerCase().includes(t)) s += 5;
+        if (p.tags.some(x => x.toLowerCase().includes(t))) s += 8;
+      }
+      return s;
+    }
+    function cardHTML(p, q) {
+      const thumb = p.heroImage ? `<img class="thumb" src="${esc(p.heroImage)}" alt="" />` : `<div class="thumb-ph">📊</div>`;
+      const tags = (p.tags || []).slice(0, 3).map(t => `<span class="tag">${esc(t)}</span>`).join('');
+      return `<a href="${esc(p.url)}" class="post-card">${thumb}<div class="body"><div class="date">${esc(p.date)}</div><div class="ptitle">${hl(p.title, q)}</div><div class="pdesc">${hl(p.description, q)}</div><div class="tags">${tags}</div></div></a>`;
+    }
+
+    function renderPage(posts, page, q) {
+      const totalPages = Math.ceil(posts.length / PER_PAGE);
+      const slice = posts.slice((page - 1) * PER_PAGE, page * PER_PAGE);
+
+      if (q.trim()) {
+        info.textContent = `검색 ${posts.length}건`;
+      } else {
+        info.textContent = `${INDEX.length} POSTS — ${page}/${totalPages}`;
+      }
+
+      list.innerHTML = slice.length
+        ? slice.map(p => cardHTML(p, q)).join('')
+        : `<div class="no-result">결과 없음 — "${esc(q)}"</div>`;
+
+      // 페이지네이션 버튼 렌더
+      if (totalPages <= 1) { pagi.innerHTML = ''; return; }
+
+      let html = '';
+      if (page > 1) html += `<button class="pg-btn" data-p="${page - 1}">← PREV</button>`;
+
+      // 번호 너무 많으면 앞뒤 2개 + 현재 기준 ±2만 표시
+      const pages = [];
+      for (let i = 1; i <= totalPages; i++) {
+        if (i === 1 || i === totalPages || Math.abs(i - page) <= 2) pages.push(i);
+      }
+      let prev = 0;
+      for (const p of pages) {
+        if (prev && p - prev > 1) html += `<span class="pg-num" style="border:none;color:var(--text-muted)">…</span>`;
+        html += `<button class="pg-num${p === page ? ' active' : ''}" data-p="${p}">${p}</button>`;
+        prev = p;
+      }
+
+      if (page < totalPages) html += `<button class="pg-btn" data-p="${page + 1}">NEXT →</button>`;
+      pagi.innerHTML = html;
+
+      pagi.querySelectorAll('button[data-p]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          currentPage = parseInt(btn.getAttribute('data-p'));
+          renderPage(filteredPosts(), currentPage, currentQuery);
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      });
+    }
+
+    function filteredPosts() {
+      const q = currentQuery.trim();
+      if (!q) return INDEX;
+      return INDEX.map(p => ({ p, s: score(p, q) })).filter(r => r.s > 0).sort((a, b) => b.s - a.s).map(r => r.p);
+    }
+
+    function render() {
+      const posts = filteredPosts();
+      renderPage(posts, currentPage, currentQuery);
+    }
+
+    let t;
+    inp.addEventListener('input', () => {
+      clearTimeout(t);
+      t = setTimeout(() => {
+        currentQuery = inp.value;
+        currentPage = 1;
+        render();
+      }, 160);
+    });
+
+    // 초기 렌더
+    render();
   </script>
 </BaseLayout>
