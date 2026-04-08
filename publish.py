@@ -7,7 +7,7 @@ import os, sys, re, subprocess, argparse, requests
 from datetime import datetime
 from pathlib import Path
 
-PEXELS_KEY = "hmKwOU4cM569R7WbtQMZb7y3mMpgU8OCTeoA6IGeBeyLW9FvRe13jHWM"
+PEXELS_KEY = os.environ.get("PEXELS_API_KEY", "")
 BLOG_DIR = Path(__file__).parent / "src/content/blog"
 BLOG_DIR.mkdir(parents=True, exist_ok=True)
 
