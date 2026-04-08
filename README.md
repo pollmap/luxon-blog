@@ -1,43 +1,44 @@
-# Astro Starter Kit: Minimal
+# Luxon AI Blog
 
-```sh
-npm create astro@latest -- --template minimal
+Luxon AI 리서치 블로그 — 퀀트, AI, 금융 분석 인사이트를 공유합니다.
+
+**https://pollmap.github.io/luxon-blog/**
+
+## Stack
+
+- [Astro](https://astro.build/) — Static Site Generator
+- GitHub Pages — Hosting
+- `publish.py` — 자동 발행 스크립트
+
+## 블로그 발행
+
+```bash
+# 환경변수 설정
+export PEXELS_API_KEY=your_key_here
+
+# 포스트 발행
+python publish.py --title "제목" --slug "my-slug" --content "내용" --tags "AI,퀀트"
+
+# 퀀트 복기 자동 발행 (open-trading-api 연동)
+python ../open-trading-api/backtester/scripts/publish_review.py --type weekly
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 디렉토리 구조
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```
+src/content/blog/    # 블로그 포스트 (.md)
+publish.py           # 자동 발행 스크립트
+.env                 # API 키 (gitignore)
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 관련 레포
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+| 레포 | 설명 |
+|------|------|
+| [nexus-finance-mcp](https://github.com/pollmap/nexus-finance-mcp) | 398도구 금융 MCP 서버 |
+| [cufa-equity-report](https://github.com/pollmap/cufa-equity-report) | AI 기업분석 보고서 |
+| [open-trading-api](https://github.com/pollmap/open-trading-api) | AI 퀀트 운용 시스템 |
 
-Any static assets, like images, can be placed in the `public/` directory.
+## License
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+MIT
