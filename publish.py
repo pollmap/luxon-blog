@@ -32,20 +32,21 @@ def get_pexels_image(query: str) -> str:
 def preprocess_markdown(text):
     """** 볼드 마크다운을 HTML strong으로 변환 (Astro 파서 호환성 문제 방지)"""
     import re
-    text = re.sub(r'\*\*(.+?)\*\*', r'<strong></strong>', text, flags=re.DOTALL)
+    # fix: capture group \1 was missing — bold text was dropped
+    text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text, flags=re.DOTALL)
     text = re.sub(r'\*\*', '', text)  # 닫히지 않은 ** 제거
     return text
 
 def publish(title: str, slug: str, content: str, tags: list = None, image_query: str = None):
     today = datetime.now().strftime("%Y-%m-%d")
     tags = tags or ["AI", "Luxon"]
-    
+
     # 이미지 검색
     query = image_query or title.split()[:2][0]
     hero_image = get_pexels_image(query)
     if hero_image:
         print(f"이미지: {hero_image[:60]}...")
-    
+
     # 마크다운 파일 생성
     tags_str = "[" + ", ".join(tags) + "]"
     blog_url = f"https://pollmap.github.io/luxon-blog/blog/{today}-{slug}/"
@@ -71,17 +72,17 @@ tags: {tags_str}
     filepath = BLOG_DIR / f"{today}-{slug}.md"
     filepath.write_text(frontmatter + preprocess_markdown(content), encoding="utf-8")
     print(f"파일 생성: {filepath}")
-    
-    # git push
+
+    # git push — scope to blog content only (avoid accidental large-scope commits)
     os.chdir(Path(__file__).parent)
-    subprocess.run(["git", "add", "-A"], check=True)
+    subprocess.run(["git", "add", "src/content/blog/"], check=True)
     subprocess.run(["git", "commit", "-m", f"post: {title}"], check=True)
     result = subprocess.run(["git", "push", "origin", "main"], capture_output=True, text=True)
     if result.returncode == 0:
-        print(f"✅ 발행 완료: https://pollmap.github.io/luxon-blog/blog/{today}-{slug}/")
+        print(f"발행 완료: https://pollmap.github.io/luxon-blog/blog/{today}-{slug}/")
     else:
-        print(f"❌ Push 오류: {result.stderr}")
-    
+        print(f"Push 오류: {result.stderr}")
+
     return f"https://pollmap.github.io/luxon-blog/blog/{today}-{slug}/"
 
 
@@ -93,7 +94,7 @@ if __name__ == "__main__":
     parser.add_argument("--tags", default="AI,Luxon")
     parser.add_argument("--image", default="")
     args = parser.parse_args()
-    
+
     content = args.content or sys.stdin.read()
     tags = [t.strip() for t in args.tags.split(",")]
     publish(args.title, args.slug, content, tags, args.image or None)

@@ -1,5 +1,10 @@
 # build output
 dist/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
 # generated types
 .astro/
 
