@@ -1,0 +1,104 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// v2 Devlog 카테고리 (intent axis) — orthogonal to the topic-level `tags`
+// served from /category/[tag].astro. Both routes coexist without collision.
+const CATEGORY_META = {
+  'building':  { label: 'BUILDING',  icon: '🛠',  desc: '구현·릴리스·툴체인. 만드는 중의 로그 — commit·PR·repo 링크 포함.' },
+  'field':     { label: 'FIELD',     icon: '🔍', desc: '시장·산업·기업 관찰. DART/SEC 원문 해부, 거시 지표 추적, 현장 노트.' },
+  'failure':   { label: 'FAILURE',   icon: '🩹', desc: '실패 post-mortem, 회귀, 취소된 기능. 다음 사람을 위한 기록.' },
+  'deep-dive': { label: 'DEEP DIVE', icon: '🧠', desc: '논문·수식·이론. 모델 구현 노트, 수학적 증명, 책 챕터 파생.' },
+  'retro':     { label: 'RETRO',     icon: '📅', desc: '주간·월간·분기 회고. 누적 메트릭 + 의사결정 로그.' },
+} as const;
+
+type CategoryKey = keyof typeof CATEGORY_META;
+
+export async function getStaticPaths() {
+  const categories: CategoryKey[] = ['building', 'field', 'failure', 'deep-dive', 'retro'];
+  const posts = await getCollection('blog');
+  return categories.map((cat) => ({
+    params: { category: cat },
+    props: {
+      category: cat,
+      posts: posts
+        .filter((p) => p.data.category === cat)
+        .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf()),
+    },
+  }));
+}
+
+const { category, posts } = Astro.props;
+const meta = CATEGORY_META[category as CategoryKey];
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const allPosts = await getCollection('blog');
+const categoryCounts = (Object.keys(CATEGORY_META) as CategoryKey[]).map((k) => ({
+  key: k,
+  count: allPosts.filter((p) => p.data.category === k).length,
+  ...CATEGORY_META[k],
+}));
+---
+<BaseLayout title={`${meta.label} — Luxon AI Devlog`} description={`${meta.label} 카테고리 — ${meta.desc}`}>
+  <style>
+    .wrap{max-width:860px;margin:0 auto;padding:5.7rem 1rem 0;}
+    .cat-wrap{margin-bottom:1.2rem;overflow-x:auto;scrollbar-width:none;}
+    .cat-wrap::-webkit-scrollbar{display:none;}
+    .cat-chips{display:flex;gap:0.4rem;width:max-content;padding-bottom:2px;}
+    .cat-chip{display:inline-flex;align-items:center;gap:0.3rem;padding:0.3rem 0.7rem;background:var(--bg-secondary);border:1px solid var(--border);font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--text-muted);text-decoration:none;white-space:nowrap;}
+    .cat-chip.active,.cat-chip:hover{color:var(--accent-light);border-color:rgba(124,106,247,0.35);background:rgba(124,106,247,0.06);}
+    .head{margin-bottom:1.2rem;border-bottom:1px solid var(--border);padding-bottom:0.9rem;}
+    .label{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--accent-light);letter-spacing:0.12em;margin-bottom:0.3rem;}
+    .title{font-size:1.45rem;font-weight:800;color:#fff;margin-bottom:0.4rem;}
+    .meta-line{display:flex;gap:0.8rem;align-items:baseline;flex-wrap:wrap;font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--text-muted);margin-bottom:0.5rem;}
+    .desc{font-size:0.85rem;line-height:1.6;color:var(--text-muted);max-width:60ch;}
+    .post-list{display:flex;flex-direction:column;gap:1px;background:var(--border);}
+    .post-card{background:var(--bg-primary);display:grid;grid-template-columns:80px 1fr;gap:0.8rem;padding:0.9rem;text-decoration:none;color:inherit;border:1px solid transparent;}
+    .post-card:hover{border-color:rgba(124,106,247,0.25);background:rgba(124,106,247,0.02);}
+    .thumb,.thumb-ph{width:80px;height:56px;display:block;object-fit:cover;}
+    .thumb-ph{background:rgba(124,106,247,0.06);display:flex;align-items:center;justify-content:center;color:rgba(124,106,247,0.4);}
+    .body{min-width:0;overflow:hidden;}
+    .date{font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:var(--accent-light);margin-bottom:0.2rem;}
+    .ptitle{font-size:0.88rem;font-weight:700;line-height:1.38;margin-bottom:0.28rem;word-break:break-word;}
+    .pdesc{font-size:0.73rem;line-height:1.5;color:var(--text-muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+    .empty{padding:2.4rem 1rem;text-align:center;font-family:'JetBrains Mono',monospace;font-size:0.78rem;color:var(--text-muted);border:1px dashed var(--border);line-height:1.6;}
+    .empty-hint{display:block;margin-top:0.5rem;font-size:0.68rem;}
+  </style>
+  <div class="wrap">
+    <div class="cat-wrap"><div class="cat-chips">
+      <a href={`${base}/blog`} class="cat-chip">📚 ALL {allPosts.length}</a>
+      {categoryCounts.map((c) => (
+        <a href={`${base}/c/${c.key}`} class={`cat-chip ${c.key === category ? 'active' : ''}`}>
+          <span>{c.icon}</span><span>{c.label}</span><span>{c.count}</span>
+        </a>
+      ))}
+    </div></div>
+
+    <div class="head">
+      <div class="label">CATEGORY · INTENT AXIS</div>
+      <div class="title">{meta.icon} {meta.label}</div>
+      <div class="meta-line"><span>{posts.length} POSTS</span></div>
+      <div class="desc">{meta.desc}</div>
+    </div>
+
+    {posts.length === 0 ? (
+      <div class="empty">
+        아직 이 카테고리의 포스트가 없습니다.
+        <span class="empty-hint">곧 채워집니다 — 첫 포스트가 작성되면 여기 표시됩니다.</span>
+      </div>
+    ) : (
+      <div class="post-list">
+        {posts.map((post) => (
+          <a href={`${base}/blog/${post.id}`} class="post-card">
+            {post.data.heroImage ? <img class="thumb" src={post.data.heroImage} alt="" /> : <div class="thumb-ph">📊</div>}
+            <div class="body">
+              <div class="date">{post.data.date.toISOString().slice(0, 10)}</div>
+              <div class="ptitle">{post.data.title}</div>
+              <div class="pdesc">{post.data.description || ''}</div>
+            </div>
+          </a>
+        ))}
+      </div>
+    )}
+  </div>
+</BaseLayout>
