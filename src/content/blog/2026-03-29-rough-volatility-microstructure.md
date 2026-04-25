@@ -1,9 +1,16 @@
 ---
-title: "변동성이 거칠어지는 이유 — 주문 하나하나에서 시작된다"
+title: 변동성이 거칠어지는 이유 — 주문 하나하나에서 시작된다
 date: 2026-03-29
-description: "Rough Volatility가 왜 생기는지 수수께끼였다. 새 연구가 답했다: 주문 충격이 느리게 감소하는 커널을 따를 때 집계 결과로 자연스럽게 거친 변동성이 나타난다. 시장 미시구조에서 출발한 증명."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [변동성모델링, 시장미시구조, 퀀트, RoughVolatility, 파생상품]
+description: 'Rough Volatility가 왜 생기는지 수수께끼였다. 새 연구가 답했다: 주문 충격이 느리게 감소하는 커널을 따를 때
+  집계 결과로 자연스럽게 거친 변동성이 나타난다. 시장 미시구조에서 출발한 증명.'
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 변동성모델링
+- 시장미시구조
+- 퀀트
+- RoughVolatility
+- 파생상품
+category: deep-dive
 ---
 
 변동성이 왜 "거칠게" 움직이는지 — 그러니까 왜 Rough Volatility 모델이 실제 시장을 더 잘 설명하는지 — 를 이해하면, 옵션 가격 책정과 리스크 관리를 보는 눈이 완전히 달라진다.

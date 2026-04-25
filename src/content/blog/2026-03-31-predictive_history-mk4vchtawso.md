@@ -1,9 +1,17 @@
 ---
-title: "팍스 유다이카란 무엇인가: 역사와 지정학의 역설"
+title: '팍스 유다이카란 무엇인가: 역사와 지정학의 역설'
 date: 2026-03-31
-description: "유대 질서라는 표현은 음모론처럼 들리기 쉽지만, 실제로는 역사적 네트워크와 권력 이동을 읽는 문제에 가깝습니다. 현재 국제질서와 연결해 쉽게 풀었습니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "지정학", "세계사"]
+description: 유대 질서라는 표현은 음모론처럼 들리기 쉽지만, 실제로는 역사적 네트워크와 권력 이동을 읽는 문제에 가깝습니다. 현재 국제질서와
+  연결해 쉽게 풀었습니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 지정학
+- 세계사
+category: field
 ---
 
 이 글을 읽으면 "팍스 유다이카" 같은 자극적인 표현을 음모론적으로 소비하지 않고, 역사 속 디아스포라 네트워크·금융·제국 질서·현대 지정학이 어떻게 얽혀 있는지 더 냉정하게 읽게 됩니다. 가장 중요한 건 이겁니다. 세계사는 종종 거대한 제국이 군대로만 질서를 만들었다고 배웁니다. 그런데 실제로 오래가는 질서는 생각보다 자주 **이동하는 사람들, 연결망, 신뢰 체계** 위에서 만들어졌습니다.

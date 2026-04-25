@@ -1,9 +1,17 @@
 ---
-title: "부자 아빠 가난한 아빠를 게임이론으로 다시 읽는 법"
+title: 부자 아빠 가난한 아빠를 게임이론으로 다시 읽는 법
 date: 2026-04-03
-description: "부와 빈곤은 개인 습관만의 문제가 아닐 수 있습니다. 게임이론으로 보면 왜 어떤 사회는 부를 키우고 어떤 사회는 가난을 반복하는지 보입니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "게임이론", "경제사"]
+description: 부와 빈곤은 개인 습관만의 문제가 아닐 수 있습니다. 게임이론으로 보면 왜 어떤 사회는 부를 키우고 어떤 사회는 가난을 반복하는지
+  보입니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 게임이론
+- 경제사
+category: field
 ---
 
 # 부자 아빠 가난한 아빠를 게임이론으로 다시 읽는 법

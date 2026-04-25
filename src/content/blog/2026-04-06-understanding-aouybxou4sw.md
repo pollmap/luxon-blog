@@ -1,9 +1,17 @@
 ---
-title: "HBM 이후의 게임체인저: 삼성·하이닉스를 흔들 대안 기술"
+title: 'HBM 이후의 게임체인저: 삼성·하이닉스를 흔들 대안 기술'
 date: 2026-04-06
-description: "HBM의 높은 비용 구조와 이를 대체할 차세대 메모리 패키징 기술을 쉽게 풀어본다. 왜 메모리 패권이 영원하지 않을 수 있는지도 짚는다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "HBM", "반도체"]
+description: HBM의 높은 비용 구조와 이를 대체할 차세대 메모리 패키징 기술을 쉽게 풀어본다. 왜 메모리 패권이 영원하지 않을 수 있는지도
+  짚는다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- HBM
+- 반도체
+category: deep-dive
 ---
 
 이 글을 읽으면 HBM을 단순히 "요즘 가장 잘나가는 AI 메모리" 정도로만 보지 않게 됩니다. 왜 HBM이 그렇게 비싸고 만들기 어려운지, 그래서 어떤 대안 기술이 주목받는지, 그리고 정말로 그 대안이 삼성전자와 SK하이닉스의 우위를 흔들 수 있는지까지 핵심만 이해하게 됩니다. 반도체를 전공하지 않아도, 지금 메모리 산업의 판이 어디서 바뀔 수 있는지 큰 그림이 잡히실 겁니다.

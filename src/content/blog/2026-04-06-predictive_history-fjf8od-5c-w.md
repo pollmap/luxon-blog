@@ -1,9 +1,17 @@
 ---
-title: "천명사상은 무엇이었나: 중국 권력의 설계도"
+title: '천명사상은 무엇이었나: 중국 권력의 설계도'
 date: 2026-04-06
-description: "천명사상을 왕조 교체 명분이 아니라 중국 정치질서의 핵심 운영 원리로 읽습니다. 고대 중국부터 오늘날 중국식 정당성까지 연결해 설명합니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "천명사상", "중국사"]
+description: 천명사상을 왕조 교체 명분이 아니라 중국 정치질서의 핵심 운영 원리로 읽습니다. 고대 중국부터 오늘날 중국식 정당성까지 연결해
+  설명합니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 천명사상
+- 중국사
+category: field
 ---
 
 이 글을 읽으면 천명사상을 더 이상 막연한 고대 중국의 통치 이념이나 "왕이 잘못하면 하늘이 바꾼다"는 도덕 교훈 정도로만 보지 않게 됩니다. 왜 천명이 수천 년 동안 중국 왕조의 정당성을 설명하는 핵심 언어였는지, 왜 이 사상이 단순한 신권 이데올로기가 아니라 오히려 반란과 왕조 교체까지 설명할 수 있는 유연한 정치 시스템이었는지, 그리고 그 흔적이 오늘날 중국의 국가 정당성 감각 속에 어떻게 남아 있는지 한 번에 감이 잡히게 될 겁니다.

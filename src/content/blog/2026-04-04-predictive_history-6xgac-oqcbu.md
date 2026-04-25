@@ -1,9 +1,17 @@
 ---
-title: "악의 조직 — 역사 속 비밀 결사는 실제로 어떻게 작동했나"
+title: 악의 조직 — 역사 속 비밀 결사는 실제로 어떻게 작동했나
 date: 2026-04-04
-description: "프리메이슨부터 예수회까지, 역사 속 비밀 조직들이 실제로 어떤 구조로 권력을 행사했는지 지정학적 시각으로 분석합니다. 음모론과 역사적 사실의 경계까지."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "비밀결사", "프리메이슨"]
+description: 프리메이슨부터 예수회까지, 역사 속 비밀 조직들이 실제로 어떤 구조로 권력을 행사했는지 지정학적 시각으로 분석합니다. 음모론과
+  역사적 사실의 경계까지.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 비밀결사
+- 프리메이슨
+category: field
 ---
 
 # 악의 조직 — 역사 속 비밀 결사는 실제로 어떻게 작동했나

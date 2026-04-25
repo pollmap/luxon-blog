@@ -1,9 +1,17 @@
 ---
-title: "공산주의의 유령은 왜 아직도 세계를 떠도나"
+title: 공산주의의 유령은 왜 아직도 세계를 떠도나
 date: 2026-04-01
-description: "공산주의는 끝난 사상처럼 보이지만, 불평등과 위기 속에서 유령처럼 되살아납니다. 역사적 맥락과 현재 의미를 한국 독자용으로 깊게 풀었습니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "공산주의", "정치사상"]
+description: 공산주의는 끝난 사상처럼 보이지만, 불평등과 위기 속에서 유령처럼 되살아납니다. 역사적 맥락과 현재 의미를 한국 독자용으로
+  깊게 풀었습니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 공산주의
+- 정치사상
+category: field
 ---
 
 이 글을 읽으면 공산주의를 단순히 20세기에 실패한 낡은 이념으로만 보지 않게 됩니다. 왜 그 사상이 무너졌는데도 계속 유령처럼 돌아오는지, 왜 위기와 불평등이 커질수록 다시 호출되는지, 그리고 오늘의 세계정치와 경제를 읽을 때 왜 이 "유령"이 아직 중요하게 남아 있는지 한 번에 잡히게 될 겁니다. 가장 큰 반전은 이거예요. 많은 사람은 공산주의가 패배했으니 끝났다고 생각하죠. 그런데 실제로는 **공산주의보다 더 오래 살아남는 건 공산주의가 제기했던 질문들**일 수 있습니다.

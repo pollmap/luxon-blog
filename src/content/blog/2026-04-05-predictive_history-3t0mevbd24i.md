@@ -1,9 +1,17 @@
 ---
-title: "유대인의 기원: 한 민족은 어떻게 탄생했나"
+title: '유대인의 기원: 한 민족은 어떻게 탄생했나'
 date: 2026-04-05
-description: "고대 이스라엘과 유대인의 형성을 성서 밖 역사와 제국의 충돌 속에서 다시 읽는다. 오늘의 중동과 정체성 정치까지 이어지는 뿌리를 짚는다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "유대인", "고대이스라엘"]
+description: 고대 이스라엘과 유대인의 형성을 성서 밖 역사와 제국의 충돌 속에서 다시 읽는다. 오늘의 중동과 정체성 정치까지 이어지는 뿌리를
+  짚는다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 유대인
+- 고대이스라엘
+category: field
 ---
 
 이 글을 읽으면 유대인의 기원을 더 이상 성서의 한 장면이나 단순한 민족 서사로만 보지 않게 됩니다. 고대 이스라엘과 유다 공동체가 어떻게 형성됐는지, 왜 이들의 정체성이 다른 고대 민족보다 훨씬 강하게 텍스트·법·기억 중심으로 굳어졌는지, 그리고 그 오래된 형성 과정이 왜 오늘의 중동정치와 정체성 갈등을 읽는 데까지 이어지는지 한 번에 보이기 시작합니다.

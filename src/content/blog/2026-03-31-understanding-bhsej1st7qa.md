@@ -1,9 +1,17 @@
 ---
-title: "3천만원으로 1천억, 쿠팡 시대에 큰 회사의 공식"
+title: 3천만원으로 1천억, 쿠팡 시대에 큰 회사의 공식
 date: 2026-03-31
-description: "적은 자본으로 큰 회사를 만드는 법은 아이디어보다 구조에 가깝습니다. 쿠팡이 만든 시장 변화 속에서 어떻게 기회를 잡는지 쉽게 풀어드립니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "쿠팡", "스타트업"]
+description: 적은 자본으로 큰 회사를 만드는 법은 아이디어보다 구조에 가깝습니다. 쿠팡이 만든 시장 변화 속에서 어떻게 기회를 잡는지 쉽게
+  풀어드립니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 쿠팡
+- 스타트업
+category: deep-dive
 ---
 
 이 글을 읽으면 작은 돈으로도 큰 회사를 키울 수 있는 조건이 무엇인지 감으로가 아니라 구조로 이해하게 됩니다. 많은 사람이 사업은 결국 자본 싸움이라고 생각하죠. 그런데 진짜 반전은 종잣돈보다 더 중요한 게 따로 있다는 데 있습니다. 큰돈이 회사를 키운 게 아니라, 이미 커진 플랫폼이 만든 흐름을 정확히 타는 회사가 훨씬 빨리 커질 수 있다는 점입니다.

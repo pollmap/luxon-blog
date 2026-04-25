@@ -1,9 +1,17 @@
 ---
-title: "크립토 LOB 마이크로스트럭처의 크로스에셋 패턴 — CatBoost·SHAP 분석"
+title: 크립토 LOB 마이크로스트럭처의 크로스에셋 패턴 — CatBoost·SHAP 분석
 date: 2026-03-28
-description: "BTC·LTC·ETC 등 5개 크립토 자산의 1초 오더북 데이터를 분석한 결과, 시가총액과 무관하게 동일한 특성 중요도 패턴이 존재함을 밝힌 연구 요약."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [crypto, microstructure, order-book, CatBoost, SHAP, adverse-selection]
+description: BTC·LTC·ETC 등 5개 크립토 자산의 1초 오더북 데이터를 분석한 결과, 시가총액과 무관하게 동일한 특성 중요도 패턴이
+  존재함을 밝힌 연구 요약.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- crypto
+- microstructure
+- order-book
+- CatBoost
+- SHAP
+- adverse-selection
+category: deep-dive
 ---
 
 ## 크립토 시장의 보편 신호가 존재한다

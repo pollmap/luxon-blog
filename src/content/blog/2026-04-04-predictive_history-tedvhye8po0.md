@@ -1,9 +1,17 @@
 ---
-title: "교회 제국 — 가톨릭은 어떻게 1000년 제국이 됐나"
+title: 교회 제국 — 가톨릭은 어떻게 1000년 제국이 됐나
 date: 2026-04-04
-description: "중세 가톨릭교회가 단순한 종교 기관을 넘어 어떻게 영토·군사·금융을 지배하는 제국으로 작동했는지, 비밀 역사의 시각으로 파고듭니다. 현재까지 이어지는 구조 분석."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "가톨릭제국", "중세역사"]
+description: 중세 가톨릭교회가 단순한 종교 기관을 넘어 어떻게 영토·군사·금융을 지배하는 제국으로 작동했는지, 비밀 역사의 시각으로 파고듭니다.
+  현재까지 이어지는 구조 분석.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 가톨릭제국
+- 중세역사
+category: field
 ---
 
 # 교회 제국 — 가톨릭은 어떻게 1000년 제국이 됐나

@@ -1,8 +1,13 @@
 ---
-title: "퀀트 리스크 관리 — 살아남는 것이 수익보다 중요하다"
+title: 퀀트 리스크 관리 — 살아남는 것이 수익보다 중요하다
 date: 2026-04-08
-description: "Ed Thorp의 Kelly Criterion부터 Millennium DD 규칙까지"
-tags: ["퀀트", "리스크", "투자", "Luxon"]
+description: Ed Thorp의 Kelly Criterion부터 Millennium DD 규칙까지
+tags:
+- 퀀트
+- 리스크
+- 투자
+- Luxon
+category: building
 ---
 
 ## 수익률보다 중요한 것

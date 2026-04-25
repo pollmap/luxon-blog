@@ -1,9 +1,17 @@
 ---
-title: "만물의 이론이 바꾼 문명의 협상법"
+title: 만물의 이론이 바꾼 문명의 협상법
 date: 2026-04-08
-description: "하늘을 향한 통합 이론이 어떻게 지식의 패러다임이자 권력의 문장으로 전환되었는지 추적하고, 오늘의 지정학에서 규범·기술·동맹이 왜 같은 지도 위를 그리는지 정리했다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "지정학", "문명사"]
+description: 하늘을 향한 통합 이론이 어떻게 지식의 패러다임이자 권력의 문장으로 전환되었는지 추적하고, 오늘의 지정학에서 규범·기술·동맹이
+  왜 같은 지도 위를 그리는지 정리했다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 지정학
+- 문명사
+category: field
 ---
 
 # 만물의 이론이 만든 세계의 계약

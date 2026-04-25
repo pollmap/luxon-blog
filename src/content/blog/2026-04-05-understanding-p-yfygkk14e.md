@@ -1,9 +1,17 @@
 ---
-title: "호르무즈 해협에 기뢰가 깔리면 누가 먼저 무너질까"
+title: 호르무즈 해협에 기뢰가 깔리면 누가 먼저 무너질까
 date: 2026-04-05
-description: "호르무즈 해협 봉쇄와 기뢰전이 왜 미국·이란 모두를 파괴하는 선택인지, 에너지·해운·군사 구조까지 한국 독자 눈높이로 풀어낸 심층 해설."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "호르무즈해협", "이란미국"]
+description: 호르무즈 해협 봉쇄와 기뢰전이 왜 미국·이란 모두를 파괴하는 선택인지, 에너지·해운·군사 구조까지 한국 독자 눈높이로 풀어낸
+  심층 해설.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 호르무즈해협
+- 이란미국
+category: deep-dive
 ---
 
 이 글을 읽으면, 호르무즈 해협에 기뢰가 깔린다는 말이 왜 단순한 군사 뉴스가 아니라 세계 원유 시장, 해상 물류, 미국의 군사 전략, 이란의 생존 문제까지 동시에 흔드는 사건인지 이해하게 됩니다. 그리고 왜 이런 선택이 겉보기와 달리 이란만의 비장의 카드가 아니라 미국과 이란 모두를 크게 다치게 하는 파괴적 시나리오인지, 그 구조가 한 번에 보이게 될 겁니다.

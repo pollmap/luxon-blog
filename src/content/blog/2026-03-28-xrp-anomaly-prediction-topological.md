@@ -1,9 +1,17 @@
 ---
-title: "위상수학으로 XRP 가격 이상 급등을 예측한다 — 토폴로지 특성 분석"
+title: 위상수학으로 XRP 가격 이상 급등을 예측한다 — 토폴로지 특성 분석
 date: 2026-03-28
-description: "온체인 거래 그래프의 위상적 특성(Betti 수)을 활용해 XRP 가격 이상 급등을 예측하는 방법론을 소개. 평균 수익률 예측보다 극단적 사건 분류에 유효."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [crypto, XRP, topology, on-chain, anomaly, persistent-homology]
+description: 온체인 거래 그래프의 위상적 특성(Betti 수)을 활용해 XRP 가격 이상 급등을 예측하는 방법론을 소개. 평균 수익률 예측보다
+  극단적 사건 분류에 유효.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- crypto
+- XRP
+- topology
+- on-chain
+- anomaly
+- persistent-homology
+category: deep-dive
 ---
 
 ## "가격 차트"가 아닌 "거래 네트워크"에서 신호를 찾다

@@ -1,9 +1,16 @@
 ---
-title: "호르무즈 해협, 왜 한국도 이란과 협의하나"
+title: 호르무즈 해협, 왜 한국도 이란과 협의하나
 date: 2026-04-02
-description: "호르무즈 해협 위기가 왜 한국 경제와 바로 연결되는지, 이란이 한국과 협의를 말하는 진짜 의미가 무엇인지 쉽게 풀어봤습니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "호르무즈해협", "이란"]
+description: 호르무즈 해협 위기가 왜 한국 경제와 바로 연결되는지, 이란이 한국과 협의를 말하는 진짜 의미가 무엇인지 쉽게 풀어봤습니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 호르무즈해협
+- 이란
+category: deep-dive
 ---
 
 # 호르무즈 해협, 왜 한국도 이란과 협의하나

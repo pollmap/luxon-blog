@@ -1,9 +1,18 @@
 ---
-title: "크립토 마이크로스트럭처의 설명 가능한 패턴 — SHAP 기반 오더북 분석"
+title: 크립토 마이크로스트럭처의 설명 가능한 패턴 — SHAP 기반 오더북 분석
 date: 2026-03-28
-description: "CatBoost + SHAP으로 분석한 크립토 선물 1초 오더북 데이터에서 OFI·스프레드·역선택 변수가 크로스에셋으로 안정적 예측력을 보임. 테이커·메이커 전략 분리 검증 필수."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [crypto, microstructure, SHAP, order-book, OFI, CatBoost, explainability]
+description: CatBoost + SHAP으로 분석한 크립토 선물 1초 오더북 데이터에서 OFI·스프레드·역선택 변수가 크로스에셋으로 안정적
+  예측력을 보임. 테이커·메이커 전략 분리 검증 필수.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- crypto
+- microstructure
+- SHAP
+- order-book
+- OFI
+- CatBoost
+- explainability
+category: deep-dive
 ---
 
 ## 오더북이 말하는 것을 해독한다

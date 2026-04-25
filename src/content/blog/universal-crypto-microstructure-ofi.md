@@ -1,9 +1,17 @@
 ---
-title: "크립토 미시구조의 보편성: OFI·스프레드 신호의 크로스 자산 안정성"
+title: '크립토 미시구조의 보편성: OFI·스프레드 신호의 크로스 자산 안정성'
 date: 2026-03-28
-description: "바르샤바대 연구팀이 5개 크립토 자산에서 OFI, 스프레드, VWAP-to-mid 신호의 SHAP 중요도와 의존성 곡선이 크로스 자산으로 안정적임을 입증했습니다."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [크립토, 미시구조, 주문흐름, OFI, 고빈도트레이딩, 플래시크래시]
+description: 바르샤바대 연구팀이 5개 크립토 자산에서 OFI, 스프레드, VWAP-to-mid 신호의 SHAP 중요도와 의존성 곡선이 크로스
+  자산으로 안정적임을 입증했습니다.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 크립토
+- 미시구조
+- 주문흐름
+- OFI
+- 고빈도트레이딩
+- 플래시크래시
+category: deep-dive
 ---
 
 ## 서론: 크립토 미시구조 신호는 이식 가능한가?

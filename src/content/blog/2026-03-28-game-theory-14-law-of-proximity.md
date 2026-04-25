@@ -1,9 +1,14 @@
 ---
-title: "근접성의 법칙 — 지리가 운명이 되는 순간"
+title: 근접성의 법칙 — 지리가 운명이 되는 순간
 date: 2026-03-28
-description: "서론: 다층적 게임의 세계"
-heroImage: "https://images.pexels.com/photos/20409628/pexels-photo-20409628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [지정학, 게임이론, 역사분석, PredictiveHistory]
+description: '서론: 다층적 게임의 세계'
+heroImage: https://images.pexels.com/photos/20409628/pexels-photo-20409628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 게임이론
+- 역사분석
+- PredictiveHistory
+category: deep-dive
 ---
 
 # 근접성의 법칙과 전쟁의 본질: 게임 이론으로 읽는 현대 갈등

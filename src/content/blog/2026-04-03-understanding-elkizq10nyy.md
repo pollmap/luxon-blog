@@ -1,9 +1,17 @@
 ---
-title: "밟힐수록 더 낮아지는 잡초: 전략가는 왜 약한 척하는가"
+title: '밟힐수록 더 낮아지는 잡초: 전략가는 왜 약한 척하는가'
 date: 2026-04-03
-description: "강한 사람이 이기는 게 아니라 끝까지 버티는 사람이 이기는 순간이 있다. 약한 척함, 후퇴, 인내를 전략으로 읽는 법을 쉽게 풀었습니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "전략", "생존"]
+description: 강한 사람이 이기는 게 아니라 끝까지 버티는 사람이 이기는 순간이 있다. 약한 척함, 후퇴, 인내를 전략으로 읽는 법을 쉽게
+  풀었습니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 전략
+- 생존
+category: deep-dive
 ---
 
 # 밟힐수록 더 낮아지는 잡초: 전략가는 왜 약한 척하는가

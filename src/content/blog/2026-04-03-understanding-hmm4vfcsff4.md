@@ -1,9 +1,17 @@
 ---
-title: "이란 전쟁 다음 충격, 왜 사모대출이 위험한가"
+title: 이란 전쟁 다음 충격, 왜 사모대출이 위험한가
 date: 2026-04-03
-description: "전쟁 뉴스보다 더 늦게 터질 수 있는 금융 리스크가 왜 사모대출인지, 금리·유동성·신용시장의 연결고리를 한국 독자 눈높이로 풀었습니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "사모대출", "중동전쟁"]
+description: 전쟁 뉴스보다 더 늦게 터질 수 있는 금융 리스크가 왜 사모대출인지, 금리·유동성·신용시장의 연결고리를 한국 독자 눈높이로
+  풀었습니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 사모대출
+- 중동전쟁
+category: deep-dive
 ---
 
 # 이란 전쟁 다음 충격, 왜 사모대출이 더 무서울 수 있나

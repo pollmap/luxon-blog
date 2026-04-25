@@ -1,8 +1,14 @@
 ---
-title: "Luxon Quant v0.3α — Walk-Forward 검증, Capital Ladder, 듀얼 거래소"
+title: Luxon Quant v0.3α — Walk-Forward 검증, Capital Ladder, 듀얼 거래소
 date: 2026-04-08
-description: "1인 AI 퀀트 운용 시스템 v0.3α 업데이트: OOS 검증, 점진적 자본 배포, 업비트 클라이언트"
-tags: ["퀀트", "AI", "Luxon", "투자", "업데이트"]
+description: '1인 AI 퀀트 운용 시스템 v0.3α 업데이트: OOS 검증, 점진적 자본 배포, 업비트 클라이언트'
+tags:
+- 퀀트
+- AI
+- Luxon
+- 투자
+- 업데이트
+category: building
 ---
 
 ## 1인 AI 헤지펀드, 실전 배포 직전까지

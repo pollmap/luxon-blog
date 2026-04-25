@@ -1,9 +1,17 @@
 ---
-title: "대부1 엔딩, 세례식은 왜 가장 잔인한 승리였나"
+title: 대부1 엔딩, 세례식은 왜 가장 잔인한 승리였나
 date: 2026-04-02
-description: "《대부 1》 피의 세례식 엔딩을 통해 비토와 마이클의 권력 승계, 종교와 폭력의 병치, 그리고 코를레오네 가문의 진짜 승리를 깊게 읽어봅니다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "대부1", "피의세례식"]
+description: 《대부 1》 피의 세례식 엔딩을 통해 비토와 마이클의 권력 승계, 종교와 폭력의 병치, 그리고 코를레오네 가문의 진짜 승리를
+  깊게 읽어봅니다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 대부1
+- 피의세례식
+category: retro
 ---
 
 # 대부1 엔딩, 세례식은 왜 가장 잔인한 승리였나

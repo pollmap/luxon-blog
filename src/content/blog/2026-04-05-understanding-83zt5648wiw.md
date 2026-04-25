@@ -1,9 +1,17 @@
 ---
-title: "불면증의 진짜 원인: 잠을 방해하는 건 따로 있다"
+title: '불면증의 진짜 원인: 잠을 방해하는 건 따로 있다'
 date: 2026-04-05
-description: "불면증을 단순히 잠이 안 오는 병으로 보지 않고, 고통을 키우는 진짜 원인이 무엇인지 한국 독자가 이해하기 쉽게 풀어낸 교양형 해설."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "불면증", "수면"]
+description: 불면증을 단순히 잠이 안 오는 병으로 보지 않고, 고통을 키우는 진짜 원인이 무엇인지 한국 독자가 이해하기 쉽게 풀어낸 교양형
+  해설.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 불면증
+- 수면
+category: deep-dive
 ---
 
 이 글을 읽으면 불면증을 단순히 "잠을 못 자는 상태"로만 보지 않게 됩니다. 왜 어떤 사람은 비슷하게 잠을 설쳐도 훨씬 더 괴롭고, 왜 불면증은 밤의 문제 같지만 사실 낮의 생각과 해석 방식에서 더 커지기도 하는지, 그리고 무엇을 바꿔야 고통의 고리가 약해지는지 핵심 개념 중심으로 이해하게 됩니다.

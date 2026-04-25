@@ -1,9 +1,16 @@
 ---
-title: "통증은 착각이다: 진통제가 듣는 이유를 뇌과학으로 풀다"
+title: '통증은 착각이다: 진통제가 듣는 이유를 뇌과학으로 풀다'
 date: 2026-03-29
-description: "통증이 실제 신호가 아니라 뇌의 해석이라면? 진통제가 작동하는 원리와 통증 관리의 새로운 패러다임을 알아보세요."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "통증관리", "뇌과학"]
+description: 통증이 실제 신호가 아니라 뇌의 해석이라면? 진통제가 작동하는 원리와 통증 관리의 새로운 패러다임을 알아보세요.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 통증관리
+- 뇌과학
+category: deep-dive
 ---
 
 # 통증은 착각이다: 진통제가 듣는 이유를 뇌과학으로 풀다

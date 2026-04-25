@@ -1,9 +1,17 @@
 ---
-title: "대부2, 진짜 천재는 누가 더 잔인했나"
+title: 대부2, 진짜 천재는 누가 더 잔인했나
 date: 2026-04-02
-description: "《대부 파트2》를 두 권력자의 두뇌 대결로 다시 읽습니다. 스포일러와 함께, 마이클과 하이먼 로스의 싸움이 왜 단순한 복수가 아닌지 깊게 풀어냅니다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "대부파트2", "영화해석"]
+description: 《대부 파트2》를 두 권력자의 두뇌 대결로 다시 읽습니다. 스포일러와 함께, 마이클과 하이먼 로스의 싸움이 왜 단순한 복수가
+  아닌지 깊게 풀어냅니다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 대부파트2
+- 영화해석
+category: retro
 ---
 
 # 대부2, 진짜 천재는 누가 더 잔인했나

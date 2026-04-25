@@ -1,9 +1,17 @@
 ---
-title: "이스라엘 대사 인터뷰로 본 전쟁 시간표의 진짜 의미"
+title: 이스라엘 대사 인터뷰로 본 전쟁 시간표의 진짜 의미
 date: 2026-03-31
-description: "전쟁이 몇 달은 안 걸린다는 말은 낙관이 아니라 전략 메시지일 수 있습니다. 이 발언이 외교, 군사, 여론전에 어떤 뜻인지 한국 독자용으로 풀었습니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "이스라엘", "중동전쟁"]
+description: 전쟁이 몇 달은 안 걸린다는 말은 낙관이 아니라 전략 메시지일 수 있습니다. 이 발언이 외교, 군사, 여론전에 어떤 뜻인지
+  한국 독자용으로 풀었습니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 이스라엘
+- 중동전쟁
+category: deep-dive
 ---
 
 이 글을 읽으면 "전쟁이 몇 달은 안 걸린다"는 말이 단순한 자신감 표현이 아니라, 외교 메시지이자 군사적 계산이고 동시에 여론을 향한 언어라는 점을 읽게 됩니다. 그리고 중동 전쟁 뉴스를 볼 때 누가 이기느냐만 보는 대신, 누가 시간을 자기 편으로 만들려 하는지까지 보게 될 겁니다. 가장 큰 반전은 이거예요. 전쟁에서 강한 쪽은 늘 오래 버티는 쪽처럼 보이지만, 실제로는 오히려 **짧게 끝내야만 강함을 유지할 수 있는 경우**가 많습니다.

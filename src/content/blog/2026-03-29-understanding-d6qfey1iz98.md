@@ -1,9 +1,16 @@
 ---
-title: "중국에 상속세가 없다? 부의 세습이 합법화되는 이유"
+title: 중국에 상속세가 없다? 부의 세습이 합법화되는 이유
 date: 2026-03-29
-description: "중국의 상속세 부재 정책이 어떻게 부의 불평등을 심화시키는지, 그리고 한국과의 차이를 분석합니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "중국경제", "상속세정책"]
+description: 중국의 상속세 부재 정책이 어떻게 부의 불평등을 심화시키는지, 그리고 한국과의 차이를 분석합니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 중국경제
+- 상속세정책
+category: deep-dive
 ---
 
 # 중국에 상속세가 없다? 부의 세습이 합법화되는 이유

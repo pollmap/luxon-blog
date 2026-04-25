@@ -1,9 +1,17 @@
 ---
-title: "호르무즈 봉쇄, 한국 해운사 10조 손실의 구조"
+title: 호르무즈 봉쇄, 한국 해운사 10조 손실의 구조
 date: 2026-04-04
-description: "호르무즈 해협 봉쇄가 한국 해운·에너지 산업에 10조 원 충격을 주는 이유를 풀었습니다. 대체항로·보험료·계약손실 3중 비용 구조와 한국이 특히 취약한 이유를 이해할 수 있습니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "호르무즈", "한국해운"]
+description: 호르무즈 해협 봉쇄가 한국 해운·에너지 산업에 10조 원 충격을 주는 이유를 풀었습니다. 대체항로·보험료·계약손실 3중 비용
+  구조와 한국이 특히 취약한 이유를 이해할 수 있습니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 호르무즈
+- 한국해운
+category: deep-dive
 ---
 
 # 호르무즈가 막히면 왜 한국이 10조를 잃나

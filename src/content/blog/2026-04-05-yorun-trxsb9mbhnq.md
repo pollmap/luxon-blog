@@ -1,9 +1,17 @@
 ---
-title: "테넷 완전 해설: 순행과 역행, 이제 진짜 이해된다"
+title: '테넷 완전 해설: 순행과 역행, 이제 진짜 이해된다'
 date: 2026-04-05
-description: "《테넷》의 가장 어려운 지점을 캐릭터별 순행·역행 동선으로 풀어낸 심층 해설. 시간역행의 규칙과 반전 구조를 한 번에 이해하게 된다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "테넷", "크리스토퍼놀란"]
+description: 《테넷》의 가장 어려운 지점을 캐릭터별 순행·역행 동선으로 풀어낸 심층 해설. 시간역행의 규칙과 반전 구조를 한 번에 이해하게
+  된다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 테넷
+- 크리스토퍼놀란
+category: retro
 ---
 
 ⚠️ **스포일러 경고**: 이 글에는 《테넷》의 핵심 설정, 주요 반전, 캐릭터 동선, 결말 해석이 포함되어 있습니다. 아직 영화를 보지 않으셨다면 먼저 감상한 뒤 읽는 편이 훨씬 좋습니다.

@@ -1,9 +1,17 @@
 ---
-title: "스웨덴 의료의 역설: 싸지만 왜 6개월을 기다릴까"
+title: '스웨덴 의료의 역설: 싸지만 왜 6개월을 기다릴까'
 date: 2026-03-31
-description: "연 23만원 수준의 병원비는 부럽지만 수술 대기는 6개월일 수 있습니다. 스웨덴 의료를 비용이 아닌 접근성과 시간의 문제로 다시 읽어봅니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "스웨덴의료", "복지국가"]
+description: 연 23만원 수준의 병원비는 부럽지만 수술 대기는 6개월일 수 있습니다. 스웨덴 의료를 비용이 아닌 접근성과 시간의 문제로
+  다시 읽어봅니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 스웨덴의료
+- 복지국가
+category: deep-dive
 ---
 
 이 글을 읽으면 북유럽 복지국가 의료를 "싸고 좋다" 혹은 "느리고 답답하다" 같은 단순한 말로 보지 않게 됩니다. 대신 의료를 볼 때 돈, 대기시간, 우선순위, 세금, 인력 부족이 어떻게 서로 얽혀 있는지 한 번에 잡히게 될 겁니다. 가장 큰 반전은 이거예요. 많은 사람이 좋은 의료를 "싸게 많이 받는 시스템"이라고 생각하지만, 실제로 좋은 공공의료는 종종 **돈보다 시간을 어떻게 배분하느냐**의 문제에 더 가깝습니다.

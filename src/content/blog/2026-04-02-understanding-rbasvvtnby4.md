@@ -1,9 +1,16 @@
 ---
-title: "40대가 영어를 다시 시작할 때 꼭 알아야 할 것"
+title: 40대가 영어를 다시 시작할 때 꼭 알아야 할 것
 date: 2026-04-02
-description: "40대에 영어를 포기했다가 다시 시작할 때 무엇을 버리고 무엇에 집중해야 하는지, 실패 없는 공부법의 핵심만 쉽게 정리했습니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "영어공부", "40대자기계발"]
+description: 40대에 영어를 포기했다가 다시 시작할 때 무엇을 버리고 무엇에 집중해야 하는지, 실패 없는 공부법의 핵심만 쉽게 정리했습니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 영어공부
+- 40대자기계발
+category: deep-dive
 ---
 
 # 40대가 영어를 다시 시작할 때 꼭 알아야 할 것

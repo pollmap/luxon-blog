@@ -1,9 +1,17 @@
 ---
-title: "악의 신앙 — 종교는 어떻게 역사의 무기가 됐나"
+title: 악의 신앙 — 종교는 어떻게 역사의 무기가 됐나
 date: 2026-04-04
-description: "신앙이 어떻게 지배와 폭력의 언어로 전환됐는지, 역사 속 종교와 권력의 결탁 구조를 지정학적 시선으로 파고듭니다. 믿음이 선과 악 양쪽으로 작동한 메커니즘 분석."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "종교와권력", "지정학역사"]
+description: 신앙이 어떻게 지배와 폭력의 언어로 전환됐는지, 역사 속 종교와 권력의 결탁 구조를 지정학적 시선으로 파고듭니다. 믿음이 선과
+  악 양쪽으로 작동한 메커니즘 분석.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 종교와권력
+- 지정학역사
+category: field
 ---
 
 # 악의 신앙 — 종교는 어떻게 역사의 무기가 됐나

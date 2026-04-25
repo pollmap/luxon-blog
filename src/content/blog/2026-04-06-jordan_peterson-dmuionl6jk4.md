@@ -1,9 +1,17 @@
 ---
-title: "연애와 결혼은 왜 기술보다 책임의 문제인가"
+title: 연애와 결혼은 왜 기술보다 책임의 문제인가
 date: 2026-04-06
-description: "조던 피터슨의 관계론을 바탕으로 연애, 결혼, 자기성장을 다시 읽습니다. 매력보다 책임, 감정보다 진실한 대화가 왜 중요한지 균형 있게 풀었습니다."
-heroImage: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["심리학", "철학", "Jordan Peterson", "자기계발", "연애심리", "결혼"]
+description: 조던 피터슨의 관계론을 바탕으로 연애, 결혼, 자기성장을 다시 읽습니다. 매력보다 책임, 감정보다 진실한 대화가 왜 중요한지
+  균형 있게 풀었습니다.
+heroImage: https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 심리학
+- 철학
+- Jordan Peterson
+- 자기계발
+- 연애심리
+- 결혼
+category: deep-dive
 ---
 
 이 글을 읽으면 연애를 잘하는 법, 결혼을 유지하는 법을 단순한 화술이나 매력 관리의 문제로만 보지 않게 됩니다. 왜 좋은 관계의 핵심이 상대를 잘 다루는 기술보다 자기 삶을 어떻게 정리하고 어떤 책임을 감당할 사람으로 살아가느냐에 달려 있는지, 그리고 이 관점이 왜 어떤 사람에게는 강한 통찰이 되지만 또 다른 사람에게는 부담스럽거나 논쟁적으로 느껴지는지까지 한 번에 정리해볼 수 있습니다.

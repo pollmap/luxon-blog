@@ -1,9 +1,17 @@
 ---
-title: "반지의 제왕 이전 역사 하편 — 로한 건국부터 펠렌노르까지"
+title: 반지의 제왕 이전 역사 하편 — 로한 건국부터 펠렌노르까지
 date: 2026-04-04
-description: "로한이 어떻게 세워졌고, 로히림이 어떤 전쟁을 거쳐 반지전쟁 직전까지 왔는지, 톨킨의 방대한 역사를 한 번에 정리합니다. 영화로는 볼 수 없는 배경까지."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "반지의제왕", "로한"]
+description: 로한이 어떻게 세워졌고, 로히림이 어떤 전쟁을 거쳐 반지전쟁 직전까지 왔는지, 톨킨의 방대한 역사를 한 번에 정리합니다. 영화로는
+  볼 수 없는 배경까지.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 반지의제왕
+- 로한
+category: retro
 ---
 
 # 반지의 제왕 이전 역사 하편 — 로한 건국부터 펠렌노르까지

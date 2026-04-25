@@ -1,9 +1,17 @@
 ---
-title: "호메로스는 어떻게 인간을 발명했나"
+title: 호메로스는 어떻게 인간을 발명했나
 date: 2026-04-02
-description: "호메로스의 서사시가 왜 단순한 영웅담이 아니라 인간 내면의 탄생으로 읽히는지, 고대 그리스와 오늘의 우리를 잇는 의미를 깊게 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "호메로스", "고전읽기"]
+description: 호메로스의 서사시가 왜 단순한 영웅담이 아니라 인간 내면의 탄생으로 읽히는지, 고대 그리스와 오늘의 우리를 잇는 의미를 깊게
+  풀어봅니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 호메로스
+- 고전읽기
+category: field
 ---
 
 # 호메로스는 어떻게 인간을 발명했나

@@ -1,9 +1,16 @@
 ---
-title: "영화 촬영지가 재개발 대상이 되는 이유, 그리고 그 이후"
+title: 영화 촬영지가 재개발 대상이 되는 이유, 그리고 그 이후
 date: 2026-03-29
-description: "아카데미 작품상을 받은 영화 '기생충'의 촬영지가 왜 재개발 운명에 처하게 되었는지, 그 과정에서 무엇이 바뀌었는지 알아봅니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "기생충", "촬영지"]
+description: 아카데미 작품상을 받은 영화 '기생충'의 촬영지가 왜 재개발 운명에 처하게 되었는지, 그 과정에서 무엇이 바뀌었는지 알아봅니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 기생충
+- 촬영지
+category: deep-dive
 ---
 
 # 영화 촬영지가 재개발 대상이 되는 이유, 그리고 그 이후

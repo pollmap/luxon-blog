@@ -1,9 +1,17 @@
 ---
-title: "그레이트 리셋의 진짜 뜻: 음모론보다 큰 역사 패턴"
+title: '그레이트 리셋의 진짜 뜻: 음모론보다 큰 역사 패턴'
 date: 2026-03-31
-description: "그레이트 리셋은 단순 음모론이 아니라 위기 뒤 질서 재편을 둘러싼 서사일 수 있습니다. 역사적 리셋의 반복과 오늘의 의미를 한국어로 깊게 풀었습니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "지정학", "국제질서"]
+description: 그레이트 리셋은 단순 음모론이 아니라 위기 뒤 질서 재편을 둘러싼 서사일 수 있습니다. 역사적 리셋의 반복과 오늘의 의미를
+  한국어로 깊게 풀었습니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 지정학
+- 국제질서
+category: field
 ---
 
 이 글을 읽으면 "그레이트 리셋"이라는 말을 자극적인 구호나 음모론으로만 밀어내지 않고, 역사 속에서 반복돼온 질서 재편의 패턴으로 읽게 됩니다. 누가 세상을 몰래 다시 설계하느냐보다 더 중요한 질문, 즉 **위기 뒤에는 왜 늘 새로운 규칙을 만들려는 시도가 등장하는가**를 보게 될 겁니다. 가장 큰 반전은 이거예요. 사람들은 리셋을 특별한 사건으로 생각하지만, 실제 역사에서 리셋은 예외가 아니라 거의 규칙에 가깝습니다.

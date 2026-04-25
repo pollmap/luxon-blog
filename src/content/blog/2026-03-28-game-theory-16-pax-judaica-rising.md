@@ -1,9 +1,18 @@
 ---
-title: "팍스 유다이카의 부상: 역사는 어떻게 새 제국을 선택하는가"
+title: '팍스 유다이카의 부상: 역사는 어떻게 새 제국을 선택하는가'
 date: 2026-03-28
-description: "PredictiveHistory 장 교수의 게임이론 강의를 통해 읽는 미국-이란 전쟁의 역사적 의미. 휴브리스, 용병의 반란, 그리고 팍스 유다이카가 팍스 로마나·팍스 아메리카나와 어떻게 다른가."
-heroImage: "https://images.pexels.com/photos/30403272/pexels-photo-30403272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [지정학, 역사, 팍스유다이카, 미국제국, 이란, 게임이론, 역사에세이]
+description: PredictiveHistory 장 교수의 게임이론 강의를 통해 읽는 미국-이란 전쟁의 역사적 의미. 휴브리스, 용병의 반란,
+  그리고 팍스 유다이카가 팍스 로마나·팍스 아메리카나와 어떻게 다른가.
+heroImage: https://images.pexels.com/photos/30403272/pexels-photo-30403272.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- 팍스유다이카
+- 미국제국
+- 이란
+- 게임이론
+- 역사에세이
+category: deep-dive
 ---
 
 # 팍스 유다이카의 부상: 역사는 어떻게 새 제국을 선택하는가

@@ -1,9 +1,16 @@
 ---
-title: "65세 이상 지하철 무임승차, 정말 모두를 위한 정책일까?"
+title: 65세 이상 지하철 무임승차, 정말 모두를 위한 정책일까?
 date: 2026-03-29
-description: "노년층 교통복지 정책의 빛과 그림자. 무임승차 제도가 누구를 돕고 누구를 소외시키는지 데이터로 파헤친다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "사회정책", "노년층복지"]
+description: 노년층 교통복지 정책의 빛과 그림자. 무임승차 제도가 누구를 돕고 누구를 소외시키는지 데이터로 파헤친다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 사회정책
+- 노년층복지
+category: deep-dive
 ---
 
 # 65세 이상 지하철 무임승차, 정말 모두를 위한 정책일까?

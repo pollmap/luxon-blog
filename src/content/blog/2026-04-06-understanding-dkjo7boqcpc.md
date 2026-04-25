@@ -1,9 +1,17 @@
 ---
-title: "GTX-C 착공이 늦어진 진짜 이유와 돈의 흐름"
+title: GTX-C 착공이 늦어진 진짜 이유와 돈의 흐름
 date: 2026-04-06
-description: "교통망 하나가 늦어진 게 아니라 도시의 돈줄이 흔들린 사건에 가깝다. GTX-C가 왜 2년 넘게 밀렸는지 부동산, 건설, 금융의 연결 구조로 읽어본다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "경제해설", "GTX-C"]
+description: 교통망 하나가 늦어진 게 아니라 도시의 돈줄이 흔들린 사건에 가깝다. GTX-C가 왜 2년 넘게 밀렸는지 부동산, 건설, 금융의
+  연결 구조로 읽어본다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 경제해설
+- GTX-C
+category: deep-dive
 ---
 
 # GTX-C 착공이 늦어진 진짜 이유와 돈의 흐름

@@ -1,9 +1,17 @@
 ---
-title: "VLSTM이 최강: 금융 시계열 딥러닝 15년 대규모 벤치마크"
+title: 'VLSTM이 최강: 금융 시계열 딥러닝 15년 대규모 벤치마크'
 date: 2026-03-28
-description: "옥스퍼드 ML 그룹이 2010~2025년 50개 선물 데이터로 13개 딥러닝 아키텍처를 비교한 결과, VSN+LSTM 조합인 VLSTM이 샤프 비율 2.40으로 압도적 1위를 차지했습니다."
-heroImage: "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [딥러닝, 시계열예측, 샤프비율, LSTM, 벤치마크, 금융ML]
+description: 옥스퍼드 ML 그룹이 2010~2025년 50개 선물 데이터로 13개 딥러닝 아키텍처를 비교한 결과, VSN+LSTM 조합인
+  VLSTM이 샤프 비율 2.40으로 압도적 1위를 차지했습니다.
+heroImage: https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 딥러닝
+- 시계열예측
+- 샤프비율
+- LSTM
+- 벤치마크
+- 금융ML
+category: deep-dive
 ---
 
 ## 서론: 금융 ML 벤치마크는 왜 의미 없었나

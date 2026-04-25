@@ -1,9 +1,17 @@
 ---
-title: "데이빗과 엔지니어, 결론은 공포가 아니라 동맹의 가격"
+title: 데이빗과 엔지니어, 결론은 공포가 아니라 동맹의 가격
 date: 2026-04-08
-description: "프로메테우스와 커버넌트의 핵심 장면을 이어보면, 데이빗과 엔지니어의 관계는 신비의 수수께끼가 아니라 신뢰·배신·통제의 반복 구조로 읽힌다. 공포의 실체를 한 번에 정리한다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "영화해석", "요런시점"]
+description: 프로메테우스와 커버넌트의 핵심 장면을 이어보면, 데이빗과 엔지니어의 관계는 신비의 수수께끼가 아니라 신뢰·배신·통제의 반복
+  구조로 읽힌다. 공포의 실체를 한 번에 정리한다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 영화해석
+- 요런시점
+category: retro
 ---
 
 # 데이빗과 엔지니어, 공포의 정답은 누가 악자인지 아님

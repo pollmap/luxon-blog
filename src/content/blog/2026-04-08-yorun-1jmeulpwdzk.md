@@ -1,9 +1,17 @@
 ---
-title: "다크나이트 라이즈가 증오보다 먼저 묻는 질문"
+title: 다크나이트 라이즈가 증오보다 먼저 묻는 질문
 date: 2026-04-08
-description: "다크나이트 라이즈를 '영웅의 귀환'이 아니라 3개국의 분노와 실망이 만든 붕괴 구조로 읽는 법을 정리한다. 결말의 감동이 어디서 왔고, 왜 오히려 소멸의 냄새가 오래 남는지 한 번에 볼 수 있다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "영화해석", "요런시점"]
+description: 다크나이트 라이즈를 '영웅의 귀환'이 아니라 3개국의 분노와 실망이 만든 붕괴 구조로 읽는 법을 정리한다. 결말의 감동이 어디서
+  왔고, 왜 오히려 소멸의 냄새가 오래 남는지 한 번에 볼 수 있다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 영화해석
+- 요런시점
+category: retro
 ---
 
 # 다크나이트 라이즈, 왜 희망은 독이 될까

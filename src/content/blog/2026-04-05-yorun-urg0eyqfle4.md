@@ -1,9 +1,16 @@
 ---
-title: "컨택트 해설: 헵타포드 언어와 결말의 진짜 의미"
+title: '컨택트 해설: 헵타포드 언어와 결말의 진짜 의미'
 date: 2026-04-05
-description: "드니 빌뇌브의 《컨택트》를 헵타포드의 과학적 실체, 언어 구조, 시간 인식, 원작 결말 차이까지 엮어 깊게 해설한다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "컨택트", "드니빌뇌브"]
+description: 드니 빌뇌브의 《컨택트》를 헵타포드의 과학적 실체, 언어 구조, 시간 인식, 원작 결말 차이까지 엮어 깊게 해설한다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 컨택트
+- 드니빌뇌브
+category: retro
 ---
 
 ⚠️ **스포일러 경고**: 이 글에는 《컨택트》의 핵심 반전, 헵타포드 언어의 의미, 영화와 원작의 결말 차이가 포함되어 있습니다. 아직 작품을 보지 않으셨다면 먼저 감상한 뒤 읽는 편이 좋습니다.

@@ -1,9 +1,18 @@
 ---
-title: "MEV 경매 포맷 선택 — 오픈 vs. 봉인 입찰, 수익이 더 큰 쪽은?"
+title: MEV 경매 포맷 선택 — 오픈 vs. 봉인 입찰, 수익이 더 큰 쪽은?
 date: 2026-03-28
-description: "MEV 가치 분포의 제휴(affiliation) 구조 하에서 영국식/봉인 2가 경매가 더치/봉인 1가보다 14~28% 높은 수익을 낼 수 있음을 이론·실증으로 분석."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [crypto, MEV, auction, mechanism-design, DeFi, orderflow, microstructure]
+description: MEV 가치 분포의 제휴(affiliation) 구조 하에서 영국식/봉인 2가 경매가 더치/봉인 1가보다 14~28% 높은
+  수익을 낼 수 있음을 이론·실증으로 분석.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- crypto
+- MEV
+- auction
+- mechanism-design
+- DeFi
+- orderflow
+- microstructure
+category: field
 ---
 
 ## MEV 경매, 어떤 형식이 더 많은 수익을 내는가?

@@ -1,9 +1,17 @@
 ---
-title: "악의 제국은 존재하는가 — 역사가 숨긴 제국의 두 얼굴"
+title: 악의 제국은 존재하는가 — 역사가 숨긴 제국의 두 얼굴
 date: 2026-04-04
-description: "'악의 제국'이라는 낙인이 어떻게 작동하는지, 역사 속 제국들이 스스로를 선으로, 상대를 악으로 규정한 구조를 파고듭니다. 지정학적 시선으로 본 제국의 비밀 역사."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "제국주의", "냉전"]
+description: '''악의 제국''이라는 낙인이 어떻게 작동하는지, 역사 속 제국들이 스스로를 선으로, 상대를 악으로 규정한 구조를 파고듭니다.
+  지정학적 시선으로 본 제국의 비밀 역사.'
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 제국주의
+- 냉전
+category: field
 ---
 
 # 악의 제국은 존재하는가 — 역사가 숨긴 제국의 두 얼굴

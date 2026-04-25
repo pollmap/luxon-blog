@@ -1,9 +1,16 @@
 ---
-title: "성문영어의 저주: 왜 한국인은 영어를 오래 배워도 못할까"
+title: '성문영어의 저주: 왜 한국인은 영어를 오래 배워도 못할까'
 date: 2026-04-03
-description: "왜 한국인은 영어를 오래 배워도 말이 안 트일까? 문법 중심 학습의 한계와 영어책 암송이 주는 반전을 쉽게 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "영어공부", "학습법"]
+description: 왜 한국인은 영어를 오래 배워도 말이 안 트일까? 문법 중심 학습의 한계와 영어책 암송이 주는 반전을 쉽게 풀어봅니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 영어공부
+- 학습법
+category: deep-dive
 ---
 
 # 성문영어의 저주: 왜 한국인은 영어를 오래 배워도 못할까

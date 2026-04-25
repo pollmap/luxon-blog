@@ -1,9 +1,17 @@
 ---
-title: "차라투스트라는 왜 지금도 중요한가: 조로아스터의 유산"
+title: '차라투스트라는 왜 지금도 중요한가: 조로아스터의 유산'
 date: 2026-04-05
-description: "차라투스트라와 조로아스터교를 고대 페르시아 종교가 아닌 세계사적 전환점으로 읽는다. 선악, 시간, 구원 개념이 오늘에 남긴 흔적까지 짚는다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "차라투스트라", "조로아스터교"]
+description: 차라투스트라와 조로아스터교를 고대 페르시아 종교가 아닌 세계사적 전환점으로 읽는다. 선악, 시간, 구원 개념이 오늘에 남긴
+  흔적까지 짚는다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 차라투스트라
+- 조로아스터교
+category: field
 ---
 
 이 글을 읽으면 차라투스트라를 더 이상 니체 책 제목이나 낯선 고대 예언자 정도로만 보지 않게 됩니다. 조로아스터교가 왜 단순한 고대 페르시아 종교를 넘어 세계사의 도덕 상상력 자체를 바꿔놓은 사건처럼 읽히는지, 선과 악의 대립, 종말과 구원, 자유의지와 도덕 책임 같은 개념이 어떻게 이 전통을 통해 날카롭게 정리됐는지, 그리고 그 흔적이 오늘의 종교·정치·문명관까지 얼마나 깊게 스며 있는지 한 번에 보이기 시작합니다.

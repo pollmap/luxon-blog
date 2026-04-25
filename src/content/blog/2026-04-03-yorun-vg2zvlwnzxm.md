@@ -1,9 +1,16 @@
 ---
-title: "로렌츠 변환, 상대성이론이 갑자기 쉬워지는 순간"
+title: 로렌츠 변환, 상대성이론이 갑자기 쉬워지는 순간
 date: 2026-04-03
-description: "로렌츠 변환은 어려운 수식이 아니라 시간과 공간을 다시 보는 새로운 좌표 감각입니다. 상대성이론의 첫 관문을 직관적으로 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "상대성이론", "로렌츠변환"]
+description: 로렌츠 변환은 어려운 수식이 아니라 시간과 공간을 다시 보는 새로운 좌표 감각입니다. 상대성이론의 첫 관문을 직관적으로 풀어봅니다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 상대성이론
+- 로렌츠변환
+category: retro
 ---
 
 # 로렌츠 변환, 상대성이론이 갑자기 쉬워지는 순간

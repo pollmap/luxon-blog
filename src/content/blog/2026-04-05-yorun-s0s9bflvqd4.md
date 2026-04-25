@@ -1,9 +1,17 @@
 ---
-title: "듄 프라퍼시 해설: 코리노 제국의 시작과 진짜 권력"
+title: '듄 프라퍼시 해설: 코리노 제국의 시작과 진짜 권력'
 date: 2026-04-05
-description: "《듄 프라퍼시》를 더 깊게 보기 위해 꼭 알아야 할 코리노 제국 초창기 세계관을 정리했다. 권력 구조, 자매단, 황실의 긴장을 심층 해설한다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "듄", "듄프라퍼시"]
+description: 《듄 프라퍼시》를 더 깊게 보기 위해 꼭 알아야 할 코리노 제국 초창기 세계관을 정리했다. 권력 구조, 자매단, 황실의 긴장을
+  심층 해설한다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 듄
+- 듄프라퍼시
+category: retro
 ---
 
 ⚠️ **스포일러 경고**: 이 글에는 《듄》 세계관의 핵심 설정, 코리노 제국 초창기 역사, 자매단과 황실의 권력 구조, 그리고 《듄 프라퍼시》를 깊게 이해하는 데 필요한 주요 스포일러가 포함되어 있습니다.

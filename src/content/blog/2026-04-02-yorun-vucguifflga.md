@@ -1,9 +1,17 @@
 ---
-title: "대부 자식들의 전쟁, 진짜 후계자는 누구였나"
+title: 대부 자식들의 전쟁, 진짜 후계자는 누구였나
 date: 2026-04-02
-description: "《대부》 속 꼴레오네 자식들의 갈등을 따라가며, 소니·프레도·마이클이 어떻게 서로 다른 후계자였는지, 그리고 왜 가문의 전쟁이 가족 안에서 먼저 시작됐는지 읽어봅니다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "대부", "마이클꼴레오네"]
+description: 《대부》 속 꼴레오네 자식들의 갈등을 따라가며, 소니·프레도·마이클이 어떻게 서로 다른 후계자였는지, 그리고 왜 가문의 전쟁이
+  가족 안에서 먼저 시작됐는지 읽어봅니다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 대부
+- 마이클꼴레오네
+category: retro
 ---
 
 # 대부 자식들의 전쟁, 진짜 후계자는 누구였나

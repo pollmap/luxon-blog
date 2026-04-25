@@ -1,9 +1,17 @@
 ---
-title: "매트릭스 철학 해설: 자유의지가 없다면 뭐가 남나"
+title: '매트릭스 철학 해설: 자유의지가 없다면 뭐가 남나'
 date: 2026-04-03
-description: "매트릭스를 SF 액션으로만 보면 절반만 본 셈입니다. 자유의지, 선택, 운명이라는 질문이 인간 존재를 어떻게 흔드는지 깊이 있게 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "매트릭스", "영화철학"]
+description: 매트릭스를 SF 액션으로만 보면 절반만 본 셈입니다. 자유의지, 선택, 운명이라는 질문이 인간 존재를 어떻게 흔드는지 깊이
+  있게 풀어봅니다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 매트릭스
+- 영화철학
+category: retro
 ---
 
 # 매트릭스 철학 해설: 자유의지가 없다면 뭐가 남나

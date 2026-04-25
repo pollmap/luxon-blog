@@ -1,9 +1,17 @@
 ---
-title: "비토 꼴레오네는 어떻게 제국을 만들었나"
+title: 비토 꼴레오네는 어떻게 제국을 만들었나
 date: 2026-04-02
-description: "《대부 파트2》 속 비토 꼴레오네의 일대기를 따라가며, 그가 단순한 폭력배가 아니라 어떻게 질서를 설계한 인물이 되었는지 깊게 읽어봅니다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "대부파트2", "비토꼴레오네"]
+description: 《대부 파트2》 속 비토 꼴레오네의 일대기를 따라가며, 그가 단순한 폭력배가 아니라 어떻게 질서를 설계한 인물이 되었는지 깊게
+  읽어봅니다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 대부파트2
+- 비토꼴레오네
+category: retro
 ---
 
 # 비토 꼴레오네는 어떻게 제국을 만들었나

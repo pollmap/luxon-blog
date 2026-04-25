@@ -1,9 +1,17 @@
 ---
-title: "상상력의 새벽이 만든 제국의 좌표"
+title: 상상력의 새벽이 만든 제국의 좌표
 date: 2026-04-08
-description: "인류 상상력의 탄생을 기원 신화가 아닌 권력 설계로 읽으면, 언어·의식·경계를 통치하는 방식이 어떻게 국제질서의 장기 규칙이 되었는지 보인다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "지정학", "문명사"]
+description: 인류 상상력의 탄생을 기원 신화가 아닌 권력 설계로 읽으면, 언어·의식·경계를 통치하는 방식이 어떻게 국제질서의 장기 규칙이
+  되었는지 보인다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 지정학
+- 문명사
+category: field
 ---
 
 # 상상력은 하늘을 본능적으로 만들지 않는다, 질서를 만든다

@@ -1,9 +1,17 @@
 ---
-title: "FRED-MD로 거시 레짐 감지하기: 옥스퍼드 팀의 전술적 자산 배분 프레임워크"
+title: 'FRED-MD로 거시 레짐 감지하기: 옥스퍼드 팀의 전술적 자산 배분 프레임워크'
 date: 2026-03-28
-description: "옥스퍼드 맨 연구소 팀이 100개 이상의 미국 거시경제 지표(FRED-MD)를 활용한 소프트 레짐 감지로 레짐 무시 대비 연 2% 추가 수익을 달성하는 전술적 자산 배분 파이프라인을 제시합니다."
-heroImage: "https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [매크로, 레짐감지, 전술적자산배분, FREDMD, 클러스터링, 포트폴리오]
+description: 옥스퍼드 맨 연구소 팀이 100개 이상의 미국 거시경제 지표(FRED-MD)를 활용한 소프트 레짐 감지로 레짐 무시 대비 연
+  2% 추가 수익을 달성하는 전술적 자산 배분 파이프라인을 제시합니다.
+heroImage: https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 매크로
+- 레짐감지
+- 전술적자산배분
+- FREDMD
+- 클러스터링
+- 포트폴리오
+category: deep-dive
 ---
 
 ## 서론: 가격 데이터보다 거시경제 데이터가 레짐을 더 잘 포착한다

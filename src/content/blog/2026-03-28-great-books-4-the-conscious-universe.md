@@ -1,11 +1,17 @@
 ---
-title: "Great Books #4: The Conscious Universe"
+title: 'Great Books #4: The Conscious Universe'
 date: 2026-03-28
-description: "PredictiveHistory 장 교수 강의 분석 — Great Books 시리즈"
-heroImage: "https://images.pexels.com/photos/3224223/pexels-photo-3224223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [신화, 고전, 철학, 역사, PredictiveHistory]
-youtubeId: "dkzr5A8IlLA"
-series: "Great Books"
+description: PredictiveHistory 장 교수 강의 분석 — Great Books 시리즈
+heroImage: https://images.pexels.com/photos/3224223/pexels-photo-3224223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 신화
+- 고전
+- 철학
+- 역사
+- PredictiveHistory
+youtubeId: dkzr5A8IlLA
+series: Great Books
+category: deep-dive
 ---
 
 # 의지의 전쟁, 무의식의 깊이: 일리아드 종말과 인간 심리의 비밀

@@ -1,9 +1,18 @@
 ---
-title: "DeFi LP 델타 중립 전략의 최적 헤지 비율 — 청산 제약 하의 실증 분석"
+title: DeFi LP 델타 중립 전략의 최적 헤지 비율 — 청산 제약 하의 실증 분석
 date: 2026-03-28
-description: "청산 확률 제약 하에서 AMM LP 포지션의 최적 헤지 비율을 도출한 연구. 이론적 최대 헤지가 아닌 청산 예산 제약 헤지(50~70%)가 실용적 최적임을 보여줌."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [DeFi, AMM, liquidity-provision, delta-neutral, hedge, liquidation, risk-management]
+description: 청산 확률 제약 하에서 AMM LP 포지션의 최적 헤지 비율을 도출한 연구. 이론적 최대 헤지가 아닌 청산 예산 제약 헤지(50~70%)가
+  실용적 최적임을 보여줌.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- DeFi
+- AMM
+- liquidity-provision
+- delta-neutral
+- hedge
+- liquidation
+- risk-management
+category: deep-dive
 ---
 
 ## "완전 헤지"는 왜 실패하는가?

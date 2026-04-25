@@ -1,9 +1,17 @@
 ---
-title: "하이브리드 HMM + 포아송 점프: 금융 수익률 레짐 모델링의 새 표준"
+title: '하이브리드 HMM + 포아송 점프: 금융 수익률 레짐 모델링의 새 표준'
 date: 2026-03-28
-description: "Cornell 연구팀의 하이브리드 HMM은 5-상태 라플라스 분위수 이산화와 포아송 점프 지속 메커니즘으로 SPY 데이터 KS 통과율 94.4%, AD 통과율 95.1%를 달성했습니다."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [HMM, 레짐전환, 포아송점프, 합성데이터, 스트레스테스트, 변동성군집]
+description: Cornell 연구팀의 하이브리드 HMM은 5-상태 라플라스 분위수 이산화와 포아송 점프 지속 메커니즘으로 SPY 데이터 KS
+  통과율 94.4%, AD 통과율 95.1%를 달성했습니다.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- HMM
+- 레짐전환
+- 포아송점프
+- 합성데이터
+- 스트레스테스트
+- 변동성군집
+category: deep-dive
 ---
 
 ## 서론: 금융 레짐 모델의 근본 문제

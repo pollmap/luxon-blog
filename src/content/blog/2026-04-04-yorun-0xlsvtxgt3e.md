@@ -1,9 +1,17 @@
 ---
-title: "공각기동대 2 이노센스 — 왜 이 영화가 이해하기 어려웠나"
+title: 공각기동대 2 이노센스 — 왜 이 영화가 이해하기 어려웠나
 date: 2026-04-04
-description: "오시이 마모루의 《공각기동대 2: 이노센스》가 왜 '저주받은 걸작'인지, 인형·영혼·인간성이라는 세 축으로 처음으로 제대로 풀어봅니다. 스포일러 포함."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "공각기동대이노센스", "오시이마모루"]
+description: '오시이 마모루의 《공각기동대 2: 이노센스》가 왜 ''저주받은 걸작''인지, 인형·영혼·인간성이라는 세 축으로 처음으로 제대로
+  풀어봅니다. 스포일러 포함.'
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 공각기동대이노센스
+- 오시이마모루
+category: retro
 ---
 
 # 공각기동대 2 이노센스 — 왜 이 영화가 이해하기 어려웠나

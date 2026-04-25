@@ -1,9 +1,16 @@
 ---
-title: "DeePM: 레짐 강건 딥러닝 기반 매크로 포트폴리오 관리"
+title: 'DeePM: 레짐 강건 딥러닝 기반 매크로 포트폴리오 관리'
 date: 2026-03-28
-description: "옥스퍼드 연구팀이 개발한 DeePM은 50개 매크로 선물에 걸쳐 비동기 데이터, 낮은 신호 대비 잡음, 레짐 취약성을 해결하는 엔드투엔드 딥러닝 포트폴리오 매니저입니다."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [퀀트, 포트폴리오최적화, 딥러닝, 레짐감지, 매크로]
+description: 옥스퍼드 연구팀이 개발한 DeePM은 50개 매크로 선물에 걸쳐 비동기 데이터, 낮은 신호 대비 잡음, 레짐 취약성을 해결하는
+  엔드투엔드 딥러닝 포트폴리오 매니저입니다.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 퀀트
+- 포트폴리오최적화
+- 딥러닝
+- 레짐감지
+- 매크로
+category: deep-dive
 ---
 
 ## 서론: 실전 포트폴리오 운용의 세 가지 난제

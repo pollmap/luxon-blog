@@ -1,9 +1,17 @@
 ---
-title: "가족 갈등과 원망은 왜 커질까: 조던 피터슨 해설"
+title: '가족 갈등과 원망은 왜 커질까: 조던 피터슨 해설'
 date: 2026-04-06
-description: "가족 갈등, 어려운 아이, 쌓여가는 원망을 조던 피터슨의 관점으로 풀어냅니다. 경계, 책임, 대화의 중요성과 함께 한계와 논쟁점도 균형 있게 정리했습니다."
-heroImage: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["심리학", "철학", "Jordan Peterson", "자기계발", "가족갈등", "부모교육"]
+description: 가족 갈등, 어려운 아이, 쌓여가는 원망을 조던 피터슨의 관점으로 풀어냅니다. 경계, 책임, 대화의 중요성과 함께 한계와 논쟁점도
+  균형 있게 정리했습니다.
+heroImage: https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 심리학
+- 철학
+- Jordan Peterson
+- 자기계발
+- 가족갈등
+- 부모교육
+category: deep-dive
 ---
 
 이 글을 읽으면 가족 갈등을 단순한 성격 차이나 예민함의 문제로만 보지 않게 됩니다. 왜 집이라는 가장 가까운 공간에서 오히려 원망이 가장 깊게 자라나는지, 왜 어려운 아이를 다루는 문제는 아이 하나의 문제가 아니라 가족 전체 질서의 문제일 수 있는지, 그리고 조던 피터슨이 왜 가족 안에서 책임과 경계, 솔직한 대화를 그렇게 중요하게 보는지 실제 삶의 적용과 논쟁 지점까지 함께 잡을 수 있습니다.

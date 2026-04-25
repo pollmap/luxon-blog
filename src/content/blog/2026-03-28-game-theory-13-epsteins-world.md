@@ -1,9 +1,14 @@
 ---
-title: "엡스타인의 세계 — 권력, 네트워크, 그리고 은폐"
+title: 엡스타인의 세계 — 권력, 네트워크, 그리고 은폐
 date: 2026-03-28
-description: "서론: 현실은 집단적 환각이다"
-heroImage: "https://images.pexels.com/photos/20409628/pexels-photo-20409628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [지정학, 게임이론, 역사분석, PredictiveHistory]
+description: '서론: 현실은 집단적 환각이다'
+heroImage: https://images.pexels.com/photos/20409628/pexels-photo-20409628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 게임이론
+- 역사분석
+- PredictiveHistory
+category: deep-dive
 ---
 
 # 플라톤의 동굴에서 본 현대 지정학: 의식 추출 체제로서의 글로벌 금융 질서

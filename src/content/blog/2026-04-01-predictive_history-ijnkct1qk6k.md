@@ -1,9 +1,17 @@
 ---
-title: "America’s Game: 미국은 지금 무슨 게임을 하나"
+title: 'America’s Game: 미국은 지금 무슨 게임을 하나'
 date: 2026-04-01
-description: "미국 패권은 힘의 문제가 아니라 게임 설계의 문제일 수 있습니다. 미국이 세계질서를 어떻게 유리하게 짜왔는지 역사와 현재 의미로 풀었습니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "미국패권", "국제질서"]
+description: 미국 패권은 힘의 문제가 아니라 게임 설계의 문제일 수 있습니다. 미국이 세계질서를 어떻게 유리하게 짜왔는지 역사와 현재 의미로
+  풀었습니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 미국패권
+- 국제질서
+category: field
 ---
 
 이 글을 읽으면 미국의 힘을 단순히 군사력이나 GDP 크기로만 보지 않게 됩니다. 대신 미국이 왜 오랫동안 세계에서 가장 강한 나라였는지, 그 힘이 총과 달러만이 아니라 **판 자체를 설계하는 능력**에서 나왔다는 점이 더 선명하게 보일 겁니다. 가장 큰 반전은 이거예요. 많은 사람은 미국이 게임을 잘하는 나라라고 생각하죠. 그런데 더 정확한 표현은, 미국은 오랫동안 **게임의 룰을 만드는 나라**에 더 가까웠다는 겁니다.

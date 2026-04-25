@@ -1,9 +1,17 @@
 ---
-title: "삼체는 정말 하드 SF일까? 의외로 허술한 과학들"
+title: 삼체는 정말 하드 SF일까? 의외로 허술한 과학들
 date: 2026-04-03
-description: "삼체를 완벽한 하드 SF로만 보면 오히려 핵심을 놓칠 수 있습니다. 놀라운 상상력 뒤에 숨은 과학적 허점과 작품의 진짜 힘을 함께 짚습니다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "삼체", "하드SF"]
+description: 삼체를 완벽한 하드 SF로만 보면 오히려 핵심을 놓칠 수 있습니다. 놀라운 상상력 뒤에 숨은 과학적 허점과 작품의 진짜 힘을
+  함께 짚습니다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 삼체
+- 하드SF
+category: retro
 ---
 
 # 삼체는 정말 하드 SF일까? 의외로 허술한 과학들

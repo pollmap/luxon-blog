@@ -1,9 +1,17 @@
 ---
-title: "산상수훈을 심리학으로 읽으면 삶이 달라지는 이유"
+title: 산상수훈을 심리학으로 읽으면 삶이 달라지는 이유
 date: 2026-04-05
-description: "조던 피터슨의 산상수훈 강의를 심리학·철학·자기계발 관점에서 재구성했다. 핵심 논지, 삶에의 적용, 논쟁 지점까지 균형 있게 정리한다."
-heroImage: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["심리학", "철학", "Jordan Peterson", "자기계발", "조던피터슨", "산상수훈"]
+description: 조던 피터슨의 산상수훈 강의를 심리학·철학·자기계발 관점에서 재구성했다. 핵심 논지, 삶에의 적용, 논쟁 지점까지 균형 있게
+  정리한다.
+heroImage: https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 심리학
+- 철학
+- Jordan Peterson
+- 자기계발
+- 조던피터슨
+- 산상수훈
+category: deep-dive
 ---
 
 이 글을 읽으면 산상수훈을 종교 경전의 유명한 한 대목으로만 보지 않고, 인간이 어떻게 혼란 속에서도 중심을 세우고, 고통 속에서도 품위를 잃지 않으며, 자기 삶을 더 높은 질서에 맞춰 재구성할 수 있는지에 대한 심리학적 지침으로 읽게 됩니다. 동시에 조던 피터슨이 왜 이 텍스트를 단순한 도덕 교훈이 아니라 인간 존재 전체를 겨누는 급진적 요구로 해석하는지, 그리고 그 해석이 어디서 강력하고 어디서 논쟁적인지도 함께 잡히게 됩니다.

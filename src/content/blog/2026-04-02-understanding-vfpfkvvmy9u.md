@@ -1,9 +1,17 @@
 ---
-title: "반값 아파트의 귀환, 왜 16억이 3억이 되나"
+title: 반값 아파트의 귀환, 왜 16억이 3억이 되나
 date: 2026-04-02
-description: "반값 아파트가 다시 나온다는 말의 진짜 의미를 풀었습니다. 왜 가격은 무너지고, 누가 버티고, 누가 가장 크게 흔들리는지 쉽게 설명합니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "부동산", "아파트"]
+description: 반값 아파트가 다시 나온다는 말의 진짜 의미를 풀었습니다. 왜 가격은 무너지고, 누가 버티고, 누가 가장 크게 흔들리는지 쉽게
+  설명합니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 부동산
+- 아파트
+category: deep-dive
 ---
 
 # 반값 아파트의 귀환, 왜 16억이 3억이 되나

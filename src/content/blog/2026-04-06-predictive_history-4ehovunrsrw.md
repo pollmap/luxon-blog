@@ -1,9 +1,17 @@
 ---
-title: "그리스 문명은 어떻게 폭발했나: 문명의 빅뱅 해설"
+title: '그리스 문명은 어떻게 폭발했나: 문명의 빅뱅 해설'
 date: 2026-04-06
-description: "그리스 문명의 탄생을 천재의 기적이 아니라 지리·교역·경쟁이 만든 폭발로 읽습니다. 고대 그리스의 형성과 오늘의 서구 질서까지 연결해 설명합니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "고대그리스", "문명사"]
+description: 그리스 문명의 탄생을 천재의 기적이 아니라 지리·교역·경쟁이 만든 폭발로 읽습니다. 고대 그리스의 형성과 오늘의 서구 질서까지
+  연결해 설명합니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 고대그리스
+- 문명사
+category: field
 ---
 
 이 글을 읽으면 고대 그리스를 더 이상 "갑자기 철학과 민주주의가 솟아난 기적의 문명"으로만 보지 않게 됩니다. 왜 그리스 문명이 한순간에 폭발하듯 성장했는지, 그 배경에 어떤 지리적 조건과 해상 교류, 도시국가 경쟁이 있었는지, 그리고 그 에너지가 왜 오늘날 서구 정치와 지정학의 원형으로까지 이어지는지 한 번에 감이 잡히게 될 겁니다.

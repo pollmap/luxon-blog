@@ -1,9 +1,16 @@
 ---
-title: "우주 데이터센터는 왜 돈이 되나: 허황된 꿈이 아닌 이유"
+title: '우주 데이터센터는 왜 돈이 되나: 허황된 꿈이 아닌 이유'
 date: 2026-04-02
-description: "우주에 데이터센터를 짓는 발상이 왜 진지한 사업 아이디어가 됐는지, 전력·냉각·통신·발사비용 관점에서 쉽게 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "우주산업", "데이터센터"]
+description: 우주에 데이터센터를 짓는 발상이 왜 진지한 사업 아이디어가 됐는지, 전력·냉각·통신·발사비용 관점에서 쉽게 풀어봅니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 우주산업
+- 데이터센터
+category: deep-dive
 ---
 
 # 우주 데이터센터는 왜 돈이 되나: 허황된 꿈이 아닌 이유

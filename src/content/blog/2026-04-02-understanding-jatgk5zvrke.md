@@ -1,9 +1,16 @@
 ---
-title: "다카이치를 과소평가하면 안 되는 이유"
+title: 다카이치를 과소평가하면 안 되는 이유
 date: 2026-04-02
-description: "일본 총리 다카이치를 왜 가볍게 보면 안 되는지, 보수 정치의 힘·아베 유산·한일관계 변수까지 한국 독자 관점에서 쉽게 풀어봤습니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "일본정치", "다카이치"]
+description: 일본 총리 다카이치를 왜 가볍게 보면 안 되는지, 보수 정치의 힘·아베 유산·한일관계 변수까지 한국 독자 관점에서 쉽게 풀어봤습니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 일본정치
+- 다카이치
+category: deep-dive
 ---
 
 # 다카이치를 과소평가하면 안 되는 이유

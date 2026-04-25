@@ -1,9 +1,17 @@
 ---
-title: "오징어 게임3 해석: 가장 이성적인 인간은 누구인가"
+title: '오징어 게임3 해석: 가장 이성적인 인간은 누구인가'
 date: 2026-04-03
-description: "오징어 게임 3를 감정의 드라마로만 보면 놓치는 게 있습니다. '명기'를 중심으로 이성과 생존, 인간성의 역설을 깊이 있게 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "오징어게임3", "드라마해석"]
+description: 오징어 게임 3를 감정의 드라마로만 보면 놓치는 게 있습니다. '명기'를 중심으로 이성과 생존, 인간성의 역설을 깊이 있게
+  풀어봅니다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 오징어게임3
+- 드라마해석
+category: retro
 ---
 
 # 오징어 게임3 해석: 가장 이성적인 인간은 누구인가

@@ -1,9 +1,17 @@
 ---
-title: "시인과 예언자는 왜 역사를 먼저 보았나"
+title: 시인과 예언자는 왜 역사를 먼저 보았나
 date: 2026-04-02
-description: "시인과 예언자를 통해 문명이 자신을 어떻게 이해했는지 읽어봅니다. 고전 텍스트가 왜 과거 기록이 아니라 현재를 해석하는 도구인지 역사적 맥락과 함께 풀어냅니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "역사해석", "고전읽기"]
+description: 시인과 예언자를 통해 문명이 자신을 어떻게 이해했는지 읽어봅니다. 고전 텍스트가 왜 과거 기록이 아니라 현재를 해석하는 도구인지
+  역사적 맥락과 함께 풀어냅니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 역사해석
+- 고전읽기
+category: field
 ---
 
 # 시인과 예언자는 왜 역사를 먼저 보았나

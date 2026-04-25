@@ -1,9 +1,17 @@
 ---
-title: "드래곤은 없다, 그러나 규범의 무게는 실재한다"
+title: 드래곤은 없다, 그러나 규범의 무게는 실재한다
 date: 2026-04-08
-description: "두려움의 상징을 없애는 순간, 회피의 대상이 아니라 책임의 무게가 선명해진다. 영상 제목이 품은 반전을 통해 죄책감, 질서, 개인의 윤리 주체를 다시 배치해 본다."
-heroImage: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["심리학", "철학", "Jordan Peterson", "자기계발", "철학논쟁", "심리학"]
+description: 두려움의 상징을 없애는 순간, 회피의 대상이 아니라 책임의 무게가 선명해진다. 영상 제목이 품은 반전을 통해 죄책감, 질서,
+  개인의 윤리 주체를 다시 배치해 본다.
+heroImage: https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 심리학
+- 철학
+- Jordan Peterson
+- 자기계발
+- 철학논쟁
+- 심리학
+category: deep-dive
 ---
 
 # 드래곤은 어디까지 사라지나

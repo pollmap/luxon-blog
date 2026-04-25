@@ -1,11 +1,17 @@
 ---
-title: "Great Books #5: The Odyssey"
+title: 'Great Books #5: The Odyssey'
 date: 2026-03-28
-description: "PredictiveHistory 장 교수 강의 분석 — Great Books 시리즈"
-heroImage: "https://images.pexels.com/photos/3224223/pexels-photo-3224223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [신화, 고전, 철학, 역사, PredictiveHistory]
-youtubeId: "gXlcR7uHHdA"
-series: "Great Books"
+description: PredictiveHistory 장 교수 강의 분석 — Great Books 시리즈
+heroImage: https://images.pexels.com/photos/3224223/pexels-photo-3224223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 신화
+- 고전
+- 철학
+- 역사
+- PredictiveHistory
+youtubeId: gXlcR7uHHdA
+series: Great Books
+category: deep-dive
 ---
 
 # 호메로스의 《오디세이》: 영혼의 파편화와 가족의 사랑

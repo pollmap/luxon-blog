@@ -1,9 +1,17 @@
 ---
-title: "싱가포르는 어떻게 모두에게 반값 아파트를 줄 수 있었나"
+title: 싱가포르는 어떻게 모두에게 반값 아파트를 줄 수 있었나
 date: 2026-04-04
-description: "싱가포르 HDB 공공주택이 왜 성공했는지, 토지 국유화·CPF 강제저축·소득혼합 정책 세 가지 구조로 풀어봅니다. 한국 주거 문제와 비교하며 진짜 차이를 이해할 수 있습니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "싱가포르주택", "HDB"]
+description: 싱가포르 HDB 공공주택이 왜 성공했는지, 토지 국유화·CPF 강제저축·소득혼합 정책 세 가지 구조로 풀어봅니다. 한국 주거
+  문제와 비교하며 진짜 차이를 이해할 수 있습니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 싱가포르주택
+- HDB
+category: deep-dive
 ---
 
 # 싱가포르는 어떻게 모두에게 반값 아파트를 줄 수 있었나

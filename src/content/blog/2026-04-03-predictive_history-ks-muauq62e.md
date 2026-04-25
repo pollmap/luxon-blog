@@ -1,9 +1,16 @@
 ---
-title: "학교는 왜 재미없고 비효율적일까? 게임이론 해석"
+title: 학교는 왜 재미없고 비효율적일까? 게임이론 해석
 date: 2026-04-03
-description: "학교 문제를 교사나 학생 탓으로만 보면 놓치는 게 있습니다. 게임이론으로 보면 왜 학교가 비효율을 반복하는지 구조가 보입니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "교육", "게임이론"]
+description: 학교 문제를 교사나 학생 탓으로만 보면 놓치는 게 있습니다. 게임이론으로 보면 왜 학교가 비효율을 반복하는지 구조가 보입니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 교육
+- 게임이론
+category: field
 ---
 
 # 학교는 왜 재미없고 비효율적일까? 게임이론 해석

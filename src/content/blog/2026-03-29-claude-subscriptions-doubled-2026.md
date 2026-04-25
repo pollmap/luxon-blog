@@ -1,9 +1,15 @@
 ---
-title: "ChatGPT 독주 끝나나? Claude 유료 구독 2026년 들어 2배 돌파"
+title: ChatGPT 독주 끝나나? Claude 유료 구독 2026년 들어 2배 돌파
 date: 2026-03-29
-description: "ChatGPT 독주 끝나나? Claude 유료 구독 2026년 들어 2배 돌파"
-heroImage: "https://images.pexels.com/photos/16380905/pexels-photo-16380905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [Claude, ChatGPT, Anthropic, AI구독, AI시장]
+description: ChatGPT 독주 끝나나? Claude 유료 구독 2026년 들어 2배 돌파
+heroImage: https://images.pexels.com/photos/16380905/pexels-photo-16380905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- Claude
+- ChatGPT
+- Anthropic
+- AI구독
+- AI시장
+category: field
 ---
 
 이 글을 읽으면 ChatGPT 독주 시대가 실제로 끝나고 있는지, 데이터로 확인할 수 있습니다.

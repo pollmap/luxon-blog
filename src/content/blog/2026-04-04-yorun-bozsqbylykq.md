@@ -1,9 +1,17 @@
 ---
-title: "공각기동대 1995 끝장해석 — 인간의 정신은 허상인가"
+title: 공각기동대 1995 끝장해석 — 인간의 정신은 허상인가
 date: 2026-04-04
-description: "오시이 마모루의 《공각기동대 1995》가 던지는 '고스트란 무엇인가' 질문을 철학·서사·비주얼 세 축으로 끝까지 파고듭니다. 30년이 지나도 답이 없는 이유까지. 스포일러 포함."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "공각기동대", "오시이마모루"]
+description: 오시이 마모루의 《공각기동대 1995》가 던지는 '고스트란 무엇인가' 질문을 철학·서사·비주얼 세 축으로 끝까지 파고듭니다.
+  30년이 지나도 답이 없는 이유까지. 스포일러 포함.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 공각기동대
+- 오시이마모루
+category: retro
 ---
 
 # 공각기동대 1995 끝장해석 — 인간의 정신은 허상인가

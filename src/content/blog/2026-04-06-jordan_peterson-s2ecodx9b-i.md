@@ -1,9 +1,16 @@
 ---
-title: "조던 피터슨이 말한 부모·SNS·괴롭힘의 진짜 문제"
+title: 조던 피터슨이 말한 부모·SNS·괴롭힘의 진짜 문제
 date: 2026-04-06
-description: "부모가 아이를 지키는 방식, SNS가 불안을 키우는 구조, 괴롭힘에 대응하는 현실적 태도를 심리학·철학적으로 균형 있게 정리했다."
-heroImage: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["심리학", "철학", "Jordan Peterson", "자기계발", "조던피터슨", "부모교육"]
+description: 부모가 아이를 지키는 방식, SNS가 불안을 키우는 구조, 괴롭힘에 대응하는 현실적 태도를 심리학·철학적으로 균형 있게 정리했다.
+heroImage: https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 심리학
+- 철학
+- Jordan Peterson
+- 자기계발
+- 조던피터슨
+- 부모교육
+category: deep-dive
 ---
 
 # 조던 피터슨이 말한 부모·SNS·괴롭힘의 진짜 문제

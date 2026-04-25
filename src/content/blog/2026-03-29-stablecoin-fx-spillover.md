@@ -1,9 +1,16 @@
 ---
-title: "스테이블코인이 환율을 움직인다 — BIS가 인과관계를 증명했다"
+title: 스테이블코인이 환율을 움직인다 — BIS가 인과관계를 증명했다
 date: 2026-03-29
-description: "BIS 연구가 스테이블코인 수요 급증이 신흥국 통화 가치를 떨어뜨리고 달러 스왑 프리미엄을 확대한다는 인과관계를 처음으로 깨끗하게 증명했다. 외환 리스크 모델이 바뀌어야 하는 이유."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [스테이블코인, 외환시장, 거시경제, BIS, 신흥국]
+description: BIS 연구가 스테이블코인 수요 급증이 신흥국 통화 가치를 떨어뜨리고 달러 스왑 프리미엄을 확대한다는 인과관계를 처음으로 깨끗하게
+  증명했다. 외환 리스크 모델이 바뀌어야 하는 이유.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 스테이블코인
+- 외환시장
+- 거시경제
+- BIS
+- 신흥국
+category: field
 ---
 
 스테이블코인이 그냥 크립토 내부의 이야기라고 생각했다면, 이 글을 읽고 나서 그 생각을 바꿔야 할 것이다. BIS(국제결제은행)가 방금 발표한 연구는 스테이블코인 수요가 전통 외환시장에 직접 압력을 가한다는 **인과관계**를 처음으로 깨끗하게 증명했다. 환율 모델, 리스크 관리, 그리고 신흥국 자본 흐름을 이해하는 방식이 달라져야 한다.

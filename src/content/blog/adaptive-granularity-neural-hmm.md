@@ -1,9 +1,17 @@
 ---
-title: "적응적 세분도 신경망 HMM: 고빈도 주문흐름의 다중 해상도 레짐 감지"
+title: '적응적 세분도 신경망 HMM: 고빈도 주문흐름의 다중 해상도 레짐 감지'
 date: 2026-03-28
-description: "arXiv:2603.20456은 실시간 변동성과 주문 도착률로 틱 수준과 분 수준 피처를 동적으로 혼합하는 신경망 HMM이 고정 해상도 모델 대비 레짐 변환 기간에 크게 앞섬을 보여줍니다."
-heroImage: "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [신경망HMM, 주문흐름, 고빈도트레이딩, 다중해상도, 레짐감지, 딥러닝]
+description: arXiv:2603.20456은 실시간 변동성과 주문 도착률로 틱 수준과 분 수준 피처를 동적으로 혼합하는 신경망 HMM이
+  고정 해상도 모델 대비 레짐 변환 기간에 크게 앞섬을 보여줍니다.
+heroImage: https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 신경망HMM
+- 주문흐름
+- 고빈도트레이딩
+- 다중해상도
+- 레짐감지
+- 딥러닝
+category: deep-dive
 ---
 
 ## 서론: 시장 상황에 따라 다른 시간 해상도가 필요하다

@@ -1,9 +1,17 @@
 ---
-title: "연애는 감정일까 게임일까? 게임이론으로 보는 관계"
+title: 연애는 감정일까 게임일까? 게임이론으로 보는 관계
 date: 2026-04-03
-description: "연애를 감정 문제로만 보면 반복되는 패턴이 잘 안 보입니다. 게임이론으로 보면 선택, 타이밍, 신호, 불안이 어떻게 관계를 만드는지 보입니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "연애심리", "게임이론"]
+description: 연애를 감정 문제로만 보면 반복되는 패턴이 잘 안 보입니다. 게임이론으로 보면 선택, 타이밍, 신호, 불안이 어떻게 관계를
+  만드는지 보입니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 연애심리
+- 게임이론
+category: field
 ---
 
 # 연애는 감정일까 게임일까? 게임이론으로 보는 관계

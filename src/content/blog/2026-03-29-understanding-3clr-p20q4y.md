@@ -1,9 +1,16 @@
 ---
-title: "젠슨황도 놀란 AI 로봇의 미래: 1500조 원 시장이 정말 올까"
+title: '젠슨황도 놀란 AI 로봇의 미래: 1500조 원 시장이 정말 올까'
 date: 2026-03-29
-description: "NVIDIA 최고경영자도 웃음이 나왔다는 한재권 교수의 AI 로봇 전망. 우리가 놓친 기술의 본질과 시장 기회를 읽어보세요."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "AI로봇", "젠슨황"]
+description: NVIDIA 최고경영자도 웃음이 나왔다는 한재권 교수의 AI 로봇 전망. 우리가 놓친 기술의 본질과 시장 기회를 읽어보세요.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- AI로봇
+- 젠슨황
+category: deep-dive
 ---
 
 # 젠슨황도 놀란 AI 로봇의 미래: 1500조 원 시장이 정말 올까

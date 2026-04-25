@@ -1,9 +1,17 @@
 ---
-title: "iVDFM: 식별 가능한 동적 인수 모델로 레짐 인식 잠재 표현 학습"
+title: 'iVDFM: 식별 가능한 동적 인수 모델로 레짐 인식 잠재 표현 학습'
 date: 2026-03-28
-description: "ICLR 2026 FINAI 워크샵에서 발표된 iVDFM은 혁신 과정 수준의 조건화로 동적 인수 모델의 회전 모호성을 해결해 인과 해석 가능한 잠재 인수를 학습합니다."
-heroImage: "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [동적인수모델, 식별가능성, 인과추론, 시계열, 잠재변수, 레짐감지]
+description: ICLR 2026 FINAI 워크샵에서 발표된 iVDFM은 혁신 과정 수준의 조건화로 동적 인수 모델의 회전 모호성을 해결해
+  인과 해석 가능한 잠재 인수를 학습합니다.
+heroImage: https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 동적인수모델
+- 식별가능성
+- 인과추론
+- 시계열
+- 잠재변수
+- 레짐감지
+category: deep-dive
 ---
 
 ## 서론: 동적 인수 모델의 근본 문제 — 회전 모호성

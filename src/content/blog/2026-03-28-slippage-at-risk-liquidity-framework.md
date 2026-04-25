@@ -1,9 +1,18 @@
 ---
-title: "Slippage-at-Risk (SaR) — 퍼페츄얼 선물 거래소의 유동성 리스크 프레임워크"
+title: Slippage-at-Risk (SaR) — 퍼페츄얼 선물 거래소의 유동성 리스크 프레임워크
 date: 2026-03-28
-description: "VaR에서 영감을 받은 전향적(forward-looking) 슬리피지 리스크 지표 SaR/ESaR/TSaR 소개. 현재 오더북 상태에서 청산 스트레스를 정량화하고 자본 요구량에 연결."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [crypto, derivatives, liquidity-risk, SaR, perpetual-futures, microstructure, exchange-risk]
+description: VaR에서 영감을 받은 전향적(forward-looking) 슬리피지 리스크 지표 SaR/ESaR/TSaR 소개. 현재 오더북
+  상태에서 청산 스트레스를 정량화하고 자본 요구량에 연결.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- crypto
+- derivatives
+- liquidity-risk
+- SaR
+- perpetual-futures
+- microstructure
+- exchange-risk
+category: deep-dive
 ---
 
 ## "지금 오더북이 청산 스트레스를 버틸 수 있는가?"

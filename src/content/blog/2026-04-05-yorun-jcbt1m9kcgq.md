@@ -1,9 +1,17 @@
 ---
-title: "오징어게임 설계자의 진짜 목적: 오일남은 왜 게임을 만들었나"
+title: '오징어게임 설계자의 진짜 목적: 오일남은 왜 게임을 만들었나'
 date: 2026-04-05
-description: "오징어게임 시즌1의 설계자 오일남의 진짜 목적을 단서 중심으로 해부한다. 단순한 변태적 유희가 아니라 권력, 무료함, 기억의 욕망까지 읽어낸 심층 분석."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "오징어게임", "오일남"]
+description: 오징어게임 시즌1의 설계자 오일남의 진짜 목적을 단서 중심으로 해부한다. 단순한 변태적 유희가 아니라 권력, 무료함, 기억의
+  욕망까지 읽어낸 심층 분석.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 오징어게임
+- 오일남
+category: retro
 ---
 
 ⚠️ **스포일러 경고**: 이 글에는 《오징어게임: 시즌 1》의 핵심 반전과 결말 해석이 포함되어 있습니다.

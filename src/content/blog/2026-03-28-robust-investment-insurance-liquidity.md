@@ -1,9 +1,18 @@
 ---
-title: "강건 투자 기반 보험 가격 결정과 유동성 관리 — 모델 불확실성 하의 균형"
+title: 강건 투자 기반 보험 가격 결정과 유동성 관리 — 모델 불확실성 하의 균형
 date: 2026-03-28
-description: "최악의 경우(worst-case) 확률 측도 하에서 보험 가격 결정과 유동성 관리를 통합 최적화하면 기존 분리 접근보다 안정적 균형이 달성됨. 크립토 신용·스테이블코인 리스크에 응용 가능."
-heroImage: "https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [macro, quant, risk-management, model-uncertainty, liquidity, insurance, stablecoin]
+description: 최악의 경우(worst-case) 확률 측도 하에서 보험 가격 결정과 유동성 관리를 통합 최적화하면 기존 분리 접근보다 안정적
+  균형이 달성됨. 크립토 신용·스테이블코인 리스크에 응용 가능.
+heroImage: https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- macro
+- quant
+- risk-management
+- model-uncertainty
+- liquidity
+- insurance
+- stablecoin
+category: deep-dive
 ---
 
 ## 금융 리스크 관리의 세 가지 함정

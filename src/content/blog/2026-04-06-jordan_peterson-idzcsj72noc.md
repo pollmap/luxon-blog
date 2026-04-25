@@ -1,9 +1,17 @@
 ---
-title: "스트레스와 비극을 견디는 법: 조던 피터슨 해설"
+title: '스트레스와 비극을 견디는 법: 조던 피터슨 해설'
 date: 2026-04-06
-description: "스트레스와 비극을 피하는 대신 어떻게 견디고 의미로 바꿀지 조던 피터슨의 관점으로 풀어냅니다. 실천 포인트와 논쟁 지점까지 균형 있게 정리했습니다."
-heroImage: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["심리학", "철학", "Jordan Peterson", "자기계발", "스트레스관리", "자기계발"]
+description: 스트레스와 비극을 피하는 대신 어떻게 견디고 의미로 바꿀지 조던 피터슨의 관점으로 풀어냅니다. 실천 포인트와 논쟁 지점까지
+  균형 있게 정리했습니다.
+heroImage: https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 심리학
+- 철학
+- Jordan Peterson
+- 자기계발
+- 스트레스관리
+- 자기계발
+category: deep-dive
 ---
 
 이 글을 읽으면 스트레스와 비극을 단순히 피해야 할 불행이나 마음 관리의 문제로만 보지 않게 됩니다. 왜 삶의 고통을 줄이는 것보다 고통을 감당할 구조를 세우는 일이 더 중요할 수 있는지, 왜 의미와 책임, 작은 질서가 무너지는 사람을 다시 세우는 핵심이 되는지, 그리고 이런 메시지가 어떤 사람에게는 강력한 위로가 되지만 또 다른 사람에게는 부담이나 한계로 느껴질 수 있는지까지 균형 있게 정리해볼 수 있습니다.

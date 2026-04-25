@@ -1,9 +1,17 @@
 ---
-title: "디멘투스의 초현실, 왜 예수의 형상처럼 보였나"
+title: 디멘투스의 초현실, 왜 예수의 형상처럼 보였나
 date: 2026-04-08
-description: "퓨리오사의 마지막을 구원극이 아닌 복수와 속죄의 경제로 읽으면 디멘투스의 형상과 엔딩 장면이 완전히 다른 울림을 만든다. 과잉한 종말 장치 뒤의 감정 구조를 정리해 본다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "영화해석", "요런시점"]
+description: 퓨리오사의 마지막을 구원극이 아닌 복수와 속죄의 경제로 읽으면 디멘투스의 형상과 엔딩 장면이 완전히 다른 울림을 만든다. 과잉한
+  종말 장치 뒤의 감정 구조를 정리해 본다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 영화해석
+- 요런시점
+category: retro
 ---
 
 # 퓨리오사의 마지막은 종말이 아니라 회수의 장면이다

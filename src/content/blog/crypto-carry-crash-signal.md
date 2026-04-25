@@ -1,9 +1,17 @@
 ---
-title: "크립토 캐리는 불편 수익률: BIS 연구가 밝힌 펀딩 레이트와 폭락 예측"
+title: '크립토 캐리는 불편 수익률: BIS 연구가 밝힌 펀딩 레이트와 폭락 예측'
 date: 2026-03-28
-description: "BIS 워킹페이퍼 1087호는 연 10~40% 크립토 캐리의 본질이 이자율 프리미엄이 아닌 불편 수익률임을 밝히고, 고캐리 상태가 1~4주 후 폭락을 통계적으로 예측함을 입증했습니다."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [크립토캐리, 펀딩레이트, 폭락예측, BIS, 무기한선물, 레짐신호]
+description: BIS 워킹페이퍼 1087호는 연 10~40% 크립토 캐리의 본질이 이자율 프리미엄이 아닌 불편 수익률임을 밝히고, 고캐리
+  상태가 1~4주 후 폭락을 통계적으로 예측함을 입증했습니다.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 크립토캐리
+- 펀딩레이트
+- 폭락예측
+- BIS
+- 무기한선물
+- 레짐신호
+category: deep-dive
 ---
 
 ## 서론: 연 10~40%의 캐리는 무엇을 의미하는가?

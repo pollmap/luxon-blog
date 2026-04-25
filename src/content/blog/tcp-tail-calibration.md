@@ -1,9 +1,17 @@
 ---
-title: "TCP: 비트코인에서도 95% 적중하는 시간적 컨포말 예측"
+title: 'TCP: 비트코인에서도 95% 적중하는 시간적 컨포말 예측'
 date: 2026-03-28
-description: "아이치·자인 팀의 TCP는 ML 분위수 회귀의 과신(샤프니스 vs 보정) 문제를 해결해 BTC를 포함한 금융 자산에서 목표 커버리지 95%를 달성합니다."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [컨포말예측, 불확실성정량화, VaR, 보정, 리스크관리, 비트코인]
+description: 아이치·자인 팀의 TCP는 ML 분위수 회귀의 과신(샤프니스 vs 보정) 문제를 해결해 BTC를 포함한 금융 자산에서 목표
+  커버리지 95%를 달성합니다.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 컨포말예측
+- 불확실성정량화
+- VaR
+- 보정
+- 리스크관리
+- 비트코인
+category: deep-dive
 ---
 
 ## 서론: ML 분위수 모델의 과신 문제

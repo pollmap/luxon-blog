@@ -1,11 +1,17 @@
 ---
-title: "Great Books #6: The Intimacy of Love"
+title: 'Great Books #6: The Intimacy of Love'
 date: 2026-03-28
-description: "PredictiveHistory 장 교수 강의 분석 — Great Books 시리즈"
-heroImage: "https://images.pexels.com/photos/3224223/pexels-photo-3224223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [신화, 고전, 철학, 역사, PredictiveHistory]
-youtubeId: "aS-NfPSPMu8"
-series: "Great Books"
+description: PredictiveHistory 장 교수 강의 분석 — Great Books 시리즈
+heroImage: https://images.pexels.com/photos/3224223/pexels-photo-3224223.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 신화
+- 고전
+- 철학
+- 역사
+- PredictiveHistory
+youtubeId: aS-NfPSPMu8
+series: Great Books
+category: deep-dive
 ---
 
 # 『오디세이』에서 배우는 사랑의 본질: 장 교수의 "친밀성" 강의

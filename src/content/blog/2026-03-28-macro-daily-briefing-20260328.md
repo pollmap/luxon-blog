@@ -1,9 +1,17 @@
 ---
-title: "2026년 3월 28일 거시경제 일일 브리핑 — KOSPI 급락·경상수지 호조"
+title: 2026년 3월 28일 거시경제 일일 브리핑 — KOSPI 급락·경상수지 호조
 date: 2026-03-28
-description: "KOSPI 5.9% 급락, 한국 경상수지 1월 $195억 대폭 증가, 미국 실업률 4.4% 상승 등 2026년 3월 28일 주요 거시경제 지표 정리."
-heroImage: "https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [macro, KOSPI, 경상수지, 기준금리, FRED, 한국경제]
+description: KOSPI 5.9% 급락, 한국 경상수지 1월 $195억 대폭 증가, 미국 실업률 4.4% 상승 등 2026년 3월 28일
+  주요 거시경제 지표 정리.
+heroImage: https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- macro
+- KOSPI
+- 경상수지
+- 기준금리
+- FRED
+- 한국경제
+category: field
 ---
 
 > ⚠️ 본 브리핑은 정보 제공 목적이며 투자 권유가 아닙니다. 투자 판단은 본인의 책임입니다.

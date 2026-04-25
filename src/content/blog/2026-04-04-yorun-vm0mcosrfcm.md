@@ -1,9 +1,17 @@
 ---
-title: "프로젝트 헤일메리 — 하드SF가 이렇게 감동적일 수 있나"
+title: 프로젝트 헤일메리 — 하드SF가 이렇게 감동적일 수 있나
 date: 2026-04-04
-description: "Andy Weir의 《프로젝트 헤일메리》가 왜 하드SF의 걸작인지, 과학적 리얼리티·외계인 설계·우정의 구조로 분석합니다. 스포일러 포함."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "프로젝트헤일메리", "하드SF"]
+description: Andy Weir의 《프로젝트 헤일메리》가 왜 하드SF의 걸작인지, 과학적 리얼리티·외계인 설계·우정의 구조로 분석합니다.
+  스포일러 포함.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 프로젝트헤일메리
+- 하드SF
+category: retro
 ---
 
 # 프로젝트 헤일메리 — 하드SF가 이렇게 감동적일 수 있나

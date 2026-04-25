@@ -1,9 +1,17 @@
 ---
-title: "악의 공모가 만든 질서의 규칙"
+title: 악의 공모가 만든 질서의 규칙
 date: 2026-04-08
-description: "세상을 움직이는 건 거대한 음모의 단선적 진실이 아니라, 위기마다 반복되는 협의·침묵·전환의 구조다. 비밀결사 신화를 벗어나 국제질서의 실무 규칙으로 정리해본다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "지정학", "문명사"]
+description: 세상을 움직이는 건 거대한 음모의 단선적 진실이 아니라, 위기마다 반복되는 협의·침묵·전환의 구조다. 비밀결사 신화를 벗어나
+  국제질서의 실무 규칙으로 정리해본다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 지정학
+- 문명사
+category: field
 ---
 
 # 악의 공모는 음모자보다 시스템이 만든다

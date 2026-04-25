@@ -1,9 +1,17 @@
 ---
-title: "Kyle 모델과 유연한 정보 획득 — 정보 비용·노이즈 거래량이 시장에 미치는 영향"
+title: Kyle 모델과 유연한 정보 획득 — 정보 비용·노이즈 거래량이 시장에 미치는 영향
 date: 2026-03-28
-description: "엔트로피 비용 기반 Kyle 모델 확장 연구. 최적 신호가 연속 분포를 가지며, 노이즈 거래량과 정보 획득 비용의 상호작용이 가격 발견 구조를 결정함을 분석."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [crypto, microstructure, Kyle-model, informed-trading, information-theory, quant]
+description: 엔트로피 비용 기반 Kyle 모델 확장 연구. 최적 신호가 연속 분포를 가지며, 노이즈 거래량과 정보 획득 비용의 상호작용이
+  가격 발견 구조를 결정함을 분석.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- crypto
+- microstructure
+- Kyle-model
+- informed-trading
+- information-theory
+- quant
+category: deep-dive
 ---
 
 ## "내부자는 얼마나 정확한 신호를 획득하는가?"

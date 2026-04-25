@@ -1,9 +1,17 @@
 ---
-title: "세계는 왜 하나의 게임처럼 움직이는가"
+title: 세계는 왜 하나의 게임처럼 움직이는가
 date: 2026-04-02
-description: "지정학을 '세계 게임'으로 읽으면 전쟁과 외교, 무역과 패권이 다르게 보입니다. 국가들이 왜 협력하면서도 경쟁하는지 역사와 현재를 함께 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "지정학", "국제정치"]
+description: 지정학을 '세계 게임'으로 읽으면 전쟁과 외교, 무역과 패권이 다르게 보입니다. 국가들이 왜 협력하면서도 경쟁하는지 역사와
+  현재를 함께 풀어봅니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 지정학
+- 국제정치
+category: field
 ---
 
 # 세계는 왜 하나의 게임처럼 움직이는가

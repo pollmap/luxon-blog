@@ -1,9 +1,18 @@
 ---
-title: "ORACLE 리서치 브리핑 2026-03-28 — 크립토 캐리·스테이블코인·레짐 전환 대응"
+title: ORACLE 리서치 브리핑 2026-03-28 — 크립토 캐리·스테이블코인·레짐 전환 대응
 date: 2026-03-28
-description: "BIS 크립토 캐리 급락 신호, 스테이블코인 유입의 FX 파급 효과, 레짐 전환 대응 컨포말 예측 기법 등 3편의 최신 리서치 핵심 정리."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [crypto, research, carry, stablecoin, regime-change, BIS, conformal-prediction]
+description: BIS 크립토 캐리 급락 신호, 스테이블코인 유입의 FX 파급 효과, 레짐 전환 대응 컨포말 예측 기법 등 3편의 최신 리서치
+  핵심 정리.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- crypto
+- research
+- carry
+- stablecoin
+- regime-change
+- BIS
+- conformal-prediction
+category: field
 ---
 
 ## ORACLE 2026-03-28 리서치 브리핑

@@ -1,9 +1,17 @@
 ---
-title: "단기 Duesenberry 균형과 총부 위험 — 자산 프리미엄의 새로운 설명"
+title: 단기 Duesenberry 균형과 총부 위험 — 자산 프리미엄의 새로운 설명
 date: 2026-03-28
-description: "소비 변동성이 아닌 총부(금융자산+인적자본) 변동성으로 시장 위험 프리미엄을 설명하는 Duesenberry 균형 모델. 주식 프리미엄 퍼즐·실질금리 퍼즐에 새로운 시각 제공."
-heroImage: "https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [macro, asset-pricing, equilibrium, risk-premium, human-capital, Duesenberry]
+description: 소비 변동성이 아닌 총부(금융자산+인적자본) 변동성으로 시장 위험 프리미엄을 설명하는 Duesenberry 균형 모델. 주식
+  프리미엄 퍼즐·실질금리 퍼즐에 새로운 시각 제공.
+heroImage: https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- macro
+- asset-pricing
+- equilibrium
+- risk-premium
+- human-capital
+- Duesenberry
+category: deep-dive
 ---
 
 ## "왜 주식 수익률은 이렇게 높은가?" — 여전히 미스터리

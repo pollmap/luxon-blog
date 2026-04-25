@@ -1,9 +1,16 @@
 ---
-title: "딥러닝 모델 918번 돌려봤더니: 금융 예측에서 뭐가 진짜 중요한가"
+title: '딥러닝 모델 918번 돌려봤더니: 금융 예측에서 뭐가 진짜 중요한가'
 date: 2026-03-29
-description: "크립토·FX·주가지수 데이터로 9개 딥러닝 아키텍처를 918회 실험한 결과, 예측 성능 차이의 99.9%는 아키텍처 선택에서 온다. 더 놀라운 건 RMSE가 좋아도 방향 예측은 동전 던지기 수준이라는 것."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [딥러닝, 금융예측, 퀀트, 모델벤치마킹, 시계열]
+description: 크립토·FX·주가지수 데이터로 9개 딥러닝 아키텍처를 918회 실험한 결과, 예측 성능 차이의 99.9%는 아키텍처 선택에서
+  온다. 더 놀라운 건 RMSE가 좋아도 방향 예측은 동전 던지기 수준이라는 것.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 딥러닝
+- 금융예측
+- 퀀트
+- 모델벤치마킹
+- 시계열
+category: deep-dive
 ---
 
 딥러닝으로 금융 예측을 할 때 "어떤 모델을 쓸까?"보다 "시드를 몇 번 돌릴까?"를 더 고민하고 있다면, 이 글이 그 우선순위를 완전히 바꿔줄 것이다.

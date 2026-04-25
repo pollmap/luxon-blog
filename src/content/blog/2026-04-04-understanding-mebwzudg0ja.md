@@ -1,9 +1,17 @@
 ---
-title: "대만 LNG 초비상인데 한국만 여유로운 이유"
+title: 대만 LNG 초비상인데 한국만 여유로운 이유
 date: 2026-04-04
-description: "대만이 LNG 공급 위기에 처한 구조적 이유와, 같은 동아시아인데 한국이 상대적으로 여유로운 이유를 에너지 계약·저장·공급선 구조로 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "LNG", "에너지안보"]
+description: 대만이 LNG 공급 위기에 처한 구조적 이유와, 같은 동아시아인데 한국이 상대적으로 여유로운 이유를 에너지 계약·저장·공급선
+  구조로 풀어봅니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- LNG
+- 에너지안보
+category: deep-dive
 ---
 
 # 대만 LNG 초비상인데 한국만 여유로운 이유

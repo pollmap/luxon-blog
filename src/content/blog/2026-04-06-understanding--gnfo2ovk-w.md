@@ -1,9 +1,16 @@
 ---
-title: "천궁-II 96% 요격률의 비밀: 진짜 핵심은 미사일 밖에 있다"
+title: '천궁-II 96% 요격률의 비밀: 진짜 핵심은 미사일 밖에 있다'
 date: 2026-04-06
-description: "천궁-II의 높은 요격률을 단순 성능 수치가 아니라 탐지·추적·지휘통제까지 포함한 방공체계 관점에서 쉽게 풀어낸 교양형 해설."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "천궁II", "방공체계"]
+description: 천궁-II의 높은 요격률을 단순 성능 수치가 아니라 탐지·추적·지휘통제까지 포함한 방공체계 관점에서 쉽게 풀어낸 교양형 해설.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 천궁II
+- 방공체계
+category: deep-dive
 ---
 
 이 글을 읽으면 천궁-II의 "96% 요격률"이라는 숫자를 단순히 미사일 한 발의 성능으로 받아들이지 않게 됩니다. 왜 방공 무기에서 진짜 중요한 건 발사체 자체보다 탐지, 추적, 교전, 지휘통제까지 이어지는 전체 체계인지, 그리고 높은 요격률이라는 말이 실제로 무엇을 뜻하는지 한국 독자도 훨씬 쉽게 이해하게 될 겁니다.

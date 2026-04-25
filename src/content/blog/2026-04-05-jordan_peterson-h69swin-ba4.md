@@ -1,9 +1,17 @@
 ---
-title: "조던 피터슨의 인생 계획법: 목표보다 질서가 먼저다"
+title: '조던 피터슨의 인생 계획법: 목표보다 질서가 먼저다'
 date: 2026-04-05
-description: "조던 피터슨의 인생 계획 강의를 바탕으로, 삶의 방향을 세우는 법을 심리학·철학·자기계발 관점에서 정리했다. 적용법과 논쟁 지점까지 균형 있게 담았다."
-heroImage: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["심리학", "철학", "Jordan Peterson", "자기계발", "조던피터슨", "인생계획"]
+description: 조던 피터슨의 인생 계획 강의를 바탕으로, 삶의 방향을 세우는 법을 심리학·철학·자기계발 관점에서 정리했다. 적용법과 논쟁
+  지점까지 균형 있게 담았다.
+heroImage: https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 심리학
+- 철학
+- Jordan Peterson
+- 자기계발
+- 조던피터슨
+- 인생계획
+category: deep-dive
 ---
 
 이 글을 읽으면 인생 계획을 더 이상 다이어리 정리, 목표 숫자 세우기, 생산성 팁 모음 정도로 보지 않게 됩니다. 조던 피터슨이 왜 삶을 계획하는 일이 단순한 시간 관리가 아니라 혼란을 줄이고 의미를 회복하는 심리학적 기술이라고 보는지, 그리고 그 관점을 오늘의 공부, 일, 돈, 관계, 미래 불안에 어떻게 적용할 수 있는지 한 번에 잡히게 됩니다.

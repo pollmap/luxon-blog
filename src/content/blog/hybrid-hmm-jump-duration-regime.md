@@ -1,9 +1,17 @@
 ---
-title: "하이브리드 HMM + 포아송 점프 지속: 레짐 인식 합성 금융 데이터"
+title: '하이브리드 HMM + 포아송 점프 지속: 레짐 인식 합성 금융 데이터'
 date: 2026-03-28
-description: "코넬대 연구팀이 제안한 하이브리드 HMM은 라플라스 분위수 기반 상태 이산화와 포아송 점프 지속 메커니즘으로 금융 수익률의 세 가지 양식화된 사실을 동시에 재현합니다."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [레짐전환, HMM, 점프확산, 합성데이터, 스트레스테스트, 퀀트]
+description: 코넬대 연구팀이 제안한 하이브리드 HMM은 라플라스 분위수 기반 상태 이산화와 포아송 점프 지속 메커니즘으로 금융 수익률의
+  세 가지 양식화된 사실을 동시에 재현합니다.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 레짐전환
+- HMM
+- 점프확산
+- 합성데이터
+- 스트레스테스트
+- 퀀트
+category: deep-dive
 ---
 
 ## 서론: 금융 수익률 시뮬레이션의 세 가지 난제

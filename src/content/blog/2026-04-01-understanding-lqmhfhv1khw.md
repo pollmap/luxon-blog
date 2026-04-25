@@ -1,9 +1,17 @@
 ---
-title: "반도체는 헬륨 없으면 멈출까? 과장과 현실"
+title: 반도체는 헬륨 없으면 멈출까? 과장과 현실
 date: 2026-04-01
-description: "헬륨이 반도체에 왜 중요한지, 왜 '없으면 끝'은 과장인지, 공급망 리스크를 어디까지 진짜로 봐야 하는지 한국 독자 눈높이로 풀었습니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "반도체", "헬륨"]
+description: 헬륨이 반도체에 왜 중요한지, 왜 '없으면 끝'은 과장인지, 공급망 리스크를 어디까지 진짜로 봐야 하는지 한국 독자 눈높이로
+  풀었습니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 반도체
+- 헬륨
+category: deep-dive
 ---
 
 # 반도체는 헬륨 없으면 멈출까? 과장과 현실

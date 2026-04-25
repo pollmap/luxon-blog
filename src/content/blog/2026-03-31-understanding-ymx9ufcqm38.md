@@ -1,9 +1,17 @@
 ---
-title: "트럼프 관세, 왜 '한 푼도 안 낸다'는 말이 나오나"
+title: 트럼프 관세, 왜 '한 푼도 안 낸다'는 말이 나오나
 date: 2026-03-31
-description: "관세는 미국 정부가 외국에 청구하는 돈이라고 생각하기 쉽습니다. 하지만 실제 부담 구조와 법적 장치를 보면, 누가 내고 누가 전가하는지 완전히 다르게 보입니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "트럼프관세", "무역법"]
+description: 관세는 미국 정부가 외국에 청구하는 돈이라고 생각하기 쉽습니다. 하지만 실제 부담 구조와 법적 장치를 보면, 누가 내고 누가
+  전가하는지 완전히 다르게 보입니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 트럼프관세
+- 무역법
+category: deep-dive
 ---
 
 이 글을 읽으면 관세를 둘러싼 가장 흔한 착각 하나를 버리게 됩니다. 많은 사람이 "미국이 관세를 때리면 외국이 돈을 낸다"고 생각하죠. 그런데 구조를 뜯어보면, 관세는 상대국을 혼내는 채찍이라기보다 미국 안에서 가격과 계약, 공급망을 다시 흔드는 장치에 가깝습니다. 그러니까 뉴스 제목은 세 보이는데, 실제 계산서는 전혀 다른 사람 책상 위에 올라오는 경우가 많습니다.

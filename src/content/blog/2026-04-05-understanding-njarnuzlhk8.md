@@ -1,9 +1,16 @@
 ---
-title: "프로젝트 헤일메리의 진짜 비밀: 로키는 무엇이었나"
+title: '프로젝트 헤일메리의 진짜 비밀: 로키는 무엇이었나'
 date: 2026-04-05
-description: "《프로젝트 헤일메리》의 핵심 장치 로키를 중심으로, 과학 설정과 이야기 구조를 한국 독자가 이해하기 쉽게 풀어낸 교양형 해설."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "프로젝트헤일메리", "로키"]
+description: 《프로젝트 헤일메리》의 핵심 장치 로키를 중심으로, 과학 설정과 이야기 구조를 한국 독자가 이해하기 쉽게 풀어낸 교양형 해설.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 프로젝트헤일메리
+- 로키
+category: deep-dive
 ---
 
 이 글을 읽으면 《프로젝트 헤일메리》에서 많은 사람이 가장 흥미로워하는 존재인 로키와 그를 둘러싼 과학적 상상, 협력의 의미, 그리고 이야기의 진짜 힘이 어디서 나오는지 훨씬 선명하게 이해하게 됩니다. 단순히 "외계 친구가 나온다" 수준이 아니라, 왜 이 작품이 우주 생존물인 동시에 가장 인간적인 이야기로 읽히는지까지 자연스럽게 잡히게 됩니다.

@@ -1,9 +1,17 @@
 ---
-title: "프로젝트 헤일메리, 천문학을 알고 보면 완전히 달라진다"
+title: 프로젝트 헤일메리, 천문학을 알고 보면 완전히 달라진다
 date: 2026-04-04
-description: "지웅배 교수의 시선으로 프로젝트 헤일메리의 핵심 천문학 개념을 풀어낸다. 타우 세티, 아스트로파지, 외계 지성의 만남까지 한 번에 이해하는 글."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "프로젝트헤일메리", "지웅배교수"]
+description: 지웅배 교수의 시선으로 프로젝트 헤일메리의 핵심 천문학 개념을 풀어낸다. 타우 세티, 아스트로파지, 외계 지성의 만남까지 한
+  번에 이해하는 글.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 프로젝트헤일메리
+- 지웅배교수
+category: deep-dive
 ---
 
 이 글을 읽으면 『프로젝트 헤일메리』를 그냥 재미있는 SF가 아니라, 실제 천문학 개념 위에 정교하게 세운 이야기로 읽는 눈이 생깁니다. 왜 하필 타우 세티인지, 아스트로파지가 왜 무서우면서도 동시에 중요한지, 그리고 외계 생명체와의 만남이 왜 전투가 아니라 과학의 언어로 시작되는지까지 자연스럽게 연결해서 이해하게 됩니다.

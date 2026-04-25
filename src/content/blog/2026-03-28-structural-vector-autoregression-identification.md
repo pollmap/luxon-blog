@@ -1,9 +1,15 @@
 ---
-title: "거시경제 구조분석의 새로운 기준: 이질적 마르코프 전환 이분산성을 활용한 구조적 벡터자기회귀 식별 검증"
+title: '거시경제 구조분석의 새로운 기준: 이질적 마르코프 전환 이분산성을 활용한 구조적 벡터자기회귀 식별 검증'
 date: 2026-03-28
-description: "Luxon AI ORACLE/DOGE 리서치팀 분석 — 거시경제 구조분석의 새로운 기준: 이질적 마르코프 전환 이분산성을 활용한 구조적 벡터자기회귀 식별 검증"
-heroImage: "https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [퀀트, 금융수학, 매크로경제, 퀀트리서치]
+description: 'Luxon AI ORACLE/DOGE 리서치팀 분석 — 거시경제 구조분석의 새로운 기준: 이질적 마르코프 전환 이분산성을
+  활용한 구조적 벡터자기회귀 식별 검증'
+heroImage: https://images.pexels.com/photos/97080/pexels-photo-97080.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 퀀트
+- 금융수학
+- 매크로경제
+- 퀀트리서치
+category: deep-dive
 ---
 
 # 구조적 벡터 자기회귀모형의 새로운 지평: 희소 이질적 마르코프 전환 이분산성 모델

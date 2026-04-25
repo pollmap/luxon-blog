@@ -1,9 +1,16 @@
 ---
-title: "할리우드-펜타곤은 누가 전쟁을 먼저 설계했나"
+title: 할리우드-펜타곤은 누가 전쟁을 먼저 설계했나
 date: 2026-04-07
-description: "전쟁은 총알이 아니라 서사로 판가름나는 시대, 할리우드와 펜타곤의 결합이 왜 국가전략과 동맹경제를 바꿨는지 파고든다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "지정학", "문명사"]
+description: 전쟁은 총알이 아니라 서사로 판가름나는 시대, 할리우드와 펜타곤의 결합이 왜 국가전략과 동맹경제를 바꿨는지 파고든다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 지정학
+- 문명사
+category: field
 ---
 
 # 할리우드-펜타곤은 누가 전쟁을 먼저 설계했나

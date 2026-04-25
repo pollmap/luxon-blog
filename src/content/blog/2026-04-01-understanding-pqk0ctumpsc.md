@@ -1,9 +1,17 @@
 ---
-title: "트럼프가 종전 말해도 이란이 안 멈추는 이유"
+title: 트럼프가 종전 말해도 이란이 안 멈추는 이유
 date: 2026-04-01
-description: "중동 정세는 휴전 선언 한 줄로 끝나지 않습니다. 왜 이란은 멈추지 않는지, 국가 전략·대리전·체제 논리까지 한국 독자 눈높이로 풀었습니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "중동정세", "이란"]
+description: 중동 정세는 휴전 선언 한 줄로 끝나지 않습니다. 왜 이란은 멈추지 않는지, 국가 전략·대리전·체제 논리까지 한국 독자 눈높이로
+  풀었습니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 중동정세
+- 이란
+category: deep-dive
 ---
 
 # 트럼프가 종전 말해도 이란이 안 멈추는 이유

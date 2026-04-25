@@ -1,9 +1,15 @@
 ---
-title: "SoftBank 40조 베팅 — OpenAI IPO가 AI 투자 판을 어떻게 바꾸나"
+title: SoftBank 40조 베팅 — OpenAI IPO가 AI 투자 판을 어떻게 바꾸나
 date: 2026-03-29
-description: "SoftBank 40조 베팅 — OpenAI IPO가 AI 투자 판을 어떻게 바꾸나"
-heroImage: "https://images.pexels.com/photos/8919575/pexels-photo-8919575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [OpenAI, SoftBank, IPO, AI투자, 벤처캐피털]
+description: SoftBank 40조 베팅 — OpenAI IPO가 AI 투자 판을 어떻게 바꾸나
+heroImage: https://images.pexels.com/photos/8919575/pexels-photo-8919575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- OpenAI
+- SoftBank
+- IPO
+- AI투자
+- 벤처캐피털
+category: field
 ---
 
 이 글을 읽으면 SoftBank의 40억 달러 베팅이 왜 단순한 투자 뉴스가 아니라 AI 시장 전체의 전환점 신호인지 이해하게 됩니다.

@@ -1,9 +1,17 @@
 ---
-title: "행정의 무게가 제국을 죽이는 순간: 문명의 붕괴와 지정학"
+title: '행정의 무게가 제국을 죽이는 순간: 문명의 붕괴와 지정학'
 date: 2026-04-08
-description: "전투의 패배보다 더 위험한 건 제도의 정체. PredictiveHistory풍으로, 관료주의가 문명 몰락의 트리거가 되는 구조를 읽고 지금 국제질서의 통치 경쟁에 적용해 본다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "지정학", "문명사"]
+description: 전투의 패배보다 더 위험한 건 제도의 정체. PredictiveHistory풍으로, 관료주의가 문명 몰락의 트리거가 되는 구조를
+  읽고 지금 국제질서의 통치 경쟁에 적용해 본다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 지정학
+- 문명사
+category: field
 ---
 
 # 행정이 제국을 끝내는 방식

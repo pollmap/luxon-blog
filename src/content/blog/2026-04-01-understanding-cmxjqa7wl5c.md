@@ -1,9 +1,17 @@
 ---
-title: "원전+배터리 에너지믹스, 왜 지금 주목받나"
+title: 원전+배터리 에너지믹스, 왜 지금 주목받나
 date: 2026-04-01
-description: "원전과 배터리는 상극처럼 보이지만 함께 묶이면 전력 시스템이 달라집니다. 새로운 에너지믹스가 왜 뜨는지 한국 독자 눈높이로 쉽게 풀었습니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "에너지믹스", "원전"]
+description: 원전과 배터리는 상극처럼 보이지만 함께 묶이면 전력 시스템이 달라집니다. 새로운 에너지믹스가 왜 뜨는지 한국 독자 눈높이로
+  쉽게 풀었습니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 에너지믹스
+- 원전
+category: deep-dive
 ---
 
 이 글을 읽으면 왜 요즘 에너지 이야기가 "원전이냐 재생에너지냐" 같은 낡은 대결 구도로는 더 이상 설명되지 않는지 이해하게 됩니다. 특히 원전과 배터리가 함께 묶일 때 전력 시스템이 어떻게 바뀌는지, 그리고 왜 이 조합이 앞으로 더 중요해질 수 있는지 선명하게 보일 겁니다. 가장 큰 반전은 이거예요. 많은 사람은 원전을 안정적인 전기, 배터리를 친환경 보조장치 정도로 따로 생각하죠. 그런데 실제로는 **둘을 붙였을 때 오히려 전력망 전체가 훨씬 유연해질 수 있습니다.**

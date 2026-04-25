@@ -1,9 +1,17 @@
 ---
-title: "중국의 밀어내기 수출, 한국이 먼저 맞는 이유"
+title: 중국의 밀어내기 수출, 한국이 먼저 맞는 이유
 date: 2026-04-05
-description: "내수 부진에 막힌 중국이 해외로 물량을 밀어내면 어떤 일이 벌어질까. 한국 산업, 가격 경쟁, 아시아 시장에 번지는 압박을 핵심만 풀어낸다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "중국경제", "밀어내기수출"]
+description: 내수 부진에 막힌 중국이 해외로 물량을 밀어내면 어떤 일이 벌어질까. 한국 산업, 가격 경쟁, 아시아 시장에 번지는 압박을
+  핵심만 풀어낸다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 중국경제
+- 밀어내기수출
+category: deep-dive
 ---
 
 이 글을 읽으면, "중국이 내수가 안 되니까 해외로 더 판다"는 말을 단순한 무역 뉴스가 아니라 한국 기업의 마진, 아시아 가격 경쟁, 증시 압박까지 이어지는 구조로 이해하게 됩니다. 왜 중국발 공급 과잉이 단순히 수출 증가가 아니라 주변국엔 공포가 되는지, 특히 한국이 왜 가장 먼저 체감할 수밖에 없는지도 한 번에 보이게 될 겁니다.

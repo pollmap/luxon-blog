@@ -1,9 +1,17 @@
 ---
-title: "조던 피터슨의 성격심리학: 나를 이해하는 5가지 축"
+title: '조던 피터슨의 성격심리학: 나를 이해하는 5가지 축'
 date: 2026-04-05
-description: "조던 피터슨의 성격심리학 입문 강의를 바탕으로, 성격을 고정된 기질이 아닌 삶의 전략으로 읽는 법과 실제 적용법, 논쟁 지점을 정리했다."
-heroImage: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["심리학", "철학", "Jordan Peterson", "자기계발", "조던피터슨", "성격심리학"]
+description: 조던 피터슨의 성격심리학 입문 강의를 바탕으로, 성격을 고정된 기질이 아닌 삶의 전략으로 읽는 법과 실제 적용법, 논쟁 지점을
+  정리했다.
+heroImage: https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 심리학
+- 철학
+- Jordan Peterson
+- 자기계발
+- 조던피터슨
+- 성격심리학
+category: deep-dive
 ---
 
 이 글을 읽으면 성격을 단순한 MBTI 놀이, 타고난 성향 체크, 혹은 인간관계용 라벨 정도로 보지 않게 됩니다. 조던 피터슨이 왜 성격심리학을 인간의 운명, 선택, 직업, 사랑, 불안, 성장 가능성까지 연결되는 핵심 지도처럼 다루는지 이해하게 되고, 내 성향을 실제 삶의 전략으로 어떻게 번역할 수 있는지도 함께 잡히게 됩니다.

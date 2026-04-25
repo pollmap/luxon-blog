@@ -1,9 +1,16 @@
 ---
-title: "프로메테우스→로물루스 시간축으로 다시 읽는 세계관"
+title: 프로메테우스→로물루스 시간축으로 다시 읽는 세계관
 date: 2026-04-08
-description: "프로메테우스의 단편적 사건처럼 보이던 단서를 한 번에 잇고, 로물루스가 왜 그 연장선인지 인물·조직·기술의 흐름으로 정리한다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "영화", "세계관정리"]
+description: 프로메테우스의 단편적 사건처럼 보이던 단서를 한 번에 잇고, 로물루스가 왜 그 연장선인지 인물·조직·기술의 흐름으로 정리한다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 영화
+- 세계관정리
+category: retro
 ---
 
 # 프로메테우스가 남긴 문장, 로물루스가 이어받은 세계관

@@ -1,9 +1,16 @@
 ---
-title: "CPTC: 레짐 전환점에서도 유효한 컨포말 예측 구간"
+title: 'CPTC: 레짐 전환점에서도 유효한 컨포말 예측 구간'
 date: 2026-03-28
-description: "UC 샌디에이고 Rose-STL Lab의 CPTC는 체인지포인트 구간에서 기존 컨포말 예측의 구조적 실패를 스위칭 동적 시스템(SDS)으로 선제적으로 해결합니다."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [컨포말예측, 불확실성정량화, 레짐전환, 시계열, 퀀트방법론]
+description: UC 샌디에이고 Rose-STL Lab의 CPTC는 체인지포인트 구간에서 기존 컨포말 예측의 구조적 실패를 스위칭 동적 시스템(SDS)으로
+  선제적으로 해결합니다.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 컨포말예측
+- 불확실성정량화
+- 레짐전환
+- 시계열
+- 퀀트방법론
+category: deep-dive
 ---
 
 ## 서론: 레짐 전환 순간의 치명적 맹점

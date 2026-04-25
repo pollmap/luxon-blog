@@ -1,9 +1,17 @@
 ---
-title: "‘천국 프로젝트’가 무너지는 세 가지 법칙"
+title: ‘천국 프로젝트’가 무너지는 세 가지 법칙
 date: 2026-04-08
-description: "지상 낙원을 약속한 역사적 실험의 반복을 통해 권력, 종교, 자본이 어떻게 시민의 삶을 재설계했는지 읽는다. 이상향은 축복이 아니라 통제의 설계도였다는 결론으로 잇는다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "지정학", "문명사"]
+description: 지상 낙원을 약속한 역사적 실험의 반복을 통해 권력, 종교, 자본이 어떻게 시민의 삶을 재설계했는지 읽는다. 이상향은 축복이
+  아니라 통제의 설계도였다는 결론으로 잇는다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 지정학
+- 문명사
+category: field
 ---
 
 # 천국은 늘 천국으로 끝나지 않는다

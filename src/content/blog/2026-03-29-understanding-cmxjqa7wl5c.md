@@ -1,9 +1,16 @@
 ---
-title: "원전+배터리 조합이 바꾸는 에너지의 미래"
+title: 원전+배터리 조합이 바꾸는 에너지의 미래
 date: 2026-03-29
-description: "재생에너지의 약점을 원전이, 원전의 경직성을 배터리가 보완한다. 왜 이 조합이 차세대 에너지 전략의 핵심인지 알아본다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "원자력", "배터리"]
+description: 재생에너지의 약점을 원전이, 원전의 경직성을 배터리가 보완한다. 왜 이 조합이 차세대 에너지 전략의 핵심인지 알아본다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 원자력
+- 배터리
+category: deep-dive
 ---
 
 # 원전+배터리 조합이 바꾸는 에너지의 미래

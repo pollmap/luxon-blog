@@ -1,9 +1,17 @@
 ---
-title: "미국이 이란 석유섬을 타격하면 전쟁의 판이 바뀔까"
+title: 미국이 이란 석유섬을 타격하면 전쟁의 판이 바뀔까
 date: 2026-04-04
-description: "미국의 이란 석유섬 타격이 전쟁의 흐름을 바꿀 수 있는지, 군사·에너지·외교 세 축으로 분석합니다. 타격 이후 시나리오와 한국 경제에 미치는 파급 경로를 이해할 수 있습니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "이란전쟁", "중동리스크"]
+description: 미국의 이란 석유섬 타격이 전쟁의 흐름을 바꿀 수 있는지, 군사·에너지·외교 세 축으로 분석합니다. 타격 이후 시나리오와 한국
+  경제에 미치는 파급 경로를 이해할 수 있습니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 이란전쟁
+- 중동리스크
+category: deep-dive
 ---
 
 # 미국이 이란 석유섬을 타격하면 전쟁의 판이 바뀔까

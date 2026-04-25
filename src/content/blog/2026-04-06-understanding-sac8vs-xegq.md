@@ -1,9 +1,17 @@
 ---
-title: "이란 미사일 90% 무력화, AI가 바꾼 현대 방공의 판"
+title: 이란 미사일 90% 무력화, AI가 바꾼 현대 방공의 판
 date: 2026-04-06
-description: "이란 미사일 공격과 요격 사례를 통해, AI가 현대 방공전에서 무엇을 바꾸고 있는지 한국 독자가 이해하기 쉽게 풀어낸 교양형 해설."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "AI전쟁", "방공체계"]
+description: 이란 미사일 공격과 요격 사례를 통해, AI가 현대 방공전에서 무엇을 바꾸고 있는지 한국 독자가 이해하기 쉽게 풀어낸 교양형
+  해설.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- AI전쟁
+- 방공체계
+category: deep-dive
 ---
 
 이 글을 읽으면 "미사일 90% 요격" 같은 숫자를 단순한 무기 성능 자랑으로만 보지 않게 됩니다. 왜 현대 방공전의 승부가 미사일 한 발의 속도보다 탐지, 추적, 분류, 우선순위 결정 같은 정보 처리에서 갈리는지, 그리고 AI가 그 과정을 어떻게 바꿔놓고 있는지 핵심 개념 중심으로 이해하게 됩니다.

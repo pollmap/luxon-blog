@@ -1,9 +1,17 @@
 ---
-title: "어색함은 기술이 아니라 리듬, 3분 루틴으로 바꾸기"
+title: 어색함은 기술이 아니라 리듬, 3분 루틴으로 바꾸기
 date: 2026-04-08
-description: "어색함은 결심이 부족해서가 아니라, 몸의 신호 타이밍이 어긋나 생긴다. 말보다 앞서는 3단계 몸짓-호흡 조율법으로 대화를 다시 주도하는 방법을 정리한다."
-heroImage: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["심리학", "철학", "Jordan Peterson", "자기계발", "자기계발", "비언어적커뮤니케이션"]
+description: 어색함은 결심이 부족해서가 아니라, 몸의 신호 타이밍이 어긋나 생긴다. 말보다 앞서는 3단계 몸짓-호흡 조율법으로 대화를 다시
+  주도하는 방법을 정리한다.
+heroImage: https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 심리학
+- 철학
+- Jordan Peterson
+- 자기계발
+- 자기계발
+- 비언어적커뮤니케이션
+category: deep-dive
 ---
 
 # 말이 막히는 순간, 먼저 고쳐야 할 건 태도다

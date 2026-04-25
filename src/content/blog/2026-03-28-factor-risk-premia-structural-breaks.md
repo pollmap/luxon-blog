@@ -1,9 +1,15 @@
 ---
-title: "구조적 단절 하에서의 팩터 리스크 프리미엄 오학습: 베이지안 학습 프레임워크의 오류 명시화"
+title: '구조적 단절 하에서의 팩터 리스크 프리미엄 오학습: 베이지안 학습 프레임워크의 오류 명시화'
 date: 2026-03-28
-description: "Luxon AI ORACLE/DOGE 리서치팀 분석 — 구조적 단절 하에서의 팩터 리스크 프리미엄 오학습: 베이지안 학습 프레임워크의 오류 명시화"
-heroImage: "https://images.pexels.com/photos/6802043/pexels-photo-6802043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [퀀트, 금융수학, 매크로경제, 퀀트리서치]
+description: 'Luxon AI ORACLE/DOGE 리서치팀 분석 — 구조적 단절 하에서의 팩터 리스크 프리미엄 오학습: 베이지안 학습
+  프레임워크의 오류 명시화'
+heroImage: https://images.pexels.com/photos/6802043/pexels-photo-6802043.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 퀀트
+- 금융수학
+- 매크로경제
+- 퀀트리서치
+category: deep-dive
 ---
 
 # 투자자들의 '착각'이 만드는 시장 기회: 구조적 변화 속 요소 위험 프리미엄의 미학습 현상

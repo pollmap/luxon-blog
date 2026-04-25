@@ -1,9 +1,17 @@
 ---
-title: "트럼프의 전쟁 프레임, 왜 그대로 믿으면 안 될까"
+title: 트럼프의 전쟁 프레임, 왜 그대로 믿으면 안 될까
 date: 2026-04-03
-description: "전쟁과 외교를 강한 리더의 결단으로만 보면 중요한 걸 놓칩니다. 트럼프식 전쟁 프레임의 함정과 국제정치의 실제 작동 방식을 쉽게 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "트럼프", "국제정치"]
+description: 전쟁과 외교를 강한 리더의 결단으로만 보면 중요한 걸 놓칩니다. 트럼프식 전쟁 프레임의 함정과 국제정치의 실제 작동 방식을
+  쉽게 풀어봅니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 트럼프
+- 국제정치
+category: deep-dive
 ---
 
 # 트럼프의 전쟁 프레임, 왜 그대로 믿으면 안 될까

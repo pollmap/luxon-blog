@@ -1,9 +1,16 @@
 ---
-title: "이삿날 전세사기, 왜 40년이나 방치됐나"
+title: 이삿날 전세사기, 왜 40년이나 방치됐나
 date: 2026-04-02
-description: "이삿날 전세사기가 왜 반복됐는지, 왜 제도가 40년이나 제대로 막지 못했는지, 세입자가 꼭 알아야 할 구조를 쉽게 설명했습니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "전세사기", "부동산"]
+description: 이삿날 전세사기가 왜 반복됐는지, 왜 제도가 40년이나 제대로 막지 못했는지, 세입자가 꼭 알아야 할 구조를 쉽게 설명했습니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 전세사기
+- 부동산
+category: deep-dive
 ---
 
 # 이삿날 전세사기, 왜 40년이나 방치됐나

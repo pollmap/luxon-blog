@@ -1,9 +1,14 @@
 ---
-title: "역사의 귀환 — 왜 과거는 반복되는가"
+title: 역사의 귀환 — 왜 과거는 반복되는가
 date: 2026-03-28
-description: "서론: 종말과 시작의 경계에서"
-heroImage: "https://images.pexels.com/photos/20409628/pexels-photo-20409628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [지정학, 게임이론, 역사분석, PredictiveHistory]
+description: '서론: 종말과 시작의 경계에서'
+heroImage: https://images.pexels.com/photos/20409628/pexels-photo-20409628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 게임이론
+- 역사분석
+- PredictiveHistory
+category: deep-dive
 ---
 
 # 일극 체제의 붕괴와 새로운 세계 질서: 장 교수의 '역사의 귀환'을 읽다

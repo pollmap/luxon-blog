@@ -1,9 +1,18 @@
 ---
-title: "불확실성과 비대칭 예측 — 인플레이션 전망 분포의 올바른 해석법"
+title: 불확실성과 비대칭 예측 — 인플레이션 전망 분포의 올바른 해석법
 date: 2026-03-28
-description: "예측 분산의 42%가 인플레이션 수준 자체와의 상관에서 기인. 정규화 불확실성(NU)과 비대칭 일관성(AC)으로 수정한 후에야 진정한 위험 신호 추출 가능."
-heroImage: "https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [macro, inflation, forecast, uncertainty, asymmetry, ECB, policy]
+description: 예측 분산의 42%가 인플레이션 수준 자체와의 상관에서 기인. 정규화 불확실성(NU)과 비대칭 일관성(AC)으로 수정한 후에야
+  진정한 위험 신호 추출 가능.
+heroImage: https://images.pexels.com/photos/186461/pexels-photo-186461.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- macro
+- inflation
+- forecast
+- uncertainty
+- asymmetry
+- ECB
+- policy
+category: deep-dive
 ---
 
 ## "인플레이션이 높으면 불확실성도 높다"는 착각

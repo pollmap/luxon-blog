@@ -1,9 +1,17 @@
 ---
-title: "이민은 왜 해답이면서 동시에 함정이 될까"
+title: 이민은 왜 해답이면서 동시에 함정이 될까
 date: 2026-04-02
-description: "이민 문제를 찬반 구도로 넘어서, 왜 국가들이 노동력·성장·정체성 사이에서 반복적으로 딜레마에 빠지는지 역사와 현재를 함께 읽어봅니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "이민정책", "지정학"]
+description: 이민 문제를 찬반 구도로 넘어서, 왜 국가들이 노동력·성장·정체성 사이에서 반복적으로 딜레마에 빠지는지 역사와 현재를 함께
+  읽어봅니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 이민정책
+- 지정학
+category: field
 ---
 
 # 이민은 왜 해답이면서 동시에 함정이 될까

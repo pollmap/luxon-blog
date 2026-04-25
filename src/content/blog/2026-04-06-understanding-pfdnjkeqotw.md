@@ -1,9 +1,17 @@
 ---
-title: "조선업 슈퍼사이클, 전쟁도 못 막는 이유"
+title: 조선업 슈퍼사이클, 전쟁도 못 막는 이유
 date: 2026-04-06
-description: "조선업 호황이 단순 경기 반등이 아니라 구조적 슈퍼사이클로 읽히는 이유를 쉽게 풀어냅니다. 운임, 친환경 선박, LNG, 공급 부족의 연결고리가 핵심입니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "조선업", "슈퍼사이클"]
+description: 조선업 호황이 단순 경기 반등이 아니라 구조적 슈퍼사이클로 읽히는 이유를 쉽게 풀어냅니다. 운임, 친환경 선박, LNG, 공급
+  부족의 연결고리가 핵심입니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 조선업
+- 슈퍼사이클
+category: deep-dive
 ---
 
 이 글을 읽으면 왜 요즘 조선업을 두고 단순한 경기민감 업종 반등이 아니라 "몇 년짜리 구조적 슈퍼사이클"이라고 부르는지 한 번에 감이 잡히게 됩니다. 선박 발주가 왜 갑자기 늘어나는지, 전쟁 같은 악재가 있어도 왜 흐름이 꺾이지 않는지, 그리고 한국 조선업이 어디에서 진짜 경쟁력을 갖는지까지 핵심 개념 중심으로 정리해드리겠습니다.

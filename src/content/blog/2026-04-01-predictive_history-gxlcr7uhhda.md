@@ -1,9 +1,16 @@
 ---
-title: "오디세이아를 지금 읽어야 하는 이유"
+title: 오디세이아를 지금 읽어야 하는 이유
 date: 2026-04-01
-description: "오디세이아는 단순한 모험담이 아니라 귀환, 질서, 정체성을 다루는 정치적 서사입니다. 오늘의 세계와 연결해 깊고 쉽게 풀었습니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "오디세이아", "고전읽기"]
+description: 오디세이아는 단순한 모험담이 아니라 귀환, 질서, 정체성을 다루는 정치적 서사입니다. 오늘의 세계와 연결해 깊고 쉽게 풀었습니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 오디세이아
+- 고전읽기
+category: field
 ---
 
 이 글을 읽으면 *오디세이아*를 오래된 신화 모험담이 아니라, 전쟁 이후 인간이 어떻게 집으로 돌아가고 질서를 다시 세우는지 묻는 아주 현대적인 텍스트로 보게 됩니다. 그리고 왜 이 작품이 지금도 정치, 국가, 가족, 리더십 이야기에 계속 호출되는지까지 함께 잡히게 될 겁니다. 가장 큰 반전은 이거예요. 많은 사람은 *오디세이아*를 바다를 떠도는 영웅의 모험담으로 기억하죠. 그런데 실제로 더 중요한 건 여행보다 **귀환 이후 어떤 질서를 회복할 수 있느냐**에 있습니다.

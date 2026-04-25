@@ -1,9 +1,17 @@
 ---
-title: "조던 피터슨이 말하는 교육·이념·아이 양육의 핵심"
+title: 조던 피터슨이 말하는 교육·이념·아이 양육의 핵심
 date: 2026-04-06
-description: "교육과 이념, 아이 양육을 둘러싼 조던 피터슨의 문제의식을 심리학·철학 관점에서 정리했다. 부모와 교육자가 바로 적용할 질문도 담았다."
-heroImage: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["심리학", "철학", "Jordan Peterson", "자기계발", "조던피터슨", "교육"]
+description: 교육과 이념, 아이 양육을 둘러싼 조던 피터슨의 문제의식을 심리학·철학 관점에서 정리했다. 부모와 교육자가 바로 적용할 질문도
+  담았다.
+heroImage: https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 심리학
+- 철학
+- Jordan Peterson
+- 자기계발
+- 조던피터슨
+- 교육
+category: deep-dive
 ---
 
 이 글을 읽으면 교육 문제를 단순히 학교 선택이나 공부법의 문제로만 보지 않게 됩니다. 조던 피터슨이 왜 교육, 이념, 아이 양육을 한 덩어리의 문제로 묶어 보는지, 아이를 잘 키운다는 것이 왜 지식 전달보다 더 깊은 가치 판단과 책임의 문제인지, 그리고 부모와 교사가 오늘 현실에서 어떤 질문을 먼저 붙잡아야 하는지까지 한 번에 정리됩니다.

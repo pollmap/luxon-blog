@@ -1,9 +1,17 @@
 ---
-title: "예수의 신성은 어떻게 탄생했나: 역사와 권력의 재해석"
+title: '예수의 신성은 어떻게 탄생했나: 역사와 권력의 재해석'
 date: 2026-04-05
-description: "예수의 신성을 신학이 아닌 역사와 권력의 관점에서 다시 읽는다. 초기 기독교, 로마 제국, 사상의 경쟁이 오늘에 남긴 의미까지 짚는다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "예수", "초기기독교"]
+description: 예수의 신성을 신학이 아닌 역사와 권력의 관점에서 다시 읽는다. 초기 기독교, 로마 제국, 사상의 경쟁이 오늘에 남긴 의미까지
+  짚는다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 예수
+- 초기기독교
+category: field
 ---
 
 ⚠️ **스포일러 겸 주의**: 이 글은 예수의 신성을 역사·사상사·정치사의 관점에서 해석합니다. 전통적 신앙 해석과 다를 수 있으며, 종교적 확신을 부정하기보다 역사적 맥락을 넓혀 읽기 위한 글입니다.

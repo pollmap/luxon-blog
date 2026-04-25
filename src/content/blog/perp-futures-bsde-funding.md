@@ -1,9 +1,16 @@
 ---
-title: "무기한 선물 펀딩 레이트 설계: BSDE 프레임워크로 이론적 토대 확립"
+title: '무기한 선물 펀딩 레이트 설계: BSDE 프레임워크로 이론적 토대 확립'
 date: 2026-03-28
-description: "서울대 김재현·박형빈 교수팀이 BSDE 프레임워크로 크립토 무기한 선물의 펀딩 레이트를 처음으로 엄밀하게 유도하고 8시간 TWAP 산업 표준을 이론적으로 정당화했습니다."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [크립토파생상품, 무기한선물, 펀딩레이트, BSDE, 퀀트파이낸스]
+description: 서울대 김재현·박형빈 교수팀이 BSDE 프레임워크로 크립토 무기한 선물의 펀딩 레이트를 처음으로 엄밀하게 유도하고 8시간 TWAP
+  산업 표준을 이론적으로 정당화했습니다.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 크립토파생상품
+- 무기한선물
+- 펀딩레이트
+- BSDE
+- 퀀트파이낸스
+category: deep-dive
 ---
 
 ## 서론: 8시간 펀딩 주기는 왜 그 숫자인가?

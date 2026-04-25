@@ -1,9 +1,16 @@
 ---
-title: "SPX와 VIX를 함께 모델링해야 하는 이유 — 최적운송이론의 금융 적용"
+title: SPX와 VIX를 함께 모델링해야 하는 이유 — 최적운송이론의 금융 적용
 date: 2026-03-29
-description: "SPX와 VIX를 따로 모델링하면 헤지가 틀린다. 퍼터베이션 최적운송으로 두 시장을 동시에 칼리브레이션하고, 비싼 재칼리브레이션 없이 빠른 리스크 업데이트를 가능하게 하는 방법을 소개한다."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [파생상품, 리스크모델링, 최적운송이론, VIX, 퀀트파이낸스]
+description: SPX와 VIX를 따로 모델링하면 헤지가 틀린다. 퍼터베이션 최적운송으로 두 시장을 동시에 칼리브레이션하고, 비싼 재칼리브레이션
+  없이 빠른 리스크 업데이트를 가능하게 하는 방법을 소개한다.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 파생상품
+- 리스크모델링
+- 최적운송이론
+- VIX
+- 퀀트파이낸스
+category: deep-dive
 ---
 
 SPX 옵션과 VIX 옵션을 따로 모델링하고 상관계수로 연결하는 접근 방식이 왜 틀린지 이해하면, 조인트 리스크 모델링의 필요성이 자명해진다. 이 논문은 그 "왜"를 수학적으로 증명하고, 동시에 실무에서 쓸 수 있는 빠른 대안을 제시한다.

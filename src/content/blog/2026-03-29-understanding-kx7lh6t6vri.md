@@ -1,9 +1,17 @@
 ---
-title: "허리 통증의 진짜 원인은 뇌였다? 신경과학으로 풀어본 100년 건강한 허리"
+title: 허리 통증의 진짜 원인은 뇌였다? 신경과학으로 풀어본 100년 건강한 허리
 date: 2026-03-29
-description: "허리 통증이 구조적 손상 때문이 아니라 뇌의 신경 신호 왜곡 때문일 수 있다는 놀라운 사실. 새길병원 이대영 원장이 설명하는 뇌-신체 연결고리와 실질적 해결책을 알아보세요."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "허리통증", "뇌신경과학"]
+description: 허리 통증이 구조적 손상 때문이 아니라 뇌의 신경 신호 왜곡 때문일 수 있다는 놀라운 사실. 새길병원 이대영 원장이 설명하는
+  뇌-신체 연결고리와 실질적 해결책을 알아보세요.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 허리통증
+- 뇌신경과학
+category: deep-dive
 ---
 
 # 허리 통증의 진짜 원인은 뇌였다? 신경과학으로 풀어본 100년 건강한 허리

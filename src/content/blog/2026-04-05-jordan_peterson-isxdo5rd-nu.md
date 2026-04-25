@@ -1,9 +1,16 @@
 ---
-title: "조던 피터슨이 말하는 크리스마스의 진짜 의미"
+title: 조던 피터슨이 말하는 크리스마스의 진짜 의미
 date: 2026-04-05
-description: "크리스마스를 소비와 감성의 시즌이 아니라 희생, 책임, 사랑의 질서로 읽는 조던 피터슨의 해석을 심리학·철학 관점에서 정리했다."
-heroImage: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["심리학", "철학", "Jordan Peterson", "자기계발", "조던피터슨", "크리스마스"]
+description: 크리스마스를 소비와 감성의 시즌이 아니라 희생, 책임, 사랑의 질서로 읽는 조던 피터슨의 해석을 심리학·철학 관점에서 정리했다.
+heroImage: https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 심리학
+- 철학
+- Jordan Peterson
+- 자기계발
+- 조던피터슨
+- 크리스마스
+category: deep-dive
 ---
 
 이 글을 읽으면 크리스마스를 더 이상 연말 분위기나 가족 행사, 혹은 종교적 기념일 정도로만 보지 않게 됩니다. 조던 피터슨이 왜 크리스마스를 인간 존재의 가장 깊은 역설, 즉 연약함 속에서 드러나는 희망과 사랑, 그리고 책임의 질서로 읽는지 이해하게 되고, 그 메시지를 오늘의 불안한 삶과 관계, 자기계발의 언어로 어떻게 번역할 수 있는지도 함께 잡히게 됩니다.

@@ -1,11 +1,16 @@
 ---
-title: "Game Theory #9: The US-Iran War"
+title: 'Game Theory #9: The US-Iran War'
 date: 2026-03-28
-description: "PredictiveHistory 장 교수 강의 분석 — Game Theory 시리즈"
-heroImage: "https://images.pexels.com/photos/11816424/pexels-photo-11816424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [지정학, 게임이론, 역사분석, PredictiveHistory]
-youtubeId: "jIS2eB-rGv0"
-series: "Game Theory"
+description: PredictiveHistory 장 교수 강의 분석 — Game Theory 시리즈
+heroImage: https://images.pexels.com/photos/11816424/pexels-photo-11816424.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 게임이론
+- 역사분석
+- PredictiveHistory
+youtubeId: jIS2eB-rGv0
+series: Game Theory
+category: deep-dive
 ---
 
 # 게임 이론으로 분석한 미국-이란 전쟁: 중동 패권과 글로벌 경제 붕괴의 메커니즘

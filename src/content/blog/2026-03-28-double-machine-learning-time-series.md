@@ -1,9 +1,15 @@
 ---
-title: "시계열 인과추론을 위한 이중 머신러닝: 거시경제 데이터의 순차적 구조를 지키는 방법론"
+title: '시계열 인과추론을 위한 이중 머신러닝: 거시경제 데이터의 순차적 구조를 지키는 방법론'
 date: 2026-03-28
-description: "Luxon AI ORACLE/DOGE 리서치팀 분석 — 시계열 인과추론을 위한 이중 머신러닝: 거시경제 데이터의 순차적 구조를 지키는 방법론"
-heroImage: "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [퀀트, 금융수학, 매크로경제, 퀀트리서치]
+description: 'Luxon AI ORACLE/DOGE 리서치팀 분석 — 시계열 인과추론을 위한 이중 머신러닝: 거시경제 데이터의 순차적 구조를
+  지키는 방법론'
+heroImage: https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 퀀트
+- 금융수학
+- 매크로경제
+- 퀀트리서치
+category: deep-dive
 ---
 
 # 시계열 데이터 인과관계 추정의 혁신: Double Machine Learning의 시간 구조적 확장

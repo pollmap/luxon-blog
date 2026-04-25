@@ -1,9 +1,17 @@
 ---
-title: "세계의 은행은 어떻게 패권을 지배했나"
+title: 세계의 은행은 어떻게 패권을 지배했나
 date: 2026-04-02
-description: "'세계의 은행'이라는 개념으로 본 금융 패권의 역사. 왜 돈을 빌려주는 나라가 단순한 채권국이 아니라 국제질서를 설계하는 중심이 되는지 현재의 의미까지 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "지정학", "달러패권"]
+description: '''세계의 은행''이라는 개념으로 본 금융 패권의 역사. 왜 돈을 빌려주는 나라가 단순한 채권국이 아니라 국제질서를 설계하는
+  중심이 되는지 현재의 의미까지 풀어봅니다.'
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 지정학
+- 달러패권
+category: field
 ---
 
 # 세계의 은행은 어떻게 패권을 지배했나

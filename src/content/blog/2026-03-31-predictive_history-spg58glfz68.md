@@ -1,9 +1,17 @@
 ---
-title: "종말론적 수렴의 법칙: 역사는 왜 끝을 향해 달리나"
+title: '종말론적 수렴의 법칙: 역사는 왜 끝을 향해 달리나'
 date: 2026-03-31
-description: "종말론은 종교의 문제가 아니라 정치와 역사 해석의 엔진일 수 있습니다. 반복되는 위기 서사가 어떻게 현실을 움직이는지 현재와 함께 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "지정학", "종말론"]
+description: 종말론은 종교의 문제가 아니라 정치와 역사 해석의 엔진일 수 있습니다. 반복되는 위기 서사가 어떻게 현실을 움직이는지 현재와
+  함께 풀어봅니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 지정학
+- 종말론
+category: field
 ---
 
 이 글을 읽으면 종말론을 단지 종교적 믿음이나 극단적 상상으로 보지 않고, 역사와 정치가 스스로를 해석하는 강력한 엔진으로 이해하게 됩니다. 더 중요한 건, 왜 서로 다른 문명과 이념이 전혀 다른 언어를 쓰면서도 비슷하게 "결정적 순간이 다가온다"고 말하는지 보이게 된다는 점입니다. 반전은 여기 있습니다. 사람들은 종말론이 현실을 오해하게 만든다고 생각하죠. 그런데 종종 현실을 가장 강하게 움직이는 건, 바로 그런 종말론적 기대 자체입니다.

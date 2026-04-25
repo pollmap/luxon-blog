@@ -1,9 +1,17 @@
 ---
-title: "Pax Judaica란 무엇인가: 숨은 질서로 읽는 세계사"
+title: 'Pax Judaica란 무엇인가: 숨은 질서로 읽는 세계사'
 date: 2026-04-03
-description: "평화는 늘 제국의 군사력만으로 유지되지 않았습니다. Pax Judaica라는 낯선 표현을 통해 권력, 네트워크, 디아스포라의 세계사적 의미를 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "세계사", "디아스포라"]
+description: 평화는 늘 제국의 군사력만으로 유지되지 않았습니다. Pax Judaica라는 낯선 표현을 통해 권력, 네트워크, 디아스포라의
+  세계사적 의미를 풀어봅니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 세계사
+- 디아스포라
+category: field
 ---
 
 # Pax Judaica란 무엇인가: 숨은 질서로 읽는 세계사

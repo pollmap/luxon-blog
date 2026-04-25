@@ -1,9 +1,14 @@
 ---
-title: "에스컬레이션의 법칙 — 갈등은 어떻게 걷잡을 수 없어지는가"
+title: 에스컬레이션의 법칙 — 갈등은 어떻게 걷잡을 수 없어지는가
 date: 2026-03-28
-description: "서론: 지배력이 아닌 통제력의 시대"
-heroImage: "https://images.pexels.com/photos/20409628/pexels-photo-20409628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [지정학, 게임이론, 역사분석, PredictiveHistory]
+description: '서론: 지배력이 아닌 통제력의 시대'
+heroImage: https://images.pexels.com/photos/20409628/pexels-photo-20409628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 게임이론
+- 역사분석
+- PredictiveHistory
+category: deep-dive
 ---
 
 # 통제의 우월성: 게임 이론으로 본 미국-이란 전쟁과 에스컬레이션의 법칙

@@ -1,9 +1,16 @@
 ---
-title: "저승사자 차트의 뜻: 추세추종 투자에서 꼭 봐야 할 신호"
+title: '저승사자 차트의 뜻: 추세추종 투자에서 꼭 봐야 할 신호'
 date: 2026-04-06
-description: "캔들차트 하나로 추세추종 투자의 핵심을 이해하게 돕는 교양형 해설. 왜 어떤 주식은 미련 없이 나와야 하는지 쉽게 풀어낸다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "캔들차트", "추세추종"]
+description: 캔들차트 하나로 추세추종 투자의 핵심을 이해하게 돕는 교양형 해설. 왜 어떤 주식은 미련 없이 나와야 하는지 쉽게 풀어낸다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 캔들차트
+- 추세추종
+category: deep-dive
 ---
 
 이 글을 읽으면 "저승사자 차트" 같은 강한 표현이 왜 투자자들 사이에서 반복해서 언급되는지, 캔들차트가 단순한 그림이 아니라 수급과 심리의 흔적이라는 점, 그리고 추세추종 투자에서 왜 "좋은 종목 찾기"보다 "나와야 할 때 나오는 것"이 더 중요할 수 있는지 이해하게 됩니다. 복잡한 기술적 분석을 다 외우지 않아도, 최소한 어떤 차트 앞에서 경계심을 높여야 하는지는 훨씬 선명해질 겁니다.

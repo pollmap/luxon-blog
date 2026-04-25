@@ -1,9 +1,17 @@
 ---
-title: "헬레니즘 세계란 무엇인가: 고대 세계화의 탄생"
+title: '헬레니즘 세계란 무엇인가: 고대 세계화의 탄생'
 date: 2026-04-05
-description: "알렉산드로스 이후의 헬레니즘 세계를 제국, 문화 혼합, 도시 네트워크의 관점에서 다시 읽는다. 오늘의 세계화와 닮은 구조까지 짚는다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "헬레니즘", "알렉산드로스"]
+description: 알렉산드로스 이후의 헬레니즘 세계를 제국, 문화 혼합, 도시 네트워크의 관점에서 다시 읽는다. 오늘의 세계화와 닮은 구조까지
+  짚는다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 헬레니즘
+- 알렉산드로스
+category: field
 ---
 
 이 글을 읽으면 헬레니즘 세계를 더 이상 "그리스 문화가 퍼진 시대" 정도로만 보지 않게 됩니다. 알렉산드로스의 정복 이후 왜 지중해와 서아시아, 이집트, 중앙아시아까지 하나의 거대한 문화·정치 네트워크처럼 움직이기 시작했는지, 그 과정에서 누가 중심이 되고 누가 주변으로 밀렸는지, 그리고 그 구조가 오늘 우리가 사는 세계화 질서와 얼마나 닮아 있는지까지 한 번에 보이기 시작합니다.

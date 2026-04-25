@@ -1,9 +1,17 @@
 ---
-title: "문학은 어떻게 역사를 만들었나: Literary Genesis 해설"
+title: '문학은 어떻게 역사를 만들었나: Literary Genesis 해설'
 date: 2026-04-06
-description: "문학을 단순한 기록이 아니라 권력과 문명의 설계도로 읽어냅니다. 고대 서사와 신화가 오늘의 정치·정체성에 남긴 힘을 역사적으로 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "역사해석", "문학과권력"]
+description: 문학을 단순한 기록이 아니라 권력과 문명의 설계도로 읽어냅니다. 고대 서사와 신화가 오늘의 정치·정체성에 남긴 힘을 역사적으로
+  풀어봅니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 역사해석
+- 문학과권력
+category: field
 ---
 
 이 글을 읽으면 문학을 더 이상 "시대 분위기를 담아낸 이야기" 정도로만 보지 않게 됩니다. 왜 어떤 서사와 신화, 경전과 서사시가 단순한 텍스트를 넘어 문명의 기억 장치이자 권력의 설계도가 되었는지, 그리고 고대의 문학적 기원이 오늘날 국가 정체성, 역사 해석, 지정학적 상상력에까지 어떻게 이어지는지 한 번에 감이 잡히게 될 겁니다.

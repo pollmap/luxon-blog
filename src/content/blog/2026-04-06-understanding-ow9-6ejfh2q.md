@@ -1,9 +1,17 @@
 ---
-title: "집에서 늙고 죽는 일, 왜 한국에선 이렇게 비쌀까"
+title: 집에서 늙고 죽는 일, 왜 한국에선 이렇게 비쌀까
 date: 2026-04-06
-description: "돌봄은 복지의 문제가 아니라 거대한 시장의 재편이다. 한국 노인이 집에서 생을 마무리하기 어려운 이유를 돈의 흐름과 산업 구조로 연결해 본다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "경제해설", "시장구조"]
+description: 돌봄은 복지의 문제가 아니라 거대한 시장의 재편이다. 한국 노인이 집에서 생을 마무리하기 어려운 이유를 돈의 흐름과 산업 구조로
+  연결해 본다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 경제해설
+- 시장구조
+category: deep-dive
 ---
 
 # 집에서 늙고 죽는 일, 왜 한국에선 이렇게 비쌀까

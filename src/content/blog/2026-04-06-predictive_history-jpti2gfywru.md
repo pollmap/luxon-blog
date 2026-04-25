@@ -1,9 +1,17 @@
 ---
-title: "초원의 유산: 스텝은 세계사를 어떻게 바꿨나"
+title: '초원의 유산: 스텝은 세계사를 어떻게 바꿨나'
 date: 2026-04-06
-description: "스텝을 주변부 유목 세계가 아니라 유라시아를 움직인 핵심 축으로 읽습니다. 초원의 유산이 제국, 전쟁, 교역, 오늘의 지정학에 남긴 흔적을 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "초원지대", "세계사"]
+description: 스텝을 주변부 유목 세계가 아니라 유라시아를 움직인 핵심 축으로 읽습니다. 초원의 유산이 제국, 전쟁, 교역, 오늘의 지정학에
+  남긴 흔적을 풀어봅니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 초원지대
+- 세계사
+category: field
 ---
 
 이 글을 읽으면 스텝, 즉 유라시아 초원 지대를 더 이상 문명 바깥의 변방이나 약탈자의 통로 정도로만 보지 않게 됩니다. 왜 초원이 수천 년 동안 유라시아의 전쟁 방식, 국가 형성, 교역 네트워크, 민족 이동, 심지어 오늘날 러시아와 중국의 전략 감각까지 깊게 규정해왔는지, 그리고 왜 "정주 문명"의 역사를 이해하려면 반드시 그 바깥에서 밀고 들어오는 초원의 논리를 함께 봐야 하는지 한 번에 감이 잡히게 될 겁니다.

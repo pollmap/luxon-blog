@@ -1,9 +1,18 @@
 ---
-title: "리스크 기반 자동 디레버리징(ADL) — 거래소 손실 최소화 최적 청산 순서"
+title: 리스크 기반 자동 디레버리징(ADL) — 거래소 손실 최소화 최적 청산 순서
 date: 2026-03-28
-description: "ADL을 거래소 손실 최소화 문제로 재정의. 단일자산은 최고 레버리지 우선 청산이 최적, 다중자산 교차마진에서는 팩터 조정 유효 레버리지 기준으로 ADL 순서 결정해야 함."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [crypto, derivatives, ADL, auto-deleveraging, risk-management, exchange, perpetual-futures]
+description: ADL을 거래소 손실 최소화 문제로 재정의. 단일자산은 최고 레버리지 우선 청산이 최적, 다중자산 교차마진에서는 팩터 조정
+  유효 레버리지 기준으로 ADL 순서 결정해야 함.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- crypto
+- derivatives
+- ADL
+- auto-deleveraging
+- risk-management
+- exchange
+- perpetual-futures
+category: deep-dive
 ---
 
 ## 자동 디레버리징(ADL)이란 무엇인가?

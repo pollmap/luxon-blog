@@ -1,9 +1,17 @@
 ---
-title: "인도 15억 명의 부엌이 멈추면 벌어지는 일"
+title: 인도 15억 명의 부엌이 멈추면 벌어지는 일
 date: 2026-04-05
-description: "인도 에너지 위기를 통해 가스, 전력, 물가, 정치가 어떻게 연결되는지 풀어낸다. 왜 에너지 문제는 곧 생활과 국가 안정의 문제인지 이해하게 된다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "인도에너지위기", "LPG"]
+description: 인도 에너지 위기를 통해 가스, 전력, 물가, 정치가 어떻게 연결되는지 풀어낸다. 왜 에너지 문제는 곧 생활과 국가 안정의
+  문제인지 이해하게 된다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 인도에너지위기
+- LPG
+category: deep-dive
 ---
 
 이 글을 읽으면, 인도의 에너지 위기를 단순한 해외 뉴스가 아니라 "왜 에너지가 부족하면 15억 명의 식탁과 국가 운영이 동시에 흔들리는가"라는 구조로 이해하게 됩니다. 가스 한 종류의 가격이 오르는 일이 왜 요리, 물가, 보조금, 산업, 정치 안정까지 줄줄이 건드리는지, 그 연결고리가 한 번에 보이게 될 겁니다.

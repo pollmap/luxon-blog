@@ -1,9 +1,16 @@
 ---
-title: "지하철 옆 땅이 망해도 비결은 ‘교통이 아니라’ 돈의 고정비"
+title: 지하철 옆 땅이 망해도 비결은 ‘교통이 아니라’ 돈의 고정비
 date: 2026-04-07
-description: "지하철 접근성이 유리해 보이는 토지 투자가 실제로 가계를 어떻게 묶는지, 매입부터 매각까지의 돈의 흐름으로 정리했다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "경제해설", "시장"]
+description: 지하철 접근성이 유리해 보이는 토지 투자가 실제로 가계를 어떻게 묶는지, 매입부터 매각까지의 돈의 흐름으로 정리했다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 경제해설
+- 시장
+category: deep-dive
 ---
 
 # 지하철 근처 땅을 살 때 10년이 걸리는 건 거리가 아니라 돈의 회전이다

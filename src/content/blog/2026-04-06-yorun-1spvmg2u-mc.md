@@ -1,9 +1,17 @@
 ---
-title: "테넷 철학 해설: 결정론 속 믿음은 왜 필요한가"
+title: '테넷 철학 해설: 결정론 속 믿음은 왜 필요한가'
 date: 2026-04-06
-description: "영화 테넷을 시간역행 액션이 아니라 결정론과 믿음의 문제로 읽어냅니다. 스포일러 포함 심층 해설로 작품의 철학적 핵심을 쉽게 풀었습니다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "테넷", "영화철학"]
+description: 영화 테넷을 시간역행 액션이 아니라 결정론과 믿음의 문제로 읽어냅니다. 스포일러 포함 심층 해설로 작품의 철학적 핵심을 쉽게
+  풀었습니다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 테넷
+- 영화철학
+category: retro
 ---
 
 이 글을 읽으면 <테넷>을 "복잡한 시간역행 영화" 정도로만 기억하던 상태에서 벗어나게 됩니다. 왜 이 작품이 단순한 퍼즐 영화가 아니라 결정론, 자유의지, 믿음, 그리고 인간이 미래를 알 수 없기 때문에 오히려 행동할 수 있다는 역설을 다루는 철학 영화인지 한 번에 감이 잡히게 될 겁니다.

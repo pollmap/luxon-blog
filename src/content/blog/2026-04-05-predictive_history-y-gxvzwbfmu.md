@@ -1,9 +1,16 @@
 ---
-title: "로마는 문명이었나: 반문명 제국의 불편한 진실"
+title: '로마는 문명이었나: 반문명 제국의 불편한 진실'
 date: 2026-04-05
-description: "로마를 찬란한 문명으로만 보던 시선을 뒤집는다. 로마의 팽창, 질서, 폭력이 왜 오히려 반문명적 구조였는지 현재 의미까지 짚는다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "로마제국", "세계사"]
+description: 로마를 찬란한 문명으로만 보던 시선을 뒤집는다. 로마의 팽창, 질서, 폭력이 왜 오히려 반문명적 구조였는지 현재 의미까지 짚는다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 로마제국
+- 세계사
+category: field
 ---
 
 이 글을 읽으면 로마를 더 이상 "위대한 고대 문명"이라는 익숙한 표지판 하나로만 보지 않게 됩니다. 왜 그렇게 정교한 법과 도로, 군사 체계를 가진 제국이 동시에 반문명적이라는 평가를 받을 수 있는지, 로마의 팽창이 무엇을 만들고 무엇을 파괴했는지, 그리고 그 오래된 제국의 작동 방식이 오늘의 강대국 질서와 어떻게 닮아 있는지까지 한 번에 보이기 시작합니다.

@@ -1,9 +1,17 @@
 ---
-title: "AI는 왜 메모리가 턱없이 부족한가: 구글이 놓친 진짜 문제"
+title: 'AI는 왜 메모리가 턱없이 부족한가: 구글이 놓친 진짜 문제'
 date: 2026-04-05
-description: "AI 성능은 연산량보다 메모리에서 갈린다. 왜 지금보다 수만 배 더 큰 메모리가 필요하다는 말이 나오는지 한국어로 쉽게 풀어낸 심층 해설."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "인공지능", "AI메모리"]
+description: AI 성능은 연산량보다 메모리에서 갈린다. 왜 지금보다 수만 배 더 큰 메모리가 필요하다는 말이 나오는지 한국어로 쉽게 풀어낸
+  심층 해설.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 인공지능
+- AI메모리
+category: deep-dive
 ---
 
 이 글을 읽으면, AI 성능 경쟁의 핵심이 단순히 "더 큰 모델"이나 "더 많은 GPU"가 아니라는 점을 이해하게 됩니다. 왜 어떤 연구자는 구글의 계산이 틀렸다고 말하는지, 왜 진짜 병목은 연산이 아니라 메모리일 수 있는지, 그리고 "수만 배 더 큰 메모리"라는 과격한 표현이 단순한 과장이 아닐 수도 있는지까지 한 번에 잡히게 될 겁니다.

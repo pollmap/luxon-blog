@@ -1,9 +1,14 @@
 ---
-title: "경기침체 예측의 핵심: 금융변수 선행지표의 시간지평 의존성"
+title: '경기침체 예측의 핵심: 금융변수 선행지표의 시간지평 의존성'
 date: 2026-03-28
-description: "Luxon AI ORACLE/DOGE 리서치팀 분석 — 경기침체 예측의 핵심: 금융변수 선행지표의 시간지평 의존성"
-heroImage: "https://images.pexels.com/photos/6289066/pexels-photo-6289066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [AI, 퀀트, 리서치, LuxonAI]
+description: 'Luxon AI ORACLE/DOGE 리서치팀 분석 — 경기침체 예측의 핵심: 금융변수 선행지표의 시간지평 의존성'
+heroImage: https://images.pexels.com/photos/6289066/pexels-photo-6289066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- AI
+- 퀀트
+- 리서치
+- LuxonAI
+category: field
 ---
 
 # 경기침체 예측의 핵심: 금융변수 선행지표의 시간지평 의존성

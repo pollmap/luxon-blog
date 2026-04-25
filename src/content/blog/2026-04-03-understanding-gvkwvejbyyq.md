@@ -1,9 +1,17 @@
 ---
-title: "유가에 속지 마세요, 진짜 폭발은 5개월 뒤에 온다"
+title: 유가에 속지 마세요, 진짜 폭발은 5개월 뒤에 온다
 date: 2026-04-03
-description: "유가가 곧바로 경기와 시장의 방향을 말해준다고 믿기 쉽지만, 진짜 큰 변수는 따로 있을 수 있습니다. 왜 유가가 함정일 수 있는지 쉽게 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "유가", "거시경제"]
+description: 유가가 곧바로 경기와 시장의 방향을 말해준다고 믿기 쉽지만, 진짜 큰 변수는 따로 있을 수 있습니다. 왜 유가가 함정일 수
+  있는지 쉽게 풀어봅니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 유가
+- 거시경제
+category: deep-dive
 ---
 
 # 유가에 속지 마세요, 진짜 폭발은 5개월 뒤에 온다

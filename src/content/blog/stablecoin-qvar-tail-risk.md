@@ -1,9 +1,17 @@
 ---
-title: "스테이블코인 꼬리 위험: QVAR로 밝혀진 알고리즘 vs 법정화폐 담보의 차이"
+title: '스테이블코인 꼬리 위험: QVAR로 밝혀진 알고리즘 vs 법정화폐 담보의 차이'
 date: 2026-03-28
-description: "Cambridge CCAF와 북경대 연구팀이 QVAR 분석으로 알고리즘·크립토 담보 스테이블코인이 극단적 시장 상황에서 위험 증폭자로 전환됨을 입증했습니다."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [스테이블코인, 시스템리스크, QVAR, 꼬리위험, 탈페그, DeFi]
+description: Cambridge CCAF와 북경대 연구팀이 QVAR 분석으로 알고리즘·크립토 담보 스테이블코인이 극단적 시장 상황에서 위험
+  증폭자로 전환됨을 입증했습니다.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 스테이블코인
+- 시스템리스크
+- QVAR
+- 꼬리위험
+- 탈페그
+- DeFi
+category: field
 ---
 
 ## 서론: 모든 스테이블코인이 같은가?

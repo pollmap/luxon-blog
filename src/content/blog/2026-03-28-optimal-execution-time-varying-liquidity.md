@@ -1,9 +1,18 @@
 ---
-title: "시간 가변 유동성 하의 최적 체결 전략 — 가격 조작 방지와 수학적 정칙성"
+title: 시간 가변 유동성 하의 최적 체결 전략 — 가격 조작 방지와 수학적 정칙성
 date: 2026-03-28
-description: "유동성이 시간에 따라 결정론적으로 변하는 환경에서 최적 체결 전략의 존재·유일성 조건과 가격 조작 방지 요건을 분석한 이론 연구 요약."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [crypto, execution, market-impact, liquidity, Almgren-Chriss, optimization, quant]
+description: 유동성이 시간에 따라 결정론적으로 변하는 환경에서 최적 체결 전략의 존재·유일성 조건과 가격 조작 방지 요건을 분석한 이론
+  연구 요약.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- crypto
+- execution
+- market-impact
+- liquidity
+- Almgren-Chriss
+- optimization
+- quant
+category: deep-dive
 ---
 
 ## "최적 체결"이 오히려 가격 조작이 될 수 있다?

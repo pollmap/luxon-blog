@@ -1,9 +1,17 @@
 ---
-title: "영양제가 파는 건 건강이 아니라 ‘불안의 보험’"
+title: 영양제가 파는 건 건강이 아니라 ‘불안의 보험’
 date: 2026-04-07
-description: "영양제 시장의 수익 구조를 지갑의 이동 경로로 쫓아가며, 왜 과학보다 소비 심리가 더 큰 수요를 만들고 산업이 커지는지 금전 흐름 중심으로 볼 수 있다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "경제해설", "시장"]
+description: 영양제 시장의 수익 구조를 지갑의 이동 경로로 쫓아가며, 왜 과학보다 소비 심리가 더 큰 수요를 만들고 산업이 커지는지 금전
+  흐름 중심으로 볼 수 있다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 경제해설
+- 시장
+category: deep-dive
 ---
 
 # 영양제는 왜 팔리는가: 건강보다 돈의 흐름이 먼저 맞다

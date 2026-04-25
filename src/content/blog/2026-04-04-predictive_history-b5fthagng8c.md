@@ -1,9 +1,17 @@
 ---
-title: "악의 수도 — 역사 속 도시는 어떻게 악의 상징이 됐나"
+title: 악의 수도 — 역사 속 도시는 어떻게 악의 상징이 됐나
 date: 2026-04-04
-description: "바빌론에서 모스크바까지, 역사 속 수도들이 어떻게 '악의 수도'라는 낙인을 받았는지 지정학적 구조로 분석합니다. 수도가 악이 되는 메커니즘과 현재적 의미까지."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "지정학역사", "악의수도"]
+description: 바빌론에서 모스크바까지, 역사 속 수도들이 어떻게 '악의 수도'라는 낙인을 받았는지 지정학적 구조로 분석합니다. 수도가 악이
+  되는 메커니즘과 현재적 의미까지.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 지정학역사
+- 악의수도
+category: field
 ---
 
 # 악의 수도 — 역사 속 도시는 어떻게 악의 상징이 됐나

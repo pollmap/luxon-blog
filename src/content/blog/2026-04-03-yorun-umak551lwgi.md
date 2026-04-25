@@ -1,9 +1,17 @@
 ---
-title: "대부 심층해설: 마피아 전쟁보다 더 무서운 진실"
+title: '대부 심층해설: 마피아 전쟁보다 더 무서운 진실'
 date: 2026-04-03
-description: "대부를 단순한 갱스터 영화로 보면 절반만 본 셈입니다. 꼴레오네 가문의 전쟁 뒤에 숨은 권력, 가족, 변질의 구조를 깊이 있게 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "대부", "영화해설"]
+description: 대부를 단순한 갱스터 영화로 보면 절반만 본 셈입니다. 꼴레오네 가문의 전쟁 뒤에 숨은 권력, 가족, 변질의 구조를 깊이 있게
+  풀어봅니다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 대부
+- 영화해설
+category: retro
 ---
 
 # 대부 심층해설: 마피아 전쟁보다 더 무서운 진실

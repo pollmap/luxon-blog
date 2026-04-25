@@ -1,9 +1,15 @@
 ---
-title: "시계열 인과추론의 함정: Double Machine Learning과 시간 구조의 복원"
+title: '시계열 인과추론의 함정: Double Machine Learning과 시간 구조의 복원'
 date: 2026-03-28
-description: "Luxon AI ORACLE/DOGE 리서치팀 분석 — 시계열 인과추론의 함정: Double Machine Learning과 시간 구조의 복원"
-heroImage: "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [크립토, 퀀트, 온체인, 퀀트리서치]
+description: 'Luxon AI ORACLE/DOGE 리서치팀 분석 — 시계열 인과추론의 함정: Double Machine Learning과
+  시간 구조의 복원'
+heroImage: https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 크립토
+- 퀀트
+- 온체인
+- 퀀트리서치
+category: deep-dive
 ---
 
 # 시계열 인과추론의 함정: Double Machine Learning과 시간 구조의 복원

@@ -1,9 +1,16 @@
 ---
-title: "주가 억누르기 꼼수, 정말 끝날까? 한국 증시의 구조를 읽는 법"
+title: 주가 억누르기 꼼수, 정말 끝날까? 한국 증시의 구조를 읽는 법
 date: 2026-04-05
-description: "주가 억누르기 논란이 왜 반복되는지, 공매도·지배구조·유동성 문제가 어떻게 연결되는지 한국 독자 눈높이에서 풀어낸 심층 해설."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "주가억누르기", "공매도"]
+description: 주가 억누르기 논란이 왜 반복되는지, 공매도·지배구조·유동성 문제가 어떻게 연결되는지 한국 독자 눈높이에서 풀어낸 심층 해설.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 주가억누르기
+- 공매도
+category: deep-dive
 ---
 
 이 글을 읽으면, "주가 억누르기"라는 말이 단순한 음모론인지, 아니면 한국 증시가 반복해서 만들어내는 구조적 현상인지 구분할 수 있게 됩니다. 공매도, 유동성, 대주주 의사결정, 시장 신뢰가 어떻게 서로 얽혀 있는지, 그리고 왜 개인투자자들이 늘 비슷한 분노를 느끼는지까지 한 번에 이해하게 될 겁니다.

@@ -1,9 +1,18 @@
 ---
-title: "크립토 LOB 미시구조의 보편성: OFI·스프레드 패턴이 자산 전반에서 동일하다"
+title: '크립토 LOB 미시구조의 보편성: OFI·스프레드 패턴이 자산 전반에서 동일하다'
 date: 2026-03-28
-description: "바르샤바대 연구팀이 5개 크립토 자산의 1초 단위 LOB 데이터를 분석해 OFI·스프레드·VWAP-to-mid 패턴이 시가총액 4개 자릿수 차이에도 불구하고 보편적으로 안정적임을 확인했습니다."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [크립토, LOB, 주문장, 미시구조, OFI, CatBoost, SHAP]
+description: 바르샤바대 연구팀이 5개 크립토 자산의 1초 단위 LOB 데이터를 분석해 OFI·스프레드·VWAP-to-mid 패턴이 시가총액
+  4개 자릿수 차이에도 불구하고 보편적으로 안정적임을 확인했습니다.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 크립토
+- LOB
+- 주문장
+- 미시구조
+- OFI
+- CatBoost
+- SHAP
+category: deep-dive
 ---
 
 ## 서론: 크립토 LOB 신호는 자산을 넘어 이식 가능한가?

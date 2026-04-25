@@ -1,9 +1,17 @@
 ---
-title: "항공유만 유독 비싼 이유: 같은 기름이 다른 가격이 되는 구조"
+title: '항공유만 유독 비싼 이유: 같은 기름이 다른 가격이 되는 구조'
 date: 2026-04-02
-description: "같은 원유에서 나오는데 왜 항공유만 유독 비쌀까? 정제 과정, 수요 구조, 안전 기준, 공급 병목까지 한국 독자 눈높이로 쉽게 풀었습니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "항공유", "국제유가"]
+description: 같은 원유에서 나오는데 왜 항공유만 유독 비쌀까? 정제 과정, 수요 구조, 안전 기준, 공급 병목까지 한국 독자 눈높이로 쉽게
+  풀었습니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 항공유
+- 국제유가
+category: deep-dive
 ---
 
 # 항공유만 유독 비싼 이유: 같은 기름이 다른 가격이 되는 구조

@@ -1,9 +1,14 @@
 ---
-title: "비대칭의 법칙 — 강자와 약자의 게임"
+title: 비대칭의 법칙 — 강자와 약자의 게임
 date: 2026-03-28
-description: "서론: 역사가 반복되지만 이해하지 못하는 이유"
-heroImage: "https://images.pexels.com/photos/20409628/pexels-photo-20409628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [지정학, 게임이론, 역사분석, PredictiveHistory]
+description: '서론: 역사가 반복되지만 이해하지 못하는 이유'
+heroImage: https://images.pexels.com/photos/20409628/pexels-photo-20409628.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 게임이론
+- 역사분석
+- PredictiveHistory
+category: deep-dive
 ---
 
 # 비대칭성의 법칙: 제국의 쇠퇴와 약자의 역설

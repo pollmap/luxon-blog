@@ -1,9 +1,17 @@
 ---
-title: "청동기 붕괴와 자본: 고대 세계는 왜 무너졌나"
+title: '청동기 붕괴와 자본: 고대 세계는 왜 무너졌나'
 date: 2026-04-06
-description: "청동기 시대 붕괴를 침략이 아닌 자본·교역 네트워크 위기의 관점에서 읽습니다. 고대 경제 붕괴가 오늘날 글로벌 공급망과 닮은 지점까지 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "청동기시대붕괴", "고대경제"]
+description: 청동기 시대 붕괴를 침략이 아닌 자본·교역 네트워크 위기의 관점에서 읽습니다. 고대 경제 붕괴가 오늘날 글로벌 공급망과 닮은
+  지점까지 풀어봅니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 청동기시대붕괴
+- 고대경제
+category: field
 ---
 
 이 글을 읽으면 청동기 시대 붕괴를 더 이상 "어느 날 야만족이 쳐들어와 고대 문명이 끝났다"는 식으로 보지 않게 됩니다. 왜 고대 동지중해 세계가 사실상 하나의 연결된 경제권처럼 움직였는지, 그 안에서 자본과 궁정 권력, 장거리 교역이 어떤 방식으로 얽혀 있었는지, 그리고 왜 그 정교한 시스템이 외부 충격보다 내부의 연결 과잉 때문에 더 치명적으로 무너졌는지 한 번에 감이 잡히게 될 겁니다.

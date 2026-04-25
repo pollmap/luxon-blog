@@ -1,9 +1,17 @@
 ---
-title: "조던 피터슨 맵스 오브 미닝: 혼란 속에서 의미를 찾는 법"
+title: '조던 피터슨 맵스 오브 미닝: 혼란 속에서 의미를 찾는 법'
 date: 2026-04-05
-description: "조던 피터슨의 Maps of Meaning 강의를 바탕으로, 인간이 질서와 혼돈 사이에서 어떻게 의미를 만들고 삶을 지탱하는지 심리학·철학 관점에서 정리했다."
-heroImage: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["심리학", "철학", "Jordan Peterson", "자기계발", "조던피터슨", "MapsOfMeaning"]
+description: 조던 피터슨의 Maps of Meaning 강의를 바탕으로, 인간이 질서와 혼돈 사이에서 어떻게 의미를 만들고 삶을 지탱하는지
+  심리학·철학 관점에서 정리했다.
+heroImage: https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 심리학
+- 철학
+- Jordan Peterson
+- 자기계발
+- 조던피터슨
+- MapsOfMeaning
+category: deep-dive
 ---
 
 이 글을 읽으면 조던 피터슨이 말하는 "의미"를 막연한 위로나 감성적 단어가 아니라, 인간이 혼란 속에서도 무너지지 않기 위해 만들어내는 심리적 지도처럼 이해하게 됩니다. 왜 그는 신화, 종교, 이야기, 도덕, 개인의 책임을 한 줄로 엮으려 하는지, 그리고 그 거대한 프레임이 오늘 우리의 불안, 방향 상실, 자기계발 피로와 어떻게 연결되는지도 함께 잡히게 됩니다.

@@ -1,9 +1,17 @@
 ---
-title: "트럼프 월드오더: 미국은 왜 제국 대신 거래를 택했나"
+title: '트럼프 월드오더: 미국은 왜 제국 대신 거래를 택했나'
 date: 2026-04-02
-description: "트럼프식 세계질서를 지정학과 역사 맥락으로 풀어낸 심층 분석. 미국 패권, 동맹, 관세, 협상의 본질을 한국 독자 시각에서 재해석합니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "트럼프", "지정학"]
+description: 트럼프식 세계질서를 지정학과 역사 맥락으로 풀어낸 심층 분석. 미국 패권, 동맹, 관세, 협상의 본질을 한국 독자 시각에서
+  재해석합니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 트럼프
+- 지정학
+category: field
 ---
 
 # 트럼프 월드오더: 미국은 왜 제국 대신 거래를 택했나

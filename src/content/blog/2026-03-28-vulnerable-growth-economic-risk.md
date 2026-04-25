@@ -1,9 +1,14 @@
 ---
-title: "금융 조건의 비대칭성과 성장-위험: 거시경제 예측의 새로운 패러다임"
+title: '금융 조건의 비대칭성과 성장-위험: 거시경제 예측의 새로운 패러다임'
 date: 2026-03-28
-description: "Luxon AI ORACLE/DOGE 리서치팀 분석 — 금융 조건의 비대칭성과 성장-위험: 거시경제 예측의 새로운 패러다임"
-heroImage: "https://images.pexels.com/photos/11391951/pexels-photo-11391951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [퀀트, 금융수학, 매크로경제, 퀀트리서치]
+description: 'Luxon AI ORACLE/DOGE 리서치팀 분석 — 금융 조건의 비대칭성과 성장-위험: 거시경제 예측의 새로운 패러다임'
+heroImage: https://images.pexels.com/photos/11391951/pexels-photo-11391951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 퀀트
+- 금융수학
+- 매크로경제
+- 퀀트리서치
+category: deep-dive
 ---
 
 # 금융 불안정성이 경제성장을 어떻게 왜곡하는가: Adrian et al.의 '취약한 성장' 연구

@@ -1,9 +1,16 @@
 ---
-title: "테슬라와 스페이스X, 결국 한 몸이 될까"
+title: 테슬라와 스페이스X, 결국 한 몸이 될까
 date: 2026-04-03
-description: "테슬라를 자동차 회사로만 보면 큰 그림을 놓칩니다. 스페이스X 상장 가능성과 머스크 제국의 재편 시나리오를 쉽게 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "테슬라", "스페이스X"]
+description: 테슬라를 자동차 회사로만 보면 큰 그림을 놓칩니다. 스페이스X 상장 가능성과 머스크 제국의 재편 시나리오를 쉽게 풀어봅니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 테슬라
+- 스페이스X
+category: deep-dive
 ---
 
 # 테슬라와 스페이스X, 결국 한 몸이 될까

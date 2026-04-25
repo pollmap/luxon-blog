@@ -1,9 +1,17 @@
 ---
-title: "박정희가 14년 마신 막걸리, 왜 역사에서 사라졌나"
+title: 박정희가 14년 마신 막걸리, 왜 역사에서 사라졌나
 date: 2026-04-03
-description: "막걸리는 서민술이라는 통념을 뒤집고, 한 대통령이 오래 마신 술이 왜 잊혔는지 통해 한국 전통주의 역사·브랜드·기억의 구조를 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "막걸리", "전통주"]
+description: 막걸리는 서민술이라는 통념을 뒤집고, 한 대통령이 오래 마신 술이 왜 잊혔는지 통해 한국 전통주의 역사·브랜드·기억의 구조를
+  풀어봅니다.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 막걸리
+- 전통주
+category: deep-dive
 ---
 
 # 박정희가 14년 마신 막걸리, 왜 아무도 몰랐을까

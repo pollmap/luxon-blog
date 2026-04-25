@@ -1,9 +1,17 @@
 ---
-title: "우주의 비밀은 왜 고전에서 먼저 보이는가"
+title: 우주의 비밀은 왜 고전에서 먼저 보이는가
 date: 2026-04-03
-description: "우주의 비밀은 최신 과학 뉴스만으로 보이지 않습니다. 위대한 고전을 통해 인간이 세계를 이해해온 방식과 지금 우리에게 남는 의미를 풀어봅니다."
-heroImage: "https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지정학", "역사", "PredictiveHistory", "국제정치", "고전읽기", "문명사"]
+description: 우주의 비밀은 최신 과학 뉴스만으로 보이지 않습니다. 위대한 고전을 통해 인간이 세계를 이해해온 방식과 지금 우리에게 남는
+  의미를 풀어봅니다.
+heroImage: https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지정학
+- 역사
+- PredictiveHistory
+- 국제정치
+- 고전읽기
+- 문명사
+category: field
 ---
 
 # 우주의 비밀은 왜 고전에서 먼저 보이는가

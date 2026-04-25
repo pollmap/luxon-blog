@@ -1,9 +1,16 @@
 ---
-title: "월 300만원으로 1년에 6개월 해외여행하는 법"
+title: 월 300만원으로 1년에 6개월 해외여행하는 법
 date: 2026-03-29
-description: "월급의 절반으로 해외여행을 지속 가능하게 만드는 실질적인 전략. 통념과 다른 여행 자금 관리법을 배워보세요."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "해외여행", "자금관리"]
+description: 월급의 절반으로 해외여행을 지속 가능하게 만드는 실질적인 전략. 통념과 다른 여행 자금 관리법을 배워보세요.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 해외여행
+- 자금관리
+category: deep-dive
 ---
 
 # 월 300만원으로 1년에 6개월 해외여행하는 법

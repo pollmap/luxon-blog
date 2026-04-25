@@ -1,9 +1,17 @@
 ---
-title: "고통을 건너는 5가지 행동 프레임, 페이월 조언 정리"
+title: 고통을 건너는 5가지 행동 프레임, 페이월 조언 정리
 date: 2026-04-08
-description: "감정 관리의 한계를 넘어서 위기 대응을 실제 행동 규칙으로 바꾸는 방법을 다룬다. 페이월 조언을 일상 루틴으로 연결해 회복탄력성과 자기 통제력을 동시에 키우는 포인트를 정리한다."
-heroImage: "https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["심리학", "철학", "Jordan Peterson", "자기계발", "자기계발", "심리학"]
+description: 감정 관리의 한계를 넘어서 위기 대응을 실제 행동 규칙으로 바꾸는 방법을 다룬다. 페이월 조언을 일상 루틴으로 연결해 회복탄력성과
+  자기 통제력을 동시에 키우는 포인트를 정리한다.
+heroImage: https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 심리학
+- 철학
+- Jordan Peterson
+- 자기계발
+- 자기계발
+- 심리학
+category: deep-dive
 ---
 
 # 5분에 끝나는 처방이 아니라, 하루를 바꾸는 규칙으로 가는 길

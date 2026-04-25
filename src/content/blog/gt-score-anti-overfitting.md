@@ -1,9 +1,17 @@
 ---
-title: "GT-Score: 과적합을 목적함수로 막는 트레이딩 전략 최적화"
+title: 'GT-Score: 과적합을 목적함수로 막는 트레이딩 전략 최적화'
 date: 2026-03-28
-description: "Sheppert의 GT-Score는 샤프 비율 대신 통계적 유의성·일관성·하방편차를 동시에 충족하는 목적함수로 98% 이상의 일반화 비율 개선을 달성합니다."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [백테스팅, 과적합방지, 목적함수, 워크포워드, 신호검증, 퀀트]
+description: Sheppert의 GT-Score는 샤프 비율 대신 통계적 유의성·일관성·하방편차를 동시에 충족하는 목적함수로 98% 이상의
+  일반화 비율 개선을 달성합니다.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 백테스팅
+- 과적합방지
+- 목적함수
+- 워크포워드
+- 신호검증
+- 퀀트
+category: deep-dive
 ---
 
 ## 서론: 백테스팅의 원죄 — 과적합

@@ -1,9 +1,17 @@
 ---
-title: "제노모프는 괴물이 아니라 진화의 알람이었다"
+title: 제노모프는 괴물이 아니라 진화의 알람이었다
 date: 2026-04-08
-description: "요런시점 감성으로 『에이리언 로물루스』의 괴수를 해부하면, 공포 연출 뒤에 숨은 생존 논리와 폭풍 같은 성장이 어떻게 제작의 핵심 장치로 돌아왔는지 정리된다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "영화해석", "요런시점"]
+description: 요런시점 감성으로 『에이리언 로물루스』의 괴수를 해부하면, 공포 연출 뒤에 숨은 생존 논리와 폭풍 같은 성장이 어떻게 제작의
+  핵심 장치로 돌아왔는지 정리된다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 영화해석
+- 요런시점
+category: retro
 ---
 
 # 제노모프는 괴물이 아니라 진화의 알람이다

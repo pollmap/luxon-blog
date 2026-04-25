@@ -1,8 +1,13 @@
 ---
-title: "AI 퀀트 시스템을 오픈소스로 공개하는 이유"
+title: AI 퀀트 시스템을 오픈소스로 공개하는 이유
 date: 2026-04-08
-description: "Luxon AI의 4개 GitHub 레포와 오픈소스 철학"
-tags: ["오픈소스", "AI", "퀀트", "Luxon"]
+description: Luxon AI의 4개 GitHub 레포와 오픈소스 철학
+tags:
+- 오픈소스
+- AI
+- 퀀트
+- Luxon
+category: building
 ---
 
 ## 왜 오픈소스인가

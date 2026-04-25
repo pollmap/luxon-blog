@@ -1,9 +1,17 @@
 ---
-title: "로한과 곤도르의 진짜 관계, 제3시대 역사 해부"
+title: 로한과 곤도르의 진짜 관계, 제3시대 역사 해부
 date: 2026-04-05
-description: "《로히림의 전쟁》을 더 깊게 보기 위해 꼭 알아야 할 로한과 곤도르의 제3시대 역사를 정리했다. 두 왕국의 동맹, 균열, 운명을 심층 해설한다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "반지의제왕", "로히림의전쟁"]
+description: 《로히림의 전쟁》을 더 깊게 보기 위해 꼭 알아야 할 로한과 곤도르의 제3시대 역사를 정리했다. 두 왕국의 동맹, 균열, 운명을
+  심층 해설한다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 반지의제왕
+- 로히림의전쟁
+category: retro
 ---
 
 ⚠️ **스포일러 경고**: 이 글에는 《반지의 제왕》 세계관의 주요 역사, 로한과 곤도르의 관계, 그리고 《로히림의 전쟁》을 깊게 이해하는 데 필요한 설정 스포일러가 포함되어 있습니다.

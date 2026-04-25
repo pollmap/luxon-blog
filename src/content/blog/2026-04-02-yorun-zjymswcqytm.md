@@ -1,9 +1,17 @@
 ---
-title: "고스트 오브 요테이, 영화보다 더 영화 같은 이유"
+title: 고스트 오브 요테이, 영화보다 더 영화 같은 이유
 date: 2026-04-02
-description: "『고스트 오브 요테이』를 30시간 선플레이 관점에서 풀어낸 심층 리뷰. 왜 이 게임이 단순한 오픈월드가 아니라 '시네마'로 기억되는지 스포일러와 함께 읽어봅니다."
-heroImage: "https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["영화", "리뷰", "요런시점", "작품분석", "고스트오브요테이", "게임리뷰"]
+description: 『고스트 오브 요테이』를 30시간 선플레이 관점에서 풀어낸 심층 리뷰. 왜 이 게임이 단순한 오픈월드가 아니라 '시네마'로
+  기억되는지 스포일러와 함께 읽어봅니다.
+heroImage: https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 영화
+- 리뷰
+- 요런시점
+- 작품분석
+- 고스트오브요테이
+- 게임리뷰
+category: retro
 ---
 
 # 고스트 오브 요테이, 영화보다 더 영화 같은 이유

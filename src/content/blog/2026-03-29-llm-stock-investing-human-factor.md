@@ -1,9 +1,16 @@
 ---
-title: "LLM에게 주식 분석 맡기면 안 되는 이유 — 인간의 역할이 사라지지 않는다"
+title: LLM에게 주식 분석 맡기면 안 되는 이유 — 인간의 역할이 사라지지 않는다
 date: 2026-03-29
-description: "4개 LLM과 3가지 프롬프팅 방식으로 주식 투자 추천을 비교한 연구. 사람 감독 없는 LLM 분석은 할루시네이션·오래된 정보·도메인 오류로 오염된다. 올바른 워크플로우가 뭔지 알려준다."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [LLM, 주식투자, AI금융, 할루시네이션, 퀀트워크플로우]
+description: 4개 LLM과 3가지 프롬프팅 방식으로 주식 투자 추천을 비교한 연구. 사람 감독 없는 LLM 분석은 할루시네이션·오래된 정보·도메인
+  오류로 오염된다. 올바른 워크플로우가 뭔지 알려준다.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- LLM
+- 주식투자
+- AI금융
+- 할루시네이션
+- 퀀트워크플로우
+category: field
 ---
 
 LLM한테 "이 종목 어때?"라고 물어보고 싶은 충동이 있다면, 이 글이 그 충동을 제어하는 방법을 알려줄 것이다. 도구 자체가 나쁜 게 아니다. **워크플로우가 없으면 나쁜 결과가 나온다**는 거다.

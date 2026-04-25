@@ -1,9 +1,17 @@
 ---
-title: "극단 감정 레짐과 역선택 — 크립토 시장의 극단성 프리미엄"
+title: 극단 감정 레짐과 역선택 — 크립토 시장의 극단성 프리미엄
 date: 2026-03-28
-description: "공포지수 극단 구간(공포/탐욕 모두)에서 크립토 스프레드가 중립 구간보다 유의미하게 확대됨. 감정 방향이 아닌 감정 강도가 유동성 철수를 유발."
-heroImage: "https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: [crypto, sentiment, adverse-selection, spread, microstructure, Fear-Greed-Index]
+description: 공포지수 극단 구간(공포/탐욕 모두)에서 크립토 스프레드가 중립 구간보다 유의미하게 확대됨. 감정 방향이 아닌 감정 강도가
+  유동성 철수를 유발.
+heroImage: https://images.pexels.com/photos/8919551/pexels-photo-8919551.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- crypto
+- sentiment
+- adverse-selection
+- spread
+- microstructure
+- Fear-Greed-Index
+category: deep-dive
 ---
 
 ## "공포"도 "탐욕"도 스프레드를 넓힌다?

@@ -1,9 +1,16 @@
 ---
-title: "중국 로봇이 한국 공장을 빼앗는다는 말의 진짜 뜻"
+title: 중국 로봇이 한국 공장을 빼앗는다는 말의 진짜 뜻
 date: 2026-04-05
-description: "중국 로봇 산업의 급성장이 왜 한국 제조업의 공장, 일자리, 경쟁력 문제로 이어지는지 핵심 구조만 뽑아 쉽게 설명한 심층 해설."
-heroImage: "https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-tags: ["지식", "교양", "Understanding", "인문학", "중국로봇", "한국제조업"]
+description: 중국 로봇 산업의 급성장이 왜 한국 제조업의 공장, 일자리, 경쟁력 문제로 이어지는지 핵심 구조만 뽑아 쉽게 설명한 심층 해설.
+heroImage: https://images.pexels.com/photos/256455/pexels-photo-256455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+tags:
+- 지식
+- 교양
+- Understanding
+- 인문학
+- 중국로봇
+- 한국제조업
+category: deep-dive
 ---
 
 이 글을 읽으면, "중국 로봇이 한국 공장을 빼앗는다"는 말이 자극적인 헤드라인이 아니라 제조업 경쟁의 판이 어떻게 바뀌고 있는지 읽는 문장으로 보이게 됩니다. 왜 로봇 경쟁이 단순히 기술 뉴스가 아니라 공장 입지, 원가 구조, 일자리, 수출 경쟁력의 문제인지, 그리고 한국이 어디서부터 압박을 받는지도 한 번에 이해하게 될 겁니다.
