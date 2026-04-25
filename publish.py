@@ -105,6 +105,82 @@ def _grep_ban_check(text: str, source_hint: str = "content") -> None:
         sys.exit(1)
 
 
+# ----------------------------------------------------------------------
+# Layer 2 — CC BY-NC-ND citation format check (advisory)
+#
+# When a post references the equity-research-book repo or 『한국 시장 실전
+# 기업분석』, recommend the CC BY-NC-ND-safe quotation format:
+#   - blockquote prefix `> 인용:` or `> 인용 —`
+#   - original source link
+#   - quotation 3 sentences or fewer
+#
+# Layer 2 emits a warning to stderr but does NOT exit. The author can choose
+# to publish anyway (e.g., the reference is not a quotation).
+# ----------------------------------------------------------------------
+_BOOK_REFERENCE_PATTERN = re.compile(
+    r"(?:github\.com/pollmap/equity-research-book"
+    r"|pollmap\.github\.io/equity-research-book"
+    r"|『한국 시장 실전 기업분석』)"
+)
+_BLOCKQUOTE_LINE_PATTERN = re.compile(r"^>\s*(.+?)$", re.MULTILINE)
+
+
+def _check_cc_citation(content: str) -> None:
+    """CC BY-NC-ND 권고 형식 안내. abort 하지 않음 (advisory)."""
+    if not _BOOK_REFERENCE_PATTERN.search(content):
+        return  # no book reference; nothing to check
+
+    blockquote_lines = _BLOCKQUOTE_LINE_PATTERN.findall(content)
+    has_citation_marker = any(
+        line.lstrip().startswith("인용") for line in blockquote_lines
+    )
+
+    if not has_citation_marker:
+        print(
+            "[CC-ADVISORY] equity-research-book 참조 감지됨.",
+            file=sys.stderr,
+        )
+        print(
+            "  CC BY-NC-ND 권고 형식: blockquote 시작에 '인용:' 또는 '인용 —' "
+            "prefix + 원본 링크 + 3문장 이하.",
+            file=sys.stderr,
+        )
+        print(
+            "  현재 글이 인용이 아니라 단순 참조라면 무시해도 됩니다.",
+            file=sys.stderr,
+        )
+
+
+# ----------------------------------------------------------------------
+# Layer 3 — frontmatter category 강제
+#
+# v2 Devlog 5 카테고리(intent axis) 중 하나로 분류. 미입력 시 안내, 잘못된
+# 값이면 sys.exit(1). content.config.ts의 enum과 정확히 일치해야 한다.
+# ----------------------------------------------------------------------
+_VALID_CATEGORIES = frozenset({"building", "field", "failure", "deep-dive", "retro"})
+
+
+def _validate_category(category: str | None) -> str | None:
+    """category 검증. 미입력 = None 반환(허용), 잘못된 값 = exit(1)."""
+    if category is None or category == "":
+        print(
+            "[CATEGORY] --category not set. Post will publish without category.",
+            file=sys.stderr,
+        )
+        print(
+            f"  Valid options: {sorted(_VALID_CATEGORIES)}", file=sys.stderr
+        )
+        return None
+    if category not in _VALID_CATEGORIES:
+        print(
+            f"[ERROR] invalid --category '{category}'. "
+            f"Must be one of: {sorted(_VALID_CATEGORIES)}",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+    return category
+
+
 def _assemble_unsafe_samples() -> list[tuple[str, str]]:
     """
     Self-test용 unsafe 문자열 런타임 조립.
@@ -167,6 +243,54 @@ def _run_self_test() -> None:
             print(f"  FAIL: unsafe '{expected_label}' did NOT trigger exit")
             sys.exit(2)
 
+    # 3) Layer 2 — CC 인용 advisory: 책 참조만 있고 인용 prefix 없으면 stderr 경고
+    print("Running Layer 2 (CC citation advisory) self-test...")
+    sample_with_book_no_citation = (
+        "이 글은 github.com/pollmap/equity-research-book 에서 영감을 받았다."
+    )
+    sample_with_book_and_citation = (
+        "참고: github.com/pollmap/equity-research-book\n\n"
+        "> 인용: 기업분석은 숫자에서 시작한다."
+    )
+    sample_no_book = "그냥 일반 본문."
+    # 함수가 SystemExit를 던지지 않아야 한다 (advisory only)
+    for label, sample in [
+        ("book-no-citation", sample_with_book_no_citation),
+        ("book-with-citation", sample_with_book_and_citation),
+        ("no-book-ref", sample_no_book),
+    ]:
+        try:
+            _check_cc_citation(sample)
+            print(f"  PASS: cc-advisory '{label}' did not abort")
+        except SystemExit:
+            print(f"  FAIL: cc-advisory '{label}' aborted unexpectedly")
+            sys.exit(2)
+
+    # 4) Layer 3 — category 검증
+    print("Running Layer 3 (category validation) self-test...")
+    valid_cases = [None, "", "building", "field", "deep-dive", "retro", "failure"]
+    for c in valid_cases:
+        try:
+            _validate_category(c)
+        except SystemExit:
+            print(f"  FAIL: valid category '{c}' aborted")
+            sys.exit(2)
+    print(f"  PASS: {len(valid_cases)} valid categories accepted")
+
+    invalid_cases = ["random", "BUILDING", "deep_dive", "build"]
+    for c in invalid_cases:
+        try:
+            _validate_category(c)
+        except SystemExit as e:
+            if e.code == 1:
+                continue
+            print(f"  FAIL: invalid category '{c}' wrong exit code {e.code}")
+            sys.exit(2)
+        else:
+            print(f"  FAIL: invalid category '{c}' did NOT abort")
+            sys.exit(2)
+    print(f"  PASS: {len(invalid_cases)} invalid categories rejected")
+
     print("All self-tests passed.")
 
 
@@ -202,11 +326,18 @@ def publish(
     content: str,
     tags: list | None = None,
     image_query: str | None = None,
+    category: str | None = None,
 ) -> str:
     # Layer 1 — 커밋 전 보안 grep ban (최우선)
     _grep_ban_check(title, "title")
     _grep_ban_check(slug, "slug")
     _grep_ban_check(content, "content")
+
+    # Layer 2 — CC BY-NC-ND citation format (advisory; does not abort)
+    _check_cc_citation(content)
+
+    # Layer 3 — frontmatter category 검증
+    category = _validate_category(category)
 
     today = datetime.now().strftime("%Y-%m-%d")
     tags = tags or ["AI", "Luxon"]
@@ -217,18 +348,20 @@ def publish(
     if hero_image:
         print(f"이미지: {hero_image[:60]}...")
 
-    # 마크다운 파일 생성
+    # 마크다운 파일 생성 (frontmatter는 list 조립으로 빈 줄 방지)
     tags_str = "[" + ", ".join(tags) + "]"
     blog_url = f"https://pollmap.github.io/luxon-blog/blog/{today}-{slug}/"
-    frontmatter = f"""---
-title: "{title}"
-date: {today}
-description: "{title}"
-{"heroImage: " + chr(34) + hero_image + chr(34) if hero_image else ""}
-tags: {tags_str}
----
-
-"""
+    fm_lines = [
+        f'title: "{title}"',
+        f"date: {today}",
+        f'description: "{title}"',
+    ]
+    if hero_image:
+        fm_lines.append(f'heroImage: "{hero_image}"')
+    fm_lines.append(f"tags: {tags_str}")
+    if category:
+        fm_lines.append(f"category: {category}")
+    frontmatter = "---\n" + "\n".join(fm_lines) + "\n---\n\n"
     # 출처 섹션 자동 추가
     if (
         "📺 원본" not in content
@@ -268,7 +401,13 @@ tags: {tags_str}
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Luxon AI 블로그 발행 스크립트 (v2.1, Layer 1 grep ban 포함)"
+        description=(
+            "Luxon AI 블로그 발행 스크립트 (v2.2)\n"
+            "  Layer 1: grep ban (보안 패턴 차단)\n"
+            "  Layer 2: CC BY-NC-ND 인용 형식 안내 (advisory)\n"
+            "  Layer 3: frontmatter category 검증"
+        ),
+        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument("--title", required=False, help="포스트 제목")
     parser.add_argument("--slug", required=False, help="URL slug (영문 권장)")
@@ -276,9 +415,15 @@ if __name__ == "__main__":
     parser.add_argument("--tags", default="AI,Luxon", help="쉼표 구분 태그")
     parser.add_argument("--image", default="", help="Pexels 이미지 검색 쿼리")
     parser.add_argument(
+        "--category",
+        default=None,
+        choices=sorted(_VALID_CATEGORIES),
+        help="v2 Devlog 카테고리 (intent axis). 미입력 시 미설정으로 발행.",
+    )
+    parser.add_argument(
         "--self-test",
         action="store_true",
-        help="Layer 1 (grep ban) 동작 self-test 실행 후 종료",
+        help="Layer 1-3 동작 self-test 실행 후 종료",
     )
     args = parser.parse_args()
 
@@ -291,4 +436,11 @@ if __name__ == "__main__":
 
     content = args.content or sys.stdin.read()
     tags = [t.strip() for t in args.tags.split(",")]
-    publish(args.title, args.slug, content, tags, args.image or None)
+    publish(
+        args.title,
+        args.slug,
+        content,
+        tags,
+        args.image or None,
+        category=args.category,
+    )
