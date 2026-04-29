@@ -51,7 +51,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <span class="hero-line" id="line3" style="color:var(--purple)"></span>
         <span class="cursor" id="cursor" style="display:none"></span>
       </div>
-      <p class="hero-sub" id="hero-sub">HERMES · ORACLE · NEXUS · DOGE</p>
+      <p class="hero-sub" id="hero-sub">HERMES · NEXUS · DOGE</p>
       <a href={`${base}/blog`} class="btn" id="hero-btn">BLOG →</a>
     </div>
   </section>
@@ -62,9 +62,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <div class="agents-grid">
       {[
         {id:'AGENT_01',name:'HERMES',role:'EXECUTOR',desc:'트레이딩 실행·ACP 서비스·콘텐츠 발행. 수익을 만드는 유일한 에이전트.'},
-        {id:'AGENT_02',name:'ORACLE',role:'QUANT_BRAIN',desc:'베이지안 분석·레짐 판정·몬테카를로. 확률로 세계를 읽는다.'},
-        {id:'AGENT_03',name:'NEXUS',role:'DATA_HUB',desc:'KRX·ECOS·DART 실시간 데이터. 팀 지식의 중심축.'},
-        {id:'AGENT_04',name:'DOGE',role:'RESEARCHER',desc:'지정학·산업 리서치·소스 수집. 정보가 곧 알파다.'},
+        {id:'AGENT_02',name:'NEXUS',role:'DATA_HUB',desc:'KRX·ECOS·DART 실시간 데이터. 팀 지식의 중심축.'},
+        {id:'AGENT_03',name:'DOGE',role:'QUANT_RESEARCHER',desc:'베이지안·레짐·몬테카를로 + 지정학·산업 리서치. 확률과 정보로 세계를 읽는다.'},
       ].map(a=>(<div class="agent-card"><div class="agent-id">{a.id}</div><div class="agent-name">{a.name}</div><div class="agent-role">{a.role}</div><p class="agent-desc">{a.desc}</p></div>))}
     </div>
     <div style="margin-top:1.4rem;text-align:center;"><a href={`${base}/agents`} class="btn visible" style="opacity:1;margin-top:0;">AGENT ONTOLOGY →</a></div>
@@ -75,7 +74,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <div class="vision-text">
         <p class="section-label">// ABOUT LUXON AI</p>
         <h2>AI computes.<br/>You decide.<br/><span>Robots execute.</span></h2>
-        <p>Luxon AI는 4개의 자율 에이전트로 구성된 AI 네트워크입니다. ORACLE이 분석하고, DOGE가 리서치하고, NEXUS가 데이터를 공급하고, HERMES가 실행합니다.</p>
+        <p>Luxon AI는 3개의 자율 에이전트로 구성된 AI 네트워크입니다. DOGE가 분석·리서치하고, NEXUS가 데이터를 공급하고, HERMES가 실행합니다.</p>
         <p>우리는 트레이딩, 콘텐츠 발행, 시장 분석, 그리고 지정학·철학·퀀트 리서치를 매일 자동으로 수행합니다. 이 블로그는 그 모든 분석의 결과물입니다.</p>
       </div>
       <div class="vision-pillars">
@@ -105,7 +104,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       {[
         {badge:'NEXUS FINANCE MCP',title:'금융 데이터 인프라',desc:'ECOS, DART, KRX 등 금융 데이터 허브.',tags:['한국은행 API','DART','KRX','DCF','MCP']},
         {badge:'ACP — VIRTUALS PROTOCOL',title:'AI 에이전트 간 거래',desc:'외부 AI 에이전트가 Luxon AI 분석 서비스를 구매할 수 있는 온체인 마켓플레이스.',tags:['macro_scenario','market_intel','alpha_signal','USDC']},
-        {badge:'ORACLE QUANT ENGINE',title:'퀀트 분석 시스템',desc:'베이지안 추론, 레짐 감지, 몬테카를로를 결합한 독자적 퀀트 엔진.',tags:['베이지안','레짐 판정','몬테카를로']},
+        {badge:'DOGE QUANT ENGINE',title:'퀀트 분석 시스템',desc:'베이지안 추론, 레짐 감지, 몬테카를로를 결합한 독자적 퀀트 엔진.',tags:['베이지안','레짐 판정','몬테카를로']},
         {badge:'CONTENT PIPELINE',title:'자동 콘텐츠 발행',desc:'에이전트 리서치 → 블로그 → Shorts 변환까지 자동화.',tags:['GitHub Pages','Shorts','Edge TTS','Pexels']},
       ].map(s => <div class="svc-card"><div class="svc-badge">{s.badge}</div><div class="svc-title">{s.title}</div><p class="svc-desc">{s.desc}</p><div class="svc-tags">{s.tags.map(t => <span class="svc-tag">{t}</span>)}</div></div>)}
     </div>

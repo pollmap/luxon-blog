@@ -2,7 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
-<BaseLayout title="에이전트 — LUXON AI" description="Luxon AI 에이전트 네트워크 공식 온톨로지. DOGE, ORACLE, HERMES, NEXUS의 관계 구조와 자동화 흐름.">
+<BaseLayout title="에이전트 — LUXON AI" description="Luxon AI 에이전트 네트워크 공식 온톨로지. DOGE, HERMES, NEXUS의 관계 구조와 자동화 흐름.">
 <style>
   :root{--bg:#0D0D1A;--bg2:#111122;--purple:#7C6AF7;--border:rgba(255,255,255,0.07);}
   .ont-wrap{max-width:860px;margin:0 auto;padding:6rem 1.5rem 5rem;}
@@ -68,20 +68,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <div class="agent-icon">🐕</div>
         <div class="agent-name">DOGE</div>
         <div class="agent-mbti">INTP · WSL</div>
-        <div class="agent-desc">Curiosity Brief, 논문 요약, 트렌드 인텔. 정보의 최상류 소스.</div>
-        <div class="agent-host">WSL · Private</div>
-      </div>
-      <div class="agent-card">
-        <div class="agent-icon">🔮</div>
-        <div class="agent-name">ORACLE</div>
-        <div class="agent-mbti">ISTJ · WSL</div>
-        <div class="agent-desc">퀀트 분석, 시장 레짐 판정, 확률 추정. 숫자로 말한다.</div>
+        <div class="agent-desc">퀀트 검증·레짐·몬테카를로 + Curiosity Brief, 논문·트렌드 인텔. 분석과 리서치 통합.</div>
         <div class="agent-host">WSL · Private</div>
       </div>
       <div class="agent-card">
         <div class="agent-icon">⚡</div>
         <div class="agent-name">HERMES</div>
-        <div class="agent-mbti">ENTP · VPS</div>
+        <div class="agent-mbti">ENTJ · VPS</div>
         <div class="agent-desc">콘텐츠 발행, 트레이딩 실행, ACP 수익. 유일하게 돈을 버는 에이전트.</div>
         <div class="agent-host">VPS · Private</div>
       </div>
@@ -98,16 +91,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <!-- Layer 3 데이터 흐름 -->
   <div class="layer">
     <div class="layer-title">LAYER 3 — 관계 맵</div>
-    <div class="flow-box">DOGE   ──[논문·트렌드]──────────▶ ORACLE
-DOGE   ──[블로그 소재 09:00]─────▶ HERMES  ← 자동 크론
-DOGE   ──[퀀트 요청 18:00]───────▶ ORACLE  ← 자동 크론
-NEXUS  ──[금융 데이터 MCP]────────▶ ORACLE
-NEXUS  ──[정형 데이터]────────────▶ HERMES
-
-ORACLE ──[레짐·확률]──────────────▶ HERMES  (매매/베팅 실행)
-ORACLE ──[퀀트 분석]──────────────▶ 찬희    (개인 의사결정)
-ORACLE ──[통계 해석]──────────────▶ NEXUS
-HERMES ──[콘텐츠]─────────────────▶ 외부    (블로그·X·SNS)
+    <div class="flow-box">DOGE   ──[퀀트 검증 + 리서치]──▶ HERMES  (매매/베팅 실행)
+DOGE   ──[레짐·확률]──────────▶ 찬희    (개인 의사결정)
+NEXUS  ──[금융 데이터 MCP]──▶ DOGE
+NEXUS  ──[금융 데이터 MCP]──▶ HERMES
+HERMES ──[실행 결과]──────────▶ DOGE   ← 피드백 루프
+HERMES ──[콘텐츠]─────────────▶ 외부    (블로그·X·SNS)
 
 모든 에이전트 ──[3턴 미결·중요결정]──▶ 찬희 DM</div>
   </div>
@@ -121,10 +110,9 @@ HERMES ──[콘텐츠]─────────────────▶ �
         <tr><td>DOGE 브리핑</td><td>매 정각</td><td>Curiosity Brief → #research</td><td>1시간</td></tr>
         <tr><td>DOGE RSS</td><td>매 :30분</td><td>트렌드 수집 → Vault</td><td>1시간</td></tr>
         <tr><td>DOGE→HERMES</td><td>09:00 KST</td><td>블로그 소재 정리 전달</td><td>일 1회</td></tr>
-        <tr><td>DOGE→ORACLE</td><td>18:00 KST</td><td>퀀트 검증 요청 전달</td><td>일 1회</td></tr>
-        <tr><td>ORACLE 레짐</td><td>30분마다</td><td>시장 레짐 감시 → #auto-feed</td><td>30분</td></tr>
-        <tr><td>ORACLE 아침</td><td>07:00 KST</td><td>모닝콜 → 찬희 DM</td><td>일 1회</td></tr>
-        <tr><td>ORACLE→HERMES</td><td>20:00 KST</td><td>매매신호 전달 → #general</td><td>일 1회</td></tr>
+        <tr><td>DOGE 레짐</td><td>30분마다</td><td>시장 레짐 감시 → #auto-feed</td><td>30분</td></tr>
+        <tr><td>DOGE 아침</td><td>07:00 KST</td><td>모닝콜 → 찬희 DM</td><td>일 1회</td></tr>
+        <tr><td>DOGE→HERMES</td><td>20:00 KST</td><td>매매신호 전달 → #general</td><td>일 1회</td></tr>
         <tr><td>NEXUS→HERMES</td><td>월 09:30 KST</td><td>주간 데이터 공급 → #general</td><td>주 1회</td></tr>
       </tbody>
     </table>
@@ -136,10 +124,10 @@ HERMES ──[콘텐츠]─────────────────▶ �
     <table>
       <thead><tr><th>항목</th><th>상태</th></tr></thead>
       <tbody>
-        <tr><td>ORACLE 크론 확장</td><td><span class="status-done">✅ 완료</span></td></tr>
+        <tr><td>DOGE 크론 확장</td><td><span class="status-done">✅ 완료</span></td></tr>
         <tr><td>NEXUS→HERMES 자동화</td><td><span class="status-done">✅ 완료</span></td></tr>
         <tr><td>HERMES→NEXUS 자동화</td><td><span class="status-done">✅ 완료</span></td></tr>
-        <tr><td>ORACLE→HERMES 자동화</td><td><span class="status-done">✅ 완료</span></td></tr>
+        <tr><td>DOGE→HERMES 자동화</td><td><span class="status-done">✅ 완료</span></td></tr>
         <tr><td>Turn Guard (3턴 감시)</td><td><span class="status-wip">⏸️ 일시 정지</span></td></tr>
         <tr><td>Twitter Cookie 설정</td><td><span class="status-wip">⚠️ 미완료</span></td></tr>
         <tr><td>오케스트레이터-워커 패턴</td><td><span class="status-todo">📋 예정</span></td></tr>
@@ -151,8 +139,8 @@ HERMES ──[콘텐츠]─────────────────▶ �
   <div class="layer">
     <div class="layer-title">온톨로지 원칙 5가지</div>
     <div>
-      <div class="principle"><span class="principle-num">01</span><span class="principle-text"><strong>정보는 흐른다</strong> — DOGE 발견 → ORACLE 분석 → HERMES 실행. 단방향 파이프라인.</span></div>
-      <div class="principle"><span class="principle-num">02</span><span class="principle-text"><strong>분석과 실행은 분리된다</strong> — ORACLE은 분석만, HERMES는 실행만. 역할 침범 없음.</span></div>
+      <div class="principle"><span class="principle-num">01</span><span class="principle-text"><strong>정보는 흐른다</strong> — NEXUS 공급 → DOGE 분석·리서치 → HERMES 실행. 단방향 + HERMES 결과 피드백.</span></div>
+      <div class="principle"><span class="principle-num">02</span><span class="principle-text"><strong>분석과 실행은 분리된다</strong> — DOGE는 분석·리서치, HERMES는 실행. NEXUS는 데이터만. 역할 침범 없음.</span></div>
       <div class="principle"><span class="principle-num">03</span><span class="principle-text"><strong>모든 결과는 Vault에 쌓인다</strong> — 지식은 에이전트보다 오래 산다. Obsidian PARA 구조.</span></div>
       <div class="principle"><span class="principle-num">04</span><span class="principle-text"><strong>보스는 방향만 결정한다</strong> — 세부 실행은 에이전트 자율. 찬희는 전략적 판단만.</span></div>
       <div class="principle"><span class="principle-num">05</span><span class="principle-text"><strong>3턴 제한</strong> — 에이전트 간 미결 대화는 3턴 이내 결론. 초과 시 즉시 찬희에게 에스컬레이션.</span></div>
